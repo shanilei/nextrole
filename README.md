@@ -2,6 +2,8 @@
 
 Daily UX & product design job radar for Israel.
 
+**App:** https://shanilei.github.io/nextrole — install it from the browser menu ("Add to Home Screen").
+
 Every morning a GitHub Action checks the job boards of the companies in `companies.json`, keeps the UX / product design roles located in Israel, and updates `data/jobs.json`. Roles that disappear from a board are marked `closed`.
 
 ## How it works
@@ -18,6 +20,8 @@ Every morning a GitHub Action checks the job boards of the companies in `compani
 | `data/jobs.json` | Every tracked role, open and closed, with `firstSeen`, `lastSeen`, `level`, `minYears` |
 | `data/boards.json` | Resolved ATS board per company |
 | `data/report.json` | Last run: per-company status, counts, errors |
+| `data/manual.json` | Hand-picked roles (e.g. from LinkedIn) shown alongside collected ones |
+| `app/` | The web app (placeholder UI until the Figma design lands), deployed to GitHub Pages |
 
 ## Run it
 
@@ -47,6 +51,7 @@ Comeet boards use `"id": "<company-slug>/<company-uid>"` from the company's come
 ## Roadmap
 
 1. ~~Daily collector~~
-2. Supabase for jobs + personal status and notes
-3. Mobile-first web app (PWA)
-4. Fit score per role with Claude
+2. ~~Installable web app on GitHub Pages~~ (status and notes saved per device)
+3. Supabase to sync status and notes across devices
+4. Final UI from Figma
+5. Fit score per role with Claude
