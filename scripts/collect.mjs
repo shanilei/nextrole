@@ -5,7 +5,8 @@
 
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { adapters, NotFound, PROBE_ORDER } from './lib/ats.mjs';
-import { secretTelAviv, googleJobs } from './lib/feeds.mjs';
+import { secretTelAviv, googleSearch } from './lib/feeds.mjs';
+import { nameFromBoard } from './lib/discover.mjs';
 import { isDesignRole, isInIsrael, guessLevel, minYears } from './lib/filters.mjs';
 
 const ROOT = new URL('..', import.meta.url);
@@ -81,8 +82,17 @@ function upsert(byKey, j, extra) {
 }
 
 async function main() {
-  const { companies } = await readJson('companies.json', { companies: [] });
+  const { companies: listed } = await readJson('companies.json', { companies: [] });
   const boards = await readJson('data/boards.json', {});
+  // Boards found through search on earlier runs are checked like listed companies.
+  const discovered = await readJson('data/discovered.json', { boards: [] });
+  const known = new Set(listed.filter((c) => c.ats).map((c) => `${c.ats}:${String(c.id).toLowerCase()}`));
+  for (const b of Object.values(boards)) known.add(`${b.ats}:${String(b.id).toLowerCase()}`);
+  const companies = [...listed];
+  for (const b of discovered.boards) {
+    const k = `${b.ats}:${String(b.id).toLowerCase()}`;
+    if (!known.has(k)) { known.add(k); companies.push({ name: b.name, ats: b.ats, id: b.id, discovered: true }); }
+  }
   const previous = await readJson('data/jobs.json', { jobs: [] });
   const byKey = new Map(previous.jobs.map((j) => [j.key, j]));
   const report = { runAt: now, companies: [], feeds: [] };
@@ -133,8 +143,14 @@ async function main() {
   // 2. Feeds. A feed job that duplicates a company-board job is dropped: the board is the better source.
   const feeds = [['secrettlv', () => secretTelAviv()]];
   if (process.env.SERPAPI_KEY) feeds.push(['google', async () => {
-    const r = await googleJobs(process.env.SERPAPI_KEY);
+    const r = await googleSearch(process.env.SERPAPI_KEY);
     report.googleSearches = r.searches;
+    const fresh = r.boards.filter((b) => !known.has(`${b.ats}:${String(b.id).toLowerCase()}`));
+    for (const b of fresh) {
+      known.add(`${b.ats}:${String(b.id).toLowerCase()}`);
+      discovered.boards.push({ name: nameFromBoard(b), ats: b.ats, id: b.id, foundAt: now, from: b.url });
+    }
+    report.newBoards = fresh.map((b) => `${b.ats}:${b.id}`);
     return r.jobs;
   }]);
   else report.feeds.push({ feed: 'google', status: 'skipped', reason: 'SERPAPI_KEY not set' });
@@ -176,6 +192,7 @@ async function main() {
     notFound: report.companies.filter((r) => r.status === 'not_found').map((r) => r.company),
     errors: report.companies.filter((r) => r.status === 'error').map((r) => `${r.company}: ${r.error}`),
     feeds: report.feeds.map((f) => `${f.feed}: ${f.status}${f.added != null ? ` +${f.added} (dup ${f.duplicates})` : ''}${f.error ? ` ${f.error}` : ''}${f.reason ? ` ${f.reason}` : ''}`),
+    newBoards: report.newBoards || [],
     openJobs: open.length,
     newToday: open.filter((j) => j.firstSeen === now).length,
   };
@@ -184,6 +201,7 @@ async function main() {
   await writeFile(path('data/jobs.json'), JSON.stringify({ updatedAt: now, jobs }, null, 2) + '\n');
   await writeFile(path('data/boards.json'), JSON.stringify(boards, null, 2) + '\n');
   await writeFile(path('data/report.json'), JSON.stringify(report, null, 2) + '\n');
+  await writeFile(path('data/discovered.json'), JSON.stringify(discovered, null, 2) + '\n');
 
   console.log(JSON.stringify(report.summary, null, 2));
   for (const r of report.companies) {

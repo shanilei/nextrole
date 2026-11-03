@@ -34,40 +34,49 @@ export async function secretTelAviv() {
   }).filter((j) => j.title && j.url);
 }
 
-// Google Jobs through SerpApi. Free plan: 250 searches a month, so keep the
-// daily budget small (SERPAPI_MAX_SEARCHES, default 6).
-export const GOOGLE_QUERIES = ['product designer', 'UX designer', 'UI UX designer', 'מעצב UX UI'];
+// Google search through SerpApi (free plan: 250 searches a month). Google Jobs itself does
+// not cover Israel, so this uses regular search for two things:
+//  1. LinkedIn job pages that Google has indexed (title, company, location, snippet);
+//  2. design roles on Comeet / Greenhouse / Lever / Ashby boards, whose board IDs are
+//     returned so the collector can start checking those companies every day.
+import { boardFromUrl, parseLinkedInTitle } from './discover.mjs';
 
-export async function googleJobs(apiKey, maxSearches = Number(process.env.SERPAPI_MAX_SEARCHES || 6)) {
-  const out = [];
+const DESIGN = '("product designer" OR "ux designer" OR "ui/ux" OR "ux/ui" OR "ui ux" OR "ux ui")';
+// Ordered so that even a small budget covers both LinkedIn and board discovery.
+export const GOOGLE_QUERIES = [
+  { kind: 'linkedin', q: `site:linkedin.com/jobs/view ${DESIGN} Israel`, tbs: 'qdr:w' },
+  { kind: 'boards', q: `site:comeet.com/jobs ${DESIGN}`, tbs: 'qdr:m' },
+  { kind: 'boards', q: `(site:job-boards.greenhouse.io OR site:jobs.lever.co OR site:jobs.ashbyhq.com) ${DESIGN} ("Tel Aviv" OR Israel)`, tbs: 'qdr:m' },
+  { kind: 'linkedin', q: `site:linkedin.com/jobs/view ${DESIGN} "Tel Aviv"`, tbs: 'qdr:w' },
+  { kind: 'boards', q: `(site:apply.workable.com OR site:jobs.smartrecruiters.com) ${DESIGN} ("Tel Aviv" OR Israel)`, tbs: 'qdr:m' },
+  { kind: 'linkedin', q: `site:linkedin.com/jobs/view ("מעצב" OR "מעצבת") UX`, tbs: 'qdr:w' },
+];
+
+export async function googleSearch(apiKey, maxSearches = Number(process.env.SERPAPI_MAX_SEARCHES || 6)) {
+  const jobs = [];
+  const boards = new Map();
   let used = 0;
-  for (const q of GOOGLE_QUERIES) {
-    let token = null;
-    for (let page = 0; page < 3 && used < maxSearches; page++) {
-      // Google Jobs does not accept Israel as a country (gl=il), so the country goes in
-      // the query and results are filtered to Israeli locations afterwards.
-      const params = new URLSearchParams({ engine: 'google_jobs', q: `${q} Israel`, hl: 'en', api_key: String(apiKey).trim() });
-      if (token) params.set('next_page_token', token);
-      const res = await fetch(`https://serpapi.com/search.json?${params}`, { signal: AbortSignal.timeout(30000) });
-      used++;
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok && !data.error) throw new Error(`SerpApi HTTP ${res.status}`);
-      if (data.error) { if (/hasn't returned any results/i.test(data.error)) break; throw new Error(`SerpApi: ${data.error}`); }
-      for (const j of data.jobs_results || []) {
-        const apply = (j.apply_options || [])[0];
-        out.push({
-          key: `google:${(j.company_name || '').toLowerCase()}:${(j.title || '').toLowerCase()}`,
-          title: j.title, company: j.company_name, location: j.location || '',
-          url: apply?.link || j.share_link,
-          postedAt: postedOnToIso(j.detected_extensions?.posted_at),
-          description: [j.description, ...(j.job_highlights || []).flatMap((h) => [h.title, ...(h.items || [])])].filter(Boolean).join('\n').slice(0, 6000),
-          via: apply?.title ? `Google Jobs · ${apply.title}` : (j.via || 'Google Jobs'),
+  for (const { kind, q, tbs } of GOOGLE_QUERIES) {
+    if (used >= maxSearches) break;
+    const params = new URLSearchParams({ engine: 'google', q, tbs, num: '50', hl: 'en', gl: 'il', api_key: String(apiKey).trim() });
+    const res = await fetch(`https://serpapi.com/search.json?${params}`, { signal: AbortSignal.timeout(30000) });
+    used++;
+    const data = await res.json().catch(() => ({}));
+    if (data.error) { if (/hasn't returned any results/i.test(data.error)) continue; throw new Error(`SerpApi: ${data.error}`); }
+    if (!res.ok) throw new Error(`SerpApi HTTP ${res.status}`);
+    for (const r of data.organic_results || []) {
+      const b = boardFromUrl(r.link);
+      if (b) boards.set(`${b.ats}:${b.id}`, { ...b, url: r.link, title: r.title });
+      if (kind === 'linkedin' && /linkedin\.com\/jobs\/view/.test(r.link || '')) {
+        const p = parseLinkedInTitle(r.title);
+        const url = r.link.split('?')[0];
+        jobs.push({
+          key: `linkedin:${url}`,
+          title: p.title, company: p.company, location: p.location || 'Israel',
+          url, postedAt: null, description: r.snippet || '', via: 'LinkedIn',
         });
       }
-      token = data.serpapi_pagination?.next_page_token;
-      if (!token) break;
     }
-    if (used >= maxSearches) break;
   }
-  return { jobs: out, searches: used };
+  return { jobs, boards: [...boards.values()], searches: used };
 }
