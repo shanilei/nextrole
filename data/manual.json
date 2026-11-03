@@ -18,8 +18,9 @@
       ],
       "note": "מופיעה ב-Glassdoor, אוקטובר 2026",
       "source": "manual",
-      "status": "open",
-      "experience": "0–2"
+      "status": "merged",
+      "experience": "0–2",
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:zemingo-junior-product-designer-temporary",
@@ -40,7 +41,8 @@
       "note": "פורסמה ב-LinkedIn, לבדוק שעדיין פתוחה",
       "source": "manual",
       "status": "open",
-      "experience": "0–2"
+      "experience": "0–2",
+      "verified": false
     },
     {
       "key": "manual:zemingo-product-designer-ai-native-mindset",
@@ -61,7 +63,8 @@
       "note": "לבדוק שעדיין פתוחה",
       "source": "manual",
       "status": "open",
-      "experience": "1–3"
+      "experience": "1–3",
+      "verified": false
     },
     {
       "key": "manual:365scores-product-designer",
@@ -82,8 +85,10 @@
       ],
       "note": "פורסמה מחדש לאחרונה ב-Built In",
       "source": "manual",
-      "status": "open",
-      "experience": "1–2"
+      "status": "closed",
+      "experience": "1–2",
+      "closedAt": "2026-11-03T14:07:44.153Z",
+      "closedReason": "not on company board"
     },
     {
       "key": "manual:moveo-group-product-designer",
@@ -104,7 +109,8 @@
       "note": "ב-LinkedIn מופיעה גם Junior Product Design — לבדוק",
       "source": "manual",
       "status": "open",
-      "experience": "2"
+      "experience": "2",
+      "verified": false
     },
     {
       "key": "manual:beach-bum-voodoo-ui-ux-designer",
@@ -125,7 +131,8 @@
       "note": "פורסמה לאחרונה ב-Built In",
       "source": "manual",
       "status": "open",
-      "experience": null
+      "experience": null,
+      "verified": false
     },
     {
       "key": "manual:moon-active-ui-ux-designer",
@@ -145,8 +152,9 @@
       ],
       "note": "✓ פתוחה ב-LinkedIn",
       "source": "manual",
-      "status": "open",
-      "experience": "2+"
+      "status": "merged",
+      "experience": "2+",
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:moon-active-product-ux-designer",
@@ -165,8 +173,10 @@
       ],
       "note": "לבדוק שעדיין פתוחה",
       "source": "manual",
-      "status": "open",
-      "experience": "2–5"
+      "status": "closed",
+      "experience": "2–5",
+      "closedAt": "2026-11-03T14:07:44.153Z",
+      "closedReason": "not on company board"
     },
     {
       "key": "manual:wix-product-designer-ux-ui",
@@ -187,8 +197,9 @@
       ],
       "note": "מופיעה באתר הקריירה של Wix",
       "source": "manual",
-      "status": "open",
-      "experience": "3+"
+      "status": "merged",
+      "experience": "3+",
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:datarails-ux-ui-product-designer",
@@ -209,8 +220,9 @@
       ],
       "note": "✓ אומתה כפתוחה (28.10.2026); עודכנה ב-18.9",
       "source": "manual",
-      "status": "open",
-      "experience": "3+"
+      "status": "merged",
+      "experience": "3+",
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:similarweb-product-designer-maternity-leave",
@@ -228,8 +240,9 @@
       ],
       "note": "✓ פורסמה מחדש ב-LinkedIn היום",
       "source": "manual",
-      "status": "open",
-      "experience": "3+"
+      "status": "merged",
+      "experience": "3+",
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:radware-product-designer",
@@ -251,8 +264,10 @@
       ],
       "note": "לבדוק שעדיין פתוחה",
       "source": "manual",
-      "status": "open",
-      "experience": "4+"
+      "status": "closed",
+      "experience": "4+",
+      "closedAt": "2026-11-03T14:07:44.153Z",
+      "closedReason": "older than 45 days, no company board to check"
     },
     {
       "key": "manual:artlist-product-designer",
@@ -274,8 +289,9 @@
       ],
       "note": "מופיעה ב-Glassdoor, אוקטובר 2026",
       "source": "manual",
-      "status": "open",
-      "experience": "4+"
+      "status": "merged",
+      "experience": "4+",
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:plaee-product-designer",
@@ -295,8 +311,10 @@
       ],
       "note": "לבדוק שעדיין פתוחה",
       "source": "manual",
-      "status": "open",
-      "experience": "4+"
+      "status": "closed",
+      "experience": "4+",
+      "closedAt": "2026-11-03T14:07:44.153Z",
+      "closedReason": "older than 45 days, no company board to check"
     },
     {
       "key": "manual:ashley-digital-product-designer",
@@ -317,7 +335,8 @@
       "note": "✓ פתוחה ב-LinkedIn — פורסמה מחדש 20.10. רלוונטית לניסיון eComm",
       "source": "manual",
       "status": "open",
-      "experience": "4+"
+      "experience": "4+",
+      "verified": false
     },
     {
       "key": "manual:unframe-product-designer",
@@ -338,8 +357,10 @@
       ],
       "note": "לבדוק שעדיין פתוחה",
       "source": "manual",
-      "status": "open",
-      "experience": "4+"
+      "status": "closed",
+      "experience": "4+",
+      "closedAt": "2026-11-03T14:07:44.153Z",
+      "closedReason": "not on company board"
     },
     {
       "key": "manual:sedric-product-designer",
@@ -358,8 +379,10 @@
       ],
       "note": "תפקיד מעצב/ת יחיד/ה — כנראה דורש ניסיון גבוה",
       "source": "manual",
-      "status": "open",
-      "experience": null
+      "status": "closed",
+      "experience": null,
+      "closedAt": "2026-11-03T14:07:44.153Z",
+      "closedReason": "not on company board"
     },
     {
       "key": "manual:kaltura-product-designer-temporary",
@@ -378,8 +401,10 @@
       ],
       "note": "לבדוק שעדיין פתוחה",
       "source": "manual",
-      "status": "open",
-      "experience": null
+      "status": "closed",
+      "experience": null,
+      "closedAt": "2026-11-03T14:07:44.153Z",
+      "closedReason": "not on company board"
     },
     {
       "key": "manual:cyberark-associate-product-designer",
@@ -398,7 +423,8 @@
       "note": "לבדוק שעדיין פתוחה",
       "source": "manual",
       "status": "open",
-      "experience": null
+      "experience": null,
+      "verified": false
     },
     {
       "key": "manual:vast-data-ui-ux-designer",
@@ -415,8 +441,9 @@
       ],
       "note": "✓ מופיעה בעמוד המשרות של החברה",
       "source": "manual",
-      "status": "open",
-      "experience": null
+      "status": "merged",
+      "experience": null,
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:lightricks-product-designer-facetune",
@@ -435,8 +462,10 @@
       ],
       "note": "לבדוק — גרסה קודמת של המשרה נסגרה",
       "source": "manual",
-      "status": "open",
-      "experience": null
+      "status": "closed",
+      "experience": null,
+      "closedAt": "2026-11-03T14:07:44.153Z",
+      "closedReason": "not on company board"
     },
     {
       "key": "manual:matrix-ui-ux-designer",
@@ -456,7 +485,8 @@
       "note": "לבדוק שעדיין פתוחה",
       "source": "manual",
       "status": "open",
-      "experience": null
+      "experience": null,
+      "verified": false
     },
     {
       "key": "manual:tectu-ui-ux-designer",
@@ -474,7 +504,8 @@
       "note": "לבדוק שעדיין פתוחה",
       "source": "manual",
       "status": "open",
-      "experience": null
+      "experience": null,
+      "verified": false
     },
     {
       "key": "manual:copyleaks-product-designer",
@@ -496,7 +527,8 @@
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
       "status": "open",
-      "experience": "2–3"
+      "experience": "2–3",
+      "verified": false
     },
     {
       "key": "manual:rubrik-product-designer",
@@ -514,8 +546,9 @@
       ],
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
-      "status": "open",
-      "experience": "2+"
+      "status": "merged",
+      "experience": "2+",
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:wix-ui-designer-brand-ui-team",
@@ -535,8 +568,9 @@
       ],
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
-      "status": "open",
-      "experience": "2+"
+      "status": "merged",
+      "experience": "2+",
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:wix-ux-ui-designer-editor-platform",
@@ -556,8 +590,10 @@
       ],
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
-      "status": "open",
-      "experience": "3+"
+      "status": "closed",
+      "experience": "3+",
+      "closedAt": "2026-11-03T14:07:44.153Z",
+      "closedReason": "not on company board"
     },
     {
       "key": "manual:yad2-product-designer",
@@ -578,7 +614,8 @@
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
       "status": "open",
-      "experience": "3+"
+      "experience": "3+",
+      "verified": false
     },
     {
       "key": "manual:charm-security-team8-product-designer",
@@ -599,7 +636,8 @@
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
       "status": "open",
-      "experience": "3+"
+      "experience": "3+",
+      "verified": false
     },
     {
       "key": "manual:taboola-product-designer-maternity-leave-cover",
@@ -620,8 +658,9 @@
       ],
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
-      "status": "open",
-      "experience": "3+"
+      "status": "merged",
+      "experience": "3+",
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:houzz-product-designer",
@@ -642,8 +681,9 @@
       ],
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
-      "status": "open",
-      "experience": null
+      "status": "merged",
+      "experience": null,
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:oddity-ui-ux-designer",
@@ -665,7 +705,8 @@
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
       "status": "open",
-      "experience": null
+      "experience": null,
+      "verified": false
     },
     {
       "key": "manual:avatrade-ux-ui-designer",
@@ -686,7 +727,8 @@
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
       "status": "open",
-      "experience": null
+      "experience": null,
+      "verified": false
     },
     {
       "key": "manual:wiz-product-designer",
@@ -706,8 +748,9 @@
       ],
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
-      "status": "open",
-      "experience": "4+"
+      "status": "merged",
+      "experience": "4+",
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:trullion-product-designer",
@@ -728,8 +771,9 @@
       ],
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
-      "status": "open",
-      "experience": "4+"
+      "status": "merged",
+      "experience": "4+",
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     },
     {
       "key": "manual:opti-product-designer",
@@ -749,7 +793,8 @@
       "note": "✓ פתוחה ב-LinkedIn (28.10.2026)",
       "source": "manual",
       "status": "open",
-      "experience": "4+"
+      "experience": "4+",
+      "verified": false
     },
     {
       "key": "manual:yotpo-product-designer-discover",
@@ -770,8 +815,9 @@
       ],
       "note": "⭐ מתיחה (5+ שנים) — הכי קרובה לניסיון ה-eComm שלך. Cover letter מוכן",
       "source": "manual",
-      "status": "open",
-      "experience": "5+"
+      "status": "merged",
+      "experience": "5+",
+      "mergedAt": "2026-11-03T14:07:44.153Z"
     }
   ]
 }

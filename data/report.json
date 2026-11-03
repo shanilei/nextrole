@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-11-03T13:53:11.288Z",
+  "runAt": "2026-11-03T14:07:44.153Z",
   "companies": [
     {
       "company": "365Scores",
@@ -36,11 +36,8 @@
     },
     {
       "company": "Aitan",
-      "status": "ok",
-      "ats": "comeet",
-      "id": "aitan/FA.006",
-      "total": 18,
-      "matches": 1
+      "status": "error",
+      "error": "The operation was aborted due to timeout"
     },
     {
       "company": "Alice",
@@ -124,7 +121,6 @@
     },
     {
       "company": "Atera",
-      "detected": true,
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "atera",
@@ -176,7 +172,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "catonetworks",
-      "total": 106,
+      "total": 107,
       "matches": 1
     },
     {
@@ -438,7 +434,7 @@
     {
       "company": "Fireblocks",
       "status": "error",
-      "error": "The operation was aborted due to timeout"
+      "error": "comeet fireblocks/B4.00F: positions data not found on page"
     },
     {
       "company": "Fiverr",
@@ -482,7 +478,6 @@
     },
     {
       "company": "Gloat",
-      "detected": true,
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "gloat",
@@ -849,7 +844,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "nice",
-      "total": 154,
+      "total": 151,
       "matches": 1
     },
     {
@@ -935,7 +930,6 @@
     },
     {
       "company": "Pagaya",
-      "detected": true,
       "status": "ok",
       "ats": "greenhouse",
       "id": "pagaya",
@@ -1025,7 +1019,7 @@
     {
       "company": "Playtika",
       "status": "error",
-      "error": "The operation was aborted due to timeout"
+      "error": "comeet playtika/01.001: positions data not found on page"
     },
     {
       "company": "Plus500",
@@ -1167,7 +1161,6 @@
     },
     {
       "company": "Semperis",
-      "detected": true,
       "status": "ok",
       "ats": "ashby",
       "id": "semperis",
@@ -1424,8 +1417,11 @@
     },
     {
       "company": "WalkMe",
-      "status": "error",
-      "error": "The operation was aborted due to timeout"
+      "status": "ok",
+      "ats": "lever",
+      "id": "walkme",
+      "total": 22,
+      "matches": 1
     },
     {
       "company": "Walmart Global Tech Israel",
@@ -1534,7 +1530,6 @@
     },
     {
       "company": "Zesty",
-      "detected": true,
       "status": "ok",
       "ats": "greenhouse",
       "id": "zestyai",
@@ -1565,15 +1560,17 @@
       "total": 14,
       "matches": 13,
       "added": 4,
-      "duplicates": 9
+      "duplicates": 9,
+      "notOnCompanyBoard": 0
     },
     {
       "feed": "google",
       "status": "ok",
       "total": 10,
       "matches": 3,
-      "added": 2,
-      "duplicates": 1
+      "added": 1,
+      "duplicates": 2,
+      "notOnCompanyBoard": 0
     }
   ],
   "googleSearches": 2,
@@ -1598,6 +1595,12 @@
     }
   ],
   "newBoards": [],
+  "manual": {
+    "open": 0,
+    "onBoard": 14,
+    "closed": 9,
+    "unverified": 14
+  },
   "summary": {
     "companies": 194,
     "boardsOk": 168,
@@ -1627,16 +1630,22 @@
       "Yad2"
     ],
     "errors": [
-      "Fireblocks: The operation was aborted due to timeout",
-      "Playtika: The operation was aborted due to timeout",
-      "WalkMe: The operation was aborted due to timeout"
+      "Aitan: The operation was aborted due to timeout",
+      "Fireblocks: comeet fireblocks/B4.00F: positions data not found on page",
+      "Playtika: comeet playtika/01.001: positions data not found on page"
     ],
     "feeds": [
       "secrettlv: ok +4 (dup 9)",
-      "google: ok +2 (dup 1)"
+      "google: ok +1 (dup 2)"
     ],
     "newBoards": [],
-    "openJobs": 45,
-    "newToday": 19
+    "manual": {
+      "open": 0,
+      "onBoard": 14,
+      "closed": 9,
+      "unverified": 14
+    },
+    "openJobs": 44,
+    "newToday": 0
   }
 }
