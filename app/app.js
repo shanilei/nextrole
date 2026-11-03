@@ -4,9 +4,10 @@
 const STATUSES = ['טרם הוגש', 'שמרתי', 'הוגש', 'ראיון', 'מטלת בית', 'הצעה', 'נדחה', 'לא רלוונטי'];
 const ACTIVE = ['הוגש', 'ראיון', 'מטלת בית', 'הצעה'];
 const FILTERS = [
-  ['fit', 'מתאים לי'], ['new', 'חדשות'], ['saved', 'שמרתי'], ['active', 'בתהליך'],
+  ['fit', 'מתאים לי'], ['new', 'חדשות'], ['saved', 'שמרתי'], ['active', 'בתהליך'], ['posts', 'פוסטים'], ['mine', 'הוספתי'],
   ['Junior', 'Junior'], ['Mid', 'Mid'], ['Senior+', 'Senior+'], ['all', 'הכל'],
 ];
+const MINE = 'nextrole-mine-v1';
 const NEW_DAYS = 4;
 const STORE = 'nextrole-state-v1';
 
@@ -15,6 +16,24 @@ let state = load();
 let filter = 'fit';
 let query = '';
 const open = new Set();
+
+function loadMine() { try { return JSON.parse(localStorage.getItem(MINE) || '[]'); } catch { return []; } }
+function saveMine(list) { try { localStorage.setItem(MINE, JSON.stringify(list)); } catch {} }
+let mine = loadMine();
+
+function guessLevel(title = '') {
+  if (/\b(intern|student|junior|jr|associate|entry)\b/i.test(title)) return 'Junior';
+  if (/\b(senior|sr|staff|principal|lead|head|director|manager)\b/i.test(title)) return 'Senior+';
+  return 'Mid';
+}
+
+// linkedin.com/jobs/view/product-designer-at-acme-123456 -> "Acme"
+function companyFromUrl(url = '') {
+  const m = String(url).match(/\/jobs\/view\/[^/?#]*-at-([a-z0-9-]+?)-\d{6,}/i);
+  if (m) return m[1].replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+  const b = String(url).match(/(?:comeet\.com\/jobs|greenhouse\.io|lever\.co|ashbyhq\.com|workable\.com|smartrecruiters\.com)\/([^/?#]+)/i);
+  return b ? b[1].replace(/[-_]+/g, ' ').replace(/\d+$/, '').trim().replace(/\b\w/g, (c) => c.toUpperCase()) : '';
+}
 
 function load() { try { return JSON.parse(localStorage.getItem(STORE) || '{}'); } catch { return {}; } }
 function persist() { try { localStorage.setItem(STORE, JSON.stringify(state)); } catch {} }
@@ -52,7 +71,7 @@ async function init() {
     if (auto) { auto.about = j.about || auto.about; if (j.requirements?.length) auto.requirements = j.requirements; auto.note = j.note; auto.experience = j.experience; }
     else byName.set(k, { ...j, firstSeen: j.firstSeen || j.postedAt });
   }
-  jobs = [...byName.values()];
+  jobs = [...byName.values(), ...mine.map((m) => ({ ...m, source: 'mine' }))];
   const updated = collected?.updatedAt || manual?.updatedAt;
   document.getElementById('updated').textContent =
     `UX ו-Product Design בישראל · עודכן ${updated ? new Date(updated).toLocaleString('he-IL', { day: 'numeric', month: 'numeric', hour: '2-digit', minute: '2-digit' }) : '—'}`;
@@ -61,6 +80,8 @@ async function init() {
 
 // How sure we are that the role is still open.
 function trust(j) {
+  if (j.source === 'mine') return { ok: false, neutral: true, text: `הוספת בעצמך ב-${fmtDate(j.firstSeen)}` };
+  if (j.kind === 'post') return { ok: false, neutral: true, text: `פוסט ב-LinkedIn${j.author ? ` של ${j.author}` : ''} · נמצא ב-${fmtDate(j.firstSeen)} · כדאי לפנות ישירות לכותב/ת הפוסט` };
   if (j.status === 'closed') return { ok: false, text: 'המשרה ירדה מאתר החברה או לא נראתה כבר שבוע' };
   const seen = j.lastSeen ? fmtDate(j.lastSeen) : '';
   if (j.source === 'auto' && !String(j.origin || '').startsWith('feed:')) return { ok: true, text: `✓ נבדק באתר הגיוס של החברה ב-${seen}` };
@@ -78,6 +99,8 @@ function pass(j) {
     case 'fit': return j.level !== 'Senior+' && !['נדחה', 'לא רלוונטי'].includes(s);
     case 'new': return isNew(j);
     case 'saved': return s === 'שמרתי';
+    case 'posts': return j.kind === 'post';
+    case 'mine': return j.source === 'mine';
     case 'active': return ACTIVE.includes(s);
     case 'all': return true;
     default: return j.level === filter;
@@ -108,8 +131,9 @@ function card(j) {
   const top = el('button', 'top'); top.type = 'button'; top.setAttribute('aria-expanded', open.has(j.key));
   const r1 = el('div', 'row1'); r1.append(el('div', 'title', j.title), el('span', `lvl ${j.level || 'Mid'}`, j.level || 'Mid'));
   const meta = el('div', 'meta');
-  meta.append(el('span', 'company', j.company || 'חברה לא צוינה'), el('span', null, j.location));
-  if (j.via) meta.append(el('span', null, `דרך ${j.via.replace(/^Google Jobs · /, '')}`));
+  meta.append(el('span', 'company', j.company || (j.kind === 'post' && j.author ? j.author : 'חברה לא צוינה')), el('span', null, j.location || ''));
+  if (j.kind === 'post') meta.append(el('span', 'tag post', 'פוסט'));
+  else if (j.via) meta.append(el('span', null, `דרך ${j.via.replace(/^Google Jobs · /, '')}`));
   const when = j.postedAt || j.firstSeen; if (when) meta.append(el('span', null, fmtDate(when)));
   const yrs = j.experience || (j.minYears ? `${j.minYears}+` : null); if (yrs) meta.append(el('span', null, `${yrs} שנים`));
   if (isNew(j)) meta.append(el('span', 'tag new', 'חדש'));
@@ -126,7 +150,7 @@ function card(j) {
       const r = el('div'); r.append(el('p', 'lbl', 'דרישות')); const ul = el('ul', 'req');
       j.requirements.forEach((x) => ul.append(el('li', null, x))); r.append(ul); b.append(r);
     }
-    b.append(el('p', 'trust' + (trust(j).ok ? ' ok' : ''), trust(j).text));
+    { const t = trust(j); b.append(el('p', 'trust' + (t.ok ? ' ok' : t.neutral ? ' neutral' : ''), t.text)); }
     if (j.note && j.source === 'manual') b.append(el('p', 'text', j.note));
     const act = el('div', 'actions');
     const go = el('a', 'go', 'למשרה ↗'); go.href = j.url; go.target = '_blank'; go.rel = 'noopener';
@@ -134,6 +158,11 @@ function card(j) {
     STATUSES.forEach((s) => { const o = el('option', null, s); o.value = s; o.selected = s === st.s; sel.append(o); });
     sel.onchange = () => { state[j.key] = { ...get(j.key), s: sel.value, t: new Date().toISOString() }; persist(); render(); };
     act.append(go, sel);
+    if (j.source === 'mine') {
+      const del = el('button', 'ghost', 'מחיקה'); del.type = 'button';
+      del.onclick = () => { mine = mine.filter((m) => m.key !== j.key); saveMine(mine); jobs = jobs.filter((x) => x.key !== j.key); render(); };
+      act.append(del);
+    }
     const nt = el('textarea'); nt.id = 'n-' + j.key; nt.placeholder = 'הערות: איש קשר, תאריך ראיון, מה שלחתי…'; nt.value = st.n || '';
     let t; nt.oninput = () => { clearTimeout(t); t = setTimeout(() => { state[j.key] = { ...get(j.key), n: nt.value }; persist(); renderStats(); }, 600); };
     b.append(act, nt); c.append(b);
@@ -151,4 +180,28 @@ function render() {
 }
 
 document.getElementById('q').addEventListener('input', (e) => { query = e.target.value; render(); });
+
+// Add a job or post by link. Saved on this device.
+const form = document.getElementById('add-form');
+const openBtn = document.getElementById('add-open');
+const toggleForm = (show) => { form.hidden = !show; openBtn.setAttribute('aria-expanded', show); if (show) document.getElementById('add-url').focus(); };
+openBtn.onclick = () => toggleForm(form.hidden);
+document.getElementById('add-cancel').onclick = () => toggleForm(false);
+document.getElementById('add-url').addEventListener('change', (e) => {
+  const c = document.getElementById('add-company');
+  if (!c.value) c.value = companyFromUrl(e.target.value);
+});
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const url = document.getElementById('add-url').value.trim();
+  const title = document.getElementById('add-title').value.trim() || 'Product Designer';
+  const company = document.getElementById('add-company').value.trim() || companyFromUrl(url);
+  const now = new Date().toISOString();
+  const rec = { key: `mine:${Date.now()}`, url, title, company, location: '', level: guessLevel(title), firstSeen: now, postedAt: now, status: 'open', kind: /linkedin\.com\/(posts|feed)/i.test(url) ? 'post' : undefined };
+  mine = [rec, ...mine]; saveMine(mine);
+  jobs = [{ ...rec, source: 'mine' }, ...jobs];
+  state[rec.key] = { ...get(rec.key), s: 'שמרתי' }; persist();
+  form.reset(); document.getElementById('add-title').value = 'Product Designer';
+  toggleForm(false); filter = 'mine'; open.add(rec.key); render();
+});
 init();

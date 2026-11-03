@@ -26,7 +26,20 @@
           <h1>NextRole</h1>
           <p class="sub" id="updated">טוען משרות…</p>
         </div>
+        <button type="button" class="add-btn" id="add-open" aria-expanded="false" aria-controls="add-form">+ הוספת משרה</button>
       </div>
+      <form class="add-form" id="add-form" hidden>
+        <p class="lbl">ראית משרה או פוסט? הדביקי את הקישור</p>
+        <input id="add-url" type="url" inputmode="url" placeholder="https://…" required>
+        <div class="add-row">
+          <input id="add-company" type="text" placeholder="חברה">
+          <input id="add-title" type="text" placeholder="תפקיד" value="Product Designer">
+        </div>
+        <div class="add-row">
+          <button type="submit" class="go">שמירה</button>
+          <button type="button" class="ghost" id="add-cancel">ביטול</button>
+        </div>
+      </form>
       <div class="stats" id="stats"></div>
       <label class="search">
         <span class="visually-hidden">חיפוש</span>
