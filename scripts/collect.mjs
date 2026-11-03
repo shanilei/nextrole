@@ -18,6 +18,9 @@ const readJson = async (p, fallback) => {
 const CONCURRENCY = 8;
 const FEED_STALE_DAYS = 7; // a feed job unseen this long is treated as closed
 const MANUAL_MAX_DAYS = 45; // a hand-added job with no company board to check closes after this
+const POST_MAX_DAYS = 14; // a LinkedIn hiring post is shown for two weeks
+const PROBE_PER_RUN = 25; // unknown companies to look up per run
+const PROBE_RETRY_DAYS = 21; // don't re-probe a company whose board wasn't found for this long
 const now = new Date().toISOString();
 
 async function pool(items, worker) {
@@ -66,6 +69,20 @@ export function inferCompany(j, boardByTitle, companies) {
   const sameTitle = boardByTitle.get(titleKey(j.title)) || [];
   if (sameTitle.length === 1 && (j.title || '').length >= 24) return sameTitle[0];
   return null;
+}
+
+// 'closed' when a job page is gone (404/410) or says the role is no longer open;
+// 'open' otherwise, including when the site can't be reached (we don't close on doubt).
+const CLOSED_TEXT = /no longer (accepting applications|available|open)|position (has been|is) (filled|closed)|job (is )?(closed|expired|not found)|this job (has expired|is no longer)|המשרה (אינה|לא) (זמינה|רלוונטית|פעילה)|המשרה נסגרה|(job|posting|listing) (has )?expired|this posting has expired/i;
+export async function linkState(url) {
+  try {
+    const res = await fetch(url, { redirect: 'follow', headers: { 'user-agent': 'Mozilla/5.0 (nextrole job radar)' }, signal: AbortSignal.timeout(15000) });
+    if (res.status === 404 || res.status === 410) return 'closed';
+    if (!res.ok) return 'unknown';
+    const html = (await res.text()).slice(0, 200000);
+    const text = html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ');
+    return CLOSED_TEXT.test(text) ? 'closed' : 'open';
+  } catch { return 'unknown'; }
 }
 
 // Is this job (from a feed or the hand-added list) listed on its company's board today?
@@ -188,7 +205,7 @@ async function main() {
         if (boardKeys.has(dk) || seenDup.has(dk) || onCheckedBoard(j, checked)) { dup++; continue; }
         // The company's own board answered today and does not list this role: the
         // repost on LinkedIn / Secret Tel Aviv is out of date.
-        if (checked.has(companyKey(j.company))) { gone++; continue; }
+        if (j.kind !== 'post' && checked.has(companyKey(j.company))) { gone++; continue; }
         seenDup.add(dk);
         upsert(byKey, j, { source: `feed:${name}` });
         added++;
@@ -202,6 +219,10 @@ async function main() {
   const stale = Date.now() - FEED_STALE_DAYS * 864e5;
   for (const [key, j] of byKey) {
     if (!j.source?.startsWith('feed:') || j.status !== 'open') continue;
+    if (j.kind === 'post') {
+      if (Date.now() - new Date(j.firstSeen).getTime() > POST_MAX_DAYS * 864e5) byKey.set(key, { ...j, status: 'closed', closedAt: now, closedReason: 'post older than two weeks' });
+      continue;
+    }
     if (new Date(j.lastSeen).getTime() < stale) byKey.set(key, { ...j, status: 'closed', closedAt: now, closedReason: 'not seen for a week' });
     else if (checked.has(companyKey(j.company)) && !onCheckedBoard(j, checked)) byKey.set(key, { ...j, status: 'closed', closedAt: now, closedReason: 'not on company board' });
     else if (onCheckedBoard(j, checked)) byKey.delete(key); // the board's own listing covers it
@@ -223,7 +244,52 @@ async function main() {
     else { m.status = 'open'; m.verified = false; manualReport.unverified++; }
   }
   report.manual = manualReport;
+
+  // 4. Find the career site of companies we only know from feeds or the hand-added list,
+  //    so their roles can be checked on the company's own board from the next run on.
+  const probed = await readJson('data/probed.json', {});
+  const unknownCompanies = new Map();
+  for (const j of [...byKey.values(), ...manual.jobs]) {
+    if (j.status !== 'open' || !j.company || j.kind === 'post') continue;
+    const ck = companyKey(j.company);
+    if (!ck || checked.has(ck) || listed.some((c) => companyKey(c.name) === ck)) continue;
+    if (probed[ck] && Date.now() - new Date(probed[ck]).getTime() < PROBE_RETRY_DAYS * 864e5) continue;
+    unknownCompanies.set(ck, j.company);
+  }
+  const toProbe = [...unknownCompanies.values()].slice(0, PROBE_PER_RUN);
+  const found = [];
+  await pool(toProbe, async (name) => {
+    const slug = name.toLowerCase().replace(/&/g, 'and');
+    const candidates = [...new Set([
+      slug.replace(/[^a-z0-9]/g, ''), slug.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+      slug.replace(/\b(ltd|inc|technologies|labs|group|israel)\b/g, '').replace(/[^a-z0-9]/g, ''),
+    ])].filter((c) => c.length > 1);
+    const hit = await probe({ name, candidates });
+    probed[companyKey(name)] = now;
+    if (hit.jobs) {
+      const k = `${hit.ats}:${String(hit.id).toLowerCase()}`;
+      if (!known.has(k)) { known.add(k); discovered.boards.push({ name, ats: hit.ats, id: hit.id, foundAt: now, from: 'probe' }); found.push(`${name} → ${hit.ats}:${hit.id}`); }
+    }
+  });
+  report.probe = { tried: toProbe.length, found };
+
+  // 5. Roles we cannot check on a company board: make sure the link itself still works.
+  const linkTargets = [
+    ...[...byKey.values()].filter((j) => j.status === 'open' && j.source?.startsWith('feed:') && j.kind !== 'post'),
+    ...manual.jobs.filter((m) => m.status === 'open'),
+  ].filter((j) => j.url && !/linkedin\.com/i.test(j.url));
+  const dead = [];
+  await pool(linkTargets, async (j) => {
+    const state = await linkState(j.url);
+    if (state !== 'closed') { j.linkCheckedAt = now; return; }
+    dead.push(`${j.company} — ${j.title}`);
+    if (byKey.has(j.key)) byKey.set(j.key, { ...byKey.get(j.key), status: 'closed', closedAt: now, closedReason: 'link no longer works' });
+    else Object.assign(j, { status: 'closed', closedAt: now, closedReason: 'link no longer works' });
+  });
+  report.linkCheck = { checked: linkTargets.length, closed: dead };
+
   await writeFile(path('data/manual.json'), JSON.stringify(manual, null, 2) + '\n');
+  await writeFile(path('data/probed.json'), JSON.stringify(probed, null, 2) + '\n');
 
   const jobs = [...byKey.values()].map(({ closedAt, ...j }) => (closedAt ? { ...j, closedAt } : j)).sort((a, b) =>
     (a.status === b.status ? 0 : a.status === 'open' ? -1 : 1) ||
@@ -238,6 +304,8 @@ async function main() {
     feeds: report.feeds.map((f) => `${f.feed}: ${f.status}${f.added != null ? ` +${f.added} (dup ${f.duplicates})` : ''}${f.error ? ` ${f.error}` : ''}${f.reason ? ` ${f.reason}` : ''}`),
     newBoards: report.newBoards || [],
     manual: report.manual,
+    probe: report.probe,
+    linkCheck: { checked: report.linkCheck?.checked, closed: report.linkCheck?.closed },
     openJobs: open.length,
     newToday: open.filter((j) => j.firstSeen === now).length,
   };
