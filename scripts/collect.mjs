@@ -16,7 +16,8 @@ const readJson = async (p, fallback) => {
 };
 
 const CONCURRENCY = 8;
-const FEED_STALE_DAYS = 10; // a feed job unseen this long is treated as closed
+const FEED_STALE_DAYS = 7; // a feed job unseen this long is treated as closed
+const MANUAL_MAX_DAYS = 45; // a hand-added job with no company board to check closes after this
 const now = new Date().toISOString();
 
 async function pool(items, worker) {
@@ -65,6 +66,21 @@ export function inferCompany(j, boardByTitle, companies) {
   const sameTitle = boardByTitle.get(titleKey(j.title)) || [];
   if (sameTitle.length === 1 && (j.title || '').length >= 24) return sameTitle[0];
   return null;
+}
+
+// Is this job (from a feed or the hand-added list) listed on its company's board today?
+// Matches on company plus title, tolerating suffixes like " - Base44" or "(UX/UI)".
+export function onCheckedBoard(j, checked) {
+  const tk = titleKey(j.title);
+  if (!tk) return false;
+  const ck = companyKey(j.company);
+  const candidates = checked.get(ck)?.jobs || [];
+  // Also catch sub-brands posted under a parent board ("Base44" jobs on Wix's board).
+  const extra = ck ? [...checked.values()].flatMap((b) => b.jobs.filter((x) => titleKey(x.title).includes(ck))) : [];
+  return [...candidates, ...extra].some((b) => {
+    const bk = titleKey(b.title);
+    return bk === tk || (tk.length >= 12 && (bk.includes(tk) || tk.includes(bk)));
+  });
 }
 
 function upsert(byKey, j, extra) {
@@ -123,9 +139,11 @@ async function main() {
 
   const boardKeys = new Set();
   const boardByTitle = new Map(); // titleKey -> [company names], for feeds that omit the company
+  const checked = new Map(); // companyKey -> { name, jobs } for every board that answered today
   for (const { c, entry, jobs, source } of fetched) {
     report.companies.push(entry);
     if (!jobs) continue; // board failed this run: keep its jobs as they were
+    checked.set(companyKey(c.name), { name: c.name, jobs: [...(checked.get(companyKey(c.name))?.jobs || []), ...jobs] });
     const seen = new Set();
     for (const j of jobs) {
       seen.add(j.key);
@@ -162,26 +180,50 @@ async function main() {
       const all = await run();
       if (process.env.DEBUG_FEEDS) console.log(`[debug] ${name} sample:`, JSON.stringify(all.slice(0, 2), null, 1).slice(0, 1500));
       const matches = all.filter((j) => isDesignRole(j.title) && (isInIsrael(j.location) || name === 'secrettlv'));
-      let added = 0, dup = 0;
+      let added = 0, dup = 0, gone = 0;
       const seenDup = new Set();
       for (const j of matches) {
         if (!j.company) j.company = inferCompany(j, boardByTitle, companies) || '';
         const dk = dupKey(j);
-        if (boardKeys.has(dk) || seenDup.has(dk)) { dup++; continue; }
+        if (boardKeys.has(dk) || seenDup.has(dk) || onCheckedBoard(j, checked)) { dup++; continue; }
+        // The company's own board answered today and does not list this role: the
+        // repost on LinkedIn / Secret Tel Aviv is out of date.
+        if (checked.has(companyKey(j.company))) { gone++; continue; }
         seenDup.add(dk);
         upsert(byKey, j, { source: `feed:${name}` });
         added++;
       }
-      report.feeds.push({ feed: name, status: 'ok', total: all.length, matches: matches.length, added, duplicates: dup });
+      report.feeds.push({ feed: name, status: 'ok', total: all.length, matches: matches.length, added, duplicates: dup, notOnCompanyBoard: gone });
     } catch (e) {
       report.feeds.push({ feed: name, status: 'error', error: String(e.message || e) });
     }
   }
-  // Feed jobs unseen for a while are closed.
+  // Feed jobs unseen for a while, or that their company's own board no longer lists, are closed.
   const stale = Date.now() - FEED_STALE_DAYS * 864e5;
   for (const [key, j] of byKey) {
-    if (j.source?.startsWith('feed:') && j.status === 'open' && new Date(j.lastSeen).getTime() < stale) byKey.set(key, { ...j, status: 'closed', closedAt: now });
+    if (!j.source?.startsWith('feed:') || j.status !== 'open') continue;
+    if (new Date(j.lastSeen).getTime() < stale) byKey.set(key, { ...j, status: 'closed', closedAt: now, closedReason: 'not seen for a week' });
+    else if (checked.has(companyKey(j.company)) && !onCheckedBoard(j, checked)) byKey.set(key, { ...j, status: 'closed', closedAt: now, closedReason: 'not on company board' });
+    else if (onCheckedBoard(j, checked)) byKey.delete(key); // the board's own listing covers it
   }
+
+  // 3. Hand-added jobs (data/manual.json) are checked against the company boards too.
+  const manual = await readJson('data/manual.json', { jobs: [] });
+  const manualReport = { open: 0, onBoard: 0, closed: 0, unverified: 0 };
+  for (const m of manual.jobs) {
+    if (m.status === 'closed' || m.status === 'merged') { manualReport.closed++; continue; }
+    const board = checked.get(companyKey(m.company));
+    if (board) {
+      if (onCheckedBoard(m, checked)) { m.status = 'merged'; m.mergedAt = now; manualReport.onBoard++; }
+      else { m.status = 'closed'; m.closedAt = now; m.closedReason = 'not on company board'; manualReport.closed++; }
+      continue;
+    }
+    const since = new Date(m.postedAt || m.addedAt || manual.updatedAt).getTime();
+    if (Date.now() - since > MANUAL_MAX_DAYS * 864e5) { m.status = 'closed'; m.closedAt = now; m.closedReason = 'older than 45 days, no company board to check'; manualReport.closed++; }
+    else { m.status = 'open'; m.verified = false; manualReport.unverified++; }
+  }
+  report.manual = manualReport;
+  await writeFile(path('data/manual.json'), JSON.stringify(manual, null, 2) + '\n');
 
   const jobs = [...byKey.values()].map(({ closedAt, ...j }) => (closedAt ? { ...j, closedAt } : j)).sort((a, b) =>
     (a.status === b.status ? 0 : a.status === 'open' ? -1 : 1) ||
@@ -195,6 +237,7 @@ async function main() {
     errors: report.companies.filter((r) => r.status === 'error').map((r) => `${r.company}: ${r.error}`),
     feeds: report.feeds.map((f) => `${f.feed}: ${f.status}${f.added != null ? ` +${f.added} (dup ${f.duplicates})` : ''}${f.error ? ` ${f.error}` : ''}${f.reason ? ` ${f.reason}` : ''}`),
     newBoards: report.newBoards || [],
+    manual: report.manual,
     openJobs: open.length,
     newToday: open.filter((j) => j.firstSeen === now).length,
   };
