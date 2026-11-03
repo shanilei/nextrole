@@ -35,7 +35,7 @@ jobs:
       - name: Collect
         run: npm run collect
         env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY || secrets.SERP_API }}
           # Full Google Jobs budget only on the daily run, to save the 250 free searches a month.
           SERPAPI_MAX_SEARCHES: ${{ github.event_name == 'schedule' && '6' || '2' }}
           DEBUG_FEEDS: ${{ github.event_name == 'pull_request' && '1' || '' }}

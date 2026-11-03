@@ -27,7 +27,7 @@ Every morning a GitHub Action checks the job boards of the companies in `compani
 ## Google Jobs setup
 
 1. Create a free account at serpapi.com (250 searches a month).
-2. Repo **Settings → Secrets and variables → Actions → New repository secret**: name `SERPAPI_KEY`, value = your API key.
+2. Repo **Settings → Secrets and variables → Actions → New repository secret**: name `SERPAPI_KEY` (or `SERP_API`), value = your API key.
 
 The daily run uses up to 6 searches; manual and PR runs use 2.
 
