@@ -44,12 +44,14 @@ export async function googleJobs(apiKey, maxSearches = Number(process.env.SERPAP
   for (const q of GOOGLE_QUERIES) {
     let token = null;
     for (let page = 0; page < 3 && used < maxSearches; page++) {
-      const params = new URLSearchParams({ engine: 'google_jobs', q, location: 'Israel', gl: 'il', hl: 'en', api_key: apiKey });
+      // No `location` param: SerpApi wants its own canonical location names there, so the
+      // country goes in the query and gl=il.
+      const params = new URLSearchParams({ engine: 'google_jobs', q: `${q} Israel`, gl: 'il', hl: 'en', api_key: String(apiKey).trim() });
       if (token) params.set('next_page_token', token);
       const res = await fetch(`https://serpapi.com/search.json?${params}`, { signal: AbortSignal.timeout(30000) });
       used++;
-      if (!res.ok) throw new Error(`SerpApi HTTP ${res.status}`);
-      const data = await res.json();
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok && !data.error) throw new Error(`SerpApi HTTP ${res.status}`);
       if (data.error) { if (/hasn't returned any results/i.test(data.error)) break; throw new Error(`SerpApi: ${data.error}`); }
       for (const j of data.jobs_results || []) {
         const apply = (j.apply_options || [])[0];
