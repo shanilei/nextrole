@@ -1,0 +1,107 @@
+{
+  "Riskified": {
+    "ats": "greenhouse",
+    "id": "riskified",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Fiverr": {
+    "ats": "smartrecruiters",
+    "id": "fiverr",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Taboola": {
+    "ats": "greenhouse",
+    "id": "taboola",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Axonius": {
+    "ats": "greenhouse",
+    "id": "axonius",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Wiz": {
+    "ats": "greenhouse",
+    "id": "wizinc",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Gong": {
+    "ats": "smartrecruiters",
+    "id": "gong",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Yotpo": {
+    "ats": "greenhouse",
+    "id": "yotpo",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Lemonade": {
+    "ats": "ashby",
+    "id": "lemonade",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Payoneer": {
+    "ats": "greenhouse",
+    "id": "payoneer",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "AppsFlyer": {
+    "ats": "greenhouse",
+    "id": "appsflyer",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Moon Active": {
+    "ats": "ashby",
+    "id": "moonactive",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Houzz": {
+    "ats": "lever",
+    "id": "houzz",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Rubrik": {
+    "ats": "greenhouse",
+    "id": "rubrik",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "WalkMe": {
+    "ats": "lever",
+    "id": "walkme",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Duda": {
+    "ats": "greenhouse",
+    "id": "duda",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "HoneyBook": {
+    "ats": "ashby",
+    "id": "honeybook",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Navan": {
+    "ats": "greenhouse",
+    "id": "tripactions",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Snyk": {
+    "ats": "ashby",
+    "id": "snyk",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Mixtiles": {
+    "ats": "greenhouse",
+    "id": "mixtiles",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Hibob": {
+    "ats": "smartrecruiters",
+    "id": "hibob",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Lumana": {
+    "ats": "ashby",
+    "id": "lumana",
+    "detectedAt": "2026-11-03T12:42:26.263Z"
+  }
+}

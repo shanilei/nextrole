@@ -1,0 +1,464 @@
+{
+  "runAt": "2026-11-03T12:42:26.263Z",
+  "companies": [
+    {
+      "company": "Datarails",
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "datarails",
+      "total": 12,
+      "matches": 1
+    },
+    {
+      "company": "Similarweb",
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "similarweb",
+      "total": 57,
+      "matches": 2
+    },
+    {
+      "company": "Forter",
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "forter",
+      "total": 24,
+      "matches": 0
+    },
+    {
+      "company": "Perion",
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "perionnetworkltd",
+      "total": 6,
+      "matches": 0
+    },
+    {
+      "company": "Unframe",
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "unframe",
+      "total": 31,
+      "matches": 0
+    },
+    {
+      "company": "VAST Data",
+      "status": "ok",
+      "ats": "comeet",
+      "id": "vastdata/43.001",
+      "total": 264,
+      "matches": 1
+    },
+    {
+      "company": "Walmart Global Tech Israel",
+      "status": "ok",
+      "ats": "comeet",
+      "id": "walmart/35.000",
+      "total": 0,
+      "matches": 0
+    },
+    {
+      "company": "Factify",
+      "status": "ok",
+      "ats": "comeet",
+      "id": "factify/A9.00F",
+      "total": 2,
+      "matches": 0
+    },
+    {
+      "company": "Wix",
+      "status": "ok",
+      "ats": "smartrecruiters",
+      "id": "Wix2",
+      "total": 80,
+      "matches": 3
+    },
+    {
+      "company": "monday.com",
+      "status": "not_found",
+      "tried": [
+        "mondaycom",
+        "monday",
+        "mondaydotcom"
+      ]
+    },
+    {
+      "company": "Fiverr",
+      "detected": true,
+      "status": "ok",
+      "ats": "smartrecruiters",
+      "id": "fiverr",
+      "total": 3,
+      "matches": 0
+    },
+    {
+      "company": "Riskified",
+      "detected": true,
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "riskified",
+      "total": 35,
+      "matches": 0
+    },
+    {
+      "company": "Lemonade",
+      "detected": true,
+      "status": "ok",
+      "ats": "ashby",
+      "id": "lemonade",
+      "total": 41,
+      "matches": 2
+    },
+    {
+      "company": "Taboola",
+      "detected": true,
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "taboola",
+      "total": 89,
+      "matches": 2
+    },
+    {
+      "company": "Gong",
+      "detected": true,
+      "status": "ok",
+      "ats": "smartrecruiters",
+      "id": "gong",
+      "total": 7,
+      "matches": 0
+    },
+    {
+      "company": "Melio",
+      "status": "not_found",
+      "tried": [
+        "melio",
+        "meliopayments"
+      ]
+    },
+    {
+      "company": "Axonius",
+      "detected": true,
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "axonius",
+      "total": 23,
+      "matches": 1
+    },
+    {
+      "company": "Wiz",
+      "detected": true,
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "wizinc",
+      "total": 114,
+      "matches": 1
+    },
+    {
+      "company": "Cyera",
+      "status": "ok",
+      "ats": "comeet",
+      "id": "cyera/17.008",
+      "total": 254,
+      "matches": 0
+    },
+    {
+      "company": "Lightricks",
+      "status": "not_found",
+      "tried": [
+        "lightricks"
+      ]
+    },
+    {
+      "company": "Yotpo",
+      "detected": true,
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "yotpo",
+      "total": 18,
+      "matches": 1
+    },
+    {
+      "company": "Riverside",
+      "status": "not_found",
+      "tried": [
+        "riverside",
+        "riversidefm"
+      ]
+    },
+    {
+      "company": "Navan",
+      "detected": true,
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "tripactions",
+      "total": 219,
+      "matches": 0
+    },
+    {
+      "company": "HoneyBook",
+      "detected": true,
+      "status": "ok",
+      "ats": "ashby",
+      "id": "honeybook",
+      "total": 5,
+      "matches": 0
+    },
+    {
+      "company": "Payoneer",
+      "detected": true,
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "payoneer",
+      "total": 102,
+      "matches": 0
+    },
+    {
+      "company": "AppsFlyer",
+      "detected": true,
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "appsflyer",
+      "total": 53,
+      "matches": 0
+    },
+    {
+      "company": "Artlist",
+      "status": "ok",
+      "ats": "comeet",
+      "id": "artlist/85.003",
+      "total": 30,
+      "matches": 1
+    },
+    {
+      "company": "Moon Active",
+      "detected": true,
+      "status": "ok",
+      "ats": "ashby",
+      "id": "moonactive",
+      "total": 34,
+      "matches": 2
+    },
+    {
+      "company": "Playtika",
+      "status": "not_found",
+      "tried": [
+        "playtika"
+      ]
+    },
+    {
+      "company": "Houzz",
+      "detected": true,
+      "status": "ok",
+      "ats": "lever",
+      "id": "houzz",
+      "total": 6,
+      "matches": 1
+    },
+    {
+      "company": "Rubrik",
+      "detected": true,
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "rubrik",
+      "total": 155,
+      "matches": 1
+    },
+    {
+      "company": "ODDITY",
+      "status": "not_found",
+      "tried": [
+        "oddity",
+        "odditytech"
+      ]
+    },
+    {
+      "company": "Copyleaks",
+      "status": "not_found",
+      "tried": [
+        "copyleaks"
+      ]
+    },
+    {
+      "company": "Trullion",
+      "status": "ok",
+      "ats": "comeet",
+      "id": "trullion/07.000",
+      "total": 6,
+      "matches": 1
+    },
+    {
+      "company": "WalkMe",
+      "detected": true,
+      "status": "ok",
+      "ats": "lever",
+      "id": "walkme",
+      "total": 22,
+      "matches": 1
+    },
+    {
+      "company": "Guardio",
+      "status": "ok",
+      "ats": "comeet",
+      "id": "guardio/57.000",
+      "total": 18,
+      "matches": 1
+    },
+    {
+      "company": "Duda",
+      "detected": true,
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "duda",
+      "total": 6,
+      "matches": 1
+    },
+    {
+      "company": "Coralogix",
+      "status": "ok",
+      "ats": "comeet",
+      "id": "coralogix/06.004",
+      "total": 61,
+      "matches": 1
+    },
+    {
+      "company": "Apono",
+      "status": "not_found",
+      "tried": [
+        "apono"
+      ]
+    },
+    {
+      "company": "Optibus",
+      "status": "not_found",
+      "tried": [
+        "optibus"
+      ]
+    },
+    {
+      "company": "Sedric",
+      "status": "ok",
+      "ats": "comeet",
+      "id": "sedric/0A.00F",
+      "total": 3,
+      "matches": 0
+    },
+    {
+      "company": "Classiq",
+      "status": "ok",
+      "ats": "comeet",
+      "id": "classiq/F7.008",
+      "total": 25,
+      "matches": 1
+    },
+    {
+      "company": "Glassbox",
+      "status": "not_found",
+      "tried": [
+        "glassbox"
+      ]
+    },
+    {
+      "company": "Lumana",
+      "detected": true,
+      "status": "ok",
+      "ats": "ashby",
+      "id": "lumana",
+      "total": 5,
+      "matches": 1
+    },
+    {
+      "company": "SysAid",
+      "status": "not_found",
+      "tried": [
+        "sysaid"
+      ]
+    },
+    {
+      "company": "Tailor Brands",
+      "status": "not_found",
+      "tried": [
+        "tailorbrands"
+      ]
+    },
+    {
+      "company": "Hibob",
+      "detected": true,
+      "status": "ok",
+      "ats": "smartrecruiters",
+      "id": "hibob",
+      "total": 1,
+      "matches": 0
+    },
+    {
+      "company": "Papaya Global",
+      "status": "ok",
+      "ats": "comeet",
+      "id": "papayaglobal/16.005",
+      "total": 47,
+      "matches": 0
+    },
+    {
+      "company": "Snyk",
+      "detected": true,
+      "status": "ok",
+      "ats": "ashby",
+      "id": "snyk",
+      "total": 37,
+      "matches": 0
+    },
+    {
+      "company": "Deel",
+      "status": "not_found",
+      "tried": [
+        "deel"
+      ]
+    },
+    {
+      "company": "Mixtiles",
+      "detected": true,
+      "status": "ok",
+      "ats": "greenhouse",
+      "id": "mixtiles",
+      "total": 12,
+      "matches": 0
+    },
+    {
+      "company": "365Scores",
+      "status": "not_found",
+      "tried": [
+        "365scores"
+      ]
+    },
+    {
+      "company": "Yad2",
+      "status": "not_found",
+      "tried": [
+        "yad2"
+      ]
+    }
+  ],
+  "summary": {
+    "companies": 53,
+    "boardsOk": 38,
+    "notFound": [
+      "monday.com",
+      "Melio",
+      "Lightricks",
+      "Riverside",
+      "Playtika",
+      "ODDITY",
+      "Copyleaks",
+      "Apono",
+      "Optibus",
+      "Glassbox",
+      "SysAid",
+      "Tailor Brands",
+      "Deel",
+      "365Scores",
+      "Yad2"
+    ],
+    "errors": [],
+    "openJobs": 26,
+    "newToday": 26
+  }
+}
