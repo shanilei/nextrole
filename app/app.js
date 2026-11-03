@@ -98,7 +98,8 @@ function card(j) {
   const top = el('button', 'top'); top.type = 'button'; top.setAttribute('aria-expanded', open.has(j.key));
   const r1 = el('div', 'row1'); r1.append(el('div', 'title', j.title), el('span', `lvl ${j.level || 'Mid'}`, j.level || 'Mid'));
   const meta = el('div', 'meta');
-  meta.append(el('span', 'company', j.company), el('span', null, j.location));
+  meta.append(el('span', 'company', j.company || 'חברה לא צוינה'), el('span', null, j.location));
+  if (j.via) meta.append(el('span', null, `דרך ${j.via.replace(/^Google Jobs · /, '')}`));
   const when = j.postedAt || j.firstSeen; if (when) meta.append(el('span', null, fmtDate(when)));
   const yrs = j.experience || (j.minYears ? `${j.minYears}+` : null); if (yrs) meta.append(el('span', null, `${yrs} שנים`));
   if (isNew(j)) meta.append(el('span', 'tag new', 'חדש'));

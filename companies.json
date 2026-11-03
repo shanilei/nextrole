@@ -2,39 +2,273 @@
   "_comment": "Companies to watch. Give `ats` + `id` when the board is known; otherwise list `candidates` (board-name guesses) and the collector probes every supported ATS for them. Resolved boards are cached in data/boards.json.",
   "companies": [
     {
+      "name": "365Scores",
+      "ats": "comeet",
+      "id": "365scores/B3.006"
+    },
+    {
+      "name": "90min",
+      "candidates": [
+        "90min",
+        "minutemedia"
+      ]
+    },
+    {
+      "name": "Abra R&D",
+      "ats": "comeet",
+      "id": "abra_rnd/15.007"
+    },
+    {
+      "name": "AI21 Labs",
+      "ats": "comeet",
+      "id": "ai21/E6.001"
+    },
+    {
+      "name": "Aitan",
+      "ats": "comeet",
+      "id": "aitan/FA.006"
+    },
+    {
+      "name": "Alice",
+      "ats": "comeet",
+      "id": "alice/D5.005"
+    },
+    {
+      "name": "Anecdotes",
+      "candidates": [
+        "anecdotes"
+      ]
+    },
+    {
+      "name": "Apiiro",
+      "ats": "greenhouse",
+      "id": "apiiro"
+    },
+    {
+      "name": "Apono",
+      "candidates": [
+        "apono"
+      ]
+    },
+    {
+      "name": "Applied Materials",
+      "ats": "workday",
+      "id": "amat/wd1/External"
+    },
+    {
+      "name": "AppsFlyer",
+      "ats": "greenhouse",
+      "id": "appsflyer"
+    },
+    {
+      "name": "Armis",
+      "ats": "smartrecruiters",
+      "id": "armis"
+    },
+    {
+      "name": "Arpeely",
+      "ats": "comeet",
+      "id": "arpeely/57.001"
+    },
+    {
+      "name": "Artlist",
+      "ats": "comeet",
+      "id": "artlist/85.003"
+    },
+    {
+      "name": "Ask-AI",
+      "ats": "comeet",
+      "id": "askai/1A.00C"
+    },
+    {
+      "name": "Atera",
+      "candidates": [
+        "atera"
+      ]
+    },
+    {
+      "name": "Attil",
+      "ats": "comeet",
+      "id": "joinattil/38.00A"
+    },
+    {
+      "name": "Autobrains",
+      "ats": "comeet",
+      "id": "autobrains/57.004"
+    },
+    {
+      "name": "Automatit",
+      "ats": "comeet",
+      "id": "automatit/26.003"
+    },
+    {
+      "name": "Axonius",
+      "ats": "greenhouse",
+      "id": "axonius"
+    },
+    {
+      "name": "Bilton",
+      "candidates": [
+        "bilton"
+      ]
+    },
+    {
+      "name": "Cato Networks",
+      "ats": "greenhouse",
+      "id": "catonetworks"
+    },
+    {
+      "name": "Ceragon",
+      "ats": "comeet",
+      "id": "ceragon/D3.003"
+    },
+    {
+      "name": "Ceva",
+      "ats": "comeet",
+      "id": "ceva/76.005"
+    },
+    {
+      "name": "Chargeafter",
+      "ats": "comeet",
+      "id": "chargeafter/C5.004"
+    },
+    {
+      "name": "Check Point",
+      "ats": "smartrecruiters",
+      "id": "CheckPointSoftwareTechnologies2"
+    },
+    {
+      "name": "Checkmarx",
+      "ats": "comeet",
+      "id": "checkmarx/C0.008"
+    },
+    {
+      "name": "Claroty",
+      "ats": "comeet",
+      "id": "Claroty/F2.004"
+    },
+    {
+      "name": "Classiq",
+      "ats": "comeet",
+      "id": "classiq/F7.008"
+    },
+    {
+      "name": "Cloudinary",
+      "ats": "lever",
+      "id": "cloudinary"
+    },
+    {
+      "name": "Clover Security",
+      "ats": "comeet",
+      "id": "clover_security/7A.00A"
+    },
+    {
+      "name": "Cognyte",
+      "ats": "comeet",
+      "id": "cognyte/F2.009"
+    },
+    {
+      "name": "Comm-IT",
+      "ats": "comeet",
+      "id": "comm-it/76.008"
+    },
+    {
+      "name": "Connecteam",
+      "ats": "greenhouse",
+      "id": "connecteam"
+    },
+    {
+      "name": "Copyleaks",
+      "candidates": [
+        "copyleaks"
+      ]
+    },
+    {
+      "name": "Coralogix",
+      "ats": "comeet",
+      "id": "coralogix/06.004"
+    },
+    {
+      "name": "Crossriver",
+      "ats": "comeet",
+      "id": "crossriver/C7.00F"
+    },
+    {
+      "name": "CrowdStrike",
+      "ats": "workday",
+      "id": "crowdstrike/wd5/crowdstrikecareers"
+    },
+    {
+      "name": "Cyera",
+      "ats": "comeet",
+      "id": "cyera/17.008"
+    },
+    {
+      "name": "Cymulate",
+      "ats": "greenhouse",
+      "id": "cymulate"
+    },
+    {
+      "name": "Datadog",
+      "ats": "greenhouse",
+      "id": "datadog"
+    },
+    {
       "name": "Datarails",
       "ats": "greenhouse",
       "id": "datarails"
     },
     {
-      "name": "Similarweb",
-      "ats": "greenhouse",
-      "id": "similarweb"
+      "name": "Deel",
+      "candidates": [
+        "deel"
+      ]
     },
     {
-      "name": "Forter",
+      "name": "Descope",
       "ats": "greenhouse",
-      "id": "forter"
+      "id": "descope"
     },
     {
-      "name": "Perion",
-      "ats": "greenhouse",
-      "id": "perionnetworkltd"
-    },
-    {
-      "name": "Unframe",
-      "ats": "greenhouse",
-      "id": "unframe"
-    },
-    {
-      "name": "VAST Data",
+      "name": "Dream",
       "ats": "comeet",
-      "id": "vastdata/43.001"
+      "id": "dreamgroup/99.002"
     },
     {
-      "name": "Walmart Global Tech Israel",
+      "name": "Drivenets",
       "ats": "comeet",
-      "id": "walmart/35.000"
+      "id": "drivenets/72.006"
+    },
+    {
+      "name": "Duda",
+      "ats": "greenhouse",
+      "id": "duda"
+    },
+    {
+      "name": "Duve",
+      "candidates": [
+        "duve"
+      ]
+    },
+    {
+      "name": "Earnix",
+      "ats": "comeet",
+      "id": "earnix/93.00B"
+    },
+    {
+      "name": "Eleos Health",
+      "ats": "greenhouse",
+      "id": "eleoshealth"
+    },
+    {
+      "name": "eToro",
+      "ats": "comeet",
+      "id": "etoro/41.009"
+    },
+    {
+      "name": "Exodigo",
+      "ats": "comeet",
+      "id": "exodigo/89.005"
     },
     {
       "name": "Factify",
@@ -42,9 +276,226 @@
       "id": "factify/A9.00F"
     },
     {
-      "name": "Wix",
-      "ats": "smartrecruiters",
-      "id": "Wix2"
+      "name": "Finout",
+      "ats": "ashby",
+      "id": "finout"
+    },
+    {
+      "name": "Fireblocks",
+      "ats": "comeet",
+      "id": "fireblocks/B4.00F"
+    },
+    {
+      "name": "Fiverr",
+      "ats": "comeet",
+      "id": "fiverr/60.002"
+    },
+    {
+      "name": "Flexor",
+      "ats": "comeet",
+      "id": "flexor/F9.006"
+    },
+    {
+      "name": "Forter",
+      "ats": "greenhouse",
+      "id": "forter"
+    },
+    {
+      "name": "Fullpath",
+      "ats": "comeet",
+      "id": "fullpath/54.002"
+    },
+    {
+      "name": "Glassbox",
+      "candidates": [
+        "glassbox"
+      ]
+    },
+    {
+      "name": "Gloat",
+      "candidates": [
+        "gloat"
+      ]
+    },
+    {
+      "name": "Global-e",
+      "ats": "comeet",
+      "id": "global-e/62.002"
+    },
+    {
+      "name": "Gong",
+      "ats": "greenhouse",
+      "id": "gongio"
+    },
+    {
+      "name": "Grip Security",
+      "ats": "comeet",
+      "id": "grip/A8.001"
+    },
+    {
+      "name": "Growthspace",
+      "ats": "comeet",
+      "id": "growthspace/D7.00A"
+    },
+    {
+      "name": "Guardio",
+      "ats": "comeet",
+      "id": "guardio/57.000"
+    },
+    {
+      "name": "Guardz",
+      "ats": "greenhouse",
+      "id": "guardz"
+    },
+    {
+      "name": "Hibob",
+      "candidates": [
+        "hibob",
+        "bob"
+      ]
+    },
+    {
+      "name": "HoneyBook",
+      "candidates": [
+        "honeybook"
+      ]
+    },
+    {
+      "name": "Houzz",
+      "candidates": [
+        "houzz"
+      ]
+    },
+    {
+      "name": "HPE",
+      "ats": "workday",
+      "id": "hpe/wd5/Jobsathpe"
+    },
+    {
+      "name": "Hunters",
+      "candidates": [
+        "hunters",
+        "huntersai"
+      ]
+    },
+    {
+      "name": "Imagene",
+      "ats": "comeet",
+      "id": "imagene-ai/D7.000"
+    },
+    {
+      "name": "Infinidat",
+      "ats": "comeet",
+      "id": "infinidat/D6.003"
+    },
+    {
+      "name": "Inmanage",
+      "ats": "comeet",
+      "id": "inmanage/B7.006"
+    },
+    {
+      "name": "Integritylabs",
+      "ats": "comeet",
+      "id": "integritylabs/43.009"
+    },
+    {
+      "name": "Intel",
+      "ats": "workday",
+      "id": "intel/wd1/External"
+    },
+    {
+      "name": "Jeen.ai",
+      "candidates": [
+        "jeenai"
+      ]
+    },
+    {
+      "name": "JFrog",
+      "ats": "greenhouse",
+      "id": "jfrog"
+    },
+    {
+      "name": "Jifiti",
+      "ats": "comeet",
+      "id": "jifiti/47.005"
+    },
+    {
+      "name": "Kaltura",
+      "ats": "comeet",
+      "id": "kaltura/E2.00D"
+    },
+    {
+      "name": "Kela",
+      "ats": "comeet",
+      "id": "kelatechnologies/2A.007"
+    },
+    {
+      "name": "KLA",
+      "ats": "workday",
+      "id": "kla/wd1/Search"
+    },
+    {
+      "name": "Lemonade",
+      "ats": "ashby",
+      "id": "lemonade"
+    },
+    {
+      "name": "Lightricks",
+      "ats": "greenhouse",
+      "id": "lightricks"
+    },
+    {
+      "name": "Lightrun",
+      "ats": "greenhouse",
+      "id": "lightrun"
+    },
+    {
+      "name": "Lumana",
+      "candidates": [
+        "lumana"
+      ]
+    },
+    {
+      "name": "Lusha",
+      "candidates": [
+        "lusha"
+      ]
+    },
+    {
+      "name": "Majestic Labs",
+      "ats": "comeet",
+      "id": "majesticlabs/AA.004"
+    },
+    {
+      "name": "Marvell",
+      "ats": "workday",
+      "id": "marvell/wd1/MarvellCareers"
+    },
+    {
+      "name": "Masterschool",
+      "candidates": [
+        "masterschool"
+      ]
+    },
+    {
+      "name": "Medison Pharma",
+      "ats": "comeet",
+      "id": "medison/67.00A"
+    },
+    {
+      "name": "Melio",
+      "ats": "greenhouse",
+      "id": "melio"
+    },
+    {
+      "name": "Mixtiles",
+      "ats": "greenhouse",
+      "id": "mixtiles"
+    },
+    {
+      "name": "Mobileye",
+      "ats": "lever_eu",
+      "id": "mobileye"
     },
     {
       "name": "monday.com",
@@ -55,80 +506,29 @@
       ]
     },
     {
-      "name": "Fiverr",
-      "candidates": [
-        "fiverr"
-      ]
+      "name": "MongoDB",
+      "ats": "greenhouse",
+      "id": "mongodb"
     },
     {
-      "name": "Riskified",
-      "candidates": [
-        "riskified"
-      ]
+      "name": "Moon Active",
+      "ats": "ashby",
+      "id": "moonactive"
     },
     {
-      "name": "Lemonade",
-      "candidates": [
-        "lemonade",
-        "lemonadeinc"
-      ]
+      "name": "Motorola Solutions",
+      "ats": "workday",
+      "id": "motorolasolutions/wd5/Careers"
     },
     {
-      "name": "Taboola",
-      "candidates": [
-        "taboola"
-      ]
+      "name": "Nanit",
+      "ats": "greenhouse",
+      "id": "nanit"
     },
     {
-      "name": "Gong",
-      "candidates": [
-        "gong",
-        "gongio"
-      ]
-    },
-    {
-      "name": "Melio",
-      "candidates": [
-        "melio",
-        "meliopayments"
-      ]
-    },
-    {
-      "name": "Axonius",
-      "candidates": [
-        "axonius"
-      ]
-    },
-    {
-      "name": "Wiz",
-      "candidates": [
-        "wizinc",
-        "wiz"
-      ]
-    },
-    {
-      "name": "Cyera",
+      "name": "Native",
       "ats": "comeet",
-      "id": "cyera/17.008"
-    },
-    {
-      "name": "Lightricks",
-      "candidates": [
-        "lightricks"
-      ]
-    },
-    {
-      "name": "Yotpo",
-      "candidates": [
-        "yotpo"
-      ]
-    },
-    {
-      "name": "Riverside",
-      "candidates": [
-        "riverside",
-        "riversidefm"
-      ]
+      "id": "native/5A.00A"
     },
     {
       "name": "Navan",
@@ -138,51 +538,39 @@
       ]
     },
     {
-      "name": "HoneyBook",
-      "candidates": [
-        "honeybook"
-      ]
-    },
-    {
-      "name": "Payoneer",
-      "candidates": [
-        "payoneer"
-      ]
-    },
-    {
-      "name": "AppsFlyer",
-      "candidates": [
-        "appsflyer"
-      ]
-    },
-    {
-      "name": "Artlist",
+      "name": "Navina",
       "ats": "comeet",
-      "id": "artlist/85.003"
+      "id": "navina/E6.00C"
     },
     {
-      "name": "Moon Active",
-      "candidates": [
-        "moonactive"
-      ]
+      "name": "Nayax",
+      "ats": "comeet",
+      "id": "nayax/13.009"
     },
     {
-      "name": "Playtika",
-      "candidates": [
-        "playtika"
-      ]
+      "name": "Nextsilicon",
+      "ats": "comeet",
+      "id": "nextsilicon/18.007"
     },
     {
-      "name": "Houzz",
-      "candidates": [
-        "houzz"
-      ]
+      "name": "NICE",
+      "ats": "greenhouse",
+      "id": "nice"
     },
     {
-      "name": "Rubrik",
-      "candidates": [
-        "rubrik"
-      ]
+      "name": "Nimbleway",
+      "ats": "comeet",
+      "id": "nimbleway/09.00F"
+    },
+    {
+      "name": "Nova",
+      "ats": "comeet",
+      "id": "nova/A5.007"
+    },
+    {
+      "name": "NVIDIA",
+      "ats": "workday",
+      "id": "nvidia/wd5/NVIDIAExternalCareerSite"
     },
     {
       "name": "ODDITY",
@@ -192,49 +580,183 @@
       ]
     },
     {
-      "name": "Copyleaks",
-      "candidates": [
-        "copyleaks"
-      ]
-    },
-    {
-      "name": "Trullion",
+      "name": "Oligosecurity",
       "ats": "comeet",
-      "id": "trullion/07.000"
+      "id": "oligosecurity/5A.00B"
     },
     {
-      "name": "WalkMe",
-      "candidates": [
-        "walkme"
-      ]
-    },
-    {
-      "name": "Guardio",
+      "name": "One Zero Bank",
       "ats": "comeet",
-      "id": "guardio/57.000"
-    },
-    {
-      "name": "Duda",
-      "candidates": [
-        "duda"
-      ]
-    },
-    {
-      "name": "Coralogix",
-      "ats": "comeet",
-      "id": "coralogix/06.004"
-    },
-    {
-      "name": "Apono",
-      "candidates": [
-        "apono"
-      ]
+      "id": "onezerobank/36.00A"
     },
     {
       "name": "Optibus",
+      "ats": "comeet",
+      "id": "optibus/D1.00C"
+    },
+    {
+      "name": "Optimove",
+      "ats": "greenhouse",
+      "id": "optimove"
+    },
+    {
+      "name": "Orca Security",
+      "ats": "greenhouse",
+      "id": "orcasecurity"
+    },
+    {
+      "name": "Overwolf",
       "candidates": [
-        "optibus"
+        "overwolf"
       ]
+    },
+    {
+      "name": "Pagaya",
+      "candidates": [
+        "pagaya"
+      ]
+    },
+    {
+      "name": "Pango",
+      "ats": "comeet",
+      "id": "pango/59.002"
+    },
+    {
+      "name": "Papaya Gaming",
+      "ats": "comeet",
+      "id": "papayagaming/46.00B"
+    },
+    {
+      "name": "Papaya Global",
+      "ats": "comeet",
+      "id": "papayaglobal/16.005"
+    },
+    {
+      "name": "Payoneer",
+      "ats": "greenhouse",
+      "id": "payoneer"
+    },
+    {
+      "name": "Pentera",
+      "ats": "comeet",
+      "id": "pentera/C5.00D"
+    },
+    {
+      "name": "Perion",
+      "ats": "greenhouse",
+      "id": "perionnetworkltd"
+    },
+    {
+      "name": "Personetics",
+      "ats": "comeet",
+      "id": "personetics/83.00a"
+    },
+    {
+      "name": "Pi Security",
+      "ats": "ashby",
+      "id": "pi-security"
+    },
+    {
+      "name": "PlainID",
+      "ats": "comeet",
+      "id": "plainid/C4.00C"
+    },
+    {
+      "name": "Play Perfect",
+      "ats": "comeet",
+      "id": "play_perfect/69.001"
+    },
+    {
+      "name": "Playtika",
+      "ats": "comeet",
+      "id": "playtika/01.001"
+    },
+    {
+      "name": "Plus500",
+      "candidates": [
+        "plus500"
+      ]
+    },
+    {
+      "name": "Port",
+      "ats": "comeet",
+      "id": "port/59.004"
+    },
+    {
+      "name": "Qodo",
+      "candidates": [
+        "qodo",
+        "codiumai"
+      ]
+    },
+    {
+      "name": "Quantum Machines",
+      "ats": "comeet",
+      "id": "quantummachines/D6.000"
+    },
+    {
+      "name": "Rapyd",
+      "ats": "comeet",
+      "id": "rapyd/73.00E"
+    },
+    {
+      "name": "Reeco",
+      "ats": "comeet",
+      "id": "reeco/0A.00D"
+    },
+    {
+      "name": "Regulus",
+      "ats": "comeet",
+      "id": "regulus/9A.00D"
+    },
+    {
+      "name": "Remedio",
+      "candidates": [
+        "remedio"
+      ]
+    },
+    {
+      "name": "Rise Codes",
+      "ats": "comeet",
+      "id": "risecodes/A9.000"
+    },
+    {
+      "name": "Riskified",
+      "ats": "greenhouse",
+      "id": "riskified"
+    },
+    {
+      "name": "Riverside",
+      "candidates": [
+        "riverside",
+        "riversidefm"
+      ]
+    },
+    {
+      "name": "Rubrik",
+      "candidates": [
+        "rubrik"
+      ]
+    },
+    {
+      "name": "Salesforce",
+      "ats": "workday",
+      "id": "salesforce/wd12/External_Career_Site"
+    },
+    {
+      "name": "Salt Security",
+      "ats": "greenhouse",
+      "id": "saltsecurity"
+    },
+    {
+      "name": "Samsung",
+      "ats": "comeet",
+      "id": "samsung/D4.005"
+    },
+    {
+      "name": "ScaleOps",
+      "ats": "greenhouse",
+      "id": "scaleops"
     },
     {
       "name": "Sedric",
@@ -242,45 +764,50 @@
       "id": "sedric/0A.00F"
     },
     {
-      "name": "Classiq",
+      "name": "Semperis",
+      "candidates": [
+        "semperis"
+      ]
+    },
+    {
+      "name": "Senai",
       "ats": "comeet",
-      "id": "classiq/F7.008"
+      "id": "senai/CA.004"
     },
     {
-      "name": "Glassbox",
-      "candidates": [
-        "glassbox"
-      ]
-    },
-    {
-      "name": "Lumana",
-      "candidates": [
-        "lumana"
-      ]
-    },
-    {
-      "name": "SysAid",
-      "candidates": [
-        "sysaid"
-      ]
-    },
-    {
-      "name": "Tailor Brands",
-      "candidates": [
-        "tailorbrands"
-      ]
-    },
-    {
-      "name": "Hibob",
-      "candidates": [
-        "hibob",
-        "bob"
-      ]
-    },
-    {
-      "name": "Papaya Global",
+      "name": "Sensi.AI",
       "ats": "comeet",
-      "id": "papayaglobal/16.005"
+      "id": "sensi/E7.00F"
+    },
+    {
+      "name": "Servicenow",
+      "ats": "smartrecruiters",
+      "id": "servicenow"
+    },
+    {
+      "name": "Shortical",
+      "ats": "comeet",
+      "id": "shortical/3B.00A"
+    },
+    {
+      "name": "Silverfort",
+      "ats": "comeet",
+      "id": "silverfort/54.007"
+    },
+    {
+      "name": "Similarweb",
+      "ats": "greenhouse",
+      "id": "similarweb"
+    },
+    {
+      "name": "Sisense",
+      "ats": "ashby",
+      "id": "sisense"
+    },
+    {
+      "name": "Snowflake",
+      "ats": "ashby",
+      "id": "snowflake"
     },
     {
       "name": "Snyk",
@@ -289,22 +816,173 @@
       ]
     },
     {
-      "name": "Deel",
+      "name": "Solaredge",
+      "ats": "comeet",
+      "id": "solaredge/71.00A"
+    },
+    {
+      "name": "Sunflower",
+      "ats": "comeet",
+      "id": "sunflower/AA.009"
+    },
+    {
+      "name": "SuperCom",
+      "ats": "comeet",
+      "id": "supercom/46.00A"
+    },
+    {
+      "name": "Sweet Security",
+      "ats": "greenhouse",
+      "id": "sweetsecurity"
+    },
+    {
+      "name": "SysAid",
+      "ats": "comeet",
+      "id": "sysaid/43.00A"
+    },
+    {
+      "name": "Tabnine",
+      "ats": "comeet",
+      "id": "tabnine/39.006"
+    },
+    {
+      "name": "Taboola",
+      "ats": "greenhouse",
+      "id": "taboola"
+    },
+    {
+      "name": "Tailor Brands",
       "candidates": [
-        "deel"
+        "tailorbrands"
       ]
     },
     {
-      "name": "Mixtiles",
+      "name": "Team8",
+      "ats": "comeet",
+      "id": "team8/61.003"
+    },
+    {
+      "name": "Thetaray",
+      "ats": "comeet",
+      "id": "thetaray/72.00F"
+    },
+    {
+      "name": "Torq",
+      "ats": "greenhouse",
+      "id": "torq"
+    },
+    {
+      "name": "Transmit Security",
+      "ats": "greenhouse",
+      "id": "transmitsecurity"
+    },
+    {
+      "name": "Trullion",
+      "ats": "comeet",
+      "id": "trullion/07.000"
+    },
+    {
+      "name": "Tufin",
       "candidates": [
-        "mixtiles"
+        "tufin"
       ]
     },
     {
-      "name": "365Scores",
+      "name": "Unframe",
+      "ats": "greenhouse",
+      "id": "unframe"
+    },
+    {
+      "name": "Upstream",
+      "ats": "comeet",
+      "id": "upstream/E4.003"
+    },
+    {
+      "name": "Upwind",
+      "ats": "comeet",
+      "id": "upwind/49.004"
+    },
+    {
+      "name": "Uveye",
+      "ats": "comeet",
+      "id": "uveye/92.00F"
+    },
+    {
+      "name": "VAST Data",
+      "ats": "comeet",
+      "id": "vastdata/43.001"
+    },
+    {
+      "name": "Vega",
+      "ats": "comeet",
+      "id": "vega/C9.009"
+    },
+    {
+      "name": "Via",
+      "ats": "greenhouse",
+      "id": "via"
+    },
+    {
+      "name": "Voyantis",
+      "ats": "comeet",
+      "id": "voyantis/86.00B"
+    },
+    {
+      "name": "WalkMe",
+      "ats": "lever",
+      "id": "walkme"
+    },
+    {
+      "name": "Walmart Global Tech Israel",
+      "ats": "comeet",
+      "id": "walmart/35.000"
+    },
+    {
+      "name": "Waterfall Security",
+      "ats": "comeet",
+      "id": "waterfall-security/C7.009"
+    },
+    {
+      "name": "Webbing",
+      "ats": "comeet",
+      "id": "webbing/46.00E"
+    },
+    {
+      "name": "Wiliot",
+      "ats": "comeet",
+      "id": "wiliot/F6.003"
+    },
+    {
+      "name": "Wix",
+      "ats": "smartrecruiters",
+      "id": "Wix2"
+    },
+    {
+      "name": "Wiz",
+      "ats": "greenhouse",
+      "id": "wizinc"
+    },
+    {
+      "name": "Wonderful",
+      "ats": "ashby",
+      "id": "wonderful"
+    },
+    {
+      "name": "Workiz",
+      "ats": "comeet",
+      "id": "workiz/f6.006"
+    },
+    {
+      "name": "WSC Sports",
       "candidates": [
-        "365scores"
+        "wscsports",
+        "wsc-sports"
       ]
+    },
+    {
+      "name": "Xsight Labs",
+      "ats": "comeet",
+      "id": "xsightlabs/46.00C"
     },
     {
       "name": "Yad2",
@@ -313,9 +991,31 @@
       ]
     },
     {
-      "name": "Sunflower",
+      "name": "Yotpo",
+      "ats": "greenhouse",
+      "id": "yotpo"
+    },
+    {
+      "name": "Zenity",
       "ats": "comeet",
-      "id": "sunflower/AA.009"
+      "id": "zenity/19.000"
+    },
+    {
+      "name": "Zesty",
+      "candidates": [
+        "zesty",
+        "zestyai"
+      ]
+    },
+    {
+      "name": "Zipher",
+      "ats": "comeet",
+      "id": "zipher/4B.00C"
+    },
+    {
+      "name": "Zyg",
+      "ats": "comeet",
+      "id": "zyg/DA.006"
     }
   ]
 }

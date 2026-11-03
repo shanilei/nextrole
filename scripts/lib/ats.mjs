@@ -27,6 +27,18 @@ export function htmlToText(html = '') {
     .trim();
 }
 
+// "Posted 3 Days Ago", "Posted Today", "3 days ago", "Posted 30+ Days Ago" -> ISO date
+export function postedOnToIso(text, now = Date.now()) {
+  if (!text) return null;
+  const t = String(text).toLowerCase();
+  if (/today|just|hour|minute/.test(t)) return new Date(now).toISOString();
+  if (/yesterday/.test(t)) return new Date(now - 864e5).toISOString();
+  const m = t.match(/(\d+)\+?\s*(day|week|month)/);
+  if (!m) return null;
+  const days = Number(m[1]) * ({ day: 1, week: 7, month: 30 })[m[2]];
+  return new Date(now - days * 864e5).toISOString();
+}
+
 const toIso = (v) => {
   if (v == null || v === '') return null;
   const d = typeof v === 'number' ? new Date(v) : new Date(String(v));
@@ -56,16 +68,63 @@ export const adapters = {
     }));
   },
 
-  async lever(board) {
-    const data = await get(`https://api.lever.co/v0/postings/${encodeURIComponent(board)}?mode=json`);
+  async lever(board, host = 'api.lever.co', ats = 'lever') {
+    const data = await get(`https://${host}/v0/postings/${encodeURIComponent(board)}?mode=json`);
     if (!Array.isArray(data)) throw new NotFound(`lever ${board}`);
     return data.map((j) => job({
-      ats: 'lever', board, id: j.id, title: j.text,
+      ats, board, id: j.id, title: j.text,
       location: [j.categories?.location, ...(j.categories?.allLocations || [])].filter(Boolean).join(' / '),
       url: j.hostedUrl, postedAt: j.createdAt,
       remote: j.workplaceType === 'remote',
       description: [j.descriptionPlain, ...(j.lists || []).map((l) => `${l.text}\n${htmlToText(l.content)}`)].filter(Boolean).join('\n'),
     }));
+  },
+
+  async lever_eu(board) {
+    return adapters.lever(board, 'api.eu.lever.co', 'lever_eu');
+  },
+
+  // Workday career sites. board = "<tenant>/<wd-host>/<site>", e.g. "nvidia/wd5/NVIDIAExternalCareerSite".
+  // Big tenants list thousands of jobs, so search for design titles only and read the
+  // location of each hit from its detail page when the list shows "N Locations".
+  async workday(board) {
+    const [tenant, host, site] = board.split('/');
+    const base = `https://${tenant}.${host}.myworkdayjobs.com`;
+    const api = `${base}/wday/cxs/${tenant}/${site}`;
+    const seen = new Map();
+    for (const searchText of ['designer', 'UX']) {
+      for (let offset = 0; offset < 200; offset += 20) {
+        const res = await fetch(`${api}/jobs`, {
+          method: 'POST',
+          headers: { 'user-agent': UA, 'content-type': 'application/json', accept: 'application/json' },
+          body: JSON.stringify({ appliedFacets: {}, limit: 20, offset, searchText }),
+          signal: AbortSignal.timeout(20000),
+        });
+        if (res.status === 404) throw new NotFound(`workday ${board}`);
+        if (!res.ok) throw new Error(`HTTP ${res.status} for workday ${board}`);
+        const data = await res.json();
+        for (const p of data.jobPostings || []) if (p.externalPath) seen.set(p.externalPath, p);
+        if (!data.jobPostings || data.jobPostings.length < 20) break;
+      }
+    }
+    const out = [];
+    for (const [path, p] of seen) {
+      let location = p.locationsText || '';
+      let description = '';
+      if (/^\d+ locations?$/i.test(location) || !location) {
+        try {
+          const det = await get(`${api}${path}`);
+          const info = det.jobPostingInfo || {};
+          location = [info.location, ...(info.additionalLocations || [])].filter(Boolean).join(' / ');
+          description = htmlToText(info.jobDescription);
+        } catch { /* keep the summary location */ }
+      }
+      out.push(job({
+        ats: 'workday', board, id: p.bulletFields?.[0] || path, title: p.title,
+        location, url: `${base}/${site}${path}`, postedAt: postedOnToIso(p.postedOn), description,
+      }));
+    }
+    return out;
   },
 
   async ashby(board) {
