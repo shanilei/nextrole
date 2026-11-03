@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-11-03T14:07:44.153Z",
+  "runAt": "2026-11-03T14:15:17.333Z",
   "companies": [
     {
       "company": "365Scores",
@@ -36,8 +36,11 @@
     },
     {
       "company": "Aitan",
-      "status": "error",
-      "error": "The operation was aborted due to timeout"
+      "status": "ok",
+      "ats": "comeet",
+      "id": "aitan/FA.006",
+      "total": 16,
+      "matches": 1
     },
     {
       "company": "Alice",
@@ -780,7 +783,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "moonactive",
-      "total": 34,
+      "total": 33,
       "matches": 2
     },
     {
@@ -1566,10 +1569,10 @@
     {
       "feed": "google",
       "status": "ok",
-      "total": 10,
-      "matches": 3,
+      "total": 8,
+      "matches": 2,
       "added": 1,
-      "duplicates": 2,
+      "duplicates": 1,
       "notOnCompanyBoard": 0
     }
   ],
@@ -1585,25 +1588,35 @@
       ]
     },
     {
-      "q": "site:linkedin.com/jobs \"UX designer\" Israel",
-      "results": 7,
+      "q": "site:linkedin.com/posts hiring \"product designer\" Israel",
+      "results": 1,
       "links": [
-        "https://il.linkedin.com/jobs/view/product-designer-ux-ui-base44-at-base44-4484448139",
-        "https://es.linkedin.com/jobs/view/senior-product-designer-growth-website-at-jobgether-4480455123",
-        "https://www.linkedin.com/jobs/xerfi-jobs-worldwide?f_C=1211896"
+        "https://weloveproduct.co/product-designer-full-time-jobs-remote-israel"
       ]
     }
   ],
   "newBoards": [],
   "manual": {
     "open": 0,
-    "onBoard": 14,
-    "closed": 9,
+    "onBoard": 0,
+    "closed": 23,
     "unverified": 14
+  },
+  "probe": {
+    "tried": 11,
+    "found": [
+      "Ashley Digital → greenhouse:ashleydigital"
+    ]
+  },
+  "linkCheck": {
+    "checked": 11,
+    "closed": [
+      "Zemingo — Junior Product Designer – Temporary"
+    ]
   },
   "summary": {
     "companies": 194,
-    "boardsOk": 168,
+    "boardsOk": 169,
     "notFound": [
       "90min",
       "Anecdotes",
@@ -1630,20 +1643,31 @@
       "Yad2"
     ],
     "errors": [
-      "Aitan: The operation was aborted due to timeout",
       "Fireblocks: comeet fireblocks/B4.00F: positions data not found on page",
       "Playtika: comeet playtika/01.001: positions data not found on page"
     ],
     "feeds": [
       "secrettlv: ok +4 (dup 9)",
-      "google: ok +1 (dup 2)"
+      "google: ok +1 (dup 1)"
     ],
     "newBoards": [],
     "manual": {
       "open": 0,
-      "onBoard": 14,
-      "closed": 9,
+      "onBoard": 0,
+      "closed": 23,
       "unverified": 14
+    },
+    "probe": {
+      "tried": 11,
+      "found": [
+        "Ashley Digital → greenhouse:ashleydigital"
+      ]
+    },
+    "linkCheck": {
+      "checked": 11,
+      "closed": [
+        "Zemingo — Junior Product Designer – Temporary"
+      ]
     },
     "openJobs": 44,
     "newToday": 0

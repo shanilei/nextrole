@@ -1,3 +1,11 @@
 {
-  "boards": []
+  "boards": [
+    {
+      "name": "Ashley Digital",
+      "ats": "greenhouse",
+      "id": "ashleydigital",
+      "foundAt": "2026-11-03T14:15:17.333Z",
+      "from": "probe"
+    }
+  ]
 }
