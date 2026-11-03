@@ -44,9 +44,9 @@ export async function googleJobs(apiKey, maxSearches = Number(process.env.SERPAP
   for (const q of GOOGLE_QUERIES) {
     let token = null;
     for (let page = 0; page < 3 && used < maxSearches; page++) {
-      // No `location` param: SerpApi wants its own canonical location names there, so the
-      // country goes in the query and gl=il.
-      const params = new URLSearchParams({ engine: 'google_jobs', q: `${q} Israel`, gl: 'il', hl: 'en', api_key: String(apiKey).trim() });
+      // Google Jobs does not accept Israel as a country (gl=il), so the country goes in
+      // the query and results are filtered to Israeli locations afterwards.
+      const params = new URLSearchParams({ engine: 'google_jobs', q: `${q} Israel`, hl: 'en', api_key: String(apiKey).trim() });
       if (token) params.set('next_page_token', token);
       const res = await fetch(`https://serpapi.com/search.json?${params}`, { signal: AbortSignal.timeout(30000) });
       used++;
