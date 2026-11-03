@@ -58,7 +58,12 @@ export function inferCompany(j, boardByTitle, companies) {
   const mentions = (name) => name.length > 2 && new RegExp(`(^|[^A-Za-z0-9])${escapeRe(name)}([^A-Za-z0-9]|$)`).test(head);
   for (const name of boardByTitle.get(titleKey(j.title)) || []) if (mentions(name)) return name;
   const hits = companies.map((c) => c.name).filter(mentions).sort((a, b) => b.length - a.length);
-  return hits[0] || null;
+  if (hits[0]) return hits[0];
+  // A long, specific title held by exactly one board ("Charm Security-Product Designer")
+  // is the same job; short generic ones ("Senior Product Designer") are not.
+  const sameTitle = boardByTitle.get(titleKey(j.title)) || [];
+  if (sameTitle.length === 1 && (j.title || '').length >= 24) return sameTitle[0];
+  return null;
 }
 
 function upsert(byKey, j, extra) {
