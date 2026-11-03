@@ -39,17 +39,18 @@ export async function secretTelAviv() {
 //  1. LinkedIn job pages that Google has indexed (title, company, location, snippet);
 //  2. design roles on Comeet / Greenhouse / Lever / Ashby boards, whose board IDs are
 //     returned so the collector can start checking those companies every day.
-import { boardFromUrl, parseLinkedInTitle } from './discover.mjs';
+import { boardFromUrl, parseLinkedInTitle, companyFromLinkedInUrl } from './discover.mjs';
 
-// Simple queries: Google handles one site: filter and a quoted phrase far better than
-// long OR chains. Ordered so a small budget still covers LinkedIn and board discovery.
+// LinkedIn job pages indexed by Google, past week. (site: filters on Comeet / Greenhouse
+// were ignored by Google in testing, so board discovery comes from LinkedIn and the
+// other feeds instead.) Six queries a day fits the free plan's 250 searches a month.
 export const GOOGLE_QUERIES = [
   { kind: 'linkedin', q: 'site:linkedin.com/jobs "product designer" Israel', tbs: 'qdr:w' },
-  { kind: 'boards', q: 'site:comeet.com/jobs "product designer"', tbs: 'qdr:m' },
-  { kind: 'boards', q: 'site:job-boards.greenhouse.io "product designer" Tel Aviv', tbs: 'qdr:m' },
   { kind: 'linkedin', q: 'site:linkedin.com/jobs "UX designer" Israel', tbs: 'qdr:w' },
-  { kind: 'boards', q: 'site:comeet.com/jobs "UX/UI designer"', tbs: 'qdr:m' },
-  { kind: 'boards', q: 'site:jobs.ashbyhq.com OR site:jobs.lever.co "product designer" Tel Aviv', tbs: 'qdr:m' },
+  { kind: 'linkedin', q: 'site:linkedin.com/jobs "UI/UX designer" OR "UX/UI designer" Israel', tbs: 'qdr:w' },
+  { kind: 'linkedin', q: 'site:linkedin.com/jobs "product designer" "Tel Aviv"', tbs: 'qdr:w' },
+  { kind: 'linkedin', q: 'site:linkedin.com/jobs "junior" designer UX Israel', tbs: 'qdr:w' },
+  { kind: 'linkedin', q: 'site:linkedin.com/jobs "UI designer" Israel', tbs: 'qdr:w' },
 ];
 
 export async function googleSearch(apiKey, maxSearches = Number(process.env.SERPAPI_MAX_SEARCHES || 6)) {
@@ -70,8 +71,9 @@ export async function googleSearch(apiKey, maxSearches = Number(process.env.SERP
       const b = boardFromUrl(r.link);
       if (b) boards.set(`${b.ats}:${b.id}`, { ...b, url: r.link, title: r.title });
       if (kind === 'linkedin' && /linkedin\.com\/jobs\/view/.test(r.link || '')) {
-        const p = parseLinkedInTitle(r.title);
         const url = r.link.split('?')[0];
+        const p = parseLinkedInTitle(r.title);
+        if (!p.company) p.company = companyFromLinkedInUrl(url);
         jobs.push({
           key: `linkedin:${url}`,
           title: p.title, company: p.company, location: p.location || 'Israel',

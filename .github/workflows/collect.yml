@@ -36,8 +36,8 @@ jobs:
         run: npm run collect
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY || secrets.SERP_API }}
-          # SerpApi free plan: 250 searches a month. Daily run uses 6 (~180/month), other runs 3.
-          SERPAPI_MAX_SEARCHES: ${{ github.event_name == 'schedule' && '6' || '3' }}
+          # SerpApi free plan: 250 searches a month. Daily run uses 6 (~180/month), other runs 2.
+          SERPAPI_MAX_SEARCHES: ${{ github.event_name == 'schedule' && '6' || '2' }}
           DEBUG_FEEDS: ${{ github.event_name == 'pull_request' && '1' || '' }}
 
       # On pull requests this is a dry run: results show in the run summary only.

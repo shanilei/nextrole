@@ -32,7 +32,15 @@ export function parseLinkedInTitle(title = '') {
   const t = title.replace(/\s*[|\-–]\s*LinkedIn\s*$/i, '').trim();
   let m = t.match(/^(.+?) hiring (.+?)(?: in (.+))?$/i);
   if (m) return { company: m[1].trim(), title: m[2].trim(), location: (m[3] || '').trim() };
+  m = t.match(/^(.+?)\s+at\s+([^|]+?)$/i);
+  if (m) return { title: m[1].trim(), company: m[2].trim(), location: '' };
   m = t.match(/^(.+?)\s+[-–]\s+(.+?)(?:\s+[-–]\s+(.+))?$/);
   if (m) return { title: m[1].trim(), company: m[2].trim(), location: (m[3] || '').trim() };
   return { title: t, company: '', location: '' };
+}
+
+// linkedin.com/jobs/view/product-designer-ux-ui-at-rakuten-viber-4484448139 -> "Rakuten Viber"
+export function companyFromLinkedInUrl(url = '') {
+  const m = String(url).match(/\/jobs\/view\/[^/?#]*-at-([a-z0-9-]+?)-\d{6,}/i);
+  return m ? m[1].replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()) : '';
 }
