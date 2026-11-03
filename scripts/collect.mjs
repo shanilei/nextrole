@@ -48,6 +48,19 @@ export const companyKey = (s = '') => s.toLowerCase()
 const titleKey = (s = '') => s.toLowerCase().replace(/[^a-z0-9א-ת]/g, '');
 const dupKey = (j) => `${companyKey(j.company)}|${titleKey(j.title)}`;
 
+// Some feeds (Secret Tel Aviv) omit the company. Postings almost always name it near the
+// top of the description, so look for a watched company there: first among companies
+// with a board job of the same title, then among all watched companies.
+const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+export function inferCompany(j, boardByTitle, companies) {
+  const head = (j.description || '').slice(0, 600);
+  // Case-sensitive on purpose: "NICE" and "Via" are companies, "nice" and "via" are words.
+  const mentions = (name) => name.length > 2 && new RegExp(`(^|[^A-Za-z0-9])${escapeRe(name)}([^A-Za-z0-9]|$)`).test(head);
+  for (const name of boardByTitle.get(titleKey(j.title)) || []) if (mentions(name)) return name;
+  const hits = companies.map((c) => c.name).filter(mentions).sort((a, b) => b.length - a.length);
+  return hits[0] || null;
+}
+
 function upsert(byKey, j, extra) {
   const prev = byKey.get(j.key);
   byKey.set(j.key, {
@@ -94,11 +107,18 @@ async function main() {
   });
 
   const boardKeys = new Set();
+  const boardByTitle = new Map(); // titleKey -> [company names], for feeds that omit the company
   for (const { c, entry, jobs, source } of fetched) {
     report.companies.push(entry);
     if (!jobs) continue; // board failed this run: keep its jobs as they were
     const seen = new Set();
-    for (const j of jobs) { seen.add(j.key); boardKeys.add(dupKey({ ...j, company: c.name })); upsert(byKey, j, { company: c.name, source }); }
+    for (const j of jobs) {
+      seen.add(j.key);
+      boardKeys.add(dupKey({ ...j, company: c.name }));
+      const tk = titleKey(j.title);
+      boardByTitle.set(tk, [...(boardByTitle.get(tk) || []), c.name]);
+      upsert(byKey, j, { company: c.name, source });
+    }
     // Jobs from this board that disappeared from it are closed.
     for (const [key, j] of byKey) {
       if (j.source === source && j.status === 'open' && !seen.has(key)) byKey.set(key, { ...j, status: 'closed', closedAt: now });
@@ -122,6 +142,7 @@ async function main() {
       let added = 0, dup = 0;
       const seenDup = new Set();
       for (const j of matches) {
+        if (!j.company) j.company = inferCompany(j, boardByTitle, companies) || '';
         const dk = dupKey(j);
         if (boardKeys.has(dk) || seenDup.has(dk)) { dup++; continue; }
         seenDup.add(dk);
