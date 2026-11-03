@@ -103,5 +103,30 @@
     "ats": "ashby",
     "id": "lumana",
     "detectedAt": "2026-11-03T12:42:26.263Z"
+  },
+  "Atera": {
+    "ats": "smartrecruiters",
+    "id": "atera",
+    "detectedAt": "2026-11-03T13:53:11.288Z"
+  },
+  "Gloat": {
+    "ats": "smartrecruiters",
+    "id": "gloat",
+    "detectedAt": "2026-11-03T13:53:11.288Z"
+  },
+  "Pagaya": {
+    "ats": "greenhouse",
+    "id": "pagaya",
+    "detectedAt": "2026-11-03T13:53:11.288Z"
+  },
+  "Semperis": {
+    "ats": "ashby",
+    "id": "semperis",
+    "detectedAt": "2026-11-03T13:53:11.288Z"
+  },
+  "Zesty": {
+    "ats": "greenhouse",
+    "id": "zestyai",
+    "detectedAt": "2026-11-03T13:53:11.288Z"
   }
 }
