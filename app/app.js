@@ -42,10 +42,11 @@ async function init() {
   const [collected, manual] = await Promise.all([fetchJson('data/jobs.json'), fetchJson('data/manual.json')]);
   const byName = new Map();
   for (const j of collected?.jobs || []) {
-    const rec = { ...j, about: (j.description || '').slice(0, 260), requirements: requirementsFrom(j.description), source: 'auto' };
+    const rec = { ...j, about: (j.description || '').slice(0, 260), requirements: requirementsFrom(j.description), origin: j.source, source: 'auto' };
     byName.set(norm(j.company) + '|' + norm(j.title), rec);
   }
   for (const j of manual?.jobs || []) {
+    if (j.status === 'merged') continue; // the company board's own listing is shown instead
     const k = norm(j.company) + '|' + norm(j.title);
     const auto = byName.get(k);
     if (auto) { auto.about = j.about || auto.about; if (j.requirements?.length) auto.requirements = j.requirements; auto.note = j.note; auto.experience = j.experience; }
@@ -56,6 +57,15 @@ async function init() {
   document.getElementById('updated').textContent =
     `UX ו-Product Design בישראל · עודכן ${updated ? new Date(updated).toLocaleString('he-IL', { day: 'numeric', month: 'numeric', hour: '2-digit', minute: '2-digit' }) : '—'}`;
   render();
+}
+
+// How sure we are that the role is still open.
+function trust(j) {
+  if (j.status === 'closed') return { ok: false, text: 'המשרה ירדה מאתר החברה או לא נראתה כבר שבוע' };
+  const seen = j.lastSeen ? fmtDate(j.lastSeen) : '';
+  if (j.source === 'auto' && !String(j.origin || '').startsWith('feed:')) return { ok: true, text: `✓ נבדק באתר הגיוס של החברה ב-${seen}` };
+  if (j.source === 'auto') return { ok: false, text: `מ-${j.via || 'פיד'} · נראה לאחרונה ב-${seen} · לא מאומת מול אתר החברה, כדאי לבדוק בקישור` };
+  return { ok: false, text: 'נוסף ידנית · אין לחברה אתר גיוס שאנחנו בודקים, כדאי לבדוק בקישור לפני הגשה' };
 }
 
 const isNew = (j) => j.source === 'auto' && j.firstSeen && daysAgo(j.firstSeen) <= NEW_DAYS;
@@ -116,7 +126,8 @@ function card(j) {
       const r = el('div'); r.append(el('p', 'lbl', 'דרישות')); const ul = el('ul', 'req');
       j.requirements.forEach((x) => ul.append(el('li', null, x))); r.append(ul); b.append(r);
     }
-    if (j.note) b.append(el('p', 'text', j.note));
+    b.append(el('p', 'trust' + (trust(j).ok ? ' ok' : ''), trust(j).text));
+    if (j.note && j.source === 'manual') b.append(el('p', 'text', j.note));
     const act = el('div', 'actions');
     const go = el('a', 'go', 'למשרה ↗'); go.href = j.url; go.target = '_blank'; go.rel = 'noopener';
     const sel = el('select'); sel.id = 's-' + j.key; sel.setAttribute('aria-label', 'סטטוס');
