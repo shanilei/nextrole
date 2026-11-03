@@ -74,6 +74,8 @@ export async function googleSearch(apiKey, maxSearches = Number(process.env.SERP
         const url = r.link.split('?')[0];
         const p = parseLinkedInTitle(r.title);
         if (!p.company) p.company = companyFromLinkedInUrl(url);
+        // Skip reposts by aggregators that list other companies' jobs as their own.
+        if (/jobgether|jobs via|recruit(ment|ing) agency/i.test(`${p.company} ${r.title}`)) continue;
         jobs.push({
           key: `linkedin:${url}`,
           title: p.title, company: p.company, location: p.location || 'Israel',
