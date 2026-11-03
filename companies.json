@@ -1,0 +1,316 @@
+{
+  "_comment": "Companies to watch. Give `ats` + `id` when the board is known; otherwise list `candidates` (board-name guesses) and the collector probes every supported ATS for them. Resolved boards are cached in data/boards.json.",
+  "companies": [
+    {
+      "name": "Datarails",
+      "ats": "greenhouse",
+      "id": "datarails"
+    },
+    {
+      "name": "Similarweb",
+      "ats": "greenhouse",
+      "id": "similarweb"
+    },
+    {
+      "name": "Forter",
+      "ats": "greenhouse",
+      "id": "forter"
+    },
+    {
+      "name": "Perion",
+      "ats": "greenhouse",
+      "id": "perionnetworkltd"
+    },
+    {
+      "name": "Unframe",
+      "ats": "greenhouse",
+      "id": "unframe"
+    },
+    {
+      "name": "VAST Data",
+      "ats": "comeet",
+      "id": "vastdata/43.001"
+    },
+    {
+      "name": "Walmart Global Tech Israel",
+      "ats": "comeet",
+      "id": "walmart/35.000"
+    },
+    {
+      "name": "Factify",
+      "ats": "comeet",
+      "id": "factify/A9.00F"
+    },
+    {
+      "name": "Wix",
+      "ats": "smartrecruiters",
+      "id": "Wix2"
+    },
+    {
+      "name": "monday.com",
+      "candidates": [
+        "mondaycom",
+        "monday",
+        "mondaydotcom"
+      ]
+    },
+    {
+      "name": "Fiverr",
+      "candidates": [
+        "fiverr"
+      ]
+    },
+    {
+      "name": "Riskified",
+      "candidates": [
+        "riskified"
+      ]
+    },
+    {
+      "name": "Lemonade",
+      "candidates": [
+        "lemonade",
+        "lemonadeinc"
+      ]
+    },
+    {
+      "name": "Taboola",
+      "candidates": [
+        "taboola"
+      ]
+    },
+    {
+      "name": "Gong",
+      "candidates": [
+        "gong",
+        "gongio"
+      ]
+    },
+    {
+      "name": "Melio",
+      "candidates": [
+        "melio",
+        "meliopayments"
+      ]
+    },
+    {
+      "name": "Axonius",
+      "candidates": [
+        "axonius"
+      ]
+    },
+    {
+      "name": "Wiz",
+      "candidates": [
+        "wizinc",
+        "wiz"
+      ]
+    },
+    {
+      "name": "Cyera",
+      "ats": "comeet",
+      "id": "cyera/17.008"
+    },
+    {
+      "name": "Lightricks",
+      "candidates": [
+        "lightricks"
+      ]
+    },
+    {
+      "name": "Yotpo",
+      "candidates": [
+        "yotpo"
+      ]
+    },
+    {
+      "name": "Riverside",
+      "candidates": [
+        "riverside",
+        "riversidefm"
+      ]
+    },
+    {
+      "name": "Navan",
+      "candidates": [
+        "navan",
+        "tripactions"
+      ]
+    },
+    {
+      "name": "HoneyBook",
+      "candidates": [
+        "honeybook"
+      ]
+    },
+    {
+      "name": "Payoneer",
+      "candidates": [
+        "payoneer"
+      ]
+    },
+    {
+      "name": "AppsFlyer",
+      "candidates": [
+        "appsflyer"
+      ]
+    },
+    {
+      "name": "Artlist",
+      "ats": "comeet",
+      "id": "artlist/85.003"
+    },
+    {
+      "name": "Moon Active",
+      "candidates": [
+        "moonactive"
+      ]
+    },
+    {
+      "name": "Playtika",
+      "candidates": [
+        "playtika"
+      ]
+    },
+    {
+      "name": "Houzz",
+      "candidates": [
+        "houzz"
+      ]
+    },
+    {
+      "name": "Rubrik",
+      "candidates": [
+        "rubrik"
+      ]
+    },
+    {
+      "name": "ODDITY",
+      "candidates": [
+        "oddity",
+        "odditytech"
+      ]
+    },
+    {
+      "name": "Copyleaks",
+      "candidates": [
+        "copyleaks"
+      ]
+    },
+    {
+      "name": "Trullion",
+      "ats": "comeet",
+      "id": "trullion/07.000"
+    },
+    {
+      "name": "WalkMe",
+      "candidates": [
+        "walkme"
+      ]
+    },
+    {
+      "name": "Guardio",
+      "ats": "comeet",
+      "id": "guardio/57.000"
+    },
+    {
+      "name": "Duda",
+      "candidates": [
+        "duda"
+      ]
+    },
+    {
+      "name": "Coralogix",
+      "ats": "comeet",
+      "id": "coralogix/06.004"
+    },
+    {
+      "name": "Apono",
+      "candidates": [
+        "apono"
+      ]
+    },
+    {
+      "name": "Optibus",
+      "candidates": [
+        "optibus"
+      ]
+    },
+    {
+      "name": "Sedric",
+      "ats": "comeet",
+      "id": "sedric/0A.00F"
+    },
+    {
+      "name": "Classiq",
+      "ats": "comeet",
+      "id": "classiq/F7.008"
+    },
+    {
+      "name": "Glassbox",
+      "candidates": [
+        "glassbox"
+      ]
+    },
+    {
+      "name": "Lumana",
+      "candidates": [
+        "lumana"
+      ]
+    },
+    {
+      "name": "SysAid",
+      "candidates": [
+        "sysaid"
+      ]
+    },
+    {
+      "name": "Tailor Brands",
+      "candidates": [
+        "tailorbrands"
+      ]
+    },
+    {
+      "name": "Hibob",
+      "candidates": [
+        "hibob",
+        "bob"
+      ]
+    },
+    {
+      "name": "Papaya Global",
+      "ats": "comeet",
+      "id": "papayaglobal/16.005"
+    },
+    {
+      "name": "Snyk",
+      "candidates": [
+        "snyk"
+      ]
+    },
+    {
+      "name": "Deel",
+      "candidates": [
+        "deel"
+      ]
+    },
+    {
+      "name": "Mixtiles",
+      "candidates": [
+        "mixtiles"
+      ]
+    },
+    {
+      "name": "365Scores",
+      "candidates": [
+        "365scores"
+      ]
+    },
+    {
+      "name": "Yad2",
+      "candidates": [
+        "yad2"
+      ]
+    }
+  ]
+}

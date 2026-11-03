@@ -1,0 +1,12 @@
+{
+  "name": "nextrole",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Daily UX & product design job radar for Israel",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "test": "node --test scripts/lib/*.test.mjs"
+  }
+}
