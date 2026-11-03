@@ -62,7 +62,8 @@ async function main() {
         boards[c.name] = { ats, id, detectedAt: now };
         entry.detected = true;
       }
-      const matches = jobs.filter((j) => isDesignRole(j.title) && (isInIsrael(j.location) || j.remote));
+      // Remote roles count only when the posting names Israel; "Remote - Portugal" does not.
+      const matches = jobs.filter((j) => isDesignRole(j.title) && isInIsrael(j.location));
       Object.assign(entry, { status: 'ok', ats, id, total: jobs.length, matches: matches.length });
       return { c, entry, jobs: matches };
     } catch (e) {
