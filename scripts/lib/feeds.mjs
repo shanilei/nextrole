@@ -41,29 +41,31 @@ export async function secretTelAviv() {
 //     returned so the collector can start checking those companies every day.
 import { boardFromUrl, parseLinkedInTitle } from './discover.mjs';
 
-const DESIGN = '("product designer" OR "ux designer" OR "ui/ux" OR "ux/ui" OR "ui ux" OR "ux ui")';
-// Ordered so that even a small budget covers both LinkedIn and board discovery.
+// Simple queries: Google handles one site: filter and a quoted phrase far better than
+// long OR chains. Ordered so a small budget still covers LinkedIn and board discovery.
 export const GOOGLE_QUERIES = [
-  { kind: 'linkedin', q: `site:linkedin.com/jobs/view ${DESIGN} Israel`, tbs: 'qdr:w' },
-  { kind: 'boards', q: `site:comeet.com/jobs ${DESIGN}`, tbs: 'qdr:m' },
-  { kind: 'boards', q: `(site:job-boards.greenhouse.io OR site:jobs.lever.co OR site:jobs.ashbyhq.com) ${DESIGN} ("Tel Aviv" OR Israel)`, tbs: 'qdr:m' },
-  { kind: 'linkedin', q: `site:linkedin.com/jobs/view ${DESIGN} "Tel Aviv"`, tbs: 'qdr:w' },
-  { kind: 'boards', q: `(site:apply.workable.com OR site:jobs.smartrecruiters.com) ${DESIGN} ("Tel Aviv" OR Israel)`, tbs: 'qdr:m' },
-  { kind: 'linkedin', q: `site:linkedin.com/jobs/view ("מעצב" OR "מעצבת") UX`, tbs: 'qdr:w' },
+  { kind: 'linkedin', q: 'site:linkedin.com/jobs "product designer" Israel', tbs: 'qdr:w' },
+  { kind: 'boards', q: 'site:comeet.com/jobs "product designer"', tbs: 'qdr:m' },
+  { kind: 'boards', q: 'site:job-boards.greenhouse.io "product designer" Tel Aviv', tbs: 'qdr:m' },
+  { kind: 'linkedin', q: 'site:linkedin.com/jobs "UX designer" Israel', tbs: 'qdr:w' },
+  { kind: 'boards', q: 'site:comeet.com/jobs "UX/UI designer"', tbs: 'qdr:m' },
+  { kind: 'boards', q: 'site:jobs.ashbyhq.com OR site:jobs.lever.co "product designer" Tel Aviv', tbs: 'qdr:m' },
 ];
 
 export async function googleSearch(apiKey, maxSearches = Number(process.env.SERPAPI_MAX_SEARCHES || 6)) {
   const jobs = [];
   const boards = new Map();
+  const perQuery = [];
   let used = 0;
   for (const { kind, q, tbs } of GOOGLE_QUERIES) {
     if (used >= maxSearches) break;
-    const params = new URLSearchParams({ engine: 'google', q, tbs, num: '50', hl: 'en', gl: 'il', api_key: String(apiKey).trim() });
+    const params = new URLSearchParams({ engine: 'google', q, tbs, hl: 'en', gl: 'il', api_key: String(apiKey).trim() });
     const res = await fetch(`https://serpapi.com/search.json?${params}`, { signal: AbortSignal.timeout(30000) });
     used++;
     const data = await res.json().catch(() => ({}));
     if (data.error) { if (/hasn't returned any results/i.test(data.error)) continue; throw new Error(`SerpApi: ${data.error}`); }
     if (!res.ok) throw new Error(`SerpApi HTTP ${res.status}`);
+    perQuery.push({ q, results: (data.organic_results || []).length, links: (data.organic_results || []).slice(0, 3).map((r) => r.link) });
     for (const r of data.organic_results || []) {
       const b = boardFromUrl(r.link);
       if (b) boards.set(`${b.ats}:${b.id}`, { ...b, url: r.link, title: r.title });
@@ -78,5 +80,5 @@ export async function googleSearch(apiKey, maxSearches = Number(process.env.SERP
       }
     }
   }
-  return { jobs, boards: [...boards.values()], searches: used };
+  return { jobs, boards: [...boards.values()], searches: used, perQuery };
 }

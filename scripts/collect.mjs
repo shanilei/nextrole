@@ -145,6 +145,8 @@ async function main() {
   if (process.env.SERPAPI_KEY) feeds.push(['google', async () => {
     const r = await googleSearch(process.env.SERPAPI_KEY);
     report.googleSearches = r.searches;
+    report.googleQueries = r.perQuery;
+    console.log('[google]', JSON.stringify(r.perQuery, null, 1));
     const fresh = r.boards.filter((b) => !known.has(`${b.ats}:${String(b.id).toLowerCase()}`));
     for (const b of fresh) {
       known.add(`${b.ats}:${String(b.id).toLowerCase()}`);
