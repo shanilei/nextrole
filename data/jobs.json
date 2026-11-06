@@ -1,6 +1,102 @@
 {
-  "updatedAt": "2026-11-05T13:15:56.238Z",
+  "updatedAt": "2026-11-06T12:59:24.360Z",
   "jobs": [
+    {
+      "key": "comeet:papayagaming/46.00B:68.479",
+      "title": "UI/UX Designer Lead",
+      "location": "Tel-Aviv, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/papayagaming/46.00B/uiux-designer-lead/68.479",
+      "postedAt": "2026-11-06T12:57:47.000Z",
+      "remote": true,
+      "description": "Description\nAbout the company: \n We are a startup team within Papaya , a successful and established gaming company.\n Our unit runs with full startup energy and agility, while benefiting from the stability and resources of Papaya.\n We’re building a new competitive game platform – where games and challenges come together in one engaging experience.\n About the role: \n We are looking for an experienced UI/UX Designer Lead to join us and help shape innovative mobile gaming experiences.\n This is a senior, hands-on individual contributor role for a designer with a strong background in gaming, exceptional UI/UX skills, and the ability to independently own complex product features from concept to launch.\n You will combine creative problem-solving, strong product thinking, and outstanding visual execution to deliver intuitive, engaging, and polished player experiences.\n We're looking for a fast-moving, highly creative designer who is passionate about gaming, embraces AI-powered workflows, and knows how to turn ambitious ideas into exceptional mobile experiences.\nResponsibilities\n• End-to-End Design Ownership: Independently own product features from concept and UX planning through wireframes, high-fidelity UI, interactive prototypes, and development handoff.\n• Gaming UX: Design engaging player experiences around competitive gameplay, progression systems, rewards, monetization, and retention mechanics.\n• UI Design Excellence: Create polished, playful, and visually compelling mobile interfaces with exceptional attention to detail, consistency, and usability.\n• Advanced Figma Workflow: Build and maintain scalable components, interactive prototypes, and structured design files, leveraging Figma's advanced capabilities to improve quality, consistency, and efficiency.\n• AI-Powered Design: Actively integrate AI tools into the design process to accelerate ideation, visual exploration, prototyping, asset creation, and iteration.\n• Product Optimization: Identify UX challenges, propose creative solutions, and continuously improve player experiences based on product insights, feedback, and performance data.\n• Cross-Functional Collaboration: Work closely with Product Managers, Developers, and Designers to translate product requirements into high-quality experiences and ensure precise implementation.\nRequirements\n• 5+ Years of UI/UX Experience: Proven experience designing complex, mobile-first B2C digital products, with strong end-to-end ownership.\n• Gaming Industry Experience – Required: Hands-on experience designing mobile games or gaming platforms, with a solid understanding of player behavior, game mechanics, progression, engagement, and retention.\n• Expert-Level Figma – Required: Exceptional proficiency in Figma, including advanced Auto Layout, components, variants, variables, design systems, interactive prototyping, and developer handoff. Ability to work efficiently with complex design files and scalable component libraries.\n• AI Proficiency – Required: Demonstrated hands-on experience using AI-powered design tools to enhance creativity, accelerate workflows, generate assets, explore concepts, and improve design efficiency. A proactive approach to experimenting with emerging AI technologies.\n• Outstanding UI & UX Skills: A strong portfolio demonstrating excellent visual craftsmanship, intuitive user flows, and polished mobile experiences.\n• Creative Problem Solving: Ability to think outside the box, challenge conventional solutions, and transform complex product challenges into engaging, user-friendly experiences.\n• Speed & Execution: Ability to move quickly, iterate efficiently, and maintain exceptional design quality in a fast-paced product environment.\n• Independent Ownership: Strong ability to manage complex design tasks autonomously, make informed design decisions, and drive features from initial concept through production.\n• Motion Design – A Plus: Experience with After Effects, Rive, Lottie, or other motion and interaction design tools.",
+      "company": "Papaya Gaming",
+      "source": "comeet:papayagaming/46.00B",
+      "level": "Senior+",
+      "minYears": 5,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:artlist/85.003:F5.274",
+      "title": "Product Designer",
+      "location": "TLV, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/artlist/85.003/product-designer/F5.274",
+      "postedAt": "2026-11-06T12:40:55.000Z",
+      "remote": false,
+      "description": "Description\nArtlist is a leading creative technology company on a mission to empower creators and brands to bring their vision to life with video. Offering cutting-edge AI tools and models for image, video, and voiceover creation, alongside high-quality creative assets and powerful editing tools, Artlist enables creators to stay on trend, and achieve their creative goals. Trusted by over 30 million creators worldwide and top brands including Google, Amazon, Microsoft, and Versace, Artlist provides a seamless, subscription-based platform with a global license, giving creators everything they need to produce professional video content efficiently. For more information, visit artlist.io .\n We're looking for a Product Designer to help shape what B2B creative tools look like in the AI era.\n Artlist is an AI-native company - Claude Code, Figma Make, and vibe coding are part of how our product team works every day. We're looking for a designer who works the same way: fluent in AI-powered tools, rigorous about design systems, and experienced designing complex B2B products.\n What you'll do \n • Own product design end-to-end - discovery, flows, prototyping, interaction design, and high-fidelity UI.\n• Use Claude Code, Figma Make, and vibe coding as active parts of your workflow.\n• Build, maintain, and evolve a scalable design system - component architecture, token structure, and documentation.\n• Design AI-powered creative experiences for enterprise teams and professional creators.\n• Shape roadmap decisions alongside product and engineering, and use research and data to validate what we ship.\nRequirements\n• 4+ years designing digital products or creative tools - B2B SaaS experience is an advantage.\n• Hands-on fluency with Claude Code, Figma Make, and vibe coding.\n• Deep design system expertise - component architecture, token structure, documentation, and governance at scale.\n• Strong product thinking with experience designing complex, multi-step workflows.\n• Excellent visual and interaction design craft - clarity, hierarchy, and polish.\n• Experience with AI generation tools (image, video, or content) - an advantage.\n• A portfolio that demonstrates both strong thinking and strong execution.",
+      "company": "Artlist",
+      "source": "comeet:artlist/85.003",
+      "level": "Mid",
+      "minYears": 4,
+      "firstSeen": "2026-11-03T12:42:26.263Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:classiq/F7.008:17.072",
+      "title": "Senior Product Designer",
+      "location": "Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/classiq/F7.008/senior-product-designer/17.072",
+      "postedAt": "2026-11-06T08:57:39.000Z",
+      "remote": true,
+      "description": "Description\nAt Classiq Technologies, we’re shaping the future of quantum computing. \n Our mission is to make quantum computing practical and impactful by bridging the gap between hardware and real-world applications. Our platform enables developers and enterprises to design, optimize, and deploy quantum algorithms at scale, automating complex processes and supporting teams from beginners to experts across diverse architectures. \n Classiq is trusted by Fortune 500 leaders and global governments. We accelerate the quantum era with a platform that transforms bold quantum ideas into working applications. \n We're looking for a Product Designer with exceptional UI skills and a real eye for visual craft to help shape the look and feel of Classiq’s quantum developer platform. This role is for someone who can bring a distinctive visual voice to a deeply technical product. \n You'll own the visual and interaction design of key parts of the platform, working closely with other designers, product managers, and engineers. This is a hands-on, high-impact role with few predefined roadmaps, so we're looking for someone with a strong point of view and the range to define things rather than just execute them. We care about the originality and strength of your work; a standout portfolio is essential. \n What you'll do \n • Design visual language for Classiq's SaaS platform and quantum developer tools, with a strong emphasis on visual quality and polish \n• Design UI and UX for complex, technical workflows \n• Bring illustration and graphic design into the product, from iconography to visual systems that make complex quantum concepts feel intuitive \n• Translate abstract, technical, and quantum ideas into clear and visually compelling experiences \n• Help raise the visual bar and evolve our design language \n• Contribute creatively and strategically in an environment with few predefined roadmaps \n Who you are \n • 5+ Years of product design experience \n• A portfolio that stands out visually, projects showing craft, a strong point of view, and distinctive UI and UX \n• Experience in visually rich domains (game design, data visualizations, developer/design/music tools, or similarly demanding visual work) is an advantage \n• Shipped UI/UX/product work you can point to. Please include links to live projects \n• Proficient in Figma \n• Fluent in English \n• Curiosity about technical, scientific, and complex products: you don't need a quantum background, but you should be genuinely interested in how systems work \n Bonus points \n • Excellent graphic design skills, strong illustration skills are a plus \n• Experience with scientific projects is a plus\nResponsibilities\nnull\nRequirements\nnull",
+      "company": "Classiq",
+      "source": "comeet:classiq/F7.008",
+      "level": "Senior+",
+      "minYears": 5,
+      "firstSeen": "2026-11-03T12:42:26.263Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:trullion/07.000:0D.375",
+      "title": "Product Designer",
+      "location": "Tel Aviv, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/trullion/07.000/product-designer/0D.375",
+      "postedAt": "2026-11-06T00:30:55.000Z",
+      "remote": false,
+      "description": "Description\nTrullion is transforming the accounting world with an AI-powered platform built for accountants and auditors. Our technology automates complex financial workflows, boosts efficiency, reduces costly errors, and fosters real collaboration. Founded in 2019, Trullion is on a mission to make accounting and audit technology people truly love, driving a more efficient, transparent, and human-oriented industry. From rapid onboarding to a seamless managed service model, we deliver a customer-first experience at every step.\n Headquartered in New York, with offices in Tel Aviv and London, we are backed by top investors, including Aleph, Third Point Ventures, Greycroft, StepStone Group, as well as leading global CFOs and accounting firms.\n As Trullion continues to scale, we’re seeking a Product Designer to help define the next generation of AI-powered accounting experiences - someone who thrives on solving complex product challenges, owns end-to-end design and is excited to shape a category-leading product used by finance and audit teams worldwide.\n We're building a platform where AI agents do real accounting and audit work alongside people. We're looking for a Mid-Senior Product Designer who thrives on solving complex product challenges, brings strong visual craft, works fluently inside an established design system and helps it grow.\nResponsibilities\n• Design end-to-end experiences for the Office of the CFO, where finance leaders and teams work with AI and agents on high-stakes workflows. \n• Work on the platform and infrastructure layer: shared experience patterns, frameworks, and foundations that let new capabilities feel like one coherent product, not separate features. \n• Contribute to Trullion’s design system: extend components, tokens, and variables, and keep them consistent and scalable as the product grows. \n• Lead the full design cycle, from research and flows to pixel-perfect UX/UI across all states and scenarios. \n• Raise the visual bar of the product with a modern, refined UI. \n• Collaborate closely with Product and R&D on design consistency and execution quality. \n• Create high-fidelity mockups and prototypes for testing, iteration, and customer validation. \n• Present concepts to stakeholders and advocate for decisions rooted in data, research, and user needs.\nRequirements\n• 4+ years of experience in product design (mid-senior to senior), ideally in a product-led SaaS company. \n• Experience designing for complex B2B SaaS, ideally finance or other data-heavy products. \n• Experience in companies with an established design system. Proven experience contributing to one. \n• Solid knowledge of design tokens and variables: structure, naming, modes/theming, and how they map to code. \n• Strong visual skills and a good understanding of modern UI. \n• Genuine interest in designing for AI agents and in generative UI. \n• Strong portfolio showing flows, systems thinking, and UI execution. \n• Strong communication and stakeholder management skills, and the ability to work independently and collaboratively. \n• Experience prototyping with AI tools. \n• Hands-on experience designing AI, agent-based, or generative UI experiences.\nAbout us\nWe embrace our core values in everything we do: \n • Think BIG. We are ambitious, proactive, and we love challenging the status quo. \n• Live by Truth. We uphold the highest standards of accuracy and accountability. \n• On Your Side. We’re on this journey together, committed to empowering each other to succeed. \n• Committed. To execution, delivery, and excellence.",
+      "company": "Trullion",
+      "source": "comeet:trullion/07.000",
+      "level": "Mid",
+      "minYears": 4,
+      "firstSeen": "2026-11-03T12:42:26.263Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:medison/67.00A:4B.27C",
+      "title": "Senior Product Designer, Business Technology",
+      "location": "Israel, Petah Tikva, IL",
+      "url": "https://www.comeet.com/jobs/medison/67.00A/senior-product-designer-business-technology/4B.27C",
+      "postedAt": "2026-11-05T18:34:15.000Z",
+      "remote": false,
+      "description": "Description\nWe are looking for a Senior Product Designer to join the product team as its sole designer. Development is already underway, with significant parts of the product still to be discovered and shaped. \n You will own the end-to-end UX and UI of the product, working closely with Product, Engineering, business stakeholders, and users to bring clarity to ambiguous problems, uncover requirements, and turn emerging understanding into exceptional product experiences. We need a hands-on product thinker who combines strong UX judgment with excellent visual craft—creating a product that delivers real value, feels effortless to use, and brings thoughtful moments of delight through carefully considered details. \n If you thrive in early-stage environments and want to build something meaningful on a global scale, this role is for you. \n About Medison \n Medison is on a mission to ensure that every patient, regardless of where they live, has the opportunity to benefit from breakthrough therapies. \n We are addressing one of the pharma industry’s most urgent challenges: enabling access to life-changing treatments for patients with severe and rare diseases in international markets where traditional commercialization models fall short. \n As the creator and leader of the global partnership category, we have built a first-of-its-kind unified commercialization platform that enables biotechs to effectively plan, optimize, and launch their therapies on a global scale. \n With a strong leadership team and a proven track record, we are the partner of choice for innovative biotech companies aiming to expand beyond the US, Western Europe and Japan into regions where most of the world’s population resides. Our affiliate-like model seamlessly integrates commercial, medical and operational capabilities across diverse geographies, accelerating access and delivering life-changing treatments to more patients, faster. \n The Impact You’ll Create \n You’ll help build a product that supports our mission to bring life-changing treatments to patients faster and reach the people who need them most. You’ll also be working in a growing, profitable company operating in a stable, resilient industry. This work is fast, creative, challenging, and deeply rewarding.\nResponsibilities\nHere at Medison, you will: \n • Build an innovative platform - a product in a space where no blueprint exists, creating new solutions that make a real difference in people’s lives. \n• Grow as a design leader in a fast-moving environment that trusts you to lead, make decisions, and drive outcomes. \n• Join a team that works as one, with heart, humility, and a fierce sense of purpose. \n What You Will Lead \n • Own the end-to-end UX and UI design of this innovative platform product. \n• Partner with Product Management to define problems, uncover requirements, explore solutions, and shape the product as understanding evolves. \n• Translate user and business needs into user flows, wireframes, prototypes, and production-ready designs. \n• Conduct user interviews and usability testing to clarify needs, test assumptions, and validate decisions. \n• Use prototypes and rapid iteration to explore alternatives and make progress before the full picture is defined. \n• Design clear, intuitive experiences for complex workflows, dashboards, forms, structured information, and administrative tools. \n• Set a high bar for usability, visual quality, and attention to detail—from core workflows to micro-interactions, empty states, loading experiences, and error handling. \n• Create and maintain the design system, components, and interaction patterns. \n• Collaborate closely with engineers throughout development and review the implemented experience. \n• Use research, analytics, and user feedback to improve the product. \n• Present design decisions and build alignment across product, technical, and business stakeholders. \n• Establish effective design practices and standards within the innovative platform team.\nRequirements\nWhat You Bring \n • At least 7 years of hands-on experience designing digital products, preferably complex B2B, SaaS, enterprise, or data-rich products. \n• A strong portfolio demonstrating product thinking, UX problem-solving, and high-quality UI design. \n• Strong skills in information architecture, interaction design, user flows, prototyping, and usability. \n• Excellent visual-design skills and meticulous attention to detail, with evidence of intuitive experiences, polished interfaces, and thoughtful interaction design. \n• Experience taking products or major features from discovery through launch and iteration. \n• Experience shaping products in ambiguous environments, helping uncover requirements and turn incomplete information into clear, testable design directions. \n• Ability to simplify complex workflows while respecting business and technical requirements. \n• Experience creating and maintaining design systems and reusable component libraries. \n• Advanced proficiency with Figma. \n• Practical experience using current AI tools to explore ideas, accelerate prototyping, and improve iteration, paired with strong judgment about the quality of their output. \n• Experience working closely with product managers and engineers in an agile environment. \n• Experience conducting and applying user research and usability testing. \n• Ability to work independently, establish design processes, and operate effectively as the sole designer. \n• Strong communication and stakeholder-management skills. \n• Professional working proficiency in English. \n Preferred Experience \n • Experience designing multi-country or multilingual products. \n• Experience with dashboards, administration interfaces, content-management tools, or workflow-based systems. \n• Familiarity with role-based permissions and experiences that vary by user type or market. \n• Understanding of accessibility and inclusive-design practices. \n• Experience with healthcare, pharmaceuticals, or regulated industries is an advantage but",
+      "company": "Medison Pharma",
+      "source": "comeet:medison/67.00A",
+      "level": "Senior+",
+      "minYears": 7,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:dreamgroup/99.002:F2.D59",
+      "title": "Lead Product Designer",
+      "location": "Tel Aviv, Tel Aviv-Jaffa, IL",
+      "url": "https://www.comeet.com/jobs/dreamgroup/99.002/lead-product-designer/F2.D59",
+      "postedAt": "2026-11-05T18:03:40.000Z",
+      "remote": true,
+      "description": "Description\nEvery nation has data. Few can protect it. Fewer still can act on it.\n Dream is the sovereign AI and national cyber-defense company for governments.\n We help nations secure their most critical systems, connect fragmented information at a national scale, and turn their most sensitive data into decisions, all fully sovereign.\n This is more than a job. It's a Dream job, where you'll work at a global scale alongside some of the best AI researchers, cyber operators, and government experts in the world.\n We defend nations against the most advanced threats in the world with a national security suite that offers AI-native resilience against APTs with visibility, insights and mediation across Posture, CTI, and Detection & Response, all fully sovereign.\nThe Dream Job\nWe’re looking for a Product Design Lead who is passionate about crafting intuitive, conversational, and intelligent user experiences. As our most senior product designer, you’ll set the design vision, raise the bar for the whole team, and stay hands-on- shaping how users interact with AI, balancing the precision of technology with the nuance of human-centered design. This role reports to the Director of Product.\n If your team knows you as the designer who follows best practices but isn’t afraid to break conventions and invent smarter, more intuitive experiences—and who makes everyone around you better- this role is for you.\nThe Dream-Maker Responsibilities\n• Lead the product design vision and strategy, shaping intuitive, user-centered solutions in a data-rich environment. \n• Mentor, coach, and support the product designers on the team, providing regular feedback and guidance on craft, career growth, and day-to-day challenges. \n• Set and uphold the design quality bar through design reviews, critiques, and hands-on guidance across projects. \n• Drive the evolution of our design language to support intelligent systems, including suggestion flows and explainable AI patterns. \n• Translate complex workflows into accessible product experiences, and guide the team in doing the same. \n• Partner with product managers, engineers, analysts, and cyber researchers as design’s senior voice, helping shape roadmap and priorities. \n• Advocate for user trust and transparency in AI design, especially around decision-making, nudges, and personalization. \n• Present your work and the team’s work to senior stakeholders and leadership with clarity, storytelling, and rationale. \n• Own design outcomes from concept through execution to post-launch iteration, planning and prioritizing the team’s work and capacity. \n• Establish and refine design processes, including research, usability testing, and continuous iteration. \n• Own and scale the Design System, and help build a strong design culture. \n• Stay hands-on, personally taking on the most complex and strategic design challenges.\nThe Dream Skill Set\n• 6+ years of experience designing digital products end to end, including experience leading or mentoring designers \n• Proven track record of coaching and growing designers and setting a high bar for design quality \n• Strong portfolio showcasing UX thinking and refined UI execution \n• Proficiency in Figma and a deep grasp of design best practices. \n• Experience building and scaling design systems and component libraries. \n• Experience influencing product strategy and partnering with senior stakeholders, product managers, and engineering leads \n• Strong communication and collaboration skills, including the ability to give clear, constructive feedback \n• A proactive mindset and comfort with ambiguity and fast-paced, iterative work environments. \n• A fascination with how people interact with technology—especially emerging modalities like AI, predictive systems and complex data. \n• Strong storytelling skills—you can break down complex AI functionality into user-first, value-driven narratives. \n• BA/BS in Design, Visual Communication, or a related field. \n• Bonus if you’ve worked on cyber security products\nNever Stop Dreaming...\nIf you think this role doesn't fully match your skills but are eager to grow and break glass ceilings, we’d love to hear from you!\nRequirements\nnull",
+      "company": "Dream",
+      "source": "comeet:dreamgroup/99.002",
+      "level": "Senior+",
+      "minYears": 6,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "status": "open"
+    },
     {
       "key": "linkedin:https://uk.linkedin.com/jobs/view/product-designer-at-rakuten-viber-4487247917",
       "title": "Product Designer",
@@ -18,70 +114,6 @@
       "status": "open"
     },
     {
-      "key": "comeet:artlist/85.003:F5.274",
-      "title": "Product Designer",
-      "location": "TLV, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/artlist/85.003/product-designer/F5.274",
-      "postedAt": "2026-11-05T12:58:44.000Z",
-      "remote": false,
-      "description": "Description\nArtlist is a leading creative technology company on a mission to empower creators and brands to bring their vision to life with video. Offering cutting-edge AI tools and models for image, video, and voiceover creation, alongside high-quality creative assets and powerful editing tools, Artlist enables creators to stay on trend, and achieve their creative goals. Trusted by over 30 million creators worldwide and top brands including Google, Amazon, Microsoft, and Versace, Artlist provides a seamless, subscription-based platform with a global license, giving creators everything they need to produce professional video content efficiently. For more information, visit artlist.io .\n We're looking for a Product Designer to help shape what B2B creative tools look like in the AI era.\n Artlist is an AI-native company - Claude Code, Figma Make, and vibe coding are part of how our product team works every day. We're looking for a designer who works the same way: fluent in AI-powered tools, rigorous about design systems, and experienced designing complex B2B products.\n What you'll do \n • Own product design end-to-end - discovery, flows, prototyping, interaction design, and high-fidelity UI.\n• Use Claude Code, Figma Make, and vibe coding as active parts of your workflow.\n• Build, maintain, and evolve a scalable design system - component architecture, token structure, and documentation.\n• Design AI-powered creative experiences for enterprise teams and professional creators.\n• Shape roadmap decisions alongside product and engineering, and use research and data to validate what we ship.\nRequirements\n• 4+ years designing digital products or creative tools - B2B SaaS experience is an advantage.\n• Hands-on fluency with Claude Code, Figma Make, and vibe coding.\n• Deep design system expertise - component architecture, token structure, documentation, and governance at scale.\n• Strong product thinking with experience designing complex, multi-step workflows.\n• Excellent visual and interaction design craft - clarity, hierarchy, and polish.\n• Experience with AI generation tools (image, video, or content) - an advantage.\n• A portfolio that demonstrates both strong thinking and strong execution.",
-      "company": "Artlist",
-      "source": "comeet:artlist/85.003",
-      "level": "Mid",
-      "minYears": 4,
-      "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:classiq/F7.008:17.072",
-      "title": "Senior Product Designer",
-      "location": "Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/classiq/F7.008/senior-product-designer/17.072",
-      "postedAt": "2026-11-05T08:12:43.000Z",
-      "remote": true,
-      "description": "Description\nAt Classiq Technologies, we’re shaping the future of quantum computing.\n Our mission is to make quantum computing practical and impactful by bridging the gap between hardware and real-world applications. Our platform enables developers and enterprises to design, optimize, and deploy quantum algorithms at scale, automating complex processes and supporting teams from beginners to experts across diverse architectures.\n Classiq is trusted by Fortune 500 leaders and global governments. We accelerate the quantum era with a platform that transforms bold quantum ideas into working applications.\n We're looking for a Product Designer with exceptional UI skills and a real eye for visual craft to help shape the look and feel of Classiq’s quantum developer platform. This role is for someone who can bring a distinctive visual voice to a deeply technical product.\n You'll own the visual and interaction design of key parts of the platform, working closely with other designers, product managers, and engineers. This is a hands-on, high-impact role with few predefined roadmaps, so we're looking for someone with a strong point of view and the range to define things rather than just execute them. We care about the originality and strength of your work; a standout portfolio is essential.\n What you'll do \n • Design visual language for Classiq's SaaS platform and quantum developer tools, with a strong emphasis on visual quality and polish\n• Design UI and UX for complex, technical workflows\n• Bring illustration and graphic design into the product, from iconography to visual systems that make complex quantum concepts feel intuitive\n• Translate abstract, technical, and quantum ideas into clear and visually compelling experiences\n• Help raise the visual bar and evolve our design language\n• Contribute creatively and strategically in an environment with few predefined roadmaps\n Who you are \n • 5+ Years of product design experience\n• A portfolio that stands out visually, projects showing craft, a strong point of view, and distinctive UI and UX\n• Experience in visually rich domains (game design, data visualizations, developer/design/music tools, or similarly demanding visual work) is an advantage\n• Shipped UI/UX/product work you can point to. Please include links to live projects\n• Proficient in Figma\n• Fluent in English\n• Curiosity about technical, scientific, and complex products: you don't need a quantum background, but you should be genuinely interested in how systems work\n Bonus points \n • Excellent graphic design skills, strong illustration skills are a plus\n• Experience with scientific projects is a plus\nResponsibilities\nnull\nRequirements\nnull",
-      "company": "Classiq",
-      "source": "comeet:classiq/F7.008",
-      "level": "Senior+",
-      "minYears": 5,
-      "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:dreamgroup/99.002:F2.D59",
-      "title": "Lead Product Designer",
-      "location": "Tel Aviv, Tel Aviv-Jaffa, IL",
-      "url": "https://www.comeet.com/jobs/dreamgroup/99.002/lead-product-designer/F2.D59",
-      "postedAt": "2026-11-04T23:40:09.000Z",
-      "remote": true,
-      "description": "Description\nEvery nation has data. Few can protect it. Fewer still can act on it.\n Dream is the sovereign AI and national cyber-defense company for governments.\n We help nations secure their most critical systems, connect fragmented information at a national scale, and turn their most sensitive data into decisions, all fully sovereign.\n This is more than a job. It's a Dream job, where you'll work at a global scale alongside some of the best AI researchers, cyber operators, and government experts in the world.\n We defend nations against the most advanced threats in the world with a national security suite that offers AI-native resilience against APTs with visibility, insights and mediation across Posture, CTI, and Detection & Response, all fully sovereign.\nThe Dream Job\nWe’re looking for a Product Design Lead who is passionate about crafting intuitive, conversational, and intelligent user experiences. As our most senior product designer, you’ll set the design vision, raise the bar for the whole team, and stay hands-on- shaping how users interact with AI, balancing the precision of technology with the nuance of human-centered design. This role reports to the Director of Product.\n If your team knows you as the designer who follows best practices but isn’t afraid to break conventions and invent smarter, more intuitive experiences—and who makes everyone around you better- this role is for you.\nThe Dream-Maker Responsibilities\n• Lead the product design vision and strategy, shaping intuitive, user-centered solutions in a data-rich environment. \n• Mentor, coach, and support the product designers on the team, providing regular feedback and guidance on craft, career growth, and day-to-day challenges. \n• Set and uphold the design quality bar through design reviews, critiques, and hands-on guidance across projects. \n• Drive the evolution of our design language to support intelligent systems, including suggestion flows and explainable AI patterns. \n• Translate complex workflows into accessible product experiences, and guide the team in doing the same. \n• Partner with product managers, engineers, analysts, and cyber researchers as design’s senior voice, helping shape roadmap and priorities. \n• Advocate for user trust and transparency in AI design, especially around decision-making, nudges, and personalization. \n• Present your work and the team’s work to senior stakeholders and leadership with clarity, storytelling, and rationale. \n• Own design outcomes from concept through execution to post-launch iteration, planning and prioritizing the team’s work and capacity. \n• Establish and refine design processes, including research, usability testing, and continuous iteration. \n• Own and scale the Design System, and help build a strong design culture. \n• Stay hands-on, personally taking on the most complex and strategic design challenges.\nThe Dream Skill Set\n• 6+ years of experience designing digital products end to end, including experience leading or mentoring designers \n• Proven track record of coaching and growing designers and setting a high bar for design quality \n• Strong portfolio showcasing UX thinking and refined UI execution \n• Proficiency in Figma and a deep grasp of design best practices. \n• Experience building and scaling design systems and component libraries. \n• Experience influencing product strategy and partnering with senior stakeholders, product managers, and engineering leads \n• Strong communication and collaboration skills, including the ability to give clear, constructive feedback \n• A proactive mindset and comfort with ambiguity and fast-paced, iterative work environments. \n• A fascination with how people interact with technology—especially emerging modalities like AI, predictive systems and complex data. \n• Strong storytelling skills—you can break down complex AI functionality into user-first, value-driven narratives. \n• BA/BS in Design, Visual Communication, or a related field. \n• Bonus if you’ve worked on cyber security products\nNever Stop Dreaming...\nIf you think this role doesn't fully match your skills but are eager to grow and break glass ceilings, we’d love to hear from you!\nRequirements\nnull",
-      "company": "Dream",
-      "source": "comeet:dreamgroup/99.002",
-      "level": "Senior+",
-      "minYears": 6,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:optibus/D1.00C:2F.278",
-      "title": "Senior Product Designer",
-      "location": "Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/optibus/D1.00C/senior-product-designer/2F.278",
-      "postedAt": "2026-11-04T19:51:49.000Z",
-      "remote": true,
-      "description": "Description\nWe are looking for a Senior Product Designer who designs products and builds the tools that change how design gets done. \n This role has two halves. You will own the design of a core area of the Optibus platform, end to end, at the same craft bar as everyone else on the team. Alongside that, you will build the agents, skills and internal tools that reshape how our whole design team works., and prove them on your own product area first. \n We think these belong together. Someone rebuilding the workflow should be living inside it every day, so what they build survives contact with real product work. If you have been quietly automating your own design process and wishing it were your actual job, this is that job. \n We already have an AI agent in the product. It works, it is early, and it is nowhere near what it should be. How far it goes, and what it grows into, is genuinely open. The designer who understands agents best will have a real voice in answering that. \n This is an individual contributor role. You will mentor, and you will change how the team works, but you will not manage people. \n Key Responsibilities: \n • Own a core product area: Take full design ownership of a significant surface, from discovery through shipped experience and beyond launch, working directly with product and engineering. \n• Build the agentic design toolchain: Create and maintain the skills, agents and commands the design team uses day to day, covering the path from ticket to reviewable prototype. \n• Prototype in working code: Move from problem statement to a clickable, testable artifact quickly by orchestrating agents to do the building while you review, steer and cut. \n• Orchestrate agents through a product cycle: Decide what gets delegated, what stays human, and where the human gate sits, then write it down so others can repeat it. \n• Make new ways of working stick: Run the rituals that turn tools into habits. Prototyping sprints, office hours, pairing, internal demos, and the documentation behind them. Retire what does not earn its place. \n• Keep us honest about quality: Define how we know an agent output is good, build lightweight checks for what you ship, and tell us plainly when the agentic path is worse than the manual one. \n As a core team member, you will: \n • User-Centric Design: Deeply understand and address the needs and pain points of Optibus users \n• Ship real product on your area, not only tooling and experiments \n• Collaborate with product managers and engineers to make sure designs are feasible and meet the needs of all stakeholders \n• Help other designers adopt new ways of working, through pairing, demos and documentation \n• Tackle design challenges with creativity and a solutions-oriented mindset\nRequirements\n• 6+ years of experience designing a complex system or platform. \n• Strong portfolio: A comprehensive portfolio showing your design process, problem-solving skills, and the impact of your work. (Must include link to portfolio) \n• We are looking for someone who has demonstrated leadership in transforming how design teams work \n• Enough comfort with code to steer and correct what agents produce. HTML, CSS, JavaScript or TypeScript. You do not need to be an engineer. \n• Excellent communication and writing. Prompts, specs and documentation are a big part of the interface of this job. \n• (Bonus) Workflow orchestration experience: n8n, MCP servers, scripting, CI. \n• (Bonus) Experience designing AI or agentic product experiences. \n• (Bonus) Public work: a repo, a plugin, a set of skills, or a written point of view on agentic design. \n What We Offer: \n • Opportunity to work on challenging and meaningful projects that drive real impact on the world. \n• Collaborative and supportive team environment. \n• Competitive salary and benefits package. \n• Flexible working arrangements. \n About Optibus: \n Optibus is a unified software platform revolutionizing public transportation planning, scheduling, and operations in over 8,000 cities worldwide. Using AI, ML, and optimization algorithms, it empowers agencies to design more efficient, equitable, and sustainable transit networks, enhancing passenger access, reducing emissions, and improving driver conditions. With offices globally and a team of 350+ employees, Optibus fosters a collaborative culture centered on innovation, determination, and impact. As the first unicorn in public transportation technology, Optibus is driving the modernization of mass transit to make it the preferred choice for cities and passengers alike. \n Why Join Optibus? \n • Be part of a company revolutionizing public transportation with cutting-edge technology. \n• Collaborate with global teams passionate about sustainability and innovation. \n• Enjoy a dynamic and inclusive workplace culture that values growth and creativity. \n• We offer a hybrid work environment, with employees expected to be in the office 3 days a week. The remaining days can be worked remotely to support work-life balance and flexibility. \n ﻿Optibus is proud to be an equal opportunity employer. We hire talented individuals, regardless of gender, race, ethnicity, ancestry, age, disability, sexual orientation, gender identity or expression, cultural background, religious beliefs, or any other characteristic protected by federal, state, or local laws. It is our responsibility at Optibus to provide an inclusive and accessible interview experience for all. We will provide reasonable accommodations for all candidates in need of individualised support during the hiring process.",
-      "company": "Optibus",
-      "source": "comeet:optibus/D1.00C",
-      "level": "Senior+",
-      "minYears": 6,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
-      "status": "open"
-    },
-    {
       "key": "comeet:coralogix/06.004:3B.27F",
       "title": "Senior Product Designer",
       "location": "Ramat Gan, Israel, Ramat Gan, IL",
@@ -94,7 +126,7 @@
       "level": "Senior+",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -110,7 +142,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -126,7 +158,7 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-04T13:02:17.859Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -146,22 +178,6 @@
       "status": "open"
     },
     {
-      "key": "comeet:medison/67.00A:4B.27C",
-      "title": "Senior Product Designer, Business Technology",
-      "location": "Israel, Petah Tikva, IL",
-      "url": "https://www.comeet.com/jobs/medison/67.00A/senior-product-designer-business-technology/4B.27C",
-      "postedAt": "2026-11-04T12:38:27.000Z",
-      "remote": false,
-      "description": "Description\nWe are looking for a Senior Product Designer to join the product team as its sole designer. Development is already underway, with significant parts of the product still to be discovered and shaped. \n You will own the end-to-end UX and UI of the product, working closely with Product, Engineering, business stakeholders, and users to bring clarity to ambiguous problems, uncover requirements, and turn emerging understanding into exceptional product experiences. We need a hands-on product thinker who combines strong UX judgment with excellent visual craft—creating a product that delivers real value, feels effortless to use, and brings thoughtful moments of delight through carefully considered details. \n If you thrive in early-stage environments and want to build something meaningful on a global scale, this role is for you. \n About Medison \n Medison is on a mission to ensure that every patient, regardless of where they live, has the opportunity to benefit from breakthrough therapies. \n We are addressing one of the pharma industry’s most urgent challenges: enabling access to life-changing treatments for patients with severe and rare diseases in international markets where traditional commercialization models fall short. \n As the creator and leader of the global partnership category, we have built a first-of-its-kind unified commercialization platform that enables biotechs to effectively plan, optimize, and launch their therapies on a global scale. \n With a strong leadership team and a proven track record, we are the partner of choice for innovative biotech companies aiming to expand beyond the US, Western Europe and Japan into regions where most of the world’s population resides. Our affiliate-like model seamlessly integrates commercial, medical and operational capabilities across diverse geographies, accelerating access and delivering life-changing treatments to more patients, faster. \n The Impact You’ll Create \n You’ll help build a product that supports our mission to bring life-changing treatments to patients faster and reach the people who need them most. You’ll also be working in a growing, profitable company operating in a stable, resilient industry. This work is fast, creative, challenging, and deeply rewarding.\nResponsibilities\nHere at Medison, you will: \n • Build an innovative platform - a product in a space where no blueprint exists, creating new solutions that make a real difference in people’s lives. \n• Grow as a design leader in a fast-moving environment that trusts you to lead, make decisions, and drive outcomes. \n• Join a team that works as one, with heart, humility, and a fierce sense of purpose. \n What You Will Lead \n • Own the end-to-end UX and UI design of this innovative platform product. \n• Partner with Product Management to define problems, uncover requirements, explore solutions, and shape the product as understanding evolves. \n• Translate user and business needs into user flows, wireframes, prototypes, and production-ready designs. \n• Conduct user interviews and usability testing to clarify needs, test assumptions, and validate decisions. \n• Use prototypes and rapid iteration to explore alternatives and make progress before the full picture is defined. \n• Design clear, intuitive experiences for complex workflows, dashboards, forms, structured information, and administrative tools. \n• Set a high bar for usability, visual quality, and attention to detail—from core workflows to micro-interactions, empty states, loading experiences, and error handling. \n• Create and maintain the design system, components, and interaction patterns. \n• Collaborate closely with engineers throughout development and review the implemented experience. \n• Use research, analytics, and user feedback to improve the product. \n• Present design decisions and build alignment across product, technical, and business stakeholders. \n• Establish effective design practices and standards within the innovative platform team.\nRequirements\nWhat You Bring \n • At least 7 years of hands-on experience designing digital products, preferably complex B2B, SaaS, enterprise, or data-rich products. \n• A strong portfolio demonstrating product thinking, UX problem-solving, and high-quality UI design. \n• Strong skills in information architecture, interaction design, user flows, prototyping, and usability. \n• Excellent visual-design skills and meticulous attention to detail, with evidence of intuitive experiences, polished interfaces, and thoughtful interaction design. \n• Experience taking products or major features from discovery through launch and iteration. \n• Experience shaping products in ambiguous environments, helping uncover requirements and turn incomplete information into clear, testable design directions. \n• Ability to simplify complex workflows while respecting business and technical requirements. \n• Experience creating and maintaining design systems and reusable component libraries. \n• Advanced proficiency with Figma. \n• Practical experience using current AI tools to explore ideas, accelerate prototyping, and improve iteration, paired with strong judgment about the quality of their output. \n• Experience working closely with product managers and engineers in an agile environment. \n• Experience conducting and applying user research and usability testing. \n• Ability to work independently, establish design processes, and operate effectively as the sole designer. \n• Strong communication and stakeholder-management skills. \n• Professional working proficiency in English. \n Preferred Experience \n • Experience designing multi-country or multilingual products. \n• Experience with dashboards, administration interfaces, content-management tools, or workflow-based systems. \n• Familiarity with role-based permissions and experiences that vary by user type or market. \n• Understanding of accessibility and inclusive-design practices. \n• Experience with healthcare, pharmaceuticals, or regulated industries is an advantage but",
-      "company": "Medison Pharma",
-      "source": "comeet:medison/67.00A",
-      "level": "Senior+",
-      "minYears": 7,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
-      "status": "open"
-    },
-    {
       "key": "comeet:integritylabs/43.009:E1.375",
       "title": "Senior UI/UX Designer – R&D",
       "location": "Tel Aviv, Tel Aviv, IL",
@@ -174,7 +190,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -190,7 +206,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -222,7 +238,7 @@
       "level": "Senior+",
       "minYears": 4,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -238,23 +254,7 @@
       "level": "Junior",
       "minYears": 1,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:trullion/07.000:0D.375",
-      "title": "Product Designer",
-      "location": "Tel Aviv, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/trullion/07.000/product-designer/0D.375",
-      "postedAt": "2026-11-01T12:22:16.000Z",
-      "remote": false,
-      "description": "Description\nTrullion is transforming the accounting world with an AI-powered platform built for accountants and auditors. Our technology automates complex financial workflows, boosts efficiency, reduces costly errors, and fosters real collaboration. Founded in 2019, Trullion is on a mission to make accounting and audit technology people truly love, driving a more efficient, transparent, and human-oriented industry. From rapid onboarding to a seamless managed service model, we deliver a customer-first experience at every step.\n Headquartered in New York, with offices in Tel Aviv and London, we are backed by top investors, including Aleph, Third Point Ventures, Greycroft, StepStone Group, as well as leading global CFOs and accounting firms.\n As Trullion continues to scale, we’re seeking a Product Designer to help define the next generation of AI-powered accounting experiences - someone who thrives on solving complex product challenges, owns end-to-end design and is excited to shape a category-leading product used by finance and audit teams worldwide.\n We're building a platform where AI agents do real accounting and audit work alongside people. We're looking for a Mid-Senior Product Designer who thrives on solving complex product challenges, brings strong visual craft, works fluently inside an established design system and helps it grow.\nResponsibilities\n• Design end-to-end experiences for the Office of the CFO, where finance leaders and teams work with AI and agents on high-stakes workflows. \n• Work on the platform and infrastructure layer: shared experience patterns, frameworks, and foundations that let new capabilities feel like one coherent product, not separate features. \n• Contribute to Trullion’s design system: extend components, tokens, and variables, and keep them consistent and scalable as the product grows. \n• Lead the full design cycle, from research and flows to pixel-perfect UX/UI across all states and scenarios. \n• Raise the visual bar of the product with a modern, refined UI. \n• Collaborate closely with Product and R&D on design consistency and execution quality. \n• Create high-fidelity mockups and prototypes for testing, iteration, and customer validation. \n• Present concepts to stakeholders and advocate for decisions rooted in data, research, and user needs.\nRequirements\n• 4+ years of experience in product design (mid-senior to senior), ideally in a product-led SaaS company. \n• Experience designing for complex B2B SaaS, ideally finance or other data-heavy products. \n• Experience in companies with an established design system. Proven experience contributing to one. \n• Solid knowledge of design tokens and variables: structure, naming, modes/theming, and how they map to code. \n• Strong visual skills and a good understanding of modern UI. \n• Genuine interest in designing for AI agents and in generative UI. \n• Strong portfolio showing flows, systems thinking, and UI execution. \n• Strong communication and stakeholder management skills, and the ability to work independently and collaboratively. \n• Experience prototyping with AI tools. \n• Hands-on experience designing AI, agent-based, or generative UI experiences.\nAbout us\nWe embrace our core values in everything we do: \n • Think BIG. We are ambitious, proactive, and we love challenging the status quo. \n• Live by Truth. We uphold the highest standards of accuracy and accountability. \n• On Your Side. We’re on this journey together, committed to empowering each other to succeed. \n• Committed. To execution, delivery, and excellence.",
-      "company": "Trullion",
-      "source": "comeet:trullion/07.000",
-      "level": "Mid",
-      "minYears": 4,
-      "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -270,23 +270,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:papayagaming/46.00B:68.479",
-      "title": "UI/UX Designer Lead",
-      "location": "Tel-Aviv, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/papayagaming/46.00B/uiux-designer-lead/68.479",
-      "postedAt": "2026-11-01T09:53:44.000Z",
-      "remote": true,
-      "description": "Description\nAbout the company: \n We are a startup team within Papaya , a successful and established gaming company.\n Our unit runs with full startup energy and agility, while benefiting from the stability and resources of Papaya.\n We’re building a new competitive game platform – where games and challenges come together in one engaging experience.\n About the role: \n We are looking for an experienced UI/UX Designer Lead to join us and help shape innovative mobile gaming experiences.\n This is a senior, hands-on individual contributor role for a designer with a strong background in gaming, exceptional UI/UX skills, and the ability to independently own complex product features from concept to launch.\n You will combine creative problem-solving, strong product thinking, and outstanding visual execution to deliver intuitive, engaging, and polished player experiences.\n We're looking for a fast-moving, highly creative designer who is passionate about gaming, embraces AI-powered workflows, and knows how to turn ambitious ideas into exceptional mobile experiences.\nResponsibilities\n• End-to-End Design Ownership: Independently own product features from concept and UX planning through wireframes, high-fidelity UI, interactive prototypes, and development handoff.\n• Gaming UX: Design engaging player experiences around competitive gameplay, progression systems, rewards, monetization, and retention mechanics.\n• UI Design Excellence: Create polished, playful, and visually compelling mobile interfaces with exceptional attention to detail, consistency, and usability.\n• Advanced Figma Workflow: Build and maintain scalable components, interactive prototypes, and structured design files, leveraging Figma's advanced capabilities to improve quality, consistency, and efficiency.\n• AI-Powered Design: Actively integrate AI tools into the design process to accelerate ideation, visual exploration, prototyping, asset creation, and iteration.\n• Product Optimization: Identify UX challenges, propose creative solutions, and continuously improve player experiences based on product insights, feedback, and performance data.\n• Cross-Functional Collaboration: Work closely with Product Managers, Developers, and Designers to translate product requirements into high-quality experiences and ensure precise implementation.\nRequirements\n• 5+ Years of UI/UX Experience: Proven experience designing complex, mobile-first B2C digital products, with strong end-to-end ownership.\n• Gaming Industry Experience – Required: Hands-on experience designing mobile games or gaming platforms, with a solid understanding of player behavior, game mechanics, progression, engagement, and retention.\n• Expert-Level Figma – Required: Exceptional proficiency in Figma, including advanced Auto Layout, components, variants, variables, design systems, interactive prototyping, and developer handoff. Ability to work efficiently with complex design files and scalable component libraries.\n• AI Proficiency – Required: Demonstrated hands-on experience using AI-powered design tools to enhance creativity, accelerate workflows, generate assets, explore concepts, and improve design efficiency. A proactive approach to experimenting with emerging AI technologies.\n• Outstanding UI & UX Skills: A strong portfolio demonstrating excellent visual craftsmanship, intuitive user flows, and polished mobile experiences.\n• Creative Problem Solving: Ability to think outside the box, challenge conventional solutions, and transform complex product challenges into engaging, user-friendly experiences.\n• Speed & Execution: Ability to move quickly, iterate efficiently, and maintain exceptional design quality in a fast-paced product environment.\n• Independent Ownership: Strong ability to manage complex design tasks autonomously, make informed design decisions, and drive features from initial concept through production.\n• Motion Design – A Plus: Experience with After Effects, Rive, Lottie, or other motion and interaction design tools.",
-      "company": "Papaya Gaming",
-      "source": "comeet:papayagaming/46.00B",
-      "level": "Senior+",
-      "minYears": 5,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -302,7 +286,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -318,7 +302,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -334,7 +318,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -350,7 +334,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -366,7 +350,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -382,9 +366,9 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-05T13:15:56.238Z"
+      "linkCheckedAt": "2026-11-06T12:59:24.360Z"
     },
     {
       "key": "smartrecruiters:Wix2:744000154874429",
@@ -399,7 +383,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -415,7 +399,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -431,7 +415,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -447,7 +431,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -463,7 +447,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -479,7 +463,7 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -495,9 +479,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-05T13:15:56.238Z"
+      "linkCheckedAt": "2026-11-06T12:59:24.360Z"
     },
     {
       "key": "ashby:lemonade:663819c6-426c-49d6-8c0c-1fe938ffb440",
@@ -512,7 +496,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -528,7 +512,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -544,7 +528,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-04T13:02:17.859Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -560,7 +544,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -576,7 +560,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -592,7 +576,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -608,7 +592,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -624,7 +608,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -640,9 +624,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-05T13:15:56.238Z"
+      "linkCheckedAt": "2026-11-06T12:59:24.360Z"
     },
     {
       "key": "greenhouse:scaleops:4921333101",
@@ -657,7 +641,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -673,7 +657,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -689,7 +673,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
     },
     {
@@ -705,9 +689,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-05T13:15:56.238Z"
+      "linkCheckedAt": "2026-11-06T12:59:24.360Z"
     },
     {
       "key": "greenhouse:wizinc:4599708006",
@@ -722,8 +706,25 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-06T12:59:24.360Z",
       "status": "open"
+    },
+    {
+      "key": "comeet:optibus/D1.00C:2F.278",
+      "title": "Senior Product Designer",
+      "location": "Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/optibus/D1.00C/senior-product-designer/2F.278",
+      "postedAt": "2026-11-04T19:51:49.000Z",
+      "remote": true,
+      "description": "Description\nWe are looking for a Senior Product Designer who designs products and builds the tools that change how design gets done. \n This role has two halves. You will own the design of a core area of the Optibus platform, end to end, at the same craft bar as everyone else on the team. Alongside that, you will build the agents, skills and internal tools that reshape how our whole design team works., and prove them on your own product area first. \n We think these belong together. Someone rebuilding the workflow should be living inside it every day, so what they build survives contact with real product work. If you have been quietly automating your own design process and wishing it were your actual job, this is that job. \n We already have an AI agent in the product. It works, it is early, and it is nowhere near what it should be. How far it goes, and what it grows into, is genuinely open. The designer who understands agents best will have a real voice in answering that. \n This is an individual contributor role. You will mentor, and you will change how the team works, but you will not manage people. \n Key Responsibilities: \n • Own a core product area: Take full design ownership of a significant surface, from discovery through shipped experience and beyond launch, working directly with product and engineering. \n• Build the agentic design toolchain: Create and maintain the skills, agents and commands the design team uses day to day, covering the path from ticket to reviewable prototype. \n• Prototype in working code: Move from problem statement to a clickable, testable artifact quickly by orchestrating agents to do the building while you review, steer and cut. \n• Orchestrate agents through a product cycle: Decide what gets delegated, what stays human, and where the human gate sits, then write it down so others can repeat it. \n• Make new ways of working stick: Run the rituals that turn tools into habits. Prototyping sprints, office hours, pairing, internal demos, and the documentation behind them. Retire what does not earn its place. \n• Keep us honest about quality: Define how we know an agent output is good, build lightweight checks for what you ship, and tell us plainly when the agentic path is worse than the manual one. \n As a core team member, you will: \n • User-Centric Design: Deeply understand and address the needs and pain points of Optibus users \n• Ship real product on your area, not only tooling and experiments \n• Collaborate with product managers and engineers to make sure designs are feasible and meet the needs of all stakeholders \n• Help other designers adopt new ways of working, through pairing, demos and documentation \n• Tackle design challenges with creativity and a solutions-oriented mindset\nRequirements\n• 6+ years of experience designing a complex system or platform. \n• Strong portfolio: A comprehensive portfolio showing your design process, problem-solving skills, and the impact of your work. (Must include link to portfolio) \n• We are looking for someone who has demonstrated leadership in transforming how design teams work \n• Enough comfort with code to steer and correct what agents produce. HTML, CSS, JavaScript or TypeScript. You do not need to be an engineer. \n• Excellent communication and writing. Prompts, specs and documentation are a big part of the interface of this job. \n• (Bonus) Workflow orchestration experience: n8n, MCP servers, scripting, CI. \n• (Bonus) Experience designing AI or agentic product experiences. \n• (Bonus) Public work: a repo, a plugin, a set of skills, or a written point of view on agentic design. \n What We Offer: \n • Opportunity to work on challenging and meaningful projects that drive real impact on the world. \n• Collaborative and supportive team environment. \n• Competitive salary and benefits package. \n• Flexible working arrangements. \n About Optibus: \n Optibus is a unified software platform revolutionizing public transportation planning, scheduling, and operations in over 8,000 cities worldwide. Using AI, ML, and optimization algorithms, it empowers agencies to design more efficient, equitable, and sustainable transit networks, enhancing passenger access, reducing emissions, and improving driver conditions. With offices globally and a team of 350+ employees, Optibus fosters a collaborative culture centered on innovation, determination, and impact. As the first unicorn in public transportation technology, Optibus is driving the modernization of mass transit to make it the preferred choice for cities and passengers alike. \n Why Join Optibus? \n • Be part of a company revolutionizing public transportation with cutting-edge technology. \n• Collaborate with global teams passionate about sustainability and innovation. \n• Enjoy a dynamic and inclusive workplace culture that values growth and creativity. \n• We offer a hybrid work environment, with employees expected to be in the office 3 days a week. The remaining days can be worked remotely to support work-life balance and flexibility. \n ﻿Optibus is proud to be an equal opportunity employer. We hire talented individuals, regardless of gender, race, ethnicity, ancestry, age, disability, sexual orientation, gender identity or expression, cultural background, religious beliefs, or any other characteristic protected by federal, state, or local laws. It is our responsibility at Optibus to provide an inclusive and accessible interview experience for all. We will provide reasonable accommodations for all candidates in need of individualised support during the hiring process.",
+      "company": "Optibus",
+      "source": "comeet:optibus/D1.00C",
+      "level": "Senior+",
+      "minYears": 6,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "status": "closed",
+      "closedAt": "2026-11-06T12:59:24.360Z"
     },
     {
       "key": "comeet:upwind/49.004:EB.37D",
