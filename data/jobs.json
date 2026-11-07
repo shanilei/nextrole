@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-11-06T12:59:24.360Z",
+  "updatedAt": "2026-11-07T11:46:14.512Z",
   "jobs": [
     {
-      "key": "comeet:papayagaming/46.00B:68.479",
-      "title": "UI/UX Designer Lead",
-      "location": "Tel-Aviv, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/papayagaming/46.00B/uiux-designer-lead/68.479",
-      "postedAt": "2026-11-06T12:57:47.000Z",
-      "remote": true,
-      "description": "Description\nAbout the company: \n We are a startup team within Papaya , a successful and established gaming company.\n Our unit runs with full startup energy and agility, while benefiting from the stability and resources of Papaya.\n We’re building a new competitive game platform – where games and challenges come together in one engaging experience.\n About the role: \n We are looking for an experienced UI/UX Designer Lead to join us and help shape innovative mobile gaming experiences.\n This is a senior, hands-on individual contributor role for a designer with a strong background in gaming, exceptional UI/UX skills, and the ability to independently own complex product features from concept to launch.\n You will combine creative problem-solving, strong product thinking, and outstanding visual execution to deliver intuitive, engaging, and polished player experiences.\n We're looking for a fast-moving, highly creative designer who is passionate about gaming, embraces AI-powered workflows, and knows how to turn ambitious ideas into exceptional mobile experiences.\nResponsibilities\n• End-to-End Design Ownership: Independently own product features from concept and UX planning through wireframes, high-fidelity UI, interactive prototypes, and development handoff.\n• Gaming UX: Design engaging player experiences around competitive gameplay, progression systems, rewards, monetization, and retention mechanics.\n• UI Design Excellence: Create polished, playful, and visually compelling mobile interfaces with exceptional attention to detail, consistency, and usability.\n• Advanced Figma Workflow: Build and maintain scalable components, interactive prototypes, and structured design files, leveraging Figma's advanced capabilities to improve quality, consistency, and efficiency.\n• AI-Powered Design: Actively integrate AI tools into the design process to accelerate ideation, visual exploration, prototyping, asset creation, and iteration.\n• Product Optimization: Identify UX challenges, propose creative solutions, and continuously improve player experiences based on product insights, feedback, and performance data.\n• Cross-Functional Collaboration: Work closely with Product Managers, Developers, and Designers to translate product requirements into high-quality experiences and ensure precise implementation.\nRequirements\n• 5+ Years of UI/UX Experience: Proven experience designing complex, mobile-first B2C digital products, with strong end-to-end ownership.\n• Gaming Industry Experience – Required: Hands-on experience designing mobile games or gaming platforms, with a solid understanding of player behavior, game mechanics, progression, engagement, and retention.\n• Expert-Level Figma – Required: Exceptional proficiency in Figma, including advanced Auto Layout, components, variants, variables, design systems, interactive prototyping, and developer handoff. Ability to work efficiently with complex design files and scalable component libraries.\n• AI Proficiency – Required: Demonstrated hands-on experience using AI-powered design tools to enhance creativity, accelerate workflows, generate assets, explore concepts, and improve design efficiency. A proactive approach to experimenting with emerging AI technologies.\n• Outstanding UI & UX Skills: A strong portfolio demonstrating excellent visual craftsmanship, intuitive user flows, and polished mobile experiences.\n• Creative Problem Solving: Ability to think outside the box, challenge conventional solutions, and transform complex product challenges into engaging, user-friendly experiences.\n• Speed & Execution: Ability to move quickly, iterate efficiently, and maintain exceptional design quality in a fast-paced product environment.\n• Independent Ownership: Strong ability to manage complex design tasks autonomously, make informed design decisions, and drive features from initial concept through production.\n• Motion Design – A Plus: Experience with After Effects, Rive, Lottie, or other motion and interaction design tools.",
-      "company": "Papaya Gaming",
-      "source": "comeet:papayagaming/46.00B",
+      "key": "linkedin:https://ca.linkedin.com/jobs/view/senior-user-experience-design-specialist-at-sap-4485841600",
+      "title": "Senior User Experience Design Specialist",
+      "company": "SAP",
+      "location": "Israel",
+      "url": "https://ca.linkedin.com/jobs/view/senior-user-experience-design-specialist-at-sap-4485841600",
+      "postedAt": null,
+      "description": "Product Designer - UI/UX. Product Designer - UI/UX. Longbow Advantage. Montreal, Quebec, Canada 4 months ago. Concepteur de produits principal/ Senior Product ...",
+      "via": "LinkedIn",
+      "source": "feed:google",
       "level": "Senior+",
-      "minYears": 5,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "minYears": null,
+      "firstSeen": "2026-11-07T11:46:14.512Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -22,7 +22,7 @@
       "title": "Product Designer",
       "location": "TLV, Tel Aviv-Yafo, IL",
       "url": "https://www.comeet.com/jobs/artlist/85.003/product-designer/F5.274",
-      "postedAt": "2026-11-06T12:40:55.000Z",
+      "postedAt": "2026-11-07T10:41:31.000Z",
       "remote": false,
       "description": "Description\nArtlist is a leading creative technology company on a mission to empower creators and brands to bring their vision to life with video. Offering cutting-edge AI tools and models for image, video, and voiceover creation, alongside high-quality creative assets and powerful editing tools, Artlist enables creators to stay on trend, and achieve their creative goals. Trusted by over 30 million creators worldwide and top brands including Google, Amazon, Microsoft, and Versace, Artlist provides a seamless, subscription-based platform with a global license, giving creators everything they need to produce professional video content efficiently. For more information, visit artlist.io .\n We're looking for a Product Designer to help shape what B2B creative tools look like in the AI era.\n Artlist is an AI-native company - Claude Code, Figma Make, and vibe coding are part of how our product team works every day. We're looking for a designer who works the same way: fluent in AI-powered tools, rigorous about design systems, and experienced designing complex B2B products.\n What you'll do \n • Own product design end-to-end - discovery, flows, prototyping, interaction design, and high-fidelity UI.\n• Use Claude Code, Figma Make, and vibe coding as active parts of your workflow.\n• Build, maintain, and evolve a scalable design system - component architecture, token structure, and documentation.\n• Design AI-powered creative experiences for enterprise teams and professional creators.\n• Shape roadmap decisions alongside product and engineering, and use research and data to validate what we ship.\nRequirements\n• 4+ years designing digital products or creative tools - B2B SaaS experience is an advantage.\n• Hands-on fluency with Claude Code, Figma Make, and vibe coding.\n• Deep design system expertise - component architecture, token structure, documentation, and governance at scale.\n• Strong product thinking with experience designing complex, multi-step workflows.\n• Excellent visual and interaction design craft - clarity, hierarchy, and polish.\n• Experience with AI generation tools (image, video, or content) - an advantage.\n• A portfolio that demonstrates both strong thinking and strong execution.",
       "company": "Artlist",
@@ -30,7 +30,71 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:dreamgroup/99.002:F2.D59",
+      "title": "Lead Product Designer",
+      "location": "Tel Aviv, Tel Aviv-Jaffa, IL",
+      "url": "https://www.comeet.com/jobs/dreamgroup/99.002/lead-product-designer/F2.D59",
+      "postedAt": "2026-11-07T07:05:07.000Z",
+      "remote": true,
+      "description": "Description\nEvery nation has data. Few can protect it. Fewer still can act on it.\n Dream is the sovereign AI and national cyber-defense company for governments.\n We help nations secure their most critical systems, connect fragmented information at a national scale, and turn their most sensitive data into decisions, all fully sovereign.\n This is more than a job. It's a Dream job, where you'll work at a global scale alongside some of the best AI researchers, cyber operators, and government experts in the world.\n We defend nations against the most advanced threats in the world with a national security suite that offers AI-native resilience against APTs with visibility, insights and mediation across Posture, CTI, and Detection & Response, all fully sovereign.\nThe Dream Job\nWe’re looking for a Product Design Lead who is passionate about crafting intuitive, conversational, and intelligent user experiences. As our most senior product designer, you’ll set the design vision, raise the bar for the whole team, and stay hands-on- shaping how users interact with AI, balancing the precision of technology with the nuance of human-centered design. This role reports to the Director of Product.\n If your team knows you as the designer who follows best practices but isn’t afraid to break conventions and invent smarter, more intuitive experiences—and who makes everyone around you better- this role is for you.\nThe Dream-Maker Responsibilities\n• Lead the product design vision and strategy, shaping intuitive, user-centered solutions in a data-rich environment. \n• Mentor, coach, and support the product designers on the team, providing regular feedback and guidance on craft, career growth, and day-to-day challenges. \n• Set and uphold the design quality bar through design reviews, critiques, and hands-on guidance across projects. \n• Drive the evolution of our design language to support intelligent systems, including suggestion flows and explainable AI patterns. \n• Translate complex workflows into accessible product experiences, and guide the team in doing the same. \n• Partner with product managers, engineers, analysts, and cyber researchers as design’s senior voice, helping shape roadmap and priorities. \n• Advocate for user trust and transparency in AI design, especially around decision-making, nudges, and personalization. \n• Present your work and the team’s work to senior stakeholders and leadership with clarity, storytelling, and rationale. \n• Own design outcomes from concept through execution to post-launch iteration, planning and prioritizing the team’s work and capacity. \n• Establish and refine design processes, including research, usability testing, and continuous iteration. \n• Own and scale the Design System, and help build a strong design culture. \n• Stay hands-on, personally taking on the most complex and strategic design challenges.\nThe Dream Skill Set\n• 6+ years of experience designing digital products end to end, including experience leading or mentoring designers \n• Proven track record of coaching and growing designers and setting a high bar for design quality \n• Strong portfolio showcasing UX thinking and refined UI execution \n• Proficiency in Figma and a deep grasp of design best practices. \n• Experience building and scaling design systems and component libraries. \n• Experience influencing product strategy and partnering with senior stakeholders, product managers, and engineering leads \n• Strong communication and collaboration skills, including the ability to give clear, constructive feedback \n• A proactive mindset and comfort with ambiguity and fast-paced, iterative work environments. \n• A fascination with how people interact with technology—especially emerging modalities like AI, predictive systems and complex data. \n• Strong storytelling skills—you can break down complex AI functionality into user-first, value-driven narratives. \n• BA/BS in Design, Visual Communication, or a related field. \n• Bonus if you’ve worked on cyber security products\nNever Stop Dreaming...\nIf you think this role doesn't fully match your skills but are eager to grow and break glass ceilings, we’d love to hear from you!\nRequirements\nnull",
+      "company": "Dream",
+      "source": "comeet:dreamgroup/99.002",
+      "level": "Senior+",
+      "minYears": 6,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:coralogix/06.004:3B.27F",
+      "title": "Senior Product Designer",
+      "location": "Ramat Gan, Israel, Ramat Gan, IL",
+      "url": "https://www.comeet.com/jobs/coralogix/06.004/senior-product-designer/3B.27F",
+      "postedAt": "2026-11-07T05:23:22.000Z",
+      "remote": true,
+      "description": "Description\nCoralogix is a modern, full-stack observability platform transforming how businesses process and understand their data. Our unique architecture powers in-stream analytics without reliance on expensive indexing or hot storage. We specialize in comprehensive monitoring of logs, metrics, traces, and security events - with features such as APM, RUM, SIEM, and Kubernetes monitoring — all enhancing operational efficiency and reducing observability spend by up to 70%.\n We're a well-established startup, post-Series F, with paying customers and sales across the globe. Our design studio is mature, with multiple teams already in place - and we're looking for an exceptional, experienced Senior Product Designer to help us move the needle in a fast-paced, growing environment.\n Why this role is different \n This isn't a hand-off-the-mockups role. We give designers real ownership of the product:\n • End-to-end ownership. Every designer on the team owns projects from early wireframes to mockups to live, shipped features. You own the outcome, not just the artboard.\n• We're an AI-native design team. AI is woven into how we work day-to-day - Claude Code included - and the company actively supports and invests in giving us the best tools to do it well.\n• Designers ship to production. Our team has access to the company codebase and pushes UI code to production directly. This isn't about replacing engineers - it's about design owning the quality of the UI, working hand-in-hand with R&D. You'll be accountable for the product experience, not just advocating for it.\n You'll design work tools that help developers, DevOps, and R&D teams manage complex software - turning dense, technical, data-heavy problems into clear, elegant experiences for technical users.\n Responsibilities \n • Design end-to-end user experiences, from research and wireframes to high-fidelity mockups to final implemented live features.\n• Validate your work through user research - interviews, usability testing, and analysis of product data - and iterate quickly based on what you learn.\n• Ground your design decisions in evidence - product data, user research, and feedback - and help define the success metrics that connect your work to user needs and business goals.\n• Work closely with R&D and product teams to bring these experiences to life.\n• Take ownership of UI quality in production, including shipping front-end changes directly (with AI tooling and our design system).\n• Contribute to, manage, and refine our product style guide and design system.\n• Make complex technical solutions clear and usable for a technical audience.\nRequirements\n• 4+ years designing a complex system or platform.\n• Experience designing for data-heavy products - comfortable making dense data and complex information clear and usable.\n• Comfortable leading user research - interviews and usability testing - and translating findings into clear design decisions.\n• Strong interaction and visual design skills with high attention to detail.\n• Experience collaborating closely with R&D.\n• Expertise with prototyping and design tools (Figma, Figma Make, Claude Code, v0, or similar tools).\n• A solid understanding of CSS and HTML, and working knowledge of git and vibe coding.\n• Experience working with product data and research tools (Google Analytics, Mixpanel, Amplitude, Hotjar, Maze, or similar tools).\n• Strong systems thinking and a grasp of component-based design patterns.\n• Ability to adapt, switch gears, and meet deadlines in a fast-paced team.\n• Strong English, and excellent communication, presentation, and organizational skills.\n• A portfolio that showcases relevant, complex work.\n• Passion for crafting exceptional UX and a problem-solver's mindset - able to research and understand hard problems and deliver simple, elegant solutions.\n Nice to have \n We can teach the right person our AI workflow - but it's a real plus if you already bring:\n • Hands-on experience with AI-assisted workflows or tools like Claude Code.\n• Comfort with git and basic development workflows.\n• A University degree in Design.\n Cultural Fit \n We’re seeking candidates who are hungry, humble, and smart. Coralogix fosters a culture of innovation and continuous learning, where team members are encouraged to challenge the status quo and contribute to our shared mission. If you thrive in dynamic environments and are eager to shape the future of observability solutions, we’d love to hear from you.\n Coralogix is an equal opportunity employer and encourages applicants from all backgrounds to apply.",
+      "company": "Coralogix",
+      "source": "comeet:coralogix/06.004",
+      "level": "Senior+",
+      "minYears": 4,
+      "firstSeen": "2026-11-03T12:42:26.263Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:papayagaming/46.00B:68.479",
+      "title": "UI/UX Designer Lead",
+      "location": "Tel-Aviv, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/papayagaming/46.00B/uiux-designer-lead/68.479",
+      "postedAt": "2026-11-06T20:47:00.000Z",
+      "remote": true,
+      "description": "Description\nAbout the company: \n We are a startup team within Papaya , a successful and established gaming company.\n Our unit runs with full startup energy and agility, while benefiting from the stability and resources of Papaya.\n We’re building a new competitive game platform – where games and challenges come together in one engaging experience.\n About the role: \n We are looking for an experienced UI/UX Designer Lead to join us and help shape innovative mobile gaming experiences.\n This is a senior, hands-on individual contributor role for a designer with a strong background in gaming, exceptional UI/UX skills, and the ability to independently own complex product features from concept to launch.\n You will combine creative problem-solving, strong product thinking, and outstanding visual execution to deliver intuitive, engaging, and polished player experiences.\n We're looking for a fast-moving, highly creative designer who is passionate about gaming, embraces AI-powered workflows, and knows how to turn ambitious ideas into exceptional mobile experiences.\nResponsibilities\n• End-to-End Design Ownership: Independently own product features from concept and UX planning through wireframes, high-fidelity UI, interactive prototypes, and development handoff.\n• Gaming UX: Design engaging player experiences around competitive gameplay, progression systems, rewards, monetization, and retention mechanics.\n• UI Design Excellence: Create polished, playful, and visually compelling mobile interfaces with exceptional attention to detail, consistency, and usability.\n• Advanced Figma Workflow: Build and maintain scalable components, interactive prototypes, and structured design files, leveraging Figma's advanced capabilities to improve quality, consistency, and efficiency.\n• AI-Powered Design: Actively integrate AI tools into the design process to accelerate ideation, visual exploration, prototyping, asset creation, and iteration.\n• Product Optimization: Identify UX challenges, propose creative solutions, and continuously improve player experiences based on product insights, feedback, and performance data.\n• Cross-Functional Collaboration: Work closely with Product Managers, Developers, and Designers to translate product requirements into high-quality experiences and ensure precise implementation.\nRequirements\n• 5+ Years of UI/UX Experience: Proven experience designing complex, mobile-first B2C digital products, with strong end-to-end ownership.\n• Gaming Industry Experience – Required: Hands-on experience designing mobile games or gaming platforms, with a solid understanding of player behavior, game mechanics, progression, engagement, and retention.\n• Expert-Level Figma – Required: Exceptional proficiency in Figma, including advanced Auto Layout, components, variants, variables, design systems, interactive prototyping, and developer handoff. Ability to work efficiently with complex design files and scalable component libraries.\n• AI Proficiency – Required: Demonstrated hands-on experience using AI-powered design tools to enhance creativity, accelerate workflows, generate assets, explore concepts, and improve design efficiency. A proactive approach to experimenting with emerging AI technologies.\n• Outstanding UI & UX Skills: A strong portfolio demonstrating excellent visual craftsmanship, intuitive user flows, and polished mobile experiences.\n• Creative Problem Solving: Ability to think outside the box, challenge conventional solutions, and transform complex product challenges into engaging, user-friendly experiences.\n• Speed & Execution: Ability to move quickly, iterate efficiently, and maintain exceptional design quality in a fast-paced product environment.\n• Independent Ownership: Strong ability to manage complex design tasks autonomously, make informed design decisions, and drive features from initial concept through production.\n• Motion Design – A Plus: Experience with After Effects, Rive, Lottie, or other motion and interaction design tools.",
+      "company": "Papaya Gaming",
+      "source": "comeet:papayagaming/46.00B",
+      "level": "Senior+",
+      "minYears": 5,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:team8/61.003:49.37A",
+      "title": "Charm Security-Product Designer",
+      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
+      "postedAt": "2026-11-06T15:49:38.000Z",
+      "remote": false,
+      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm.\n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels.\n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments.\n Your designs will directly impact:\n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts\n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time\n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support\n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production.\n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next.\n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control.\n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle.\n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows.\n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience.\n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products.\n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped.\n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail.\n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions.\n• Strong Figma skills, including components, auto layout, prototyping, and design systems.\n• Experience collaborating closely with product managers and engineers.\n• The ability to explain your decisions, give and receive feedback, and adapt as you learn.\n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows.\n• Strong English communication skills.\n Nice to Have \n • A degree in Visual Communication.\n• Experience designing AI-powered products or tools that help users make complex decisions.\n• Experience making complex data easy to understand and act on.\n• Familiarity with fintech, cybersecurity, or fraud prevention.",
+      "company": "Team8",
+      "source": "comeet:team8/61.003",
+      "level": "Mid",
+      "minYears": 3,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -46,7 +110,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -62,7 +126,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -78,23 +142,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:dreamgroup/99.002:F2.D59",
-      "title": "Lead Product Designer",
-      "location": "Tel Aviv, Tel Aviv-Jaffa, IL",
-      "url": "https://www.comeet.com/jobs/dreamgroup/99.002/lead-product-designer/F2.D59",
-      "postedAt": "2026-11-05T18:03:40.000Z",
-      "remote": true,
-      "description": "Description\nEvery nation has data. Few can protect it. Fewer still can act on it.\n Dream is the sovereign AI and national cyber-defense company for governments.\n We help nations secure their most critical systems, connect fragmented information at a national scale, and turn their most sensitive data into decisions, all fully sovereign.\n This is more than a job. It's a Dream job, where you'll work at a global scale alongside some of the best AI researchers, cyber operators, and government experts in the world.\n We defend nations against the most advanced threats in the world with a national security suite that offers AI-native resilience against APTs with visibility, insights and mediation across Posture, CTI, and Detection & Response, all fully sovereign.\nThe Dream Job\nWe’re looking for a Product Design Lead who is passionate about crafting intuitive, conversational, and intelligent user experiences. As our most senior product designer, you’ll set the design vision, raise the bar for the whole team, and stay hands-on- shaping how users interact with AI, balancing the precision of technology with the nuance of human-centered design. This role reports to the Director of Product.\n If your team knows you as the designer who follows best practices but isn’t afraid to break conventions and invent smarter, more intuitive experiences—and who makes everyone around you better- this role is for you.\nThe Dream-Maker Responsibilities\n• Lead the product design vision and strategy, shaping intuitive, user-centered solutions in a data-rich environment. \n• Mentor, coach, and support the product designers on the team, providing regular feedback and guidance on craft, career growth, and day-to-day challenges. \n• Set and uphold the design quality bar through design reviews, critiques, and hands-on guidance across projects. \n• Drive the evolution of our design language to support intelligent systems, including suggestion flows and explainable AI patterns. \n• Translate complex workflows into accessible product experiences, and guide the team in doing the same. \n• Partner with product managers, engineers, analysts, and cyber researchers as design’s senior voice, helping shape roadmap and priorities. \n• Advocate for user trust and transparency in AI design, especially around decision-making, nudges, and personalization. \n• Present your work and the team’s work to senior stakeholders and leadership with clarity, storytelling, and rationale. \n• Own design outcomes from concept through execution to post-launch iteration, planning and prioritizing the team’s work and capacity. \n• Establish and refine design processes, including research, usability testing, and continuous iteration. \n• Own and scale the Design System, and help build a strong design culture. \n• Stay hands-on, personally taking on the most complex and strategic design challenges.\nThe Dream Skill Set\n• 6+ years of experience designing digital products end to end, including experience leading or mentoring designers \n• Proven track record of coaching and growing designers and setting a high bar for design quality \n• Strong portfolio showcasing UX thinking and refined UI execution \n• Proficiency in Figma and a deep grasp of design best practices. \n• Experience building and scaling design systems and component libraries. \n• Experience influencing product strategy and partnering with senior stakeholders, product managers, and engineering leads \n• Strong communication and collaboration skills, including the ability to give clear, constructive feedback \n• A proactive mindset and comfort with ambiguity and fast-paced, iterative work environments. \n• A fascination with how people interact with technology—especially emerging modalities like AI, predictive systems and complex data. \n• Strong storytelling skills—you can break down complex AI functionality into user-first, value-driven narratives. \n• BA/BS in Design, Visual Communication, or a related field. \n• Bonus if you’ve worked on cyber security products\nNever Stop Dreaming...\nIf you think this role doesn't fully match your skills but are eager to grow and break glass ceilings, we’d love to hear from you!\nRequirements\nnull",
-      "company": "Dream",
-      "source": "comeet:dreamgroup/99.002",
-      "level": "Senior+",
-      "minYears": 6,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -110,39 +158,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-05T13:15:56.238Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:coralogix/06.004:3B.27F",
-      "title": "Senior Product Designer",
-      "location": "Ramat Gan, Israel, Ramat Gan, IL",
-      "url": "https://www.comeet.com/jobs/coralogix/06.004/senior-product-designer/3B.27F",
-      "postedAt": "2026-11-04T15:31:51.000Z",
-      "remote": true,
-      "description": "Description\nCoralogix is a modern, full-stack observability platform transforming how businesses process and understand their data. Our unique architecture powers in-stream analytics without reliance on expensive indexing or hot storage. We specialize in comprehensive monitoring of logs, metrics, traces, and security events - with features such as APM, RUM, SIEM, and Kubernetes monitoring — all enhancing operational efficiency and reducing observability spend by up to 70%.\n We're a well-established startup, post-Series F, with paying customers and sales across the globe. Our design studio is mature, with multiple teams already in place - and we're looking for an exceptional, experienced Senior Product Designer to help us move the needle in a fast-paced, growing environment.\n Why this role is different \n This isn't a hand-off-the-mockups role. We give designers real ownership of the product:\n • End-to-end ownership. Every designer on the team owns projects from early wireframes to mockups to live, shipped features. You own the outcome, not just the artboard.\n• We're an AI-native design team. AI is woven into how we work day-to-day - Claude Code included - and the company actively supports and invests in giving us the best tools to do it well.\n• Designers ship to production. Our team has access to the company codebase and pushes UI code to production directly. This isn't about replacing engineers - it's about design owning the quality of the UI, working hand-in-hand with R&D. You'll be accountable for the product experience, not just advocating for it.\n You'll design work tools that help developers, DevOps, and R&D teams manage complex software - turning dense, technical, data-heavy problems into clear, elegant experiences for technical users.\n Responsibilities \n • Design end-to-end user experiences, from research and wireframes to high-fidelity mockups to final implemented live features.\n• Validate your work through user research - interviews, usability testing, and analysis of product data - and iterate quickly based on what you learn.\n• Ground your design decisions in evidence - product data, user research, and feedback - and help define the success metrics that connect your work to user needs and business goals.\n• Work closely with R&D and product teams to bring these experiences to life.\n• Take ownership of UI quality in production, including shipping front-end changes directly (with AI tooling and our design system).\n• Contribute to, manage, and refine our product style guide and design system.\n• Make complex technical solutions clear and usable for a technical audience.\nRequirements\n• 4+ years designing a complex system or platform.\n• Experience designing for data-heavy products - comfortable making dense data and complex information clear and usable.\n• Comfortable leading user research - interviews and usability testing - and translating findings into clear design decisions.\n• Strong interaction and visual design skills with high attention to detail.\n• Experience collaborating closely with R&D.\n• Expertise with prototyping and design tools (Figma, Figma Make, Claude Code, v0, or similar tools).\n• A solid understanding of CSS and HTML, and working knowledge of git and vibe coding.\n• Experience working with product data and research tools (Google Analytics, Mixpanel, Amplitude, Hotjar, Maze, or similar tools).\n• Strong systems thinking and a grasp of component-based design patterns.\n• Ability to adapt, switch gears, and meet deadlines in a fast-paced team.\n• Strong English, and excellent communication, presentation, and organizational skills.\n• A portfolio that showcases relevant, complex work.\n• Passion for crafting exceptional UX and a problem-solver's mindset - able to research and understand hard problems and deliver simple, elegant solutions.\n Nice to have \n We can teach the right person our AI workflow - but it's a real plus if you already bring:\n • Hands-on experience with AI-assisted workflows or tools like Claude Code.\n• Comfort with git and basic development workflows.\n• A University degree in Design.\n Cultural Fit \n We’re seeking candidates who are hungry, humble, and smart. Coralogix fosters a culture of innovation and continuous learning, where team members are encouraged to challenge the status quo and contribute to our shared mission. If you thrive in dynamic environments and are eager to shape the future of observability solutions, we’d love to hear from you.\n Coralogix is an equal opportunity employer and encourages applicants from all backgrounds to apply.",
-      "company": "Coralogix",
-      "source": "comeet:coralogix/06.004",
-      "level": "Senior+",
-      "minYears": 4,
-      "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:team8/61.003:49.37A",
-      "title": "Charm Security-Product Designer",
-      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
-      "postedAt": "2026-11-04T14:55:29.000Z",
-      "remote": false,
-      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm.\n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels.\n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments.\n Your designs will directly impact:\n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts\n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time\n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support\n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production.\n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next.\n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control.\n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle.\n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows.\n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience.\n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products.\n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped.\n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail.\n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions.\n• Strong Figma skills, including components, auto layout, prototyping, and design systems.\n• Experience collaborating closely with product managers and engineers.\n• The ability to explain your decisions, give and receive feedback, and adapt as you learn.\n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows.\n• Strong English communication skills.\n Nice to Have \n • A degree in Visual Communication.\n• Experience designing AI-powered products or tools that help users make complex decisions.\n• Experience making complex data easy to understand and act on.\n• Familiarity with fintech, cybersecurity, or fraud prevention.",
-      "company": "Team8",
-      "source": "comeet:team8/61.003",
-      "level": "Mid",
-      "minYears": 3,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -158,7 +174,7 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-04T13:02:17.859Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -190,7 +206,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -206,7 +222,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -238,7 +254,7 @@
       "level": "Senior+",
       "minYears": 4,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -254,7 +270,7 @@
       "level": "Junior",
       "minYears": 1,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -270,7 +286,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -286,7 +302,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -302,7 +318,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -318,7 +334,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -334,7 +350,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -350,7 +366,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -366,9 +382,9 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-06T12:59:24.360Z"
+      "linkCheckedAt": "2026-11-07T11:46:14.512Z"
     },
     {
       "key": "smartrecruiters:Wix2:744000154874429",
@@ -383,7 +399,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -399,7 +415,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -415,14 +431,14 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
       "key": "ashby:lemonade:7c2c925f-480d-40dc-bbeb-fd71065cd276",
       "title": "Staff Product Designer",
       "location": "TLV / Israel",
-      "url": "https://jobs.ashbyhq.com/lemonade/7c2c925f-480d-40dc-bbeb-fd71065cd276",
+      "url": "https://jobs.ashbyhq.com/Lemonade/7c2c925f-480d-40dc-bbeb-fd71065cd276",
       "postedAt": "2026-09-16T19:06:34.650Z",
       "remote": false,
       "description": "We're looking for a Staff Product Designer to help shape the future of how we design at Lemonade — not just by doing great work, but by raising the bar for everyone around you.\n\nThis role sits within our Product Design team, based in Tel Aviv. You'll take on the broadest, most complex design challenges we have — owning them end-to-end, driving decisions across teams and disciplines, and influencing how we think about product and design at a company level.\n\nWe believe three things matter for every role at Lemonade: drive to push through challenges, efficiency that keeps standards high while moving fast, and adaptability that lets you pivot with data and AI insights. These aren't buzzwords, they're how we actually work.\n\nOur AI-first approach isn't just a tagline either. We're building the future of insurance with AI at the center, and we need people who are genuinely excited to learn and grow alongside these tools.\n\nWe don't expect designers to know every tool or model. We do expect genuine curiosity — using AI in your process, designing experiences that couldn't exist without it, and staying open to rethinking the work, not just accelerating it.\n\n\nIN THIS ROLE YOU'LL\n\n - Lead the design of our most complex, high-impact product areas — owning scope end-to-end from problem definition through delivery\n\n - Drive decisions across Product, Engineering, Data, and leadership, bringing design perspective into the room early and often\n\n - Mentor and elevate designers across the team — through feedback, collaboration, and raising the standard of what great work looks like\n\n - Communicate clearly and confidently to all audiences — from teammates to senior leadership, internally and externally\n\n - Shape how we approach AI-powered experiences, and help the wider team think bigger about what AI makes possible\n\n - Contribute to the strategic direction of our design systems and set the quality bar for craft across the team\n\n - Spot gaps in how we work and take ownership of fixing them — whether that's process, tooling, or how design shows up in the product org\n\n\nWHAT YOU'LL NEED\n\n - 7+ years of experience designing digital products, with a portfolio that demonstrates strategic thinking, exceptional craft, and measurable impact at scale\n\n - A track record of owning large, complex scopes end-to-end — from ambiguous problem to shipped product\n\n - Comfortable navigating complex organizations, aligning stakeholders, and moving work forward across disciplines\n\n - Strong mentorship instincts — you make the designers around you better, and you're intentional about it\n\n - Excellent communication skills, with the ability to present work, advocate for decisions, and inspire confidence in any room\n\n - Hands-on experience using AI as part of your design or product development process, and genuine curiosity about where it's taking the craft\n\n - Ability to work in an office environment most days of the week",
@@ -431,7 +447,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -447,7 +463,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -463,7 +479,7 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -479,15 +495,15 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-06T12:59:24.360Z"
+      "linkCheckedAt": "2026-11-07T11:46:14.512Z"
     },
     {
       "key": "ashby:lemonade:663819c6-426c-49d6-8c0c-1fe938ffb440",
       "title": "Senior Product Designer",
       "location": "TLV / Israel",
-      "url": "https://jobs.ashbyhq.com/lemonade/663819c6-426c-49d6-8c0c-1fe938ffb440",
+      "url": "https://jobs.ashbyhq.com/Lemonade/663819c6-426c-49d6-8c0c-1fe938ffb440",
       "postedAt": "2026-09-14T15:11:23.262Z",
       "remote": false,
       "description": "We're looking for a Senior Product Designer who combines strong product thinking, UX, and visual craft with genuine curiosity about how AI is changing what we build — and how we build it.\n\nDesigners at Lemonade work across customer-facing products, complex internal systems, design systems, and AI-powered experiences. You'll own projects end-to-end, collaborate closely across disciplines, and help explore new approaches to designing and building great products. This role sits within our Product Design team, based in Tel Aviv. Please only apply if you have an up-to-date online portfolio showcasing recent work.\n\nWe believe three things matter for every role at Lemonade: drive to push through challenges, efficiency that keeps standards high while moving fast, and adaptability that lets you pivot with data and AI insights. These aren't buzzwords, they're how we actually work.\n\nOur AI-first approach isn't just a tagline either. We're building the future of insurance with AI at the center, and we need people who are genuinely excited to learn and grow alongside these tools.\n\nWe don't expect designers to know every tool or model. We do expect genuine curiosity — using AI in your process, designing experiences that couldn't exist without it, and staying open to rethinking the work, not just accelerating it.\n\n\nIN THIS ROLE YOU'LL\n\n - Create delightful user-facing products across web and mobile, turning complex problems into simple, intuitive experiences\n\n - Own the design process end-to-end — from understanding the problem and exploring solutions through validation and implementation\n\n - Collaborate closely with Product, Engineering, Data, and QA to shape products and drive decisions\n\n - Design AI-powered experiences and explore where AI can fundamentally improve a product, workflow, or experience\n\n - Use AI throughout your own design process to explore, build, iterate, and work more effectively\n\n - Design complex internal systems and contribute to the evolution of our design systems\n\n - Share strong product and design perspectives, and help raise the quality and capabilities of the wider design team\n\n\nWHAT YOU'LL NEED\n\n - 5+ years of experience designing digital products, with a portfolio demonstrating product thinking, UX, visual craft, and end-to-end ownership\n\n - Strong product thinking, with the ability to navigate ambiguity, simplify complex problems, and make thoughtful trade-offs\n\n - Excellent visual and interaction design skills, with strong attention to detail and mastery of Figma and prototyping\n\n - Experience creating and working with design systems\n\n - Hands-on experience using AI as part of your design or product development process\n\n - Curiosity to go beyond prompting — experimenting with AI, building new workflows, prototyping with it, and exploring how it changes both products and the way you work\n\n - Strong communication and collaboration skills, with the ability to take ownership and drive projects forward independently\n\n - A background in Visual Communication is an advantage — illustration, animation, motion, or coding skills are a plus too\n\n - Ability to work in an office environment most days of the week",
@@ -496,7 +512,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -512,7 +528,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -528,7 +544,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-04T13:02:17.859Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -544,7 +560,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -560,7 +576,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -576,7 +592,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -592,7 +608,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -608,7 +624,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -624,9 +640,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-06T12:59:24.360Z"
+      "linkCheckedAt": "2026-11-07T11:46:14.512Z"
     },
     {
       "key": "greenhouse:scaleops:4921333101",
@@ -641,7 +657,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -657,7 +673,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -673,7 +689,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
@@ -689,9 +705,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-06T12:59:24.360Z"
+      "linkCheckedAt": "2026-11-07T11:46:14.512Z"
     },
     {
       "key": "greenhouse:wizinc:4599708006",
@@ -706,7 +722,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-06T12:59:24.360Z",
+      "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "open"
     },
     {
