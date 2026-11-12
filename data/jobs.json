@@ -1,20 +1,68 @@
 {
-  "updatedAt": "2026-11-11T12:46:02.080Z",
+  "updatedAt": "2026-11-12T13:48:59.925Z",
   "jobs": [
     {
-      "key": "linkedin:https://in.linkedin.com/jobs/view/ux-researcher-3-openings-at-sagaux-4488610710",
-      "title": "UX Researcher - 3 Openings",
+      "key": "linkedin:https://se.linkedin.com/jobs/view/senior-design-system-specialist-at-etraveli-group-4488845076",
+      "title": "Senior Design System Specialist på Etraveli Group",
+      "company": "Etraveli Group",
+      "location": "Israel",
+      "url": "https://se.linkedin.com/jobs/view/senior-design-system-specialist-at-etraveli-group-4488845076",
+      "postedAt": null,
+      "description": "Major offices in Sweden (HQ), Greece, India, Canada, Israel, Poland, UK, and Uruguay. ... Principal Product Designer - Xbox. Microsoft. Stockholm 5 dagar sedan.",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Senior+",
+      "minYears": null,
+      "firstSeen": "2026-11-12T13:48:59.925Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
+      "status": "open"
+    },
+    {
+      "key": "linkedin:https://in.linkedin.com/jobs/view/ui-ux-designer-10-openings-at-sagaux-4488612741",
+      "title": "UI/UX Designer - 10 Openings",
       "company": "sagaUX",
       "location": "Israel",
-      "url": "https://in.linkedin.com/jobs/view/ux-researcher-3-openings-at-sagaux-4488610710",
+      "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-10-openings-at-sagaux-4488612741",
       "postedAt": null,
-      "description": "Israel (‫ישראל‬‎)+972; Italy (Italia)+39; Jamaica+1 ... Senior Product Designer. Senior Product Designer. Qualys. Pune Division, Maharashtra, India 3 weeks ago ...",
+      "description": "Israel (‫ישראל‬‎)+972; Italy (Italia)+39; Jamaica+1; Japan (日本)+81; Jersey+ ... Senior Product Designer (UX/UI). Revun. Pune Division, Maharashtra, India 1 ...",
       "via": "LinkedIn",
       "source": "feed:google",
       "level": "Mid",
       "minYears": null,
-      "firstSeen": "2026-11-11T12:46:02.080Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "firstSeen": "2026-11-12T13:48:59.925Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:team8/61.003:49.37A",
+      "title": "Charm Security-Product Designer",
+      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
+      "postedAt": "2026-11-12T13:42:10.000Z",
+      "remote": false,
+      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm.\n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels.\n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments.\n Your designs will directly impact:\n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts\n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time\n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support\n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production.\n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next.\n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control.\n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle.\n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows.\n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience.\n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products.\n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped.\n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail.\n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions.\n• Strong Figma skills, including components, auto layout, prototyping, and design systems.\n• Experience collaborating closely with product managers and engineers.\n• The ability to explain your decisions, give and receive feedback, and adapt as you learn.\n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows.\n• Strong English communication skills.\n Nice to Have \n • A degree in Visual Communication.\n• Experience designing AI-powered products or tools that help users make complex decisions.\n• Experience making complex data easy to understand and act on.\n• Familiarity with fintech, cybersecurity, or fraud prevention.",
+      "company": "Team8",
+      "source": "comeet:team8/61.003",
+      "level": "Mid",
+      "minYears": 3,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:fiverr/60.002:DF.473",
+      "title": "Senior Product Designer",
+      "location": "Tel Aviv, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/fiverr/60.002/senior-product-designer/DF.473",
+      "postedAt": "2026-11-12T12:55:11.000Z",
+      "remote": true,
+      "description": "Description\nWorking in Product means making bold decisions with the data you have. You're the type that always asks, “Is there a better way?” From product managers to designers to researchers, the people who thrive here are strategic by nature, curious by default, and comfortable sailing without a full map. So if you challenge assumptions and know how to bring multiple stakeholders together, the Fiverr Product team might be your place.\n Fiverr’s design team is growing, and we’re hiring a Senior Product Designer who will shape how millions of buyers and talent experience Fiverr, with a strong focus on mobile. You’ll work in a team that treats AI as a daily design partner, not a side experiment: you’ll use tools like Claude to research, explore, prototype, and ship faster, and help the rest of the team do the same.\n You’re a leading figure without needing a title. You raise the bar through your craft, your clarity, and the way you bring people along.\nWhat am I going to do?\n• Own end-to-end design for key mobile experiences (iOS, Android, mobile web), from problem framing and research to polished, shipped UI.\n• Work AI-first: use Claude and similar tools across your process (synthesizing research, generating and pressure-testing options, building working prototypes, writing specs and edge cases). Share what works so the team learns with you.\n• Lead by influence: set direction in your area, run design critiques, mentor designers, and be the person PMs, engineers, and peers want in the room.\n• Partner closely with PMs, engineers, researchers, and content designers. Communicate early and often, share work in progress, and make decisions visible.\n• Identify pain points across the full user journey and solve them with hypotheses, experiments, and data.\n• Improve existing flows and craft new ones that feel native to mobile: thumb-friendly, fast, clear, and accessible.\n• Build and evolve Penta, our design system, by contributing components, patterns, and feedback that keep our products consistent.\n• Prototype and iterate in the open, from Figma to coded prototypes, until the experience is right.\n• Work with engineering through implementation to make sure what ships matches the design intent.\nRequirements\n• 6+ years as a Product Designer (UX and UI) in consumer, marketplace, or SaaS products, with a strong portfolio of shipped mobile work.\n• Deep mobile craft: platform conventions (iOS HIG, Material), gestures, responsive behavior, performance, and accessibility.\n• Hands-on experience using AI in your design workflow (Claude, Cursor, v0, or similar), and a real point of view on where it helps and where it doesn’t.\n• Strong communication: you explain your thinking clearly, give and receive feedback well, and keep stakeholders aligned without friction.\n• A team-player mindset: you share credit, lift others, and care about the team’s output as much as your own.\n• Experience leading without authority: driving alignment, mentoring peers, or influencing product direction.\n• Strong proficiency in Figma, plus working knowledge of front-end concepts (component libraries, tokens, Lottie, handoff).\n• Analytical thinking, attention to detail, and comfort with ambiguity and complex, fast-moving environments\n• Comfort working with Agile tools (Jira, Monday, etc.).\n Nice to have\n • Experience designing marketplace, two-sided, or transactional products.\n• Quantitative and qualitative research experience, or close work with UX researchers.\n• Experience with design systems at scale.\n• Coded prototyping (React, SwiftUI) or vibe-coding experience.\n• A degree in Design, HCI, Cognitive or Applied Psychology, or a related field.\n ***include a link to your portfolio. For one or two mobile projects, tell us about your role, your decisions, and how AI was part of your process.\nEqual opportunities\nAt Fiverr, we know that talent has no single face. We welcome talent from everywhere and everyone because it makes everything we build better. Need accommodations? Just ask. And if this role excites you but you don't tick every box, apply anyway. The best people rarely fit the mold exactly.",
+      "company": "Fiverr",
+      "source": "comeet:fiverr/60.002",
+      "level": "Senior+",
+      "minYears": 6,
+      "firstSeen": "2026-11-10T13:31:38.454Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -22,7 +70,7 @@
       "title": "Product Designer",
       "location": "TLV, Tel Aviv-Yafo, IL",
       "url": "https://www.comeet.com/jobs/artlist/85.003/product-designer/F5.274",
-      "postedAt": "2026-11-11T11:27:05.000Z",
+      "postedAt": "2026-11-12T12:52:29.000Z",
       "remote": false,
       "description": "Description\nArtlist is a leading creative technology company on a mission to empower creators and brands to bring their vision to life with video. Offering cutting-edge AI tools and models for image, video, and voiceover creation, alongside high-quality creative assets and powerful editing tools, Artlist enables creators to stay on trend, and achieve their creative goals. Trusted by over 30 million creators worldwide and top brands including Google, Amazon, Microsoft, and Versace, Artlist provides a seamless, subscription-based platform with a global license, giving creators everything they need to produce professional video content efficiently. For more information, visit artlist.io .\n We're looking for a Product Designer to help shape what B2B creative tools look like in the AI era.\n Artlist is an AI-native company - Claude Code, Figma Make, and vibe coding are part of how our product team works every day. We're looking for a designer who works the same way: fluent in AI-powered tools, rigorous about design systems, and experienced designing complex B2B products.\n What you'll do \n • Own product design end-to-end - discovery, flows, prototyping, interaction design, and high-fidelity UI.\n• Use Claude Code, Figma Make, and vibe coding as active parts of your workflow.\n• Build, maintain, and evolve a scalable design system - component architecture, token structure, and documentation.\n• Design AI-powered creative experiences for enterprise teams and professional creators.\n• Shape roadmap decisions alongside product and engineering, and use research and data to validate what we ship.\nRequirements\n• 4+ years designing digital products or creative tools - B2B SaaS experience is an advantage.\n• Hands-on fluency with Claude Code, Figma Make, and vibe coding.\n• Deep design system expertise - component architecture, token structure, documentation, and governance at scale.\n• Strong product thinking with experience designing complex, multi-step workflows.\n• Excellent visual and interaction design craft - clarity, hierarchy, and polish.\n• Experience with AI generation tools (image, video, or content) - an advantage.\n• A portfolio that demonstrates both strong thinking and strong execution.",
       "company": "Artlist",
@@ -30,7 +78,23 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
+      "status": "open"
+    },
+    {
+      "key": "linkedin:https://in.linkedin.com/jobs/view/ux-researcher-3-openings-at-sagaux-4488610710",
+      "title": "UX Researcher - 3 Openings",
+      "company": "sagaUX",
+      "location": "Israel",
+      "url": "https://in.linkedin.com/jobs/view/ux-researcher-3-openings-at-sagaux-4488610710",
+      "postedAt": null,
+      "description": "Senior Product Designer (UX/UI). Senior Product Designer (UX/UI). Revun. Pune Division, Maharashtra, India 1 week ago. Similar Searches. User Researcher jobs.",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Mid",
+      "minYears": null,
+      "firstSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -46,39 +110,7 @@
       "level": "Senior+",
       "minYears": 8,
       "firstSeen": "2026-11-08T11:58:09.551Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:team8/61.003:49.37A",
-      "title": "Charm Security-Product Designer",
-      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
-      "postedAt": "2026-11-11T10:45:22.000Z",
-      "remote": false,
-      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm.\n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels.\n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments.\n Your designs will directly impact:\n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts\n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time\n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support\n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production.\n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next.\n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control.\n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle.\n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows.\n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience.\n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products.\n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped.\n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail.\n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions.\n• Strong Figma skills, including components, auto layout, prototyping, and design systems.\n• Experience collaborating closely with product managers and engineers.\n• The ability to explain your decisions, give and receive feedback, and adapt as you learn.\n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows.\n• Strong English communication skills.\n Nice to Have \n • A degree in Visual Communication.\n• Experience designing AI-powered products or tools that help users make complex decisions.\n• Experience making complex data easy to understand and act on.\n• Familiarity with fintech, cybersecurity, or fraud prevention.",
-      "company": "Team8",
-      "source": "comeet:team8/61.003",
-      "level": "Mid",
-      "minYears": 3,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:fiverr/60.002:DF.473",
-      "title": "Senior Product Designer",
-      "location": "Tel Aviv, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/fiverr/60.002/senior-product-designer/DF.473",
-      "postedAt": "2026-11-11T10:04:52.000Z",
-      "remote": true,
-      "description": "Description\nWorking in Product means making bold decisions with the data you have. You're the type that always asks, “Is there a better way?” From product managers to designers to researchers, the people who thrive here are strategic by nature, curious by default, and comfortable sailing without a full map. So if you challenge assumptions and know how to bring multiple stakeholders together, the Fiverr Product team might be your place.\n Fiverr’s design team is growing, and we’re hiring a Senior Product Designer who will shape how millions of buyers and talent experience Fiverr, with a strong focus on mobile. You’ll work in a team that treats AI as a daily design partner, not a side experiment: you’ll use tools like Claude to research, explore, prototype, and ship faster, and help the rest of the team do the same.\n You’re a leading figure without needing a title. You raise the bar through your craft, your clarity, and the way you bring people along.\nWhat am I going to do?\n• Own end-to-end design for key mobile experiences (iOS, Android, mobile web), from problem framing and research to polished, shipped UI.\n• Work AI-first: use Claude and similar tools across your process (synthesizing research, generating and pressure-testing options, building working prototypes, writing specs and edge cases). Share what works so the team learns with you.\n• Lead by influence: set direction in your area, run design critiques, mentor designers, and be the person PMs, engineers, and peers want in the room.\n• Partner closely with PMs, engineers, researchers, and content designers. Communicate early and often, share work in progress, and make decisions visible.\n• Identify pain points across the full user journey and solve them with hypotheses, experiments, and data.\n• Improve existing flows and craft new ones that feel native to mobile: thumb-friendly, fast, clear, and accessible.\n• Build and evolve Penta, our design system, by contributing components, patterns, and feedback that keep our products consistent.\n• Prototype and iterate in the open, from Figma to coded prototypes, until the experience is right.\n• Work with engineering through implementation to make sure what ships matches the design intent.\nRequirements\n• 6+ years as a Product Designer (UX and UI) in consumer, marketplace, or SaaS products, with a strong portfolio of shipped mobile work.\n• Deep mobile craft: platform conventions (iOS HIG, Material), gestures, responsive behavior, performance, and accessibility.\n• Hands-on experience using AI in your design workflow (Claude, Cursor, v0, or similar), and a real point of view on where it helps and where it doesn’t.\n• Strong communication: you explain your thinking clearly, give and receive feedback well, and keep stakeholders aligned without friction.\n• A team-player mindset: you share credit, lift others, and care about the team’s output as much as your own.\n• Experience leading without authority: driving alignment, mentoring peers, or influencing product direction.\n• Strong proficiency in Figma, plus working knowledge of front-end concepts (component libraries, tokens, Lottie, handoff).\n• Analytical thinking, attention to detail, and comfort with ambiguity and complex, fast-moving environments\n• Comfort working with Agile tools (Jira, Monday, etc.).\n Nice to have\n • Experience designing marketplace, two-sided, or transactional products.\n• Quantitative and qualitative research experience, or close work with UX researchers.\n• Experience with design systems at scale.\n• Coded prototyping (React, SwiftUI) or vibe-coding experience.\n• A degree in Design, HCI, Cognitive or Applied Psychology, or a related field.\n ***include a link to your portfolio. For one or two mobile projects, tell us about your role, your decisions, and how AI was part of your process.\nEqual opportunities\nAt Fiverr, we know that talent has no single face. We welcome talent from everywhere and everyone because it makes everything we build better. Need accommodations? Just ask. And if this role excites you but you don't tick every box, apply anyway. The best people rarely fit the mold exactly.",
-      "company": "Fiverr",
-      "source": "comeet:fiverr/60.002",
-      "level": "Senior+",
-      "minYears": 6,
-      "firstSeen": "2026-11-10T13:31:38.454Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -94,7 +126,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -110,7 +142,7 @@
       "level": "Junior",
       "minYears": 1,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -144,7 +176,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -160,9 +192,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-11T12:46:02.080Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-11T12:46:02.080Z"
+      "linkCheckedAt": "2026-11-12T13:48:59.925Z"
     },
     {
       "key": "comeet:papayagaming/46.00B:68.479",
@@ -177,7 +209,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -193,7 +225,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -209,7 +241,7 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-07T11:46:14.512Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -225,7 +257,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -289,7 +321,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -305,23 +337,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
-      "status": "open"
-    },
-    {
-      "key": "linkedin:https://uk.linkedin.com/jobs/view/product-designer-mobile-native-b2c-at-rakuten-viber-4473243343",
-      "title": "Product Designer (Mobile Native B2C)",
-      "company": "Rakuten Viber",
-      "location": "Israel",
-      "url": "https://uk.linkedin.com/jobs/view/product-designer-mobile-native-b2c-at-rakuten-viber-4473243343",
-      "postedAt": null,
-      "description": "We're looking for an experienced Product Designer with strong craft, a data-driven instinct, and a genuine curiosity for how things work. This is an end-to-end ...",
-      "via": "LinkedIn",
-      "source": "feed:google",
-      "level": "Mid",
-      "minYears": null,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -337,7 +353,7 @@
       "level": "Senior+",
       "minYears": 4,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -353,7 +369,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -369,7 +385,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -385,7 +401,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -401,7 +417,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -417,9 +433,9 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-11T12:46:02.080Z"
+      "linkCheckedAt": "2026-11-12T13:48:59.925Z"
     },
     {
       "key": "smartrecruiters:Wix2:744000154874429",
@@ -434,7 +450,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -450,7 +466,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -466,7 +482,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -482,7 +498,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -498,7 +514,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -514,9 +530,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-11T12:46:02.080Z"
+      "linkCheckedAt": "2026-11-12T13:48:59.925Z"
     },
     {
       "key": "ashby:lemonade:663819c6-426c-49d6-8c0c-1fe938ffb440",
@@ -531,7 +547,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -547,7 +563,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -563,7 +579,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-04T13:02:17.859Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -579,7 +595,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -595,7 +611,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -611,7 +627,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -627,7 +643,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -645,7 +661,7 @@
       "firstSeen": "2026-11-03T13:53:11.288Z",
       "lastSeen": "2026-11-10T13:31:38.454Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-11T12:46:02.080Z"
+      "linkCheckedAt": "2026-11-12T13:48:59.925Z"
     },
     {
       "key": "greenhouse:scaleops:4921333101",
@@ -660,7 +676,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -676,7 +692,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -692,7 +708,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -708,9 +724,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-11T12:46:02.080Z"
+      "linkCheckedAt": "2026-11-12T13:48:59.925Z"
     },
     {
       "key": "greenhouse:wizinc:4599708006",
@@ -725,7 +741,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "open"
     },
     {
@@ -778,6 +794,24 @@
       "lastSeen": "2026-11-04T13:02:17.859Z",
       "status": "closed",
       "closedAt": "2026-11-05T13:15:56.238Z"
+    },
+    {
+      "key": "linkedin:https://uk.linkedin.com/jobs/view/product-designer-mobile-native-b2c-at-rakuten-viber-4473243343",
+      "title": "Product Designer (Mobile Native B2C)",
+      "company": "Rakuten Viber",
+      "location": "Israel",
+      "url": "https://uk.linkedin.com/jobs/view/product-designer-mobile-native-b2c-at-rakuten-viber-4473243343",
+      "postedAt": null,
+      "description": "We're looking for an experienced Product Designer with strong craft, a data-driven instinct, and a genuine curiosity for how things work. This is an end-to-end ...",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Mid",
+      "minYears": null,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-05T13:15:56.238Z",
+      "status": "closed",
+      "closedReason": "not seen for a week",
+      "closedAt": "2026-11-12T13:48:59.925Z"
     },
     {
       "key": "greenhouse:taboola:8300216",
