@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-11-13T13:10:43.189Z",
+  "updatedAt": "2026-11-14T12:15:06.704Z",
   "jobs": [
+    {
+      "key": "comeet:artlist/85.003:F5.274",
+      "title": "Product Designer",
+      "location": "TLV, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/artlist/85.003/product-designer/F5.274",
+      "postedAt": "2026-11-14T12:15:06.000Z",
+      "remote": false,
+      "description": "Description\nArtlist is a leading creative technology company on a mission to empower creators and brands to bring their vision to life with video. Offering cutting-edge AI tools and models for image, video, and voiceover creation, alongside high-quality creative assets and powerful editing tools, Artlist enables creators to stay on trend, and achieve their creative goals. Trusted by over 30 million creators worldwide and top brands including Google, Amazon, Microsoft, and Versace, Artlist provides a seamless, subscription-based platform with a global license, giving creators everything they need to produce professional video content efficiently. For more information, visit artlist.io .\n We're looking for a Product Designer to help shape what B2B creative tools look like in the AI era.\n Artlist is an AI-native company - Claude Code, Figma Make, and vibe coding are part of how our product team works every day. We're looking for a designer who works the same way: fluent in AI-powered tools, rigorous about design systems, and experienced designing complex B2B products.\n What you'll do \n • Own product design end-to-end - discovery, flows, prototyping, interaction design, and high-fidelity UI.\n• Use Claude Code, Figma Make, and vibe coding as active parts of your workflow.\n• Build, maintain, and evolve a scalable design system - component architecture, token structure, and documentation.\n• Design AI-powered creative experiences for enterprise teams and professional creators.\n• Shape roadmap decisions alongside product and engineering, and use research and data to validate what we ship.\nRequirements\n• 4+ years designing digital products or creative tools - B2B SaaS experience is an advantage.\n• Hands-on fluency with Claude Code, Figma Make, and vibe coding.\n• Deep design system expertise - component architecture, token structure, documentation, and governance at scale.\n• Strong product thinking with experience designing complex, multi-step workflows.\n• Excellent visual and interaction design craft - clarity, hierarchy, and polish.\n• Experience with AI generation tools (image, video, or content) - an advantage.\n• A portfolio that demonstrates both strong thinking and strong execution.",
+      "company": "Artlist",
+      "source": "comeet:artlist/85.003",
+      "level": "Mid",
+      "minYears": 4,
+      "firstSeen": "2026-11-03T12:42:26.263Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:classiq/F7.008:17.072",
+      "title": "Senior Product Designer",
+      "location": "Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/classiq/F7.008/senior-product-designer/17.072",
+      "postedAt": "2026-11-14T10:51:14.000Z",
+      "remote": true,
+      "description": "Description\nAt Classiq Technologies, we’re shaping the future of quantum computing. \n Our mission is to make quantum computing practical and impactful by bridging the gap between hardware and real-world applications. Our platform enables developers and enterprises to design, optimize, and deploy quantum algorithms at scale, automating complex processes and supporting teams from beginners to experts across diverse architectures. \n Classiq is trusted by Fortune 500 leaders and global governments. We accelerate the quantum era with a platform that transforms bold quantum ideas into working applications. \n We're looking for a Product Designer with exceptional UI skills and a real eye for visual craft to help shape the look and feel of Classiq’s quantum developer platform. This role is for someone who can bring a distinctive visual voice to a deeply technical product. \n You'll own the visual and interaction design of key parts of the platform, working closely with other designers, product managers, and engineers. This is a hands-on, high-impact role with few predefined roadmaps, so we're looking for someone with a strong point of view and the range to define things rather than just execute them. We care about the originality and strength of your work; a standout portfolio is essential. \n What you'll do \n • Design visual language for Classiq's SaaS platform and quantum developer tools, with a strong emphasis on visual quality and polish \n• Design UI and UX for complex, technical workflows \n• Bring illustration and graphic design into the product, from iconography to visual systems that make complex quantum concepts feel intuitive \n• Translate abstract, technical, and quantum ideas into clear and visually compelling experiences \n• Help raise the visual bar and evolve our design language \n• Contribute creatively and strategically in an environment with few predefined roadmaps \n Who you are \n • 5+ Years of product design experience \n• A portfolio that stands out visually, projects showing craft, a strong point of view, and distinctive UI and UX \n• Experience in visually rich domains (game design, data visualizations, developer/design/music tools, or similarly demanding visual work) is an advantage \n• Shipped UI/UX/product work you can point to. Please include links to live projects \n• Proficient in Figma \n• Fluent in English \n• Curiosity about technical, scientific, and complex products: you don't need a quantum background, but you should be genuinely interested in how systems work \n Bonus points \n • Excellent graphic design skills, strong illustration skills are a plus \n• Experience with scientific projects is a plus\nResponsibilities\nnull\nRequirements\nnull",
+      "company": "Classiq",
+      "source": "comeet:classiq/F7.008",
+      "level": "Senior+",
+      "minYears": 5,
+      "firstSeen": "2026-11-03T12:42:26.263Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:team8/61.003:49.37A",
+      "title": "Charm Security-Product Designer",
+      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
+      "postedAt": "2026-11-14T07:37:13.000Z",
+      "remote": false,
+      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm.\n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels.\n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments.\n Your designs will directly impact:\n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts\n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time\n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support\n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production.\n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next.\n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control.\n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle.\n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows.\n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience.\n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products.\n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped.\n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail.\n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions.\n• Strong Figma skills, including components, auto layout, prototyping, and design systems.\n• Experience collaborating closely with product managers and engineers.\n• The ability to explain your decisions, give and receive feedback, and adapt as you learn.\n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows.\n• Strong English communication skills.\n Nice to Have \n • A degree in Visual Communication.\n• Experience designing AI-powered products or tools that help users make complex decisions.\n• Experience making complex data easy to understand and act on.\n• Familiarity with fintech, cybersecurity, or fraud prevention.",
+      "company": "Team8",
+      "source": "comeet:team8/61.003",
+      "level": "Mid",
+      "minYears": 3,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:trullion/07.000:0D.375",
+      "title": "Product Designer",
+      "location": "Tel Aviv, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/trullion/07.000/product-designer/0D.375",
+      "postedAt": "2026-11-14T06:41:55.000Z",
+      "remote": false,
+      "description": "Description\nTrullion is transforming the accounting world with an AI-powered platform built for accountants and auditors. Our technology automates complex financial workflows, boosts efficiency, reduces costly errors, and fosters real collaboration. Founded in 2019, Trullion is on a mission to make accounting and audit technology people truly love, driving a more efficient, transparent, and human-oriented industry. From rapid onboarding to a seamless managed service model, we deliver a customer-first experience at every step.\n Headquartered in New York, with offices in Tel Aviv and London, we are backed by top investors, including Aleph, Third Point Ventures, Greycroft, StepStone Group, as well as leading global CFOs and accounting firms.\n As Trullion continues to scale, we’re seeking a Product Designer to help define the next generation of AI-powered accounting experiences - someone who thrives on solving complex product challenges, owns end-to-end design and is excited to shape a category-leading product used by finance and audit teams worldwide.\n We're building a platform where AI agents do real accounting and audit work alongside people. We're looking for a Mid-Senior Product Designer who thrives on solving complex product challenges, brings strong visual craft, works fluently inside an established design system and helps it grow.\nResponsibilities\n• Design end-to-end experiences for the Office of the CFO, where finance leaders and teams work with AI and agents on high-stakes workflows. \n• Work on the platform and infrastructure layer: shared experience patterns, frameworks, and foundations that let new capabilities feel like one coherent product, not separate features. \n• Contribute to Trullion’s design system: extend components, tokens, and variables, and keep them consistent and scalable as the product grows. \n• Lead the full design cycle, from research and flows to pixel-perfect UX/UI across all states and scenarios. \n• Raise the visual bar of the product with a modern, refined UI. \n• Collaborate closely with Product and R&D on design consistency and execution quality. \n• Create high-fidelity mockups and prototypes for testing, iteration, and customer validation. \n• Present concepts to stakeholders and advocate for decisions rooted in data, research, and user needs.\nRequirements\n• 4+ years of experience in product design (mid-senior to senior), ideally in a product-led SaaS company. \n• Experience designing for complex B2B SaaS, ideally finance or other data-heavy products. \n• Experience in companies with an established design system. Proven experience contributing to one. \n• Solid knowledge of design tokens and variables: structure, naming, modes/theming, and how they map to code. \n• Strong visual skills and a good understanding of modern UI. \n• Genuine interest in designing for AI agents and in generative UI. \n• Strong portfolio showing flows, systems thinking, and UI execution. \n• Strong communication and stakeholder management skills, and the ability to work independently and collaboratively. \n• Experience prototyping with AI tools. \n• Hands-on experience designing AI, agent-based, or generative UI experiences.\nAbout us\nWe embrace our core values in everything we do: \n • Think BIG. We are ambitious, proactive, and we love challenging the status quo. \n• Live by Truth. We uphold the highest standards of accuracy and accountability. \n• On Your Side. We’re on this journey together, committed to empowering each other to succeed. \n• Committed. To execution, delivery, and excellence.",
+      "company": "Trullion",
+      "source": "comeet:trullion/07.000",
+      "level": "Mid",
+      "minYears": 4,
+      "firstSeen": "2026-11-03T12:42:26.263Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
+      "status": "open"
+    },
     {
       "key": "post:https://www.linkedin.com/posts/theo-henry_hiring-in-tlv-product-is-growing-and-we-activity-7525614325642780672-_YP2",
       "kind": "post",
@@ -38,38 +102,6 @@
       "status": "open"
     },
     {
-      "key": "comeet:artlist/85.003:F5.274",
-      "title": "Product Designer",
-      "location": "TLV, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/artlist/85.003/product-designer/F5.274",
-      "postedAt": "2026-11-13T09:50:01.000Z",
-      "remote": false,
-      "description": "Description\nArtlist is a leading creative technology company on a mission to empower creators and brands to bring their vision to life with video. Offering cutting-edge AI tools and models for image, video, and voiceover creation, alongside high-quality creative assets and powerful editing tools, Artlist enables creators to stay on trend, and achieve their creative goals. Trusted by over 30 million creators worldwide and top brands including Google, Amazon, Microsoft, and Versace, Artlist provides a seamless, subscription-based platform with a global license, giving creators everything they need to produce professional video content efficiently. For more information, visit artlist.io .\n We're looking for a Product Designer to help shape what B2B creative tools look like in the AI era.\n Artlist is an AI-native company - Claude Code, Figma Make, and vibe coding are part of how our product team works every day. We're looking for a designer who works the same way: fluent in AI-powered tools, rigorous about design systems, and experienced designing complex B2B products.\n What you'll do \n • Own product design end-to-end - discovery, flows, prototyping, interaction design, and high-fidelity UI.\n• Use Claude Code, Figma Make, and vibe coding as active parts of your workflow.\n• Build, maintain, and evolve a scalable design system - component architecture, token structure, and documentation.\n• Design AI-powered creative experiences for enterprise teams and professional creators.\n• Shape roadmap decisions alongside product and engineering, and use research and data to validate what we ship.\nRequirements\n• 4+ years designing digital products or creative tools - B2B SaaS experience is an advantage.\n• Hands-on fluency with Claude Code, Figma Make, and vibe coding.\n• Deep design system expertise - component architecture, token structure, documentation, and governance at scale.\n• Strong product thinking with experience designing complex, multi-step workflows.\n• Excellent visual and interaction design craft - clarity, hierarchy, and polish.\n• Experience with AI generation tools (image, video, or content) - an advantage.\n• A portfolio that demonstrates both strong thinking and strong execution.",
-      "company": "Artlist",
-      "source": "comeet:artlist/85.003",
-      "level": "Mid",
-      "minYears": 4,
-      "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:team8/61.003:49.37A",
-      "title": "Charm Security-Product Designer",
-      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
-      "postedAt": "2026-11-13T04:10:51.000Z",
-      "remote": false,
-      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm.\n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels.\n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments.\n Your designs will directly impact:\n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts\n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time\n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support\n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production.\n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next.\n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control.\n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle.\n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows.\n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience.\n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products.\n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped.\n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail.\n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions.\n• Strong Figma skills, including components, auto layout, prototyping, and design systems.\n• Experience collaborating closely with product managers and engineers.\n• The ability to explain your decisions, give and receive feedback, and adapt as you learn.\n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows.\n• Strong English communication skills.\n Nice to Have \n • A degree in Visual Communication.\n• Experience designing AI-powered products or tools that help users make complex decisions.\n• Experience making complex data easy to understand and act on.\n• Familiarity with fintech, cybersecurity, or fraud prevention.",
-      "company": "Team8",
-      "source": "comeet:team8/61.003",
-      "level": "Mid",
-      "minYears": 3,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
-      "status": "open"
-    },
-    {
       "key": "comeet:medison/67.00A:4B.27C",
       "title": "Senior Product Designer, Business Technology",
       "location": "Israel, Petah Tikva, IL",
@@ -82,7 +114,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -98,7 +130,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-10T13:31:38.454Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -114,7 +146,7 @@
       "level": "Senior+",
       "minYears": 4,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -178,7 +210,7 @@
       "level": "Senior+",
       "minYears": 8,
       "firstSeen": "2026-11-08T11:58:09.551Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -194,7 +226,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -210,7 +242,7 @@
       "level": "Junior",
       "minYears": 1,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -232,22 +264,6 @@
       "status": "open"
     },
     {
-      "key": "comeet:classiq/F7.008:17.072",
-      "title": "Senior Product Designer",
-      "location": "Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/classiq/F7.008/senior-product-designer/17.072",
-      "postedAt": "2026-11-10T06:00:06.000Z",
-      "remote": true,
-      "description": "Description\nAt Classiq Technologies, we’re shaping the future of quantum computing. \n Our mission is to make quantum computing practical and impactful by bridging the gap between hardware and real-world applications. Our platform enables developers and enterprises to design, optimize, and deploy quantum algorithms at scale, automating complex processes and supporting teams from beginners to experts across diverse architectures. \n Classiq is trusted by Fortune 500 leaders and global governments. We accelerate the quantum era with a platform that transforms bold quantum ideas into working applications. \n We're looking for a Product Designer with exceptional UI skills and a real eye for visual craft to help shape the look and feel of Classiq’s quantum developer platform. This role is for someone who can bring a distinctive visual voice to a deeply technical product. \n You'll own the visual and interaction design of key parts of the platform, working closely with other designers, product managers, and engineers. This is a hands-on, high-impact role with few predefined roadmaps, so we're looking for someone with a strong point of view and the range to define things rather than just execute them. We care about the originality and strength of your work; a standout portfolio is essential. \n What you'll do \n • Design visual language for Classiq's SaaS platform and quantum developer tools, with a strong emphasis on visual quality and polish \n• Design UI and UX for complex, technical workflows \n• Bring illustration and graphic design into the product, from iconography to visual systems that make complex quantum concepts feel intuitive \n• Translate abstract, technical, and quantum ideas into clear and visually compelling experiences \n• Help raise the visual bar and evolve our design language \n• Contribute creatively and strategically in an environment with few predefined roadmaps \n Who you are \n • 5+ Years of product design experience \n• A portfolio that stands out visually, projects showing craft, a strong point of view, and distinctive UI and UX \n• Experience in visually rich domains (game design, data visualizations, developer/design/music tools, or similarly demanding visual work) is an advantage \n• Shipped UI/UX/product work you can point to. Please include links to live projects \n• Proficient in Figma \n• Fluent in English \n• Curiosity about technical, scientific, and complex products: you don't need a quantum background, but you should be genuinely interested in how systems work \n Bonus points \n • Excellent graphic design skills, strong illustration skills are a plus \n• Experience with scientific projects is a plus\nResponsibilities\nnull\nRequirements\nnull",
-      "company": "Classiq",
-      "source": "comeet:classiq/F7.008",
-      "level": "Senior+",
-      "minYears": 5,
-      "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
-      "status": "open"
-    },
-    {
       "key": "secrettlv:https://jobs.secrettelaviv.com/job/senior-product-designer-129/",
       "title": "Senior Product Designer",
       "company": "",
@@ -260,9 +276,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-11T12:46:02.080Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-13T13:10:43.189Z"
+      "linkCheckedAt": "2026-11-14T12:15:06.704Z"
     },
     {
       "key": "comeet:papayagaming/46.00B:68.479",
@@ -277,23 +293,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:trullion/07.000:0D.375",
-      "title": "Product Designer",
-      "location": "Tel Aviv, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/trullion/07.000/product-designer/0D.375",
-      "postedAt": "2026-11-08T08:58:35.000Z",
-      "remote": false,
-      "description": "Description\nTrullion is transforming the accounting world with an AI-powered platform built for accountants and auditors. Our technology automates complex financial workflows, boosts efficiency, reduces costly errors, and fosters real collaboration. Founded in 2019, Trullion is on a mission to make accounting and audit technology people truly love, driving a more efficient, transparent, and human-oriented industry. From rapid onboarding to a seamless managed service model, we deliver a customer-first experience at every step.\n Headquartered in New York, with offices in Tel Aviv and London, we are backed by top investors, including Aleph, Third Point Ventures, Greycroft, StepStone Group, as well as leading global CFOs and accounting firms.\n As Trullion continues to scale, we’re seeking a Product Designer to help define the next generation of AI-powered accounting experiences - someone who thrives on solving complex product challenges, owns end-to-end design and is excited to shape a category-leading product used by finance and audit teams worldwide.\n We're building a platform where AI agents do real accounting and audit work alongside people. We're looking for a Mid-Senior Product Designer who thrives on solving complex product challenges, brings strong visual craft, works fluently inside an established design system and helps it grow.\nResponsibilities\n• Design end-to-end experiences for the Office of the CFO, where finance leaders and teams work with AI and agents on high-stakes workflows. \n• Work on the platform and infrastructure layer: shared experience patterns, frameworks, and foundations that let new capabilities feel like one coherent product, not separate features. \n• Contribute to Trullion’s design system: extend components, tokens, and variables, and keep them consistent and scalable as the product grows. \n• Lead the full design cycle, from research and flows to pixel-perfect UX/UI across all states and scenarios. \n• Raise the visual bar of the product with a modern, refined UI. \n• Collaborate closely with Product and R&D on design consistency and execution quality. \n• Create high-fidelity mockups and prototypes for testing, iteration, and customer validation. \n• Present concepts to stakeholders and advocate for decisions rooted in data, research, and user needs.\nRequirements\n• 4+ years of experience in product design (mid-senior to senior), ideally in a product-led SaaS company. \n• Experience designing for complex B2B SaaS, ideally finance or other data-heavy products. \n• Experience in companies with an established design system. Proven experience contributing to one. \n• Solid knowledge of design tokens and variables: structure, naming, modes/theming, and how they map to code. \n• Strong visual skills and a good understanding of modern UI. \n• Genuine interest in designing for AI agents and in generative UI. \n• Strong portfolio showing flows, systems thinking, and UI execution. \n• Strong communication and stakeholder management skills, and the ability to work independently and collaboratively. \n• Experience prototyping with AI tools. \n• Hands-on experience designing AI, agent-based, or generative UI experiences.\nAbout us\nWe embrace our core values in everything we do: \n • Think BIG. We are ambitious, proactive, and we love challenging the status quo. \n• Live by Truth. We uphold the highest standards of accuracy and accountability. \n• On Your Side. We’re on this journey together, committed to empowering each other to succeed. \n• Committed. To execution, delivery, and excellence.",
-      "company": "Trullion",
-      "source": "comeet:trullion/07.000",
-      "level": "Mid",
-      "minYears": 4,
-      "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -373,7 +373,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -389,7 +389,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -405,7 +405,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -421,7 +421,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -437,7 +437,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -453,7 +453,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -469,9 +469,9 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-13T13:10:43.189Z"
+      "linkCheckedAt": "2026-11-14T12:15:06.704Z"
     },
     {
       "key": "smartrecruiters:Wix2:744000154874429",
@@ -486,7 +486,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -502,7 +502,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -518,7 +518,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -534,7 +534,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -550,7 +550,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -566,9 +566,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-13T13:10:43.189Z"
+      "linkCheckedAt": "2026-11-14T12:15:06.704Z"
     },
     {
       "key": "ashby:lemonade:663819c6-426c-49d6-8c0c-1fe938ffb440",
@@ -583,7 +583,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -599,7 +599,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -615,7 +615,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-04T13:02:17.859Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -631,7 +631,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -647,7 +647,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -663,7 +663,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -679,7 +679,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -697,7 +697,7 @@
       "firstSeen": "2026-11-03T13:53:11.288Z",
       "lastSeen": "2026-11-10T13:31:38.454Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-13T13:10:43.189Z"
+      "linkCheckedAt": "2026-11-14T12:15:06.704Z"
     },
     {
       "key": "greenhouse:scaleops:4921333101",
@@ -712,7 +712,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -728,7 +728,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
@@ -744,9 +744,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-13T13:10:43.189Z"
+      "linkCheckedAt": "2026-11-14T12:15:06.704Z"
     },
     {
       "key": "greenhouse:wizinc:4599708006",
@@ -761,7 +761,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "lastSeen": "2026-11-14T12:15:06.704Z",
       "status": "open"
     },
     {
