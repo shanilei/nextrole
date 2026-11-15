@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-11-14T12:15:06.704Z",
+  "runAt": "2026-11-15T12:48:03.124Z",
   "companies": [
     {
       "company": "365Scores",
@@ -23,7 +23,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "abra_rnd/15.007",
-      "total": 103,
+      "total": 102,
       "matches": 0
     },
     {
@@ -76,15 +76,18 @@
     },
     {
       "company": "Applied Materials",
-      "status": "error",
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+      "status": "ok",
+      "ats": "workday",
+      "id": "amat/wd1/External",
+      "total": 207,
+      "matches": 0
     },
     {
       "company": "AppsFlyer",
       "status": "ok",
       "ats": "greenhouse",
       "id": "appsflyer",
-      "total": 56,
+      "total": 55,
       "matches": 0
     },
     {
@@ -108,7 +111,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "artlist/85.003",
-      "total": 28,
+      "total": 29,
       "matches": 1
     },
     {
@@ -169,7 +172,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "catonetworks",
-      "total": 118,
+      "total": 117,
       "matches": 1
     },
     {
@@ -185,7 +188,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "ceva/76.005",
-      "total": 28,
+      "total": 26,
       "matches": 0
     },
     {
@@ -201,7 +204,7 @@
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "CheckPointSoftwareTechnologies2",
-      "total": 236,
+      "total": 235,
       "matches": 0
     },
     {
@@ -265,7 +268,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "connecteam",
-      "total": 58,
+      "total": 57,
       "matches": 0
     },
     {
@@ -289,13 +292,16 @@
       "status": "ok",
       "ats": "comeet",
       "id": "crossriver/C7.00F",
-      "total": 17,
+      "total": 16,
       "matches": 0
     },
     {
       "company": "CrowdStrike",
-      "status": "error",
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+      "status": "ok",
+      "ats": "workday",
+      "id": "crowdstrike/wd5/crowdstrikecareers",
+      "total": 10,
+      "matches": 0
     },
     {
       "company": "Cyera",
@@ -358,7 +364,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "drivenets/72.006",
-      "total": 50,
+      "total": 49,
       "matches": 0
     },
     {
@@ -366,7 +372,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "duda",
-      "total": 4,
+      "total": 3,
       "matches": 1
     },
     {
@@ -382,7 +388,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "earnix/93.00B",
-      "total": 25,
+      "total": 26,
       "matches": 0
     },
     {
@@ -395,18 +401,15 @@
     },
     {
       "company": "eToro",
-      "status": "ok",
-      "ats": "comeet",
-      "id": "etoro/41.009",
-      "total": 9,
-      "matches": 0
+      "status": "error",
+      "error": "comeet etoro/41.009: positions data not found on page"
     },
     {
       "company": "Exodigo",
       "status": "ok",
       "ats": "comeet",
       "id": "exodigo/89.005",
-      "total": 41,
+      "total": 40,
       "matches": 0
     },
     {
@@ -459,7 +462,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "fullpath/54.002",
-      "total": 24,
+      "total": 22,
       "matches": 0
     },
     {
@@ -483,7 +486,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "global-e/62.002",
-      "total": 46,
+      "total": 45,
       "matches": 0
     },
     {
@@ -552,8 +555,11 @@
     },
     {
       "company": "HPE",
-      "status": "error",
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+      "status": "ok",
+      "ats": "workday",
+      "id": "hpe/wd5/Jobsathpe",
+      "total": 379,
+      "matches": 0
     },
     {
       "company": "Hunters",
@@ -598,8 +604,11 @@
     },
     {
       "company": "Intel",
-      "status": "error",
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+      "status": "ok",
+      "ats": "workday",
+      "id": "intel/wd1/External",
+      "total": 208,
+      "matches": 0
     },
     {
       "company": "Jeen.ai",
@@ -614,7 +623,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "jfrog",
-      "total": 76,
+      "total": 75,
       "matches": 0
     },
     {
@@ -630,7 +639,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "kaltura/E2.00D",
-      "total": 35,
+      "total": 36,
       "matches": 0
     },
     {
@@ -638,13 +647,16 @@
       "status": "ok",
       "ats": "comeet",
       "id": "kelatechnologies/2A.007",
-      "total": 39,
+      "total": 40,
       "matches": 0
     },
     {
       "company": "KLA",
-      "status": "error",
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+      "status": "ok",
+      "ats": "workday",
+      "id": "kla/wd1/Search",
+      "total": 202,
+      "matches": 0
     },
     {
       "company": "Lemonade",
@@ -696,8 +708,11 @@
     },
     {
       "company": "Marvell",
-      "status": "error",
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+      "status": "ok",
+      "ats": "workday",
+      "id": "marvell/wd1/MarvellCareers",
+      "total": 32,
+      "matches": 0
     },
     {
       "company": "Masterschool",
@@ -736,7 +751,7 @@
       "status": "ok",
       "ats": "lever_eu",
       "id": "mobileye",
-      "total": 176,
+      "total": 174,
       "matches": 0
     },
     {
@@ -754,7 +769,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "mongodb",
-      "total": 391,
+      "total": 390,
       "matches": 0
     },
     {
@@ -767,15 +782,18 @@
     },
     {
       "company": "Motorola Solutions",
-      "status": "error",
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+      "status": "ok",
+      "ats": "workday",
+      "id": "motorolasolutions/wd5/Careers",
+      "total": 224,
+      "matches": 0
     },
     {
       "company": "Nanit",
       "status": "ok",
       "ats": "greenhouse",
       "id": "nanit",
-      "total": 7,
+      "total": 6,
       "matches": 0
     },
     {
@@ -791,7 +809,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "tripactions",
-      "total": 233,
+      "total": 234,
       "matches": 0
     },
     {
@@ -807,7 +825,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "nayax/13.009",
-      "total": 30,
+      "total": 31,
       "matches": 0
     },
     {
@@ -839,13 +857,16 @@
       "status": "ok",
       "ats": "comeet",
       "id": "nova/A5.007",
-      "total": 126,
+      "total": 124,
       "matches": 0
     },
     {
       "company": "NVIDIA",
-      "status": "error",
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
+      "status": "ok",
+      "ats": "workday",
+      "id": "nvidia/wd5/NVIDIAExternalCareerSite",
+      "total": 208,
+      "matches": 0
     },
     {
       "company": "ODDITY",
@@ -869,7 +890,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "onezerobank/36.00A",
-      "total": 12,
+      "total": 11,
       "matches": 0
     },
     {
@@ -933,7 +954,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "papayaglobal/16.005",
-      "total": 49,
+      "total": 47,
       "matches": 0
     },
     {
@@ -949,7 +970,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "pentera/C5.00D",
-      "total": 33,
+      "total": 32,
       "matches": 0
     },
     {
@@ -965,7 +986,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "personetics/83.00a",
-      "total": 9,
+      "total": 10,
       "matches": 0
     },
     {
@@ -989,7 +1010,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "play_perfect/69.001",
-      "total": 11,
+      "total": 10,
       "matches": 1
     },
     {
@@ -1027,7 +1048,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "quantummachines/D6.000",
-      "total": 66,
+      "total": 65,
       "matches": 0
     },
     {
@@ -1100,7 +1121,7 @@
       "status": "ok",
       "ats": "workday",
       "id": "salesforce/wd12/External_Career_Site",
-      "total": 61,
+      "total": 62,
       "matches": 0
     },
     {
@@ -1124,7 +1145,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "scaleops",
-      "total": 55,
+      "total": 54,
       "matches": 1
     },
     {
@@ -1164,7 +1185,7 @@
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "servicenow",
-      "total": 818,
+      "total": 817,
       "matches": 0
     },
     {
@@ -1228,7 +1249,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "sunflower/AA.009",
-      "total": 21,
+      "total": 20,
       "matches": 1
     },
     {
@@ -1265,7 +1286,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "taboola",
-      "total": 82,
+      "total": 76,
       "matches": 1
     },
     {
@@ -1281,7 +1302,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "team8/61.003",
-      "total": 55,
+      "total": 54,
       "matches": 1
     },
     {
@@ -1345,7 +1366,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "upwind/49.004",
-      "total": 100,
+      "total": 101,
       "matches": 0
     },
     {
@@ -1377,7 +1398,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "via",
-      "total": 177,
+      "total": 176,
       "matches": 0
     },
     {
@@ -1385,7 +1406,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "voyantis/86.00B",
-      "total": 5,
+      "total": 4,
       "matches": 0
     },
     {
@@ -1433,8 +1454,8 @@
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "Wix2",
-      "total": 93,
-      "matches": 3
+      "total": 91,
+      "matches": 2
     },
     {
       "company": "Wiz",
@@ -1560,52 +1581,52 @@
       "q": "site:linkedin.com/jobs \"product designer\" Israel",
       "results": 10,
       "links": [
-        "https://www.google.com/goto?url=CAES3QEBxCJF1-FGvTaTxewU4QLD2OC71yfExkLGIuuILDANHa7JpeQA6-xTXy1L9fBOf3WRYWtCOrD1-nSubfoQNO1f_RLQwBiCSAJrHs2MWPYLqHlM_Zo8jT_FXzDDV91_vVePg-UlmZ6Y728Rz7b6kDFneJJJ63VF8Tibpqw2kSxZ35y5q2ritvArTW2H8cdr0JOhxWwErCH_gIvxcE-ZhAAbrA7Z_7mS09goxkbMn3TedPDQ3qTYiMwpQDs_XSLsb89L6HxjDBLUzD4IMP6NlS7Riet5rHG3GWSQc1_NxQ",
-        "https://www.google.com/goto?url=CAESgAEBxCJF19lu0Fso8oa6nhiFpZWKiWU_6EN3AWKLROscciDOoTRdEzJYzcEvlmB_sPyfUuWgEg32-2VN76aHnE1iUCTNt5uey8yQnjEzih-n6_qM2N9sDiBgEQN3ZKgl_Atg1Csz0C8eRT9wiqSWym-ronFpAElahXzbusU2ln9ZFw",
-        "https://www.google.com/goto?url=CAES8QEBxCJF19lOGoobFhbfc9hf5oFLFkTk4SfzOdF1re9EZId1LJb_U81pKzWVAje4Ns0xhv5RrBDhvdopZAtpiqwpsLGBmPnRwzwD1QQKzUHvolUb3uwUQWZevH5MaXoZ5o5YWksUCvNmpRHCzLg3P8AZ2nMpJc-itcpCi6f1T3_Jj_3hYgfV0IHwjovXzuSkAuUq2NLHoE7cy1H0jDqYnJKLOOeI01ZPgUrOFtOJEgd4b3bvhryuuilTKEIGd1yKEWDoJRdb0BHoyqBL1uYH-0Oj8XJuMoupmpYm66el8HE3HhEvAmHroPLyUlDelYOn9U7g"
+        "https://www.google.com/goto?url=CAESiAEBxCJF142vWbTXqfFYuFvLzOoyno8-E_WlO_88nu42mt1WFgLZlriYT3lUrFU4JXMqR42ZThSrC3Fm4hfb_c7EK5bHx0h0P5w6z0e1pxAowV0VwuQSDKOl1lt6JwlvcRFjOUPtZ0qNaXbC-p8jmk2oLNFogyQcEJ-LEpBt4R55BY-PX8cMJqRn",
+        "https://www.google.com/goto?url=CAES3QEBxCJF1-xP_pLLLS4yeSQkOzFWPtrqaYy1cFRR79LV3PZz9doiqvQgV5oRfy1U_YAUXH4iHM9tdKekep0CMKJJysXrwRKAC4OzVpsFwTJzSFPCHtiScSzfvf_j38LYVjG0CFvvnoUY_os7L7QPiyrHuPx2295mn8bzG_S8tIs0UN2kioxMwgS7GoV_C7XUeu1JxZ6r2-flwEu7_lx5sUU6WqMKmV7SWwUwLeb-XFR76vpG4zmh8b8ClSJvhqpRtHEonIGYv_Hp4CEq_EjNy7bs3kdnwSgSp4s3pfOg1A",
+        "https://www.google.com/goto?url=CAESgAEBxCJF167vHkOyirqhssaNBzg1rsF71hSwC0CMAhs2q3__-ev8lXKHkFnUTmR-RSqGrwCFsyA0HYcD5178xsneS75lpTKKvlF0MEdkWk9wAG2-zflZib5M3St-k5tLaOjYemqK4Gc--TlJtA4Dp1wttVlwtAxiDI_FzM6HXit3lw"
       ]
     },
     {
       "q": "site:linkedin.com/posts hiring \"product designer\" Israel",
-      "results": 1,
+      "results": 2,
       "links": [
-        "https://www.google.com/goto?url=CAESnAEBxCJF1w2tEvVm3s2QBxN4alnFLNwkmSq32OYJeCaHL6GG7eNCpwzUDamrgzsfOzAMFQb9IprEZ-MncUuWMEiGBXHwHPJpjnXE0aRDyX5_jhThX2LDXF1ILbK8pGh9LvbjqCmqX2CpluqxwGcNi7oYZV4CNa43xh5VJKbXaMwqEtTmIoDNwfqIirwEo2tLh-l4fGzqgYZIlwik4Os"
+        "https://www.google.com/goto?url=CAESnAEBxCJF16HfuXTCrMuSGC8ja1G3k19vfagFkbuIroUQB-woJ2SqDZCkTiSphLlT6oqxzyfkC0XWATVZfyJMTZILEm6eK4e3p9gvVoBJlJ3sO-YciOnioQuw8yz2WLCmYizain-JZVvHn4EhPmFnNWFJW_ja0Yzhqkoa1ot8FWJ7NrBccZAvk2Qlz89mJ9rPB_UbN_mG8VY0qSGiAJ0",
+        "https://www.google.com/goto?url=CAESfwHEIkXXwKnA2rjv2DVItIcL13kiHUCoM8HjM4WjXn8oXzfKcSCOE5MH_6erFsmM3lo8ahKvXujow7HUXP7udvHtqCGNzeHEKta6mMv_WRxbDaMO-T0IxZk7V_4PGfMAMv33xRlzoFeKh8JVnPxGXmZMArUQ_kTLh8LAvq0zZyI"
       ]
     },
     {
       "q": "site:linkedin.com/jobs \"UX designer\" Israel",
       "results": 4,
       "links": [
-        "https://www.google.com/goto?url=CAES2gEBxCJF1zOfFCYLO3_BWuDER4XiGlSCxTbXAcgpDodyPHOtS7twnpniohwZP1u5tvczvQNus2T_52MtIO796K2M2r_Va7N_ABS1u5JQXWkUeWXm1nv4yng9fIBbgBLkzuif1WWT59Oxg1wteIpKw-XkW2UNkd-TrViwDtf6RR6dxXX50HWkNf0oUx_qlmKTz3cAKhrur_caq-A7KB4lDHXPnwkzBuYsGOhG8qzAKbEPPcS-gKadpmeMWZFQ0gOQ_rvbv0tl5sU4kIcAMKinMBjkaI_yISvxFuiUdg",
-        "https://www.google.com/goto?url=CAESjAEBxCJF12DhlN1GdMWbCBDz1cySlcQ9A_cFH-O_zIsEZ5SbxTB1JVzAW1-b5KLJSazkN9yqTCwyTMoZNEHTrqjY5G09XJV4DufdLCCoQLdXoBWfsuCaNoPgWYs_X1y1ga4EvNWk3umXqOp9m8vGoAgQavNZ5TLefnmXGM3a-Y5HAWhHrs6JIBQg3OQ-vg",
-        "https://www.google.com/goto?url=CAES_QEBxCJF14fPblRNugaw9w0dbxxpJlWmYYAq-IMAxkY9omwY6BeiizqOW8W1YO0ytdH9UCy1c3AH3a3aaPGr4yTSbSnGN0YS6oMekB1ZnPYtSM7XLizkKJn6kIfgmDiV12pQyptrrRWhHr-5wmYG22KPJD12_WR4am0NVdmwMVbh84zRC6wq7LqF5j9aXVtRJPKUvibSSi6hUuUDdvMyEYSbYLU6x6wUSGRIPZRDV-vTO46IrbrXe8WMReLXe4nR14dJVoq4S3ZeTiaPuuhGxrmMJ-vCyijVqAYMzp4FYa-HwTb0w11YtViqNLbtxNzEZ6IEQE22y68QLldOYE5v"
+        "https://www.google.com/goto?url=CAES2gEBxCJF1-c0FJ5acamKgD_mQkUO3ASkCo-p1sv18-k0K_dR1wvSqEDVdpW33vMVuKIe0FyDtOEiDP1_YTO8T_0jnAbUPZkzegziZHt5jiqvDjmGHJJRsGXqKODaAFtpC2SyrFQHIy5hLm35ajAFsZDYzqywwMLwO5aSInwf99cz0eD3RmqJF1fXyx353_4ZgKMnCrlxcg4wNnoHJev_bNbAIs_Um2FT2brV-1MrRMQVRB7cKNdDPmAUx6qBzCWFviveGGzr1rW2_r5-q3imkoSqIPrMEq02Cb-xKQ",
+        "https://www.google.com/goto?url=CAES_QEBxCJF12tY4vaoMKEw0d4bj2-wAiNUfIfQS36VeEGkz7LeK6LwcoDQ0VHPmi8eTfzQ4wRY2e9X5VDkiGb42DgR--Q-JwgYFP64AXwNf8u6hwO4syeSOCREil5Yoe6iwP06HyONWSCTFr4_MZXM5euKhA-uSs8nlpi4YLfXRtkbSdIEPWnvzepMEsUsbF1HpOu_jSfchSWSXWBpy-HLqnwUX8Y-msFyILwx2TdDSX351-AS8SezIqIpA22AEWtxwKWaopThghAqTxsndTdEviTd7mI_OyLLn-D66cXQp8jtIHrZJJMZRnymCqPUnzPbiwKYJY6T9YhfIaCUF5ME",
+        "https://www.google.com/goto?url=CAESjAEBxCJF10kpra7tAX9_6C-misZdgK2KNsDHIh1bLurhGfiCCn62lypE-y6dy3Zz42LgBcD5RVdrVTewnY7UScuIO4Vx5Hn6iGoULahkI9XtSKPvZXPRXldiRxI5uX7FtSpVDV2Njc7tjKsmTtYmru_Wnf_IIEWanDCybgyBlSvkICvmwR_yR7cUus2hkw"
       ]
     },
     {
       "q": "site:linkedin.com/posts (מגייסים OR מחפשים OR דרוש OR דרושה) (UX OR \"מעצב מוצר\" OR \"מעצבת מוצר\" OR \"product designer\")",
-      "results": 5,
+      "results": 3,
       "links": [
-        "https://www.google.com/goto?url=CAESdQHEIkXXOQRTdqYK8ni7vc5ynERZRSAATmdOm15By_vw2luvYXUJ5l9RFJxHRkR_f4hitz4PSomdQvf7RVQlWuJw6y26MpMiinBF-JtUD3E4Xb6LeKqbspnsoqybAclAwqdosx7bKkowOBBPng-LbApOOwR5nw",
-        "https://www.google.com/goto?url=CAESbwHEIkXXu59MM7dehvNPOskWOAeqtan-ZtNmSWf4GZXTKsQcqmOiTRi95Lws8W7a6XwKfIM3zTE1VIKjWdDpAQ1_3BahAuqTttmM5ds6D_z45rdfSbYuULf4TGAc2uDvxGuSen66XcE_GH7myciHuw",
-        "https://www.google.com/goto?url=CAES2gEBxCJF19LuZPAUd5H8UsEL4KFz-LZ3M-nt_V2HAmUSfoJYt8qPgdTS4Ab3tJDrMVd1yY0P6bMbiBSH1O5bCQuzptnpshLtOvfgt2v-zNEPu0CDb49X4DUz66-yY0-TAvfKQBiVFaw9Ue6T61sSnD7wVLq68PuMbmbdAVQ9EHbqpLnFuM5ZqQXxlRG7ocy4d3IpGC35DU2rXVOzv1FXm5-laJRxqD5nRVwIsNV31OfN8QBb6APRYT10RNFkEf1yBGbOHExbxqkGkMoSsw5iByksxe7OTqT4BIvtoQ"
+        "https://www.google.com/goto?url=CAES2gEBxCJF17urUxU3TPR4GeIg-6S3N24WPuCQ3W0NXUL5AiXYgdhTOSxWnmCZqg6kevMYBlfdg_U22iZRX4VTmyOP10BJZFebe1wEy8ylkbE2_ZfPnl7PFtn1MY7cb5uYgC1yuZ-7OnjW5gQMpGPwyPQqxsM61rhGAobjgvVx2M1jlbYrRhuQ2xfMrOYUBV8X4fmm33VVrVqHqp1KziU6pvNqMRkiPWwfXxpLLWDpa9QK5RU8nN8_kXspgdKXk9vbMd7dLUWvGFugVjMoO1dWI9hArE-GKlsDCVC4qg",
+        "https://www.google.com/goto?url=CAESbwHEIkXX3wYyqnDUjGVZCkTAjLjMAfuKb-U7l5hdSb5bizScYFkIOcFKfn0MKpvD5YD35qzzirISbF5b_efErzZ-BAKzst-KGRFt7Hw8JklSmwHdfuOygri8v7MnQ-hWdUzzdVqpKWRY39xzZsKWXw",
+        "https://www.google.com/goto?url=CAESowEBxCJF1xwX5I8zMOLKsKo65fPX2LaUgMKkUkdcuIN6nDCdQivxeV3ZX_VNEDElLFszoWZuz0SVUxkHVZOUAEX9YyUC9UXpaCk7DTovH-I5_7yGGg55RP3hLWROfuRNlWMaNZe9q0APel500HEQLh_SWwlW-yu5vNlQ6RDBahC74vcCQaYiVdVOaHlFviCG_8cuZxtxEu65aSUhPvEM67n8XlEL"
       ]
     },
     {
       "q": "site:linkedin.com/jobs \"UI/UX designer\" OR \"UX/UI designer\" Israel",
-      "results": 3,
+      "results": 2,
       "links": [
-        "https://www.google.com/goto?url=CAESeAHEIkXXDSttJ6SSjqnZ-o8VndwoYWEKDXI6mnLq_Jv4cTbKl-H2reZoMG-NzDxnWlF5yZaWLemTSIq_45HRjRn1gPa3yfjAf2UbPUFbDADXa7R7MwagXx3zmCj9k6KZwsRCEHr6qsKh6oEdwTDZmCFoNO-rY7hrCw",
-        "https://www.google.com/goto?url=CAESXQHEIkXXcwZTpcMpF2UrzDtBAnyVJQUFA3xNIbAIE8P7nK3mab4UWFMB7pbxIkPEOtu84QbRG4TURkwAaY1Cw5gH3bIKtaleQL2Plrxclj4cylLn5dqvJAfnQ8rccw",
-        "https://www.google.com/goto?url=CAESmwEBxCJF13xvjeM74_NpFCO0WUVN1GH8_tBY67CoVTK1jiEk1-_cgdqulHrFWKadGfJgxot5EhGdAP-ohZb93S8LNnlh3ruHkGMa8gThomLcMVVzPjROqLgA2Y8wyaWofWvzQIICEzVTAzaWaNCeqegjy9wdN4KknGRHSlnxPx55mkkn0YAKPlG2WoXNcV3PBLQLSfb08WUByOP2kg"
+        "https://www.google.com/goto?url=CAESXgHEIkXXLWCarM9lgH4ifR1v21sX7ysryAsXdkQwQNV6hsWqI1ogot7qgy8jYK4H2evlR-DA-H7r43oVSYEEVosiFIa8LGtBUGI7j3BuY6-bGG9kCTdxZtMKTA1jTBY",
+        "https://www.google.com/goto?url=CAESnAEBxCJF1y07PexETe4Fu87pQqydeihocphRpChkaTiZlKVKXYJjaaTApHpDlXKn080RQ3C9Fe4cgK5l6jm0BnTA_x29el5jeT7NYWfPtwfjnSyumOwt7JG8aikFooIpU-ctRJD8NXRoy46VRfeV52hYoXEgakWs8jWw2MCAI_95a7iMm1QiNFqOo5VhOA2akVkujxM9HwfIA9gOHKA"
       ]
     },
     {
       "q": "site:linkedin.com/jobs \"product designer\" \"Tel Aviv\"",
-      "results": 6,
+      "results": 7,
       "links": [
-        "https://www.google.com/goto?url=CAESeQHEIkXXOdmpWotmqw44s6e0jgxrnWckwqf7HorfLkzVK6662bdZiEugZR2dacndVO7BkjrHMga7zp6jwfjRf9qMFgr6SvmRLdhZ9Mv35-M2mJthpLqwLjQDpc9pBd56IkMCYMrIghKqMvElsI0j8zX6WfVtKWQlobw",
-        "https://www.google.com/goto?url=CAESeQHEIkXXV3d1L3tv4hzX-WzSJ0jc73vHMPwUzh11Jxlpt5Ufkl6asy2asShlMQom6O74JEbaiegPNBJy6v648GDRDBMF-7YYZkQ5NDz5z1-XdaevWcRfpqP4emcGX0E8W0lDP5rHpprL_HmCU45S0Yn0-L2DEKVyFKk",
-        "https://www.google.com/goto?url=CAESeQHEIkXXY071yXPSuwyxxxgJX0dROyZSn0V0_AiUmRPPQN0qcpUyxg9l-wvmxh_s-tdaG0SH46o3q3k-6j7hxkjA4V7Cu_8hrLFJB7NHHKv2DOhdkPv4oROosuge3oNl3DW7iiPXKKVkGEWhgn4CWAdyQLWYOVyR6IA"
+        "https://www.google.com/goto?url=CAESeQHEIkXXsBoQIv938zIgSQuFIh9qDc9KVE2iA_AAbIVnKvkUKO8u0E_PPgdv7weWLE_NtrJSPu8WsMl1ooEMYNXUXqy90oqlgTw6ZehoG_GKxMdz4wk7SPTtEsiQq1qzS50aE04cNOuGT3uOqQWTD1aACkARkkBTx84",
+        "https://www.google.com/goto?url=CAESeQHEIkXXU_HurX-_a4KXPgwdR2LgNFUtfRPODwQg6nCQvAfodtovG3YHBB8kPVRE7wHSzhHx982PSKkZ7jvjOzOIVcGZgKawojZzU39-a4jeSyFhYeLcjpVdHzxbXNknNlJ01LdQ_3gbiILWTnASMqg7QMDPZVpiN7Q",
+        "https://www.google.com/goto?url=CAESeQHEIkXXLLjlZHwM2u8kQVXTazT454zkHQ2AgXIzt3TDjmiLGPvheR97lSCz-KyshyDnDQsaeAYlkXREyr28Cq7lkrkCUqdWhiaH4y6fzRLS-ATXX_1eJjxOjXL-vQB3jnx5mqwEghfoBSbduwYmgO9u3GGdeZHP9oo"
       ]
     }
   ],
@@ -1626,7 +1647,7 @@
   },
   "summary": {
     "companies": 195,
-    "boardsOk": 160,
+    "boardsOk": 167,
     "notFound": [
       "90min",
       "Anecdotes",
@@ -1653,16 +1674,9 @@
       "Yad2"
     ],
     "errors": [
-      "Applied Materials: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
       "Ask-AI: comeet askai/1A.00C: positions data not found on page",
-      "CrowdStrike: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "eToro: comeet etoro/41.009: positions data not found on page",
       "Fireblocks: comeet fireblocks/B4.00F: positions data not found on page",
-      "HPE: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "Intel: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "KLA: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "Marvell: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "Motorola Solutions: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "NVIDIA: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
       "Playtika: comeet playtika/01.001: positions data not found on page",
       "Tabnine: comeet tabnine/39.006: positions data not found on page"
     ],
@@ -1685,7 +1699,7 @@
       "checked": 11,
       "closed": []
     },
-    "openJobs": 47,
+    "openJobs": 45,
     "newToday": 0
   }
 }
