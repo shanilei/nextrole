@@ -1,52 +1,68 @@
 {
-  "updatedAt": "2026-11-17T14:31:25.185Z",
+  "updatedAt": "2026-11-18T14:06:52.338Z",
   "jobs": [
     {
-      "key": "comeet:artlist/85.003:F5.274",
-      "title": "Product Designer",
-      "location": "TLV, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/artlist/85.003/product-designer/F5.274",
-      "postedAt": "2026-11-17T14:27:44.000Z",
-      "remote": false,
-      "description": "Description\nArtlist is a leading creative technology company on a mission to empower creators and brands to bring their vision to life with video. Offering cutting-edge AI tools and models for image, video, and voiceover creation, alongside high-quality creative assets and powerful editing tools, Artlist enables creators to stay on trend, and achieve their creative goals. Trusted by over 30 million creators worldwide and top brands including Google, Amazon, Microsoft, and Versace, Artlist provides a seamless, subscription-based platform with a global license, giving creators everything they need to produce professional video content efficiently. For more information, visit artlist.io .\n We're looking for a Product Designer to help shape what B2B creative tools look like in the AI era.\n Artlist is an AI-native company - Claude Code, Figma Make, and vibe coding are part of how our product team works every day. We're looking for a designer who works the same way: fluent in AI-powered tools, rigorous about design systems, and experienced designing complex B2B products.\n What you'll do \n • Own product design end-to-end - discovery, flows, prototyping, interaction design, and high-fidelity UI.\n• Use Claude Code, Figma Make, and vibe coding as active parts of your workflow.\n• Build, maintain, and evolve a scalable design system - component architecture, token structure, and documentation.\n• Design AI-powered creative experiences for enterprise teams and professional creators.\n• Shape roadmap decisions alongside product and engineering, and use research and data to validate what we ship.\nRequirements\n• 4+ years designing digital products or creative tools - B2B SaaS experience is an advantage.\n• Hands-on fluency with Claude Code, Figma Make, and vibe coding.\n• Deep design system expertise - component architecture, token structure, documentation, and governance at scale.\n• Strong product thinking with experience designing complex, multi-step workflows.\n• Excellent visual and interaction design craft - clarity, hierarchy, and polish.\n• Experience with AI generation tools (image, video, or content) - an advantage.\n• A portfolio that demonstrates both strong thinking and strong execution.",
-      "company": "Artlist",
-      "source": "comeet:artlist/85.003",
+      "key": "linkedin:https://il.linkedin.com/jobs/view/product-designer-at-robotic-imaging-inc-4488891823",
+      "title": "Product Designer‏ ב ‏Robotic Imaging, Inc.‏ — ‏Tel Aviv-Yafo",
+      "company": "Robotic Imaging Inc",
+      "location": "Israel",
+      "url": "https://il.linkedin.com/jobs/view/product-designer-at-robotic-imaging-inc-4488891823",
+      "postedAt": null,
+      "description": "להגיש מועמדות ב ‏Product Designer‏ ‏Robotic Imaging, Inc.‏ ‏Tel Aviv-Yafo‏. ‏משרה מלאה בכירות בינונית‏ תפקיד. ראה תחומי אחריות, כישורים ומשרות דומות ...",
+      "via": "LinkedIn",
+      "source": "feed:google",
       "level": "Mid",
-      "minYears": 4,
-      "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "minYears": null,
+      "firstSeen": "2026-11-18T14:06:52.338Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
-      "key": "comeet:team8/61.003:49.37A",
-      "title": "Charm Security-Product Designer",
-      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
-      "postedAt": "2026-11-17T13:29:17.000Z",
-      "remote": false,
-      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm. \n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels. \n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments. \n Your designs will directly impact: \n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts \n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time \n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support \n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production. \n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next. \n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control. \n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle. \n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows. \n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience. \n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products. \n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped. \n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail. \n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions. \n• Strong Figma skills, including components, auto layout, prototyping, and design systems. \n• Experience collaborating closely with product managers and engineers. \n• The ability to explain your decisions, give and receive feedback, and adapt as you learn. \n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows. \n• Strong English communication skills. \n Nice to Have \n • A degree in Visual Communication. \n• Experience designing AI-powered products or tools that help users make complex decisions. \n• Experience making complex data easy to understand and act on. \n• Familiarity with fintech, cybersecurity, or fraud prevention.",
-      "company": "Team8",
-      "source": "comeet:team8/61.003",
-      "level": "Mid",
-      "minYears": 3,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:fiverr/60.002:DF.473",
-      "title": "Senior Product Designer",
-      "location": "Tel Aviv, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/fiverr/60.002/senior-product-designer/DF.473",
-      "postedAt": "2026-11-17T12:43:46.000Z",
-      "remote": true,
-      "description": "Description\nWorking in Product means making bold decisions with the data you have. You're the type that always asks, “Is there a better way?” From product managers to designers to researchers, the people who thrive here are strategic by nature, curious by default, and comfortable sailing without a full map. So if you challenge assumptions and know how to bring multiple stakeholders together, the Fiverr Product team might be your place.\n Fiverr’s design team is growing, and we’re hiring a Senior Product Designer who will shape how millions of buyers and talent experience Fiverr, with a strong focus on mobile. You’ll work in a team that treats AI as a daily design partner, not a side experiment: you’ll use tools like Claude to research, explore, prototype, and ship faster, and help the rest of the team do the same.\n You’re a leading figure without needing a title. You raise the bar through your craft, your clarity, and the way you bring people along.\nWhat am I going to do?\n• Own end-to-end design for key mobile experiences (iOS, Android, mobile web), from problem framing and research to polished, shipped UI.\n• Work AI-first: use Claude and similar tools across your process (synthesizing research, generating and pressure-testing options, building working prototypes, writing specs and edge cases). Share what works so the team learns with you.\n• Lead by influence: set direction in your area, run design critiques, mentor designers, and be the person PMs, engineers, and peers want in the room.\n• Partner closely with PMs, engineers, researchers, and content designers. Communicate early and often, share work in progress, and make decisions visible.\n• Identify pain points across the full user journey and solve them with hypotheses, experiments, and data.\n• Improve existing flows and craft new ones that feel native to mobile: thumb-friendly, fast, clear, and accessible.\n• Build and evolve Penta, our design system, by contributing components, patterns, and feedback that keep our products consistent.\n• Prototype and iterate in the open, from Figma to coded prototypes, until the experience is right.\n• Work with engineering through implementation to make sure what ships matches the design intent.\nRequirements\n• 6+ years as a Product Designer (UX and UI) in consumer, marketplace, or SaaS products, with a strong portfolio of shipped mobile work.\n• Deep mobile craft: platform conventions (iOS HIG, Material), gestures, responsive behavior, performance, and accessibility.\n• Hands-on experience using AI in your design workflow (Claude, Cursor, v0, or similar), and a real point of view on where it helps and where it doesn’t.\n• Strong communication: you explain your thinking clearly, give and receive feedback well, and keep stakeholders aligned without friction.\n• A team-player mindset: you share credit, lift others, and care about the team’s output as much as your own.\n• Experience leading without authority: driving alignment, mentoring peers, or influencing product direction.\n• Strong proficiency in Figma, plus working knowledge of front-end concepts (component libraries, tokens, Lottie, handoff).\n• Analytical thinking, attention to detail, and comfort with ambiguity and complex, fast-moving environments\n• Comfort working with Agile tools (Jira, Monday, etc.).\n Nice to have\n • Experience designing marketplace, two-sided, or transactional products.\n• Quantitative and qualitative research experience, or close work with UX researchers.\n• Experience with design systems at scale.\n• Coded prototyping (React, SwiftUI) or vibe-coding experience.\n• A degree in Design, HCI, Cognitive or Applied Psychology, or a related field.\n ***include a link to your portfolio. For one or two mobile projects, tell us about your role, your decisions, and how AI was part of your process.\nEqual opportunities\nAt Fiverr, we know that talent has no single face. We welcome talent from everywhere and everyone because it makes everything we build better. Need accommodations? Just ask. And if this role excites you but you don't tick every box, apply anyway. The best people rarely fit the mold exactly.",
-      "company": "Fiverr",
-      "source": "comeet:fiverr/60.002",
+      "key": "linkedin:https://il.linkedin.com/jobs/view/senior-product-designer-at-appcharge-4491236219",
+      "title": "‏Senior Product Designer‏ ב ‏Appcharge‏ — ‏Tel Aviv-Yafo‏",
+      "company": "Appcharge",
+      "location": "Israel",
+      "url": "https://il.linkedin.com/jobs/view/senior-product-designer-at-appcharge-4491236219",
+      "postedAt": null,
+      "description": "להגיש מועמדות ב ‏Senior Product Designer‏ ‏Appcharge‏ ‏Tel Aviv-Yafo‏. ‏משרה מלאה לא ישים‏ תפקיד. ראה תחומי אחריות, כישורים ומשרות דומות ב-LinkedIn.",
+      "via": "LinkedIn",
+      "source": "feed:google",
       "level": "Senior+",
-      "minYears": 6,
-      "firstSeen": "2026-11-10T13:31:38.454Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "minYears": null,
+      "firstSeen": "2026-11-18T14:06:52.338Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:classiq/F7.008:17.072",
+      "title": "Senior Product Designer",
+      "location": "Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/classiq/F7.008/senior-product-designer/17.072",
+      "postedAt": "2026-11-18T14:05:02.000Z",
+      "remote": true,
+      "description": "Description\nAt Classiq Technologies, we’re shaping the future of quantum computing. \n Our mission is to make quantum computing practical and impactful by bridging the gap between hardware and real-world applications. Our platform enables developers and enterprises to design, optimize, and deploy quantum algorithms at scale, automating complex processes and supporting teams from beginners to experts across diverse architectures. \n Classiq is trusted by Fortune 500 leaders and global governments. We accelerate the quantum era with a platform that transforms bold quantum ideas into working applications. \n We're looking for a Product Designer with exceptional UI skills and a real eye for visual craft to help shape the look and feel of Classiq’s quantum developer platform. This role is for someone who can bring a distinctive visual voice to a deeply technical product. \n You'll own the visual and interaction design of key parts of the platform, working closely with other designers, product managers, and engineers. This is a hands-on, high-impact role with few predefined roadmaps, so we're looking for someone with a strong point of view and the range to define things rather than just execute them. We care about the originality and strength of your work; a standout portfolio is essential. \n What you'll do \n • Design visual language for Classiq's SaaS platform and quantum developer tools, with a strong emphasis on visual quality and polish \n• Design UI and UX for complex, technical workflows \n• Bring illustration and graphic design into the product, from iconography to visual systems that make complex quantum concepts feel intuitive \n• Translate abstract, technical, and quantum ideas into clear and visually compelling experiences \n• Help raise the visual bar and evolve our design language \n• Contribute creatively and strategically in an environment with few predefined roadmaps \n Who you are \n • 5+ Years of product design experience \n• A portfolio that stands out visually, projects showing craft, a strong point of view, and distinctive UI and UX \n• Experience in visually rich domains (game design, data visualizations, developer/design/music tools, or similarly demanding visual work) is an advantage \n• Shipped UI/UX/product work you can point to. Please include links to live projects \n• Proficient in Figma \n• Fluent in English \n• Curiosity about technical, scientific, and complex products: you don't need a quantum background, but you should be genuinely interested in how systems work \n Bonus points \n • Excellent graphic design skills, strong illustration skills are a plus \n• Experience with scientific projects is a plus\nResponsibilities\nnull\nRequirements\nnull",
+      "company": "Classiq",
+      "source": "comeet:classiq/F7.008",
+      "level": "Senior+",
+      "minYears": 5,
+      "firstSeen": "2026-11-03T12:42:26.263Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:play_perfect/69.001:44.47C",
+      "title": "Senior UX/UI Designer",
+      "location": "Tel Aviv (Azrieli Sarona) office, Israel, Tel Aviv-Jaffa, IL",
+      "url": "https://www.comeet.com/jobs/play_perfect/69.001/senior-uxui-designer/44.47C",
+      "postedAt": "2026-11-18T10:14:24.000Z",
+      "remote": false,
+      "description": "Description\nPlay Perfect is a fast-growing mobile gaming company that provides entertainment to millions of users around the world. The company is headquartered in Tel Aviv. With a team of talented and passionate developers, designers, industry experts, and gamers, Play Perfect is at the forefront of creating immersive gaming experiences that engage players on a whole new level. \n As we continue to push the boundaries of what is possible in gaming, Play Perfect is poised to shape the future of the industry and redefine what it means to be a skill-based gaming company. \n As we expand, we're looking for a Senior UX/UI Designer to join our team. \n Responsibilities: \n • Create wireframes using Figma & Photoshop to conceptualize user experiences. \n• Design and produce beautiful and engaging game assets, including popups, buttons and icons. \n• Collaborate closely with cross-functional teams, including Art, Product, and R&D departments. \n• Perform exports and implement visual changes based on product requirements and updates. \n• Take ownership of design tasks from concept to implementation, working independently and proactively driving them forward.\nRequirements\n• Minimum of 5 years of experience in UX/UI design for mobile games and Apps. \n• Expertise in creating detailed and polished 2D UI assets, including icons, buttons, widgets, logos, and other interface elements. \n• Strong understanding of typography for UI design, color theory, color values, and building clear color hierarchies. \n• Comprehensive knowledge of UI/UX principles and best practices. \n• Using AI-powered tools to enhance and accelerate design workflows is must. \n• Skilled in layout design and establishing clean and effective visual hierarchies. \n• Strong ability to receive feedback, collaborate across teams, and continuously learn and grow within the 2D/UI field. \n Only applications that include a portfolio link will be reviewed.",
+      "company": "Play Perfect",
+      "source": "comeet:play_perfect/69.001",
+      "level": "Senior+",
+      "minYears": 5,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -54,7 +70,7 @@
       "title": "Senior Product Designer, Business Technology",
       "location": "Israel, Petah Tikva, IL",
       "url": "https://www.comeet.com/jobs/medison/67.00A/senior-product-designer-business-technology/4B.27C",
-      "postedAt": "2026-11-17T10:45:50.000Z",
+      "postedAt": "2026-11-17T19:23:29.000Z",
       "remote": false,
       "description": "Description\nWe are looking for a Senior Product Designer to join the product team as its sole designer. Development is already underway, with significant parts of the product still to be discovered and shaped. \n You will own the end-to-end UX and UI of the product, working closely with Product, Engineering, business stakeholders, and users to bring clarity to ambiguous problems, uncover requirements, and turn emerging understanding into exceptional product experiences. We need a hands-on product thinker who combines strong UX judgment with excellent visual craft—creating a product that delivers real value, feels effortless to use, and brings thoughtful moments of delight through carefully considered details. \n If you thrive in early-stage environments and want to build something meaningful on a global scale, this role is for you. \n About Medison \n Medison is on a mission to ensure that every patient, regardless of where they live, has the opportunity to benefit from breakthrough therapies. \n We are addressing one of the pharma industry’s most urgent challenges: enabling access to life-changing treatments for patients with severe and rare diseases in international markets where traditional commercialization models fall short. \n As the creator and leader of the global partnership category, we have built a first-of-its-kind unified commercialization platform that enables biotechs to effectively plan, optimize, and launch their therapies on a global scale. \n With a strong leadership team and a proven track record, we are the partner of choice for innovative biotech companies aiming to expand beyond the US, Western Europe and Japan into regions where most of the world’s population resides. Our affiliate-like model seamlessly integrates commercial, medical and operational capabilities across diverse geographies, accelerating access and delivering life-changing treatments to more patients, faster. \n The Impact You’ll Create \n You’ll help build a product that supports our mission to bring life-changing treatments to patients faster and reach the people who need them most. You’ll also be working in a growing, profitable company operating in a stable, resilient industry. This work is fast, creative, challenging, and deeply rewarding.\nResponsibilities\nHere at Medison, you will: \n • Build an innovative platform - a product in a space where no blueprint exists, creating new solutions that make a real difference in people’s lives. \n• Grow as a design leader in a fast-moving environment that trusts you to lead, make decisions, and drive outcomes. \n• Join a team that works as one, with heart, humility, and a fierce sense of purpose. \n What You Will Lead \n • Own the end-to-end UX and UI design of this innovative platform product. \n• Partner with Product Management to define problems, uncover requirements, explore solutions, and shape the product as understanding evolves. \n• Translate user and business needs into user flows, wireframes, prototypes, and production-ready designs. \n• Conduct user interviews and usability testing to clarify needs, test assumptions, and validate decisions. \n• Use prototypes and rapid iteration to explore alternatives and make progress before the full picture is defined. \n• Design clear, intuitive experiences for complex workflows, dashboards, forms, structured information, and administrative tools. \n• Set a high bar for usability, visual quality, and attention to detail—from core workflows to micro-interactions, empty states, loading experiences, and error handling. \n• Create and maintain the design system, components, and interaction patterns. \n• Collaborate closely with engineers throughout development and review the implemented experience. \n• Use research, analytics, and user feedback to improve the product. \n• Present design decisions and build alignment across product, technical, and business stakeholders. \n• Establish effective design practices and standards within the innovative platform team.\nRequirements\nWhat You Bring \n • At least 7 years of hands-on experience designing digital products, preferably complex B2B, SaaS, enterprise, or data-rich products. \n• A strong portfolio demonstrating product thinking, UX problem-solving, and high-quality UI design. \n• Strong skills in information architecture, interaction design, user flows, prototyping, and usability. \n• Excellent visual-design skills and meticulous attention to detail, with evidence of intuitive experiences, polished interfaces, and thoughtful interaction design. \n• Experience taking products or major features from discovery through launch and iteration. \n• Experience shaping products in ambiguous environments, helping uncover requirements and turn incomplete information into clear, testable design directions. \n• Ability to simplify complex workflows while respecting business and technical requirements. \n• Experience creating and maintaining design systems and reusable component libraries. \n• Advanced proficiency with Figma. \n• Practical experience using current AI tools to explore ideas, accelerate prototyping, and improve iteration, paired with strong judgment about the quality of their output. \n• Experience working closely with product managers and engineers in an agile environment. \n• Experience conducting and applying user research and usability testing. \n• Ability to work independently, establish design processes, and operate effectively as the sole designer. \n• Strong communication and stakeholder-management skills. \n• Professional working proficiency in English. \n Preferred Experience \n • Experience designing multi-country or multilingual products. \n• Experience with dashboards, administration interfaces, content-management tools, or workflow-based systems. \n• Familiarity with role-based permissions and experiences that vary by user type or market. \n• Understanding of accessibility and inclusive-design practices. \n• Experience with healthcare, pharmaceuticals, or regulated industries is an advantage but",
       "company": "Medison Pharma",
@@ -62,7 +78,23 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:team8/61.003:49.37A",
+      "title": "Charm Security-Product Designer",
+      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
+      "postedAt": "2026-11-17T14:41:41.000Z",
+      "remote": false,
+      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm. \n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels. \n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments. \n Your designs will directly impact: \n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts \n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time \n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support \n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production. \n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next. \n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control. \n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle. \n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows. \n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience. \n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products. \n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped. \n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail. \n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions. \n• Strong Figma skills, including components, auto layout, prototyping, and design systems. \n• Experience collaborating closely with product managers and engineers. \n• The ability to explain your decisions, give and receive feedback, and adapt as you learn. \n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows. \n• Strong English communication skills. \n Nice to Have \n • A degree in Visual Communication. \n• Experience designing AI-powered products or tools that help users make complex decisions. \n• Experience making complex data easy to understand and act on. \n• Familiarity with fintech, cybersecurity, or fraud prevention.",
+      "company": "Team8",
+      "source": "comeet:team8/61.003",
+      "level": "Mid",
+      "minYears": 3,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -78,39 +110,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:classiq/F7.008:17.072",
-      "title": "Senior Product Designer",
-      "location": "Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/classiq/F7.008/senior-product-designer/17.072",
-      "postedAt": "2026-11-17T09:23:29.000Z",
-      "remote": true,
-      "description": "Description\nAt Classiq Technologies, we’re shaping the future of quantum computing. \n Our mission is to make quantum computing practical and impactful by bridging the gap between hardware and real-world applications. Our platform enables developers and enterprises to design, optimize, and deploy quantum algorithms at scale, automating complex processes and supporting teams from beginners to experts across diverse architectures. \n Classiq is trusted by Fortune 500 leaders and global governments. We accelerate the quantum era with a platform that transforms bold quantum ideas into working applications. \n We're looking for a Product Designer with exceptional UI skills and a real eye for visual craft to help shape the look and feel of Classiq’s quantum developer platform. This role is for someone who can bring a distinctive visual voice to a deeply technical product. \n You'll own the visual and interaction design of key parts of the platform, working closely with other designers, product managers, and engineers. This is a hands-on, high-impact role with few predefined roadmaps, so we're looking for someone with a strong point of view and the range to define things rather than just execute them. We care about the originality and strength of your work; a standout portfolio is essential. \n What you'll do \n • Design visual language for Classiq's SaaS platform and quantum developer tools, with a strong emphasis on visual quality and polish \n• Design UI and UX for complex, technical workflows \n• Bring illustration and graphic design into the product, from iconography to visual systems that make complex quantum concepts feel intuitive \n• Translate abstract, technical, and quantum ideas into clear and visually compelling experiences \n• Help raise the visual bar and evolve our design language \n• Contribute creatively and strategically in an environment with few predefined roadmaps \n Who you are \n • 5+ Years of product design experience \n• A portfolio that stands out visually, projects showing craft, a strong point of view, and distinctive UI and UX \n• Experience in visually rich domains (game design, data visualizations, developer/design/music tools, or similarly demanding visual work) is an advantage \n• Shipped UI/UX/product work you can point to. Please include links to live projects \n• Proficient in Figma \n• Fluent in English \n• Curiosity about technical, scientific, and complex products: you don't need a quantum background, but you should be genuinely interested in how systems work \n Bonus points \n • Excellent graphic design skills, strong illustration skills are a plus \n• Experience with scientific projects is a plus\nResponsibilities\nnull\nRequirements\nnull",
-      "company": "Classiq",
-      "source": "comeet:classiq/F7.008",
-      "level": "Senior+",
-      "minYears": 5,
-      "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
-      "status": "open"
-    },
-    {
-      "key": "smartrecruiters:Wix2:744000162013160",
-      "title": "UX/UI Designer - Editor Platform",
-      "location": "Tel Aviv, IL",
-      "url": "https://jobs.smartrecruiters.com/Wix2/744000162013160",
-      "postedAt": "2026-11-17T08:34:44.348Z",
-      "remote": false,
-      "description": "",
-      "company": "Wix",
-      "source": "smartrecruiters:Wix2",
-      "level": "Mid",
-      "minYears": null,
-      "firstSeen": "2026-11-17T14:31:25.185Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -126,7 +126,7 @@
       "level": "Senior+",
       "minYears": 4,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -136,13 +136,13 @@
       "location": "Israel",
       "url": "https://il.linkedin.com/jobs/view/senior-product-designer-at-jux-3265285631",
       "postedAt": null,
-      "description": "As a Product Designer in Drimz, you would work closely with product managers and developers to explore, design, prototype, test, and iterate on solutions that ...",
+      "description": "להגיש מועמדות ב ‏Senior Product Designer‏ ‏Jux‏ ‏Tel Aviv District, Israel‏. ‏משרה מלאה לא ישים‏ תפקיד. ראה תחומי אחריות, כישורים ומשרות דומות ב-LinkedIn.",
       "via": "LinkedIn",
       "source": "feed:google",
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-16T13:43:03.452Z",
-      "lastSeen": "2026-11-16T13:43:03.452Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -174,7 +174,7 @@
       "level": "Junior",
       "minYears": 1,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -190,7 +190,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -290,7 +290,7 @@
       "level": "Senior+",
       "minYears": 8,
       "firstSeen": "2026-11-08T11:58:09.551Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -306,7 +306,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -342,7 +342,7 @@
       "firstSeen": "2026-11-11T12:46:02.080Z",
       "lastSeen": "2026-11-17T14:31:25.185Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-17T14:31:25.185Z"
+      "linkCheckedAt": "2026-11-18T14:06:52.338Z"
     },
     {
       "key": "linkedin:https://ca.linkedin.com/jobs/view/senior-user-experience-design-specialist-at-sap-4485841600",
@@ -373,23 +373,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:play_perfect/69.001:44.47C",
-      "title": "Senior UX/UI Designer",
-      "location": "Tel Aviv (Azrieli Sarona) office, Israel, Tel Aviv-Jaffa, IL",
-      "url": "https://www.comeet.com/jobs/play_perfect/69.001/senior-uxui-designer/44.47C",
-      "postedAt": "2026-11-04T12:23:08.000Z",
-      "remote": false,
-      "description": "Description\nPlay Perfect is a fast-growing mobile gaming company that provides entertainment to millions of users around the world. The company is headquartered in Tel Aviv. With a team of talented and passionate developers, designers, industry experts, and gamers, Play Perfect is at the forefront of creating immersive gaming experiences that engage players on a whole new level. \n As we continue to push the boundaries of what is possible in gaming, Play Perfect is poised to shape the future of the industry and redefine what it means to be a skill-based gaming company. \n As we expand, we're looking for a Senior UX/UI Designer to join our team. \n Responsibilities: \n • Create wireframes using Figma & Photoshop to conceptualize user experiences. \n• Design and produce beautiful and engaging game assets, including popups, buttons and icons. \n• Collaborate closely with cross-functional teams, including Art, Product, and R&D departments. \n• Perform exports and implement visual changes based on product requirements and updates. \n• Take ownership of design tasks from concept to implementation, working independently and proactively driving them forward.\nRequirements\n• Minimum of 5 years of experience in UX/UI design for mobile games and Apps. \n• Expertise in creating detailed and polished 2D UI assets, including icons, buttons, widgets, logos, and other interface elements. \n• Strong understanding of typography for UI design, color theory, color values, and building clear color hierarchies. \n• Comprehensive knowledge of UI/UX principles and best practices. \n• Using AI-powered tools to enhance and accelerate design workflows is must. \n• Skilled in layout design and establishing clean and effective visual hierarchies. \n• Strong ability to receive feedback, collaborate across teams, and continuously learn and grow within the 2D/UI field. \n Only applications that include a portfolio link will be reviewed.",
-      "company": "Play Perfect",
-      "source": "comeet:play_perfect/69.001",
-      "level": "Senior+",
-      "minYears": 5,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -405,7 +389,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -421,7 +405,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -437,7 +421,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -453,7 +437,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -469,9 +453,9 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-17T14:31:25.185Z"
+      "linkCheckedAt": "2026-11-18T14:06:52.338Z"
     },
     {
       "key": "greenhouse:similarweb:8260908",
@@ -486,7 +470,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -502,7 +486,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -518,7 +502,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -534,7 +518,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -550,9 +534,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-17T14:31:25.185Z"
+      "linkCheckedAt": "2026-11-18T14:06:52.338Z"
     },
     {
       "key": "ashby:lemonade:663819c6-426c-49d6-8c0c-1fe938ffb440",
@@ -567,7 +551,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -583,7 +567,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-04T13:02:17.859Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -599,7 +583,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -615,7 +599,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -631,7 +615,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -647,8 +631,25 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
+    },
+    {
+      "key": "secrettlv:https://jobs.secrettelaviv.com/job/senior-product-designer-125/",
+      "title": "Senior Product Designer",
+      "company": "",
+      "location": "Tel Aviv, Israel",
+      "url": "https://jobs.secrettelaviv.com/job/senior-product-designer-125/",
+      "postedAt": "2026-08-09T00:00:00.000Z",
+      "description": "Tel Aviv / Hybrid\r\nAligned is a customer-facing AI Deal Workspace (Digital Sales Room) that helps revenue teams manage deal complexity by moving the chaotic email-links-files back-and-forth into a single space where deals run. With AI Agents, selle",
+      "via": "Secret Tel Aviv",
+      "source": "feed:secrettlv",
+      "level": "Senior+",
+      "minYears": null,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
+      "status": "open",
+      "linkCheckedAt": "2026-11-18T14:06:52.338Z"
     },
     {
       "key": "greenhouse:scaleops:4921333101",
@@ -663,7 +664,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -679,7 +680,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
     },
     {
@@ -695,9 +696,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-17T14:31:25.185Z"
+      "linkCheckedAt": "2026-11-18T14:06:52.338Z"
     },
     {
       "key": "greenhouse:wizinc:4599708006",
@@ -712,8 +713,59 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
       "status": "open"
+    },
+    {
+      "key": "comeet:artlist/85.003:F5.274",
+      "title": "Product Designer",
+      "location": "TLV, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/artlist/85.003/product-designer/F5.274",
+      "postedAt": "2026-11-17T14:27:44.000Z",
+      "remote": false,
+      "description": "Description\nArtlist is a leading creative technology company on a mission to empower creators and brands to bring their vision to life with video. Offering cutting-edge AI tools and models for image, video, and voiceover creation, alongside high-quality creative assets and powerful editing tools, Artlist enables creators to stay on trend, and achieve their creative goals. Trusted by over 30 million creators worldwide and top brands including Google, Amazon, Microsoft, and Versace, Artlist provides a seamless, subscription-based platform with a global license, giving creators everything they need to produce professional video content efficiently. For more information, visit artlist.io .\n We're looking for a Product Designer to help shape what B2B creative tools look like in the AI era.\n Artlist is an AI-native company - Claude Code, Figma Make, and vibe coding are part of how our product team works every day. We're looking for a designer who works the same way: fluent in AI-powered tools, rigorous about design systems, and experienced designing complex B2B products.\n What you'll do \n • Own product design end-to-end - discovery, flows, prototyping, interaction design, and high-fidelity UI.\n• Use Claude Code, Figma Make, and vibe coding as active parts of your workflow.\n• Build, maintain, and evolve a scalable design system - component architecture, token structure, and documentation.\n• Design AI-powered creative experiences for enterprise teams and professional creators.\n• Shape roadmap decisions alongside product and engineering, and use research and data to validate what we ship.\nRequirements\n• 4+ years designing digital products or creative tools - B2B SaaS experience is an advantage.\n• Hands-on fluency with Claude Code, Figma Make, and vibe coding.\n• Deep design system expertise - component architecture, token structure, documentation, and governance at scale.\n• Strong product thinking with experience designing complex, multi-step workflows.\n• Excellent visual and interaction design craft - clarity, hierarchy, and polish.\n• Experience with AI generation tools (image, video, or content) - an advantage.\n• A portfolio that demonstrates both strong thinking and strong execution.",
+      "company": "Artlist",
+      "source": "comeet:artlist/85.003",
+      "level": "Mid",
+      "minYears": 4,
+      "firstSeen": "2026-11-03T12:42:26.263Z",
+      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "status": "closed",
+      "closedAt": "2026-11-18T14:06:52.338Z"
+    },
+    {
+      "key": "comeet:fiverr/60.002:DF.473",
+      "title": "Senior Product Designer",
+      "location": "Tel Aviv, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/fiverr/60.002/senior-product-designer/DF.473",
+      "postedAt": "2026-11-17T12:43:46.000Z",
+      "remote": true,
+      "description": "Description\nWorking in Product means making bold decisions with the data you have. You're the type that always asks, “Is there a better way?” From product managers to designers to researchers, the people who thrive here are strategic by nature, curious by default, and comfortable sailing without a full map. So if you challenge assumptions and know how to bring multiple stakeholders together, the Fiverr Product team might be your place.\n Fiverr’s design team is growing, and we’re hiring a Senior Product Designer who will shape how millions of buyers and talent experience Fiverr, with a strong focus on mobile. You’ll work in a team that treats AI as a daily design partner, not a side experiment: you’ll use tools like Claude to research, explore, prototype, and ship faster, and help the rest of the team do the same.\n You’re a leading figure without needing a title. You raise the bar through your craft, your clarity, and the way you bring people along.\nWhat am I going to do?\n• Own end-to-end design for key mobile experiences (iOS, Android, mobile web), from problem framing and research to polished, shipped UI.\n• Work AI-first: use Claude and similar tools across your process (synthesizing research, generating and pressure-testing options, building working prototypes, writing specs and edge cases). Share what works so the team learns with you.\n• Lead by influence: set direction in your area, run design critiques, mentor designers, and be the person PMs, engineers, and peers want in the room.\n• Partner closely with PMs, engineers, researchers, and content designers. Communicate early and often, share work in progress, and make decisions visible.\n• Identify pain points across the full user journey and solve them with hypotheses, experiments, and data.\n• Improve existing flows and craft new ones that feel native to mobile: thumb-friendly, fast, clear, and accessible.\n• Build and evolve Penta, our design system, by contributing components, patterns, and feedback that keep our products consistent.\n• Prototype and iterate in the open, from Figma to coded prototypes, until the experience is right.\n• Work with engineering through implementation to make sure what ships matches the design intent.\nRequirements\n• 6+ years as a Product Designer (UX and UI) in consumer, marketplace, or SaaS products, with a strong portfolio of shipped mobile work.\n• Deep mobile craft: platform conventions (iOS HIG, Material), gestures, responsive behavior, performance, and accessibility.\n• Hands-on experience using AI in your design workflow (Claude, Cursor, v0, or similar), and a real point of view on where it helps and where it doesn’t.\n• Strong communication: you explain your thinking clearly, give and receive feedback well, and keep stakeholders aligned without friction.\n• A team-player mindset: you share credit, lift others, and care about the team’s output as much as your own.\n• Experience leading without authority: driving alignment, mentoring peers, or influencing product direction.\n• Strong proficiency in Figma, plus working knowledge of front-end concepts (component libraries, tokens, Lottie, handoff).\n• Analytical thinking, attention to detail, and comfort with ambiguity and complex, fast-moving environments\n• Comfort working with Agile tools (Jira, Monday, etc.).\n Nice to have\n • Experience designing marketplace, two-sided, or transactional products.\n• Quantitative and qualitative research experience, or close work with UX researchers.\n• Experience with design systems at scale.\n• Coded prototyping (React, SwiftUI) or vibe-coding experience.\n• A degree in Design, HCI, Cognitive or Applied Psychology, or a related field.\n ***include a link to your portfolio. For one or two mobile projects, tell us about your role, your decisions, and how AI was part of your process.\nEqual opportunities\nAt Fiverr, we know that talent has no single face. We welcome talent from everywhere and everyone because it makes everything we build better. Need accommodations? Just ask. And if this role excites you but you don't tick every box, apply anyway. The best people rarely fit the mold exactly.",
+      "company": "Fiverr",
+      "source": "comeet:fiverr/60.002",
+      "level": "Senior+",
+      "minYears": 6,
+      "firstSeen": "2026-11-10T13:31:38.454Z",
+      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "status": "closed",
+      "closedAt": "2026-11-18T14:06:52.338Z"
+    },
+    {
+      "key": "smartrecruiters:Wix2:744000162013160",
+      "title": "UX/UI Designer - Editor Platform",
+      "location": "Tel Aviv, IL",
+      "url": "https://jobs.smartrecruiters.com/Wix2/744000162013160",
+      "postedAt": "2026-11-17T08:34:44.348Z",
+      "remote": false,
+      "description": "",
+      "company": "Wix",
+      "source": "smartrecruiters:Wix2",
+      "level": "Mid",
+      "minYears": null,
+      "firstSeen": "2026-11-17T14:31:25.185Z",
+      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "status": "closed",
+      "closedAt": "2026-11-18T14:06:52.338Z"
     },
     {
       "key": "comeet:coralogix/06.004:3B.27F",
@@ -956,25 +1008,6 @@
       "lastSeen": "2026-11-07T11:46:14.512Z",
       "status": "closed",
       "closedAt": "2026-11-08T11:58:09.551Z"
-    },
-    {
-      "key": "secrettlv:https://jobs.secrettelaviv.com/job/senior-product-designer-125/",
-      "title": "Senior Product Designer",
-      "company": "",
-      "location": "Tel Aviv, Israel",
-      "url": "https://jobs.secrettelaviv.com/job/senior-product-designer-125/",
-      "postedAt": "2026-08-09T00:00:00.000Z",
-      "description": "Tel Aviv / Hybrid\r\nAligned is a customer-facing AI Deal Workspace (Digital Sales Room) that helps revenue teams manage deal complexity by moving the chaotic email-links-files back-and-forth into a single space where deals run. With AI Agents, selle",
-      "via": "Secret Tel Aviv",
-      "source": "feed:secrettlv",
-      "level": "Senior+",
-      "minYears": null,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-10T13:31:38.454Z",
-      "status": "closed",
-      "linkCheckedAt": "2026-11-16T13:43:03.452Z",
-      "closedReason": "not seen for a week",
-      "closedAt": "2026-11-17T14:31:25.185Z"
     },
     {
       "key": "greenhouse:datarails:4298014009",
