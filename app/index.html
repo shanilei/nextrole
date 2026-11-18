@@ -1,12 +1,11 @@
 <!doctype html>
-<html lang="he" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>NextRole</title>
-  <meta name="description" content="משרות UX ו-Product Design בישראל, מתעדכן כל בוקר">
-  <meta name="theme-color" content="#F3F4F7" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0E1120" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="UX and Product Design roles in Israel, updated every morning">
+  <meta name="theme-color" content="#F4F4F7">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon-180.png">
@@ -15,43 +14,88 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&family=Assistant:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Assistant:wght@300;400;600&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="head-row">
-        <div>
-          <h1>NextRole</h1>
-          <p class="sub" id="updated">טוען משרות…</p>
-        </div>
-        <button type="button" class="add-btn" id="add-open" aria-expanded="false" aria-controls="add-form">+ הוספת משרה</button>
-      </div>
-      <form class="add-form" id="add-form" hidden>
-        <p class="lbl">ראית משרה או פוסט? הדביקי את הקישור</p>
-        <input id="add-url" type="url" inputmode="url" placeholder="https://…" required>
-        <div class="add-row">
-          <input id="add-company" type="text" placeholder="חברה">
-          <input id="add-title" type="text" placeholder="תפקיד" value="Product Designer">
-        </div>
-        <div class="add-row">
-          <button type="submit" class="go">שמירה</button>
-          <button type="button" class="ghost" id="add-cancel">ביטול</button>
-        </div>
-      </form>
-      <div class="stats" id="stats"></div>
-      <label class="search">
-        <span class="visually-hidden">חיפוש</span>
-        <input id="q" type="search" placeholder="חיפוש חברה או תפקיד" autocomplete="off">
-      </label>
-      <div class="chips" role="group" aria-label="סינון" id="chips"></div>
+  <div class="app">
+    <header class="top">
+      <img class="logo" src="icons/logo.svg" width="90" height="22" alt="NextRole">
     </header>
-    <main class="list" id="list" aria-live="polite"></main>
-    <footer class="foot">
-      הסטטוסים וההערות נשמרים במכשיר הזה. המשרות מתעדכנות כל בוקר מאתרי הגיוס של החברות.
-    </footer>
+
+    <!-- Home -->
+    <section class="view" id="view-home" aria-labelledby="h-home">
+      <h1 class="visually-hidden" id="h-home">Jobs</h1>
+      <label class="search">
+        <span class="i i-search" aria-hidden="true"></span>
+        <span class="visually-hidden">Search</span>
+        <input type="search" data-search placeholder="Search company or role" autocomplete="off" dir="auto">
+      </label>
+      <div class="bar">
+        <div class="chips" role="group" aria-label="Show" id="chips"></div>
+        <button type="button" class="tag filter-btn" id="filter-open" aria-expanded="false" aria-controls="filter-panel">
+          <span class="i i-filter" aria-hidden="true"></span>Filter<span class="dot" id="filter-dot" hidden></span>
+        </button>
+      </div>
+      <div class="filter-panel" id="filter-panel" hidden>
+        <p class="lbl">Level</p>
+        <div class="chips wrap" role="group" aria-label="Level" id="lvl-chips"></div>
+        <p class="lbl">Source</p>
+        <div class="chips wrap" role="group" aria-label="Source" id="src-chips"></div>
+      </div>
+      <p class="count" id="home-count" aria-live="polite"></p>
+      <div class="list" id="home-list"></div>
+    </section>
+
+    <!-- Applications -->
+    <section class="view" id="view-applications" aria-labelledby="h-apps" hidden>
+      <h1 class="visually-hidden" id="h-apps">Applications</h1>
+      <label class="search">
+        <span class="i i-search" aria-hidden="true"></span>
+        <span class="visually-hidden">Search</span>
+        <input type="search" data-search placeholder="Search company or role" autocomplete="off" dir="auto">
+      </label>
+      <div class="toggle" role="tablist" aria-label="Applications">
+        <button type="button" role="tab" class="seg" id="tab-active" aria-selected="true">Active</button>
+        <button type="button" role="tab" class="seg" id="tab-closed" aria-selected="false">Closed</button>
+      </div>
+      <div class="list" id="apps-list" role="tabpanel"></div>
+    </section>
+
+    <!-- Saved -->
+    <section class="view" id="view-saved" aria-labelledby="h-saved" hidden>
+      <h1 class="page-title" id="h-saved">Saved</h1>
+      <div class="list" id="saved-list"></div>
+    </section>
+
+    <!-- Profile -->
+    <section class="view" id="view-profile" aria-labelledby="h-profile" hidden>
+      <h1 class="page-title" id="h-profile">Profile</h1>
+      <div class="stats" id="stats"></div>
+      <form class="panel" id="add-form">
+        <h2 class="panel-title">Add a job by link</h2>
+        <p class="hint">Saw a role or a hiring post somewhere else? Paste the link.</p>
+        <label class="field"><span>Link</span><input id="add-url" type="url" inputmode="url" placeholder="https://…" required></label>
+        <div class="row">
+          <label class="field"><span>Company</span><input id="add-company" type="text" dir="auto"></label>
+          <label class="field"><span>Role</span><input id="add-title" type="text" value="Product Designer" dir="auto"></label>
+        </div>
+        <button type="submit" class="btn">Save job</button>
+      </form>
+      <div class="panel">
+        <h2 class="panel-title">About this list</h2>
+        <p class="hint" id="updated">Loading…</p>
+        <p class="hint">Jobs are checked every morning on the companies' own career sites, plus LinkedIn and Secret Tel Aviv. Roles that close are removed. Your statuses and notes are saved on this device.</p>
+      </div>
+    </section>
   </div>
+
+  <nav class="nav" aria-label="Main">
+    <a href="#home" class="nav-item" data-view="home"><span class="i i-home" aria-hidden="true"></span><span class="visually-hidden">Home</span></a>
+    <a href="#applications" class="nav-item" data-view="applications"><span class="i i-briefcase" aria-hidden="true"></span><span class="visually-hidden">Applications</span></a>
+    <a href="#saved" class="nav-item" data-view="saved"><span class="i i-bookmark" aria-hidden="true"></span><span class="visually-hidden">Saved</span></a>
+    <a href="#profile" class="nav-item" data-view="profile"><span class="i i-user" aria-hidden="true"></span><span class="visually-hidden">Profile</span></a>
+  </nav>
   <script src="app.js" type="module"></script>
 </body>
 </html>
