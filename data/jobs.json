@@ -1,6 +1,56 @@
 {
-  "updatedAt": "2026-11-19T14:28:43.201Z",
+  "updatedAt": "2026-11-20T14:05:08.772Z",
   "jobs": [
+    {
+      "key": "linkedin:https://il.linkedin.com/jobs/view/senior-product-designer-at-matia-4486902870",
+      "title": "Senior Product Designer‏ ב ‏Matia‏ — ‏Tel Aviv-Yafo",
+      "company": "Matia",
+      "location": "Israel",
+      "url": "https://il.linkedin.com/jobs/view/senior-product-designer-at-matia-4486902870",
+      "postedAt": null,
+      "description": "להגיש מועמדות ב ‏Senior Product Designer‏ ‏Matia‏ ‏Tel Aviv-Yafo‏. ‏משרה מלאה בכירות בינונית‏ תפקיד. ראה תחומי אחריות, כישורים ומשרות דומות ב-LinkedIn.",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Senior+",
+      "minYears": null,
+      "firstSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "status": "open"
+    },
+    {
+      "key": "post:https://www.linkedin.com/posts/nitzanr_productdesign-uxdesign-hiringisrael-activity-7528715919892750336-ol9w",
+      "kind": "post",
+      "title": "Product Designer",
+      "company": "",
+      "author": "Nitzanr",
+      "location": "Israel",
+      "url": "https://www.linkedin.com/posts/nitzanr_productdesign-uxdesign-hiringisrael-activity-7528715919892750336-ol9w",
+      "postedAt": null,
+      "description": "I'm hiring a Product Designer! (Israel) If you're tired of polishing generic SaaS dashboards and want to build something meaningful (like protecting the ...",
+      "via": "פוסט ב-LinkedIn",
+      "source": "feed:google",
+      "level": "Mid",
+      "minYears": null,
+      "firstSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "status": "open"
+    },
+    {
+      "key": "linkedin:https://gr.linkedin.com/jobs/view/ux-designer-at-etraveli-group-4491579495",
+      "title": "UX Designer στο Etraveli Group — Athens",
+      "company": "Etraveli Group",
+      "location": "Israel",
+      "url": "https://gr.linkedin.com/jobs/view/ux-designer-at-etraveli-group-4491579495",
+      "postedAt": null,
+      "description": "Υποβάλετε αίτηση για UX Designer στο Etraveli Group Athens ρόλο . Πλήρους απασχόλησης Εισαγωγικό επίπεδο. Δείτε ευθύνες, προσόντα και παρόμοιες θέσεις ...",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Mid",
+      "minYears": null,
+      "firstSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "status": "open"
+    },
     {
       "key": "post:https://www.linkedin.com/posts/shahar-dgani-892a67223_%D7%9E%D7%A8%D7%A7%D7%95%D7%A8%D7%99-%D7%99%D7%A6%D7%90-%D7%9E%D7%A0%D7%A1%D7%99%D7%92%D7%94-%D7%95%D7%90%D7%A0%D7%97%D7%A0%D7%95-%D7%91%D7%97%D7%99%D7%A4%D7%95%D7%A9%D7%99%D7%9D-%D7%90%D7%97%D7%A8%D7%99-%D7%94%D7%9B%D7%95%D7%9B%D7%91%D7%99%D7%9D-activity-7528427241911836673-dh7A",
       "kind": "post",
@@ -32,7 +82,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -48,23 +98,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-19T14:28:43.201Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:classiq/F7.008:17.072",
-      "title": "Senior Product Designer",
-      "location": "Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/classiq/F7.008/senior-product-designer/17.072",
-      "postedAt": "2026-11-19T10:53:08.000Z",
-      "remote": true,
-      "description": "Description\nAt Classiq Technologies, we’re shaping the future of quantum computing. \n Our mission is to make quantum computing practical and impactful by bridging the gap between hardware and real-world applications. Our platform enables developers and enterprises to design, optimize, and deploy quantum algorithms at scale, automating complex processes and supporting teams from beginners to experts across diverse architectures. \n Classiq is trusted by Fortune 500 leaders and global governments. We accelerate the quantum era with a platform that transforms bold quantum ideas into working applications. \n We're looking for a Product Designer with exceptional UI skills and a real eye for visual craft to help shape the look and feel of Classiq’s quantum developer platform. This role is for someone who can bring a distinctive visual voice to a deeply technical product. \n You'll own the visual and interaction design of key parts of the platform, working closely with other designers, product managers, and engineers. This is a hands-on, high-impact role with few predefined roadmaps, so we're looking for someone with a strong point of view and the range to define things rather than just execute them. We care about the originality and strength of your work; a standout portfolio is essential. \n What you'll do \n • Design visual language for Classiq's SaaS platform and quantum developer tools, with a strong emphasis on visual quality and polish \n• Design UI and UX for complex, technical workflows \n• Bring illustration and graphic design into the product, from iconography to visual systems that make complex quantum concepts feel intuitive \n• Translate abstract, technical, and quantum ideas into clear and visually compelling experiences \n• Help raise the visual bar and evolve our design language \n• Contribute creatively and strategically in an environment with few predefined roadmaps \n Who you are \n • 5+ Years of product design experience \n• A portfolio that stands out visually, projects showing craft, a strong point of view, and distinctive UI and UX \n• Experience in visually rich domains (game design, data visualizations, developer/design/music tools, or similarly demanding visual work) is an advantage \n• Shipped UI/UX/product work you can point to. Please include links to live projects \n• Proficient in Figma \n• Fluent in English \n• Curiosity about technical, scientific, and complex products: you don't need a quantum background, but you should be genuinely interested in how systems work \n Bonus points \n • Excellent graphic design skills, strong illustration skills are a plus \n• Experience with scientific projects is a plus\nResponsibilities\nnull\nRequirements\nnull",
-      "company": "Classiq",
-      "source": "comeet:classiq/F7.008",
-      "level": "Senior+",
-      "minYears": 5,
-      "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -112,7 +146,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -128,7 +162,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -144,7 +178,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -160,7 +194,7 @@
       "level": "Senior+",
       "minYears": 4,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -208,7 +242,7 @@
       "level": "Junior",
       "minYears": 1,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -224,7 +258,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -264,38 +298,6 @@
       "status": "open"
     },
     {
-      "key": "linkedin:https://se.linkedin.com/jobs/view/senior-design-system-specialist-at-etraveli-group-4488845076",
-      "title": "Senior Design System Specialist på Etraveli Group",
-      "company": "Etraveli Group",
-      "location": "Israel",
-      "url": "https://se.linkedin.com/jobs/view/senior-design-system-specialist-at-etraveli-group-4488845076",
-      "postedAt": null,
-      "description": "Major offices in Sweden (HQ), Greece, India, Canada, Israel, Poland, UK, and Uruguay. ... Principal Product Designer - Xbox. Microsoft. Stockholm 5 dagar sedan.",
-      "via": "LinkedIn",
-      "source": "feed:google",
-      "level": "Senior+",
-      "minYears": null,
-      "firstSeen": "2026-11-12T13:48:59.925Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
-      "status": "open"
-    },
-    {
-      "key": "linkedin:https://in.linkedin.com/jobs/view/ui-ux-designer-10-openings-at-sagaux-4488612741",
-      "title": "UI/UX Designer - 10 Openings",
-      "company": "sagaUX",
-      "location": "Israel",
-      "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-10-openings-at-sagaux-4488612741",
-      "postedAt": null,
-      "description": "Israel (‫ישראל‬‎)+972; Italy (Italia)+39; Jamaica+1; Japan (日本)+81; Jersey+ ... Senior Product Designer (UX/UI). Revun. Pune Division, Maharashtra, India 1 ...",
-      "via": "LinkedIn",
-      "source": "feed:google",
-      "level": "Mid",
-      "minYears": null,
-      "firstSeen": "2026-11-12T13:48:59.925Z",
-      "lastSeen": "2026-11-13T13:10:43.189Z",
-      "status": "open"
-    },
-    {
       "key": "linkedin:https://in.linkedin.com/jobs/view/ux-researcher-3-openings-at-sagaux-4488610710",
       "title": "UX Researcher - 3 Openings",
       "company": "sagaUX",
@@ -324,7 +326,7 @@
       "level": "Senior+",
       "minYears": 8,
       "firstSeen": "2026-11-08T11:58:09.551Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -340,7 +342,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -376,7 +378,7 @@
       "firstSeen": "2026-11-11T12:46:02.080Z",
       "lastSeen": "2026-11-17T14:31:25.185Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-19T14:28:43.201Z"
+      "linkCheckedAt": "2026-11-20T14:05:08.772Z"
     },
     {
       "key": "comeet:integritylabs/43.009:E1.375",
@@ -391,7 +393,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -407,7 +409,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -423,7 +425,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -439,7 +441,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -455,7 +457,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -471,9 +473,9 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-19T14:28:43.201Z"
+      "linkCheckedAt": "2026-11-20T14:05:08.772Z"
     },
     {
       "key": "greenhouse:similarweb:8260908",
@@ -488,7 +490,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -504,7 +506,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -520,7 +522,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -536,7 +538,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -554,7 +556,7 @@
       "firstSeen": "2026-11-03T13:53:11.288Z",
       "lastSeen": "2026-11-19T14:28:43.201Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-19T14:28:43.201Z"
+      "linkCheckedAt": "2026-11-20T14:05:08.772Z"
     },
     {
       "key": "ashby:lemonade:663819c6-426c-49d6-8c0c-1fe938ffb440",
@@ -569,7 +571,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -585,7 +587,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-04T13:02:17.859Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -601,7 +603,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -617,7 +619,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -633,7 +635,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -649,7 +651,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -665,9 +667,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-19T14:28:43.201Z"
+      "linkCheckedAt": "2026-11-20T14:05:08.772Z"
     },
     {
       "key": "greenhouse:scaleops:4921333101",
@@ -682,7 +684,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -698,7 +700,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
     },
     {
@@ -714,9 +716,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-19T14:28:43.201Z"
+      "linkCheckedAt": "2026-11-20T14:05:08.772Z"
     },
     {
       "key": "greenhouse:wizinc:4599708006",
@@ -731,8 +733,25 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "lastSeen": "2026-11-20T14:05:08.772Z",
       "status": "open"
+    },
+    {
+      "key": "comeet:classiq/F7.008:17.072",
+      "title": "Senior Product Designer",
+      "location": "Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/classiq/F7.008/senior-product-designer/17.072",
+      "postedAt": "2026-11-19T10:53:08.000Z",
+      "remote": true,
+      "description": "Description\nAt Classiq Technologies, we’re shaping the future of quantum computing. \n Our mission is to make quantum computing practical and impactful by bridging the gap between hardware and real-world applications. Our platform enables developers and enterprises to design, optimize, and deploy quantum algorithms at scale, automating complex processes and supporting teams from beginners to experts across diverse architectures. \n Classiq is trusted by Fortune 500 leaders and global governments. We accelerate the quantum era with a platform that transforms bold quantum ideas into working applications. \n We're looking for a Product Designer with exceptional UI skills and a real eye for visual craft to help shape the look and feel of Classiq’s quantum developer platform. This role is for someone who can bring a distinctive visual voice to a deeply technical product. \n You'll own the visual and interaction design of key parts of the platform, working closely with other designers, product managers, and engineers. This is a hands-on, high-impact role with few predefined roadmaps, so we're looking for someone with a strong point of view and the range to define things rather than just execute them. We care about the originality and strength of your work; a standout portfolio is essential. \n What you'll do \n • Design visual language for Classiq's SaaS platform and quantum developer tools, with a strong emphasis on visual quality and polish \n• Design UI and UX for complex, technical workflows \n• Bring illustration and graphic design into the product, from iconography to visual systems that make complex quantum concepts feel intuitive \n• Translate abstract, technical, and quantum ideas into clear and visually compelling experiences \n• Help raise the visual bar and evolve our design language \n• Contribute creatively and strategically in an environment with few predefined roadmaps \n Who you are \n • 5+ Years of product design experience \n• A portfolio that stands out visually, projects showing craft, a strong point of view, and distinctive UI and UX \n• Experience in visually rich domains (game design, data visualizations, developer/design/music tools, or similarly demanding visual work) is an advantage \n• Shipped UI/UX/product work you can point to. Please include links to live projects \n• Proficient in Figma \n• Fluent in English \n• Curiosity about technical, scientific, and complex products: you don't need a quantum background, but you should be genuinely interested in how systems work \n Bonus points \n • Excellent graphic design skills, strong illustration skills are a plus \n• Experience with scientific projects is a plus\nResponsibilities\nnull\nRequirements\nnull",
+      "company": "Classiq",
+      "source": "comeet:classiq/F7.008",
+      "level": "Senior+",
+      "minYears": 5,
+      "firstSeen": "2026-11-03T12:42:26.263Z",
+      "lastSeen": "2026-11-19T14:28:43.201Z",
+      "status": "closed",
+      "closedAt": "2026-11-20T14:05:08.772Z"
     },
     {
       "key": "comeet:artlist/85.003:F5.274",
@@ -784,6 +803,42 @@
       "lastSeen": "2026-11-17T14:31:25.185Z",
       "status": "closed",
       "closedAt": "2026-11-18T14:06:52.338Z"
+    },
+    {
+      "key": "linkedin:https://se.linkedin.com/jobs/view/senior-design-system-specialist-at-etraveli-group-4488845076",
+      "title": "Senior Design System Specialist på Etraveli Group",
+      "company": "Etraveli Group",
+      "location": "Israel",
+      "url": "https://se.linkedin.com/jobs/view/senior-design-system-specialist-at-etraveli-group-4488845076",
+      "postedAt": null,
+      "description": "Major offices in Sweden (HQ), Greece, India, Canada, Israel, Poland, UK, and Uruguay. ... Principal Product Designer - Xbox. Microsoft. Stockholm 5 dagar sedan.",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Senior+",
+      "minYears": null,
+      "firstSeen": "2026-11-12T13:48:59.925Z",
+      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "status": "closed",
+      "closedReason": "not seen for a week",
+      "closedAt": "2026-11-20T14:05:08.772Z"
+    },
+    {
+      "key": "linkedin:https://in.linkedin.com/jobs/view/ui-ux-designer-10-openings-at-sagaux-4488612741",
+      "title": "UI/UX Designer - 10 Openings",
+      "company": "sagaUX",
+      "location": "Israel",
+      "url": "https://in.linkedin.com/jobs/view/ui-ux-designer-10-openings-at-sagaux-4488612741",
+      "postedAt": null,
+      "description": "Israel (‫ישראל‬‎)+972; Italy (Italia)+39; Jamaica+1; Japan (日本)+81; Jersey+ ... Senior Product Designer (UX/UI). Revun. Pune Division, Maharashtra, India 1 ...",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Mid",
+      "minYears": null,
+      "firstSeen": "2026-11-12T13:48:59.925Z",
+      "lastSeen": "2026-11-13T13:10:43.189Z",
+      "status": "closed",
+      "closedReason": "not seen for a week",
+      "closedAt": "2026-11-20T14:05:08.772Z"
     },
     {
       "key": "linkedin:https://ca.linkedin.com/jobs/view/senior-user-experience-design-specialist-at-sap-4485841600",

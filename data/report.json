@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-11-19T14:28:43.201Z",
+  "runAt": "2026-11-20T14:05:08.772Z",
   "companies": [
     {
       "company": "365Scores",
@@ -47,7 +47,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "alice/D5.005",
-      "total": 43,
+      "total": 46,
       "matches": 0
     },
     {
@@ -84,7 +84,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "appsflyer",
-      "total": 57,
+      "total": 56,
       "matches": 0
     },
     {
@@ -169,7 +169,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "catonetworks",
-      "total": 119,
+      "total": 120,
       "matches": 1
     },
     {
@@ -217,7 +217,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "Claroty/F2.004",
-      "total": 38,
+      "total": 37,
       "matches": 0
     },
     {
@@ -225,8 +225,8 @@
       "status": "ok",
       "ats": "comeet",
       "id": "classiq/F7.008",
-      "total": 27,
-      "matches": 1
+      "total": 26,
+      "matches": 0
     },
     {
       "company": "Cloudinary",
@@ -257,7 +257,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "comm-it/76.008",
-      "total": 120,
+      "total": 122,
       "matches": 0
     },
     {
@@ -265,7 +265,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "connecteam",
-      "total": 37,
+      "total": 38,
       "matches": 0
     },
     {
@@ -281,7 +281,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "coralogix/06.004",
-      "total": 63,
+      "total": 62,
       "matches": 0
     },
     {
@@ -302,7 +302,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "cyera/17.008",
-      "total": 233,
+      "total": 241,
       "matches": 0
     },
     {
@@ -318,7 +318,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "datadog",
-      "total": 379,
+      "total": 382,
       "matches": 0
     },
     {
@@ -342,7 +342,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "descope",
-      "total": 6,
+      "total": 4,
       "matches": 0
     },
     {
@@ -358,7 +358,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "drivenets/72.006",
-      "total": 51,
+      "total": 49,
       "matches": 0
     },
     {
@@ -403,7 +403,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "exodigo/89.005",
-      "total": 36,
+      "total": 40,
       "matches": 0
     },
     {
@@ -448,7 +448,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "forter",
-      "total": 19,
+      "total": 20,
       "matches": 0
     },
     {
@@ -488,7 +488,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "gongio",
-      "total": 87,
+      "total": 84,
       "matches": 0
     },
     {
@@ -611,7 +611,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "jfrog",
-      "total": 77,
+      "total": 76,
       "matches": 0
     },
     {
@@ -635,7 +635,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "kelatechnologies/2A.007",
-      "total": 38,
+      "total": 39,
       "matches": 0
     },
     {
@@ -672,7 +672,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "lumana",
-      "total": 3,
+      "total": 2,
       "matches": 1
     },
     {
@@ -709,7 +709,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "medison/67.00A",
-      "total": 64,
+      "total": 67,
       "matches": 1
     },
     {
@@ -733,7 +733,7 @@
       "status": "ok",
       "ats": "lever_eu",
       "id": "mobileye",
-      "total": 177,
+      "total": 176,
       "matches": 0
     },
     {
@@ -751,7 +751,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "mongodb",
-      "total": 405,
+      "total": 413,
       "matches": 0
     },
     {
@@ -788,7 +788,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "tripactions",
-      "total": 240,
+      "total": 236,
       "matches": 0
     },
     {
@@ -820,7 +820,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "nice",
-      "total": 119,
+      "total": 116,
       "matches": 0
     },
     {
@@ -938,7 +938,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "payoneer",
-      "total": 100,
+      "total": 101,
       "matches": 0
     },
     {
@@ -1072,7 +1072,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "riskified",
-      "total": 44,
+      "total": 45,
       "matches": 0
     },
     {
@@ -1089,7 +1089,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "rubrik",
-      "total": 201,
+      "total": 206,
       "matches": 1
     },
     {
@@ -1126,7 +1126,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "sedric/0A.00F",
-      "total": 3,
+      "total": 4,
       "matches": 0
     },
     {
@@ -1134,7 +1134,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "semperis",
-      "total": 28,
+      "total": 31,
       "matches": 0
     },
     {
@@ -1150,7 +1150,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "sensi/E7.00F",
-      "total": 16,
+      "total": 15,
       "matches": 1
     },
     {
@@ -1158,7 +1158,7 @@
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "servicenow",
-      "total": 836,
+      "total": 870,
       "matches": 0
     },
     {
@@ -1283,7 +1283,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "thetaray/72.00F",
-      "total": 12,
+      "total": 13,
       "matches": 0
     },
     {
@@ -1323,7 +1323,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "unframe",
-      "total": 27,
+      "total": 28,
       "matches": 0
     },
     {
@@ -1331,7 +1331,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "upstream/E4.003",
-      "total": 10,
+      "total": 9,
       "matches": 0
     },
     {
@@ -1363,7 +1363,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "vega/C9.009",
-      "total": 29,
+      "total": 28,
       "matches": 0
     },
     {
@@ -1443,7 +1443,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "wonderful",
-      "total": 121,
+      "total": 122,
       "matches": 0
     },
     {
@@ -1524,7 +1524,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "ashleydigital",
-      "total": 13,
+      "total": 12,
       "matches": 1
     }
   ],
@@ -1532,19 +1532,19 @@
     {
       "feed": "secrettlv",
       "status": "ok",
-      "total": 11,
-      "matches": 9,
-      "added": 4,
+      "total": 10,
+      "matches": 8,
+      "added": 3,
       "duplicates": 5,
       "notOnCompanyBoard": 0
     },
     {
       "feed": "google",
       "status": "ok",
-      "total": 1,
-      "matches": 1,
-      "added": 1,
-      "duplicates": 0,
+      "total": 8,
+      "matches": 6,
+      "added": 3,
+      "duplicates": 3,
       "notOnCompanyBoard": 0
     }
   ],
@@ -1552,28 +1552,26 @@
   "googleQueries": [
     {
       "q": "site:linkedin.com/jobs \"product designer\" Israel",
-      "results": 5,
+      "results": 10,
       "links": [
-        "https://openrolesdb.com/hiring/product-design/tel-aviv-il",
-        "https://hire-me.co.il/uk/jobs/yotpo-boards/8301582",
-        "https://www.content-managers.com/he/israel-tech-hiring-index/category/design/"
+        "https://il.linkedin.com/jobs/view/senior-product-designer-at-matia-4486902870?position=45&pageNum=0&refId=iVMKQ5T6%2F%2BURaayyoYzEmw%3D%3D&trackingId=e9me2Yd2oWu6qeO5tGwTpQ%3D%3D",
+        "https://il.linkedin.com/jobs/cust2mate-a2z-%28nasdaq-az%29-jobs-tel-aviv-district",
+        "https://il.linkedin.com/jobs/view/graphic-designer-at-kasher-design-4489739349"
       ]
     },
     {
       "q": "site:linkedin.com/posts hiring \"product designer\" Israel",
-      "results": 4,
+      "results": 1,
       "links": [
-        "https://www.content-managers.com/he/israel-tech-hiring-index/category/design/",
-        "https://hire-me.co.il/uk/jobs/yotpo-boards/8301582",
-        "https://openrolesdb.com/hiring/product-design/tel-aviv-il"
+        "https://www.linkedin.com/posts/nitzanr_productdesign-uxdesign-hiringisrael-activity-7528715919892750336-ol9w"
       ]
     },
     {
       "q": "site:linkedin.com/jobs \"UX designer\" Israel",
       "results": 2,
       "links": [
-        "https://www.jobtime.co.il/jobs/hi-tech/ux-ui-designer/page/2/",
-        "https://misrotech.com/en/r/design"
+        "https://il.linkedin.com/jobs/view/senior-product-designer-at-matia-4486902870?position=45&pageNum=0&refId=iVMKQ5T6%2F%2BURaayyoYzEmw%3D%3D&trackingId=e9me2Yd2oWu6qeO5tGwTpQ%3D%3D",
+        "https://gr.linkedin.com/jobs/view/ux-designer-at-etraveli-group-4491579495"
       ]
     },
     {
@@ -1589,17 +1587,17 @@
       "q": "site:linkedin.com/jobs \"UI/UX designer\" OR \"UX/UI designer\" Israel",
       "results": 2,
       "links": [
-        "https://misrotech.com/en/r/design",
+        "https://job-scouter.com/en/search?q=UI+Designer&loc=jerusalem",
         "https://www.jobtime.co.il/jobs/hi-tech/ux-ui-designer/page/2/"
       ]
     },
     {
       "q": "site:linkedin.com/jobs \"product designer\" \"Tel Aviv\"",
-      "results": 7,
+      "results": 6,
       "links": [
-        "https://hire-me.co.il/uk/jobs/yotpo-boards/8301582",
-        "https://www.woodyjobs.com/brand-design/tel-aviv?page=4",
-        "https://openrolesdb.com/hiring/product-design/tel-aviv-il"
+        "https://il.linkedin.com/jobs/view/senior-product-designer-at-matia-4486902870?position=45&pageNum=0&refId=iVMKQ5T6%2F%2BURaayyoYzEmw%3D%3D&trackingId=e9me2Yd2oWu6qeO5tGwTpQ%3D%3D",
+        "https://il.linkedin.com/jobs/cust2mate-a2z-%28nasdaq-az%29-jobs-tel-aviv-district",
+        "https://il.linkedin.com/jobs/view/graphic-designer-at-kasher-design-4489739349"
       ]
     }
   ],
@@ -1607,12 +1605,14 @@
   "manual": {
     "open": 0,
     "onBoard": 0,
-    "closed": 25,
-    "unverified": 12
+    "closed": 28,
+    "unverified": 9
   },
   "probe": {
-    "tried": 0,
-    "found": []
+    "tried": 1,
+    "found": [
+      "Matia → ashby:matia"
+    ]
   },
   "linkCheck": {
     "checked": 11,
@@ -1663,25 +1663,27 @@
       "Tabnine: comeet tabnine/39.006: positions data not found on page"
     ],
     "feeds": [
-      "secrettlv: ok +4 (dup 5)",
-      "google: ok +1 (dup 0)"
+      "secrettlv: ok +3 (dup 5)",
+      "google: ok +3 (dup 3)"
     ],
     "newBoards": [],
     "manual": {
       "open": 0,
       "onBoard": 0,
-      "closed": 25,
-      "unverified": 12
+      "closed": 28,
+      "unverified": 9
     },
     "probe": {
-      "tried": 0,
-      "found": []
+      "tried": 1,
+      "found": [
+        "Matia → ashby:matia"
+      ]
     },
     "linkCheck": {
       "checked": 11,
       "closed": []
     },
     "openJobs": 45,
-    "newToday": 2
+    "newToday": 3
   }
 }
