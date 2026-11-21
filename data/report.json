@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-11-20T14:05:08.772Z",
+  "runAt": "2026-11-21T13:30:47.581Z",
   "companies": [
     {
       "company": "365Scores",
@@ -108,13 +108,13 @@
       "status": "ok",
       "ats": "comeet",
       "id": "artlist/85.003",
-      "total": 26,
+      "total": 27,
       "matches": 0
     },
     {
       "company": "Ask-AI",
       "status": "error",
-      "error": "comeet askai/1A.00C: positions data not found on page"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "company": "Atera",
@@ -145,7 +145,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "automatit/26.003",
-      "total": 18,
+      "total": 17,
       "matches": 0
     },
     {
@@ -201,7 +201,7 @@
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "CheckPointSoftwareTechnologies2",
-      "total": 243,
+      "total": 242,
       "matches": 0
     },
     {
@@ -209,7 +209,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "checkmarx/C0.008",
-      "total": 30,
+      "total": 23,
       "matches": 0
     },
     {
@@ -217,7 +217,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "Claroty/F2.004",
-      "total": 37,
+      "total": 36,
       "matches": 0
     },
     {
@@ -281,7 +281,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "coralogix/06.004",
-      "total": 62,
+      "total": 64,
       "matches": 0
     },
     {
@@ -302,7 +302,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "cyera/17.008",
-      "total": 241,
+      "total": 239,
       "matches": 0
     },
     {
@@ -358,7 +358,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "drivenets/72.006",
-      "total": 49,
+      "total": 50,
       "matches": 0
     },
     {
@@ -425,7 +425,7 @@
     {
       "company": "Fireblocks",
       "status": "error",
-      "error": "comeet fireblocks/B4.00F: positions data not found on page"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "company": "Fiverr",
@@ -611,7 +611,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "jfrog",
-      "total": 76,
+      "total": 78,
       "matches": 0
     },
     {
@@ -648,7 +648,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "lemonade",
-      "total": 42,
+      "total": 43,
       "matches": 2
     },
     {
@@ -709,7 +709,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "medison/67.00A",
-      "total": 67,
+      "total": 68,
       "matches": 1
     },
     {
@@ -751,7 +751,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "mongodb",
-      "total": 413,
+      "total": 417,
       "matches": 0
     },
     {
@@ -772,7 +772,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "nanit",
-      "total": 7,
+      "total": 6,
       "matches": 0
     },
     {
@@ -788,7 +788,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "tripactions",
-      "total": 236,
+      "total": 237,
       "matches": 0
     },
     {
@@ -820,7 +820,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "nice",
-      "total": 116,
+      "total": 115,
       "matches": 0
     },
     {
@@ -938,7 +938,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "payoneer",
-      "total": 101,
+      "total": 100,
       "matches": 0
     },
     {
@@ -946,7 +946,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "pentera/C5.00D",
-      "total": 32,
+      "total": 28,
       "matches": 0
     },
     {
@@ -970,7 +970,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "pi-security",
-      "total": 10,
+      "total": 9,
       "matches": 0
     },
     {
@@ -992,7 +992,7 @@
     {
       "company": "Playtika",
       "status": "error",
-      "error": "comeet playtika/01.001: positions data not found on page"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "company": "Plus500",
@@ -1024,7 +1024,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "quantummachines/D6.000",
-      "total": 67,
+      "total": 66,
       "matches": 0
     },
     {
@@ -1089,7 +1089,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "rubrik",
-      "total": 206,
+      "total": 208,
       "matches": 1
     },
     {
@@ -1102,7 +1102,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "saltsecurity",
-      "total": 11,
+      "total": 14,
       "matches": 0
     },
     {
@@ -1134,7 +1134,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "semperis",
-      "total": 31,
+      "total": 29,
       "matches": 0
     },
     {
@@ -1158,7 +1158,7 @@
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "servicenow",
-      "total": 870,
+      "total": 998,
       "matches": 0
     },
     {
@@ -1182,7 +1182,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "similarweb",
-      "total": 62,
+      "total": 59,
       "matches": 1
     },
     {
@@ -1198,7 +1198,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "snowflake",
-      "total": 379,
+      "total": 374,
       "matches": 0
     },
     {
@@ -1371,7 +1371,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "via",
-      "total": 174,
+      "total": 173,
       "matches": 0
     },
     {
@@ -1419,7 +1419,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "wiliot/F6.003",
-      "total": 18,
+      "total": 19,
       "matches": 0
     },
     {
@@ -1427,7 +1427,7 @@
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "Wix2",
-      "total": 92,
+      "total": 91,
       "matches": 2
     },
     {
@@ -1435,7 +1435,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "wizinc",
-      "total": 107,
+      "total": 108,
       "matches": 1
     },
     {
@@ -1484,7 +1484,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "yotpo",
-      "total": 18,
+      "total": 17,
       "matches": 1
     },
     {
@@ -1524,7 +1524,15 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "ashleydigital",
-      "total": 12,
+      "total": 13,
+      "matches": 1
+    },
+    {
+      "company": "Matia",
+      "status": "ok",
+      "ats": "ashby",
+      "id": "matia",
+      "total": 5,
       "matches": 1
     }
   ],
@@ -1541,10 +1549,10 @@
     {
       "feed": "google",
       "status": "ok",
-      "total": 8,
-      "matches": 6,
-      "added": 3,
-      "duplicates": 3,
+      "total": 3,
+      "matches": 1,
+      "added": 1,
+      "duplicates": 0,
       "notOnCompanyBoard": 0
     }
   ],
@@ -1554,9 +1562,9 @@
       "q": "site:linkedin.com/jobs \"product designer\" Israel",
       "results": 10,
       "links": [
-        "https://il.linkedin.com/jobs/view/senior-product-designer-at-matia-4486902870?position=45&pageNum=0&refId=iVMKQ5T6%2F%2BURaayyoYzEmw%3D%3D&trackingId=e9me2Yd2oWu6qeO5tGwTpQ%3D%3D",
         "https://il.linkedin.com/jobs/cust2mate-a2z-%28nasdaq-az%29-jobs-tel-aviv-district",
-        "https://il.linkedin.com/jobs/view/graphic-designer-at-kasher-design-4489739349"
+        "https://il.linkedin.com/jobs/view/graphic-designer-at-kasher-design-4489739349",
+        "https://www.google.com/goto?url=CAESiwEBxCJF15Egyn28-U2FPxleE73ERb-ZxfKLuZu3yzysId1EHD2pKb8IFe4l56Hyf3YBuPr3LtBqIJM-UkjYCphyWGlC2LaKAQY4lw6PhfZOZvn9BmFDlwCYb-lk65G41vY_j1tvzo1d8O72MSuAm-rhLi2p3On0cl5ZeYGzRxOtBuKXcSm6RW-P8kDb"
       ]
     },
     {
@@ -1568,36 +1576,29 @@
     },
     {
       "q": "site:linkedin.com/jobs \"UX designer\" Israel",
-      "results": 2,
+      "results": 3,
       "links": [
-        "https://il.linkedin.com/jobs/view/senior-product-designer-at-matia-4486902870?position=45&pageNum=0&refId=iVMKQ5T6%2F%2BURaayyoYzEmw%3D%3D&trackingId=e9me2Yd2oWu6qeO5tGwTpQ%3D%3D",
-        "https://gr.linkedin.com/jobs/view/ux-designer-at-etraveli-group-4491579495"
+        "https://www.glassdoor.co.in/Job/tel-aviv-yafo-isra%C3%ABl-ui-ux-designer-jobs-SRCH_IL.0,20_IM1002_KO21,35.htm",
+        "https://www.jobstore.com/il/jobs/q--ui-ux-designer-l-southern-district-jobs.html",
+        "https://www.google.com/goto?url=CAESeQHEIkXXXWfhCjS1QRdSg-hB0Bqarx0-KpaU_M45KxvHaiiV8_EoHiVCnPk_YG1MU7NCIYUJnbbwGm7320jvxSsMeESmmQmuIt4nW5GyrN5lW4K91hIRdZpcwffHbnj6q2GCEkefOAiXbpe5_iQjehmMOBQqSloHKww"
       ]
     },
     {
       "q": "site:linkedin.com/posts (מגייסים OR מחפשים OR דרוש OR דרושה) (UX OR \"מעצב מוצר\" OR \"מעצבת מוצר\" OR \"product designer\")",
       "results": 5,
       "links": [
-        "https://www.linkedin.com/posts/shai-shiloni-53993186_ux-productdesign-productstrategy-activity-7528051062260543488-KI0J",
-        "https://www.linkedin.com/posts/noam-ohayon-a4a117256_%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D-%D7%92%D7%99%D7%95%D7%A1-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C-activity-7528379138039152640-2pEv",
-        "https://www.linkedin.com/posts/shahar-dgani-892a67223_%D7%9E%D7%A8%D7%A7%D7%95%D7%A8%D7%99-%D7%99%D7%A6%D7%90-%D7%9E%D7%A0%D7%A1%D7%99%D7%92%D7%94-%D7%95%D7%90%D7%A0%D7%97%D7%A0%D7%95-%D7%91%D7%97%D7%99%D7%A4%D7%95%D7%A9%D7%99%D7%9D-%D7%90%D7%97%D7%A8%D7%99-%D7%94%D7%9B%D7%95%D7%9B%D7%91%D7%99%D7%9D-activity-7528427241911836673-dh7A"
-      ]
-    },
-    {
-      "q": "site:linkedin.com/jobs \"UI/UX designer\" OR \"UX/UI designer\" Israel",
-      "results": 2,
-      "links": [
-        "https://job-scouter.com/en/search?q=UI+Designer&loc=jerusalem",
-        "https://www.jobtime.co.il/jobs/hi-tech/ux-ui-designer/page/2/"
+        "https://www.jobtime.co.il/jobs/hi-tech/ux-ui-designer/page/2/",
+        "https://hrai.co.il/jobs/%D7%9E%D7%A2%D7%A6%D7%91-%D7%AA-%D7%9E%D7%95%D7%A6%D7%A8-ux-ui-426c71ca774d73e0",
+        "https://www.google.com/goto?url=CAEStAEBxCJF19ziljHwmFSq3GEwDdLVqPDyymZRFqSpzLyfIhT2RPy_dCDuS1uYnHhoU2z6VwoWA8SReIGl7wQi7EFFuj6m7pGO4xk6tgHgD00KQck2gd67hzVV8DBo6x1sNr-XaoQTOFLmNOTsXTTKePVY-YoqE_6xiqMgf1FCmPl-gW-Mlifdv-RRfYazXftVS6XEKJyNCfcdfROGgMLOKhHCKDocB6JF_r2jxUk0yBsjUWdUWRo"
       ]
     },
     {
       "q": "site:linkedin.com/jobs \"product designer\" \"Tel Aviv\"",
-      "results": 6,
+      "results": 4,
       "links": [
-        "https://il.linkedin.com/jobs/view/senior-product-designer-at-matia-4486902870?position=45&pageNum=0&refId=iVMKQ5T6%2F%2BURaayyoYzEmw%3D%3D&trackingId=e9me2Yd2oWu6qeO5tGwTpQ%3D%3D",
         "https://il.linkedin.com/jobs/cust2mate-a2z-%28nasdaq-az%29-jobs-tel-aviv-district",
-        "https://il.linkedin.com/jobs/view/graphic-designer-at-kasher-design-4489739349"
+        "https://il.linkedin.com/jobs/view/graphic-designer-at-kasher-design-4489739349",
+        "https://www.google.com/goto?url=CAESpAEBxCJF1xU3HKQ4DvzpAuQoQO8JM_x1PI8FySFqUuwF5wOVJ2_mzVQ84O_vEEwxMgcMfHFNduLfCh0BqR6tM_JyDOEuk9RDbaDbzYy9YMhAOwiyRl33KzX4xDojRlf8-b6JUW2Cq_-d2snzxw6aQyRwNjZRBYS6qAOm-ujfu_B893JVNbcbEJvTCI-2DrnUsdloXz_X9-P_0KfciRqPIHRdtIGzkA"
       ]
     }
   ],
@@ -1609,18 +1610,16 @@
     "unverified": 9
   },
   "probe": {
-    "tried": 1,
-    "found": [
-      "Matia → ashby:matia"
-    ]
+    "tried": 0,
+    "found": []
   },
   "linkCheck": {
     "checked": 11,
     "closed": []
   },
   "summary": {
-    "companies": 195,
-    "boardsOk": 158,
+    "companies": 196,
+    "boardsOk": 159,
     "notFound": [
       "90min",
       "Anecdotes",
@@ -1648,23 +1647,23 @@
     ],
     "errors": [
       "Applied Materials: HTTP 429 for workday amat/wd1/External",
-      "Ask-AI: comeet askai/1A.00C: positions data not found on page",
+      "Ask-AI: The operation was aborted due to timeout",
       "CrowdStrike: HTTP 429 for workday crowdstrike/wd5/crowdstrikecareers",
       "eToro: comeet etoro/41.009: positions data not found on page",
-      "Fireblocks: comeet fireblocks/B4.00F: positions data not found on page",
+      "Fireblocks: The operation was aborted due to timeout",
       "HPE: HTTP 429 for workday hpe/wd5/Jobsathpe",
       "Intel: HTTP 429 for workday intel/wd1/External",
       "KLA: HTTP 429 for workday kla/wd1/Search",
       "Marvell: HTTP 429 for workday marvell/wd1/MarvellCareers",
       "Motorola Solutions: HTTP 429 for workday motorolasolutions/wd5/Careers",
       "NVIDIA: HTTP 429 for workday nvidia/wd5/NVIDIAExternalCareerSite",
-      "Playtika: comeet playtika/01.001: positions data not found on page",
+      "Playtika: The operation was aborted due to timeout",
       "Salesforce: HTTP 429 for workday salesforce/wd12/External_Career_Site",
       "Tabnine: comeet tabnine/39.006: positions data not found on page"
     ],
     "feeds": [
       "secrettlv: ok +3 (dup 5)",
-      "google: ok +3 (dup 3)"
+      "google: ok +1 (dup 0)"
     ],
     "newBoards": [],
     "manual": {
@@ -1674,16 +1673,14 @@
       "unverified": 9
     },
     "probe": {
-      "tried": 1,
-      "found": [
-        "Matia → ashby:matia"
-      ]
+      "tried": 0,
+      "found": []
     },
     "linkCheck": {
       "checked": 11,
       "closed": []
     },
     "openJobs": 45,
-    "newToday": 3
+    "newToday": 1
   }
 }

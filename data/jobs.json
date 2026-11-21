@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-11-20T14:05:08.772Z",
+  "updatedAt": "2026-11-21T13:30:47.581Z",
   "jobs": [
     {
-      "key": "linkedin:https://il.linkedin.com/jobs/view/senior-product-designer-at-matia-4486902870",
-      "title": "Senior Product Designer‏ ב ‏Matia‏ — ‏Tel Aviv-Yafo",
-      "company": "Matia",
-      "location": "Israel",
-      "url": "https://il.linkedin.com/jobs/view/senior-product-designer-at-matia-4486902870",
-      "postedAt": null,
-      "description": "להגיש מועמדות ב ‏Senior Product Designer‏ ‏Matia‏ ‏Tel Aviv-Yafo‏. ‏משרה מלאה בכירות בינונית‏ תפקיד. ראה תחומי אחריות, כישורים ומשרות דומות ב-LinkedIn.",
-      "via": "LinkedIn",
-      "source": "feed:google",
-      "level": "Senior+",
-      "minYears": null,
-      "firstSeen": "2026-11-20T14:05:08.772Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "key": "comeet:team8/61.003:49.37A",
+      "title": "Charm Security-Product Designer",
+      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
+      "postedAt": "2026-11-21T12:32:21.000Z",
+      "remote": false,
+      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm. \n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels. \n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments. \n Your designs will directly impact: \n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts \n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time \n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support \n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production. \n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next. \n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control. \n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle. \n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows. \n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience. \n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products. \n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped. \n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail. \n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions. \n• Strong Figma skills, including components, auto layout, prototyping, and design systems. \n• Experience collaborating closely with product managers and engineers. \n• The ability to explain your decisions, give and receive feedback, and adapt as you learn. \n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows. \n• Strong English communication skills. \n Nice to Have \n • A degree in Visual Communication. \n• Experience designing AI-powered products or tools that help users make complex decisions. \n• Experience making complex data easy to understand and act on. \n• Familiarity with fintech, cybersecurity, or fraud prevention.",
+      "company": "Team8",
+      "source": "comeet:team8/61.003",
+      "level": "Mid",
+      "minYears": 3,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -32,7 +32,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-20T14:05:08.772Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -70,22 +70,6 @@
       "status": "open"
     },
     {
-      "key": "comeet:team8/61.003:49.37A",
-      "title": "Charm Security-Product Designer",
-      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
-      "postedAt": "2026-11-19T13:55:50.000Z",
-      "remote": false,
-      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm. \n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels. \n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments. \n Your designs will directly impact: \n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts \n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time \n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support \n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production. \n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next. \n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control. \n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle. \n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows. \n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience. \n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products. \n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped. \n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail. \n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions. \n• Strong Figma skills, including components, auto layout, prototyping, and design systems. \n• Experience collaborating closely with product managers and engineers. \n• The ability to explain your decisions, give and receive feedback, and adapt as you learn. \n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows. \n• Strong English communication skills. \n Nice to Have \n • A degree in Visual Communication. \n• Experience designing AI-powered products or tools that help users make complex decisions. \n• Experience making complex data easy to understand and act on. \n• Familiarity with fintech, cybersecurity, or fraud prevention.",
-      "company": "Team8",
-      "source": "comeet:team8/61.003",
-      "level": "Mid",
-      "minYears": 3,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
-      "status": "open"
-    },
-    {
       "key": "comeet:guardio/57.000:18.571",
       "title": "Senior Product Designer",
       "location": "Tel-Aviv, Israel, Tel Aviv-Yafo, IL",
@@ -98,7 +82,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-19T14:28:43.201Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -146,7 +130,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -162,7 +146,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -178,7 +162,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -194,7 +178,7 @@
       "level": "Senior+",
       "minYears": 4,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -242,7 +226,7 @@
       "level": "Junior",
       "minYears": 1,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -258,7 +242,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -326,7 +310,7 @@
       "level": "Senior+",
       "minYears": 8,
       "firstSeen": "2026-11-08T11:58:09.551Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -342,7 +326,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -378,7 +362,23 @@
       "firstSeen": "2026-11-11T12:46:02.080Z",
       "lastSeen": "2026-11-17T14:31:25.185Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-20T14:05:08.772Z"
+      "linkCheckedAt": "2026-11-21T13:30:47.581Z"
+    },
+    {
+      "key": "ashby:matia:470bbfdf-d5e3-44cd-9b30-8b979855a300",
+      "title": "Senior Product Designer",
+      "location": "Tel-Aviv / Israel",
+      "url": "https://jobs.ashbyhq.com/matia/470bbfdf-d5e3-44cd-9b30-8b979855a300",
+      "postedAt": "2026-11-05T19:59:03.248Z",
+      "remote": true,
+      "description": "About Matia\n\nMatia is at the forefront of the DataOps revolution, building a unified platform that streamlines data management from end-to-end. We empower data teams with seamless ingestion, reverse ETL, comprehensive observability, and intuitive data cataloging, enabling faster, smarter decisions with significantly less tool sprawl. Backed by leading investors and trusted by data teams at companies like Ramp, HoneyBook, Drata and Lemonade, we’re building the future of data confidence.\n\nDesign at Matia is a small team working with a lot of AI. This role sets the bar for both.\n\n\n\n\nTHE OPPORTUNITY\n\nWe are seeking a Senior Product Designer to own how Matia looks, feels, and works. Our platform takes some of the most complex systems in a data stack (pipelines, schemas, syncs, monitors, lineage) and makes them clear enough that a data team trusts what it sees. That takes sharp taste and a fast hand.\n\nAs our Senior Product Designer you'll own design across ETL, Reverse ETL, Observability, Catalog, and our AI features. You'll report to our VP of Product in New York and work every day with our PMs and engineers in Ramat Gan. Design here runs AI native: agents do much of the production work in Figma, and you set the standard they work to. This is an opportunity to define the design language of a platform data teams rely on every day, while it scales.\n\n\n\n\nWHAT YOU’LL DO\n\n - Own Design End to End: Take design work attached to engineering tasks from first sketch to high fidelity, and stay with it until it ships the way you designed it.\n\n - Set the Taste Bar: Define the principles, references, and patterns that make Matia look and feel like one product, and write them down so people and AI agents can apply them.\n\n - Run Design with AI: Direct the AI agents that handle production work in Figma, review their output, and keep improving the workflow so small asks, like a new connector logo, never wait.\n\n - Build the Design System: Complete Matia's design system in Figma with our engineering owner, and keep Figma the source of truth for everything we ship.\n\n - Make Dense Screens Simple: Design schemas, sync states, monitors, lineage, and large tables so a data engineer understands them at a glance.\n\n - Know the Market: Study how the best data and developer tools design, and bring what you learn into every review.\n\n - Move at Startup Speed: Same day and next day asks are normal here. Prioritize with PMs, push back when it matters, and ship.\n\n\n\n\n\nWHAT WE’RE LOOKING FOR\n\nWe are seeking a designer with real taste and the urgency to act on it: someone who has shipped polished, data-heavy B2B product, works fast without lowering the bar, and treats every screen as their own.\n\n\n\nMust-Haves:\n\n - Experience: 5+ years as a Product Designer, including time at an early stage B2B startup.\n\n - Craft and Taste: A portfolio of shipped, high fidelity product work with strong visual judgment in typography, layout, and hierarchy. We look closely at the pixels, not only the process.\n\n - Technical Skills: Expert in Figma, including components, variants, variables, and auto layout, with hands-on experience building or rebuilding a design system.\n\n - Domain Knowledge: Experience designing complex, data dense products such as developer tools, infrastructure, analytics, or data platforms.\n\n - Mindset: High urgency and full ownership. You close loops without being asked, and you thrive in fast-paced, dynamic environments.\n\n - AI Fluency: You already use AI tools in your design workflow every week and want to push them further.\n\n - Communication: Clear written and verbal English, and the confidence to present and defend design decisions to PMs, engineers, and leadership.\n\n\n\nNice-to-Haves:\n\n - Data Tools Experience: Experience within a data tools company (e.g., ETL, Reverse ETL, Observability, Catalog).\n\n - First Designer: Experience as the first or only designer at a startup.\n\n - Brand and Marketing: Experience contributing to brand, website, or marketing design alongside product work.\n   \n   \n\n\nHOW TO APPLY\n\nDoes this role sound like a good fit for you? We encourage you to apply directly through our website.",
+      "company": "Matia",
+      "source": "ashby:matia",
+      "level": "Senior+",
+      "minYears": 5,
+      "firstSeen": "2026-11-21T13:30:47.581Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
+      "status": "open"
     },
     {
       "key": "comeet:integritylabs/43.009:E1.375",
@@ -393,7 +393,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -409,7 +409,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -425,7 +425,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -441,7 +441,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -457,7 +457,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -473,9 +473,9 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-20T14:05:08.772Z"
+      "linkCheckedAt": "2026-11-21T13:30:47.581Z"
     },
     {
       "key": "greenhouse:similarweb:8260908",
@@ -490,7 +490,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -506,7 +506,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -522,7 +522,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -538,7 +538,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -556,7 +556,7 @@
       "firstSeen": "2026-11-03T13:53:11.288Z",
       "lastSeen": "2026-11-19T14:28:43.201Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-20T14:05:08.772Z"
+      "linkCheckedAt": "2026-11-21T13:30:47.581Z"
     },
     {
       "key": "ashby:lemonade:663819c6-426c-49d6-8c0c-1fe938ffb440",
@@ -571,7 +571,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -587,7 +587,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-04T13:02:17.859Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -603,7 +603,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -619,7 +619,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -635,7 +635,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -651,7 +651,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -667,9 +667,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-20T14:05:08.772Z"
+      "linkCheckedAt": "2026-11-21T13:30:47.581Z"
     },
     {
       "key": "greenhouse:scaleops:4921333101",
@@ -684,7 +684,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -700,7 +700,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
@@ -716,9 +716,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-20T14:05:08.772Z"
+      "linkCheckedAt": "2026-11-21T13:30:47.581Z"
     },
     {
       "key": "greenhouse:wizinc:4599708006",
@@ -733,7 +733,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-20T14:05:08.772Z",
+      "lastSeen": "2026-11-21T13:30:47.581Z",
       "status": "open"
     },
     {
