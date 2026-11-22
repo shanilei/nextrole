@@ -7,6 +7,10 @@ const STATUSES = [
   ['מטלת בית', 'Assignment'], ['הצעה', 'Offer'], ['נדחה', 'Rejected'], ['לא רלוונטי', 'Not relevant'],
 ];
 const LABEL = Object.fromEntries(STATUSES);
+const STATUS_CLASS = { 'טרם הוגש': 'none', 'שמרתי': 'saved', 'הוגש': 'applied', 'ראיון': 'interview', 'מטלת בית': 'assignment', 'הצעה': 'offer', 'נדחה': 'rejected', 'לא רלוונטי': 'irrelevant' };
+const stTag = (s) => `plain st-${STATUS_CLASS[s] || 'none'}`;
+// Same company, same tile color, every time.
+const tileColor = (name = '') => `c${[...String(name)].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7) % 6 + 1}`;
 const NONE = 'טרם הוגש', SAVED = 'שמרתי';
 const ACTIVE = ['הוגש', 'ראיון', 'מטלת בית', 'הצעה'];
 const ENDED = ['נדחה', 'לא רלוונטי'];
@@ -78,7 +82,7 @@ function shortLoc(loc = '') {
 }
 
 // LinkedIn in Hebrew: "Product Designer ב Acme, Inc. — Tel Aviv" -> "Product Designer"
-const cleanTitle = (t = '') => String(t).replace(/\s+ב\s+.*$/, '').trim() || t;
+const cleanTitle = (t = '') => String(t).replace(/\s+(ב|στο|bei|chez)\s+.*$/, '').trim() || t;
 
 function initials(name = '') {
   const words = String(name).replace(/[^\p{L}\p{N} ]+/gu, ' ').trim().split(/\s+/).filter(Boolean);
@@ -223,7 +227,7 @@ function jobCard(j) {
   const st = get(j.key);
   const c = el('article', 'card' + (j.status === 'closed' ? ' dim' : ''));
   const head = el('div', 'card-head');
-  const mark = el('span', 'mark', initials(j.company || j.author)); mark.setAttribute('aria-hidden', 'true');
+  const mark = el('span', `mark ${tileColor(j.company || j.author)}`, initials(j.company || j.author)); mark.setAttribute('aria-hidden', 'true');
   const save = el('button', 'save'); save.type = 'button';
   const saved = st.s === SAVED;
   save.setAttribute('aria-pressed', saved);
@@ -236,10 +240,12 @@ function jobCard(j) {
   const wp = workplace(j);
   if (wp) tags.append(tag(wp, 'pin'));
   if (j.kind === 'post') tags.append(tag('LinkedIn post', 'clock'));
-  else tags.append(tag(employment(j), 'clock'));
+  else if (employment(j) !== 'Full-time') tags.append(tag(employment(j), 'clock'));
+  const lv = j.level || 'Mid';
+  tags.append(tag(lv, null, `plain lv-${lv.replace('+', '')}`));
   if (j.status === 'closed') tags.append(tag('Closed', null, 'plain danger'));
-  else if (ACTIVE.includes(st.s)) tags.append(tag(LABEL[st.s], null, 'plain inverse'));
-  else if (isNew(j)) tags.append(tag('New', null, 'plain inverse'));
+  else if (ACTIVE.includes(st.s)) tags.append(tag(LABEL[st.s], null, stTag(st.s)));
+  else if (isNew(j)) tags.append(tag('New', null, 'plain new'));
   tags.append(el('span', 't-small', ago(j.postedAt || j.firstSeen)));
   c.append(head, tags);
   if (open.has(j.key)) c.append(details(j));
@@ -249,11 +255,11 @@ function jobCard(j) {
 // Applications: component "Job card", Variant2
 function appCard(j) {
   const st = get(j.key);
-  const c = el('article', 'card app');
+  const c = el('article', 'card card-app');
   const head = el('div', 'card-head');
   head.append(openButton(j, [titles(j)]));
   const row = el('div', 'tags');
-  row.append(tag(LABEL[st.s], null, 'plain'));
+  row.append(tag(LABEL[st.s], null, stTag(st.s)));
   if (j.status === 'closed' && !ENDED.includes(st.s)) row.append(tag('Role closed', null, 'plain danger'));
   row.append(el('span', 't-small', ago(st.t || j.firstSeen)));
   c.append(head, el('div', 'divider'), row);
