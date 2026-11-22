@@ -17,7 +17,7 @@ const PAGE = {
 const ATS_ASSET = /(greenhouse|lever|ashby|workable|smartrecruiters|comeet)[-_ ]?(logo|brand)|sr-logo|org-theme-social|powered[-_]?by|favicon|placeholder|default[-_]?(logo|company)|\/(assets|static)\/(images\/)?(logo|brand)|\{\{|%7B%7B|share[-_]?image|careers-thumb/i;
 const ATS_SITE = /(^|\.)(greenhouse\.io|lever\.co|ashbyhq\.com|workable\.com|smartrecruiters\.com|comeet\.com|comeet\.co|greenhouse\.com|smartrecruiters\.com|linkedin\.com|facebook\.com|twitter\.com|x\.com|instagram\.com|glassdoor\.com|google\.com|apple\.com|youtube\.com)$/i;
 
-const unescape = (s) => s.replace(/\\u002F/gi, '/').replace(/\\\//g, '/').replace(/&amp;/g, '&');
+export const unescape = (s) => s.replace(/\\u([0-9a-f]{4})/gi, (_, h) => String.fromCharCode(parseInt(h, 16))).replace(/\\\//g, '/').replace(/&amp;/g, '&');
 const absolute = (u, base) => { try { return new URL(unescape(u), base).href; } catch { return null; } };
 
 export function extractLogo(html, pageUrl) {
@@ -50,8 +50,8 @@ export function extractLogo(html, pageUrl) {
     const a = u && absolute(u, pageUrl);
     if (a && !ATS_SITE.test(new URL(a).hostname)) { site = new URL(a).origin; break; }
   }
-  const CDN = /(^|\.)(greenhouse\.io|amazonaws\.com|cloudfront\.net|ctfassets\.net|website-files\.com|ashbyhq\.com|comeet\.co|comeet\.com|smartrecruiters\.com|lever\.co|workable\.com|wp\.com|imgix\.net|cloudinary\.com|googleusercontent\.com|cdn-website\.com|dd-static\.net)$/i;
-  if (!site && candidates[0]) {
+  const CDN = /(^|\.)(greenhouse\.io|amazonaws\.com|cloudfront\.net|ctfassets\.net|website-files\.com|ashbyhq\.com|comeet\.co|comeet\.com|smartrecruiters\.com|lever\.co|workable\.com|wp\.com|imgix\.net|cloudinary\.com|googleusercontent\.com|cdn-website\.com|dd-static\.net|datocms-assets\.com|wixstatic\.com|sanity\.io)$/i;
+  if (!site && candidates[0] && candidates[0].why !== 'og') {
     const h = new URL(candidates[0].url).hostname;
     if (!CDN.test(h)) site = `https://${h.replace(/^(www|cdn|media|static|images?|assets|careers|speedmedia\d*|webimages)\./, '')}`;
   }
