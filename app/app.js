@@ -27,6 +27,7 @@ const read = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; 
 const write = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
 
 let jobs = [];
+let logos = {};
 let state = read(STORE, {});
 let mine = read(MINE, []);
 const prefs = { levels: ['Junior', 'Mid'], source: 'any', ...read(PREFS, {}) };
@@ -84,6 +85,28 @@ function shortLoc(loc = '') {
 // LinkedIn in Hebrew: "Product Designer ב Acme, Inc. — Tel Aviv" -> "Product Designer"
 const cleanTitle = (t = '') => String(t).replace(/\s+(ב|στο|bei|chez)\s+.*$/, '').trim() || t;
 
+// Same key the collector uses for data/logos.json ("Wix.com Ltd." = "Wix").
+const companyKey = (s = '') => s.toLowerCase()
+  .replace(/\b(ltd|inc|llc|gmbh|technologies|technology|labs|group|israel|io|ai|global)\b|\.com|[^a-z0-9א-ת]/g, '');
+
+// Company tile: the logo from the company's careers page, else its site icon,
+// else colored initials. Any image that fails falls back to the initials.
+function companyMark(name = '') {
+  const mark = el('span', `mark ${tileColor(name)}`, initials(name));
+  mark.setAttribute('aria-hidden', 'true');
+  const l = logos[companyKey(name)];
+  const src = l?.logo || (l?.site ? `https://www.google.com/s2/favicons?domain=${new URL(l.site).hostname}&sz=128` : null);
+  if (!src) return mark;
+  const img = new Image();
+  img.alt = ''; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
+  img.onload = () => {
+    if (img.naturalWidth < 32) return; // a generic 16px globe means no real icon
+    mark.textContent = ''; mark.classList.add('has-img'); mark.append(img);
+  };
+  img.src = src;
+  return mark;
+}
+
 function initials(name = '') {
   const words = String(name).replace(/[^\p{L}\p{N} ]+/gu, ' ').trim().split(/\s+/).filter(Boolean);
   if (!words.length) return '?';
@@ -114,7 +137,8 @@ async function fetchJson(path) {
 }
 
 async function init() {
-  const [collected, manual] = await Promise.all([fetchJson('data/jobs.json'), fetchJson('data/manual.json')]);
+  const [collected, manual, logoData] = await Promise.all([fetchJson('data/jobs.json'), fetchJson('data/manual.json'), fetchJson('data/logos.json')]);
+  logos = logoData || {};
   const byName = new Map();
   for (const j of collected?.jobs || []) {
     const rec = { ...j, about: (j.description || '').slice(0, 260), requirements: requirementsFrom(j.description), origin: j.source, source: 'auto' };
@@ -227,7 +251,7 @@ function jobCard(j) {
   const st = get(j.key);
   const c = el('article', 'card' + (j.status === 'closed' ? ' dim' : ''));
   const head = el('div', 'card-head');
-  const mark = el('span', `mark ${tileColor(j.company || j.author)}`, initials(j.company || j.author)); mark.setAttribute('aria-hidden', 'true');
+  const mark = companyMark(j.company || j.author);
   const save = el('button', 'save'); save.type = 'button';
   const saved = st.s === SAVED;
   save.setAttribute('aria-pressed', saved);
