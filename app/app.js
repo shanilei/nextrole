@@ -89,21 +89,29 @@ const cleanTitle = (t = '') => String(t).replace(/\s+(ב|στο|bei|chez)\s+.*$/
 const companyKey = (s = '') => s.toLowerCase()
   .replace(/\b(ltd|inc|llc|gmbh|technologies|technology|labs|group|israel|io|ai|global)\b|\.com|[^a-z0-9א-ת]/g, '');
 
-// Company tile: the logo from the company's careers page, else its site icon,
-// else colored initials. Any image that fails falls back to the initials.
+// Company tile: the logo from the company's careers page when it is roughly square,
+// else the icon of the company's site, else colored initials. Wide wordmarks would be
+// unreadable at this size, and any image that fails falls back too.
 function companyMark(name = '') {
   const mark = el('span', `mark ${tileColor(name)}`, initials(name));
   mark.setAttribute('aria-hidden', 'true');
   const l = logos[companyKey(name)];
-  const src = l?.logo || (l?.site ? `https://www.google.com/s2/favicons?domain=${new URL(l.site).hostname}&sz=128` : null);
-  if (!src) return mark;
-  const img = new Image();
-  img.alt = ''; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
-  img.onload = () => {
-    if (img.naturalWidth < 32) return; // a generic 16px globe means no real icon
-    mark.textContent = ''; mark.classList.add('has-img'); mark.append(img);
+  const tries = [];
+  if (l?.logo) tries.push({ src: l.logo, ok: (w, h) => w >= 32 && w / h <= 1.6 });
+  if (l?.site) tries.push({ src: `https://www.google.com/s2/favicons?domain=${new URL(l.site).hostname}&sz=128`, ok: (w) => w >= 32 });
+  const next = () => {
+    const t = tries.shift();
+    if (!t) return;
+    const img = new Image();
+    img.alt = ''; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
+    img.onload = () => {
+      if (!t.ok(img.naturalWidth, img.naturalHeight)) return next();
+      mark.textContent = ''; mark.classList.add('has-img'); mark.append(img);
+    };
+    img.onerror = next;
+    img.src = t.src;
   };
-  img.src = src;
+  next();
   return mark;
 }
 
