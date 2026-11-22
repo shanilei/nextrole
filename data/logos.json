@@ -553,5 +553,554 @@
     "via": "json",
     "site": "https://native.security",
     "checkedAt": "2026-11-22T13:30:15.637Z"
+  },
+  "similarweb": {
+    "name": "Similarweb",
+    "logo": "https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/001/266/original/Similarweb-Free-Trial--2048x951.png.avif?1740307905",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "rubrik": {
+    "name": "Rubrik",
+    "checkedAt": "2026-11-22T13:33:16.613Z",
+    "error": "HTTP 403"
+  },
+  "scaleops": {
+    "name": "ScaleOps",
+    "logo": "https://s101-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/423/610/original/Subject.png?1784047101",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "papayagaming": {
+    "name": "Papaya Gaming",
+    "logo": "https://www.comeet.co/pub/papayagaming/46.00B/logo?size=medium\\u0026last-modified=1793044373",
+    "via": "json",
+    "site": "https://www.papaya.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "silverfort": {
+    "name": "Silverfort",
+    "logo": "https://www.comeet.co/pub/silverfort/54.007/logo?size=medium\\u0026last-modified=1740664495",
+    "via": "json",
+    "site": "https://silverfort.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "trullion": {
+    "name": "Trullion",
+    "logo": "https://www.comeet.co/pub/trullion/07.000/logo?size=medium\\u0026last-modified=1676188228",
+    "via": "json",
+    "site": "https://trullion.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "supercom": {
+    "name": "SuperCom",
+    "logo": "https://www.comeet.co/pub/supercom/46.00A/logo?size=medium\\u0026last-modified=1657017967",
+    "via": "json",
+    "site": "https://www.supercom.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "playperfect": {
+    "name": "Play Perfect",
+    "logo": "https://www.comeet.co/pub/play_perfect/69.001/logo?size=medium\\u0026last-modified=1706794991",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "walkme": {
+    "name": "WalkMe",
+    "logo": "https://lever-client-logos.s3.us-west-2.amazonaws.com/f2fd958b-3e42-4260-859f-351934da1df6-1738631565821.png",
+    "via": "img",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "sensi": {
+    "name": "Sensi.AI",
+    "logo": "https://www.comeet.co/pub/sensi/E7.00F/logo?size=medium\\u0026last-modified=1738365513",
+    "via": "json",
+    "site": "https://sensi.ai",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "ashleydigital": {
+    "name": "Ashley Digital",
+    "logo": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/550/100/original/Ashley_Digital_LinkedIn_Avatar.jpg?1779977797",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "sunflower": {
+    "name": "Sunflower",
+    "logo": "https://www.comeet.co/pub/sunflower/AA.009/logo?size=medium\\u0026last-modified=1763310790",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "wiz": {
+    "name": "Wiz",
+    "logo": "https://www.datocms-assets.com/75231/1691406061-wiz_hiring_neon_sign_v3_compress.gif",
+    "via": "og",
+    "site": "https://datocms-assets.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "matia": {
+    "name": "Matia",
+    "logo": null,
+    "via": null,
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "wix": {
+    "name": "Wix",
+    "logo": "https://static.wixstatic.com/media/827c6d_13feb86b7c27432a9e6254a7f16030d6%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/827c6d_13feb86b7c27432a9e6254a7f16030d6%7Emv2.jpg",
+    "via": "og",
+    "site": "https://wixstatic.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "yotpo": {
+    "name": "Yotpo",
+    "logo": "https://www.yotpo.com/wp-content/themes/yotpo/images/general/yotpo-logo-v3-schema.svg",
+    "via": "json",
+    "site": "https://www.yotpo.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "team8": {
+    "name": "Team8",
+    "logo": "https://www.comeet.co/pub/team8/61.003/logo?size=medium\\u0026last-modified=1772619761",
+    "via": "json",
+    "site": "http://team8.vc",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "nice": {
+    "name": "NICE",
+    "logo": "https://resources.nice.com/wp-content/uploads/2025/05/nice-new-logo.svg",
+    "via": "json",
+    "site": "https://resources.nice.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "nextsilicon": {
+    "name": "Nextsilicon",
+    "logo": "https://www.comeet.co/pub/nextsilicon/18.007/logo?size=medium\\u0026last-modified=1654501699",
+    "via": "json",
+    "site": "https://www.nextsilicon.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "nayax": {
+    "name": "Nayax",
+    "logo": "https://www.comeet.co/pub/nayax/13.009/logo?size=medium\\u0026last-modified=1758038717",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "nimbleway": {
+    "name": "Nimbleway",
+    "logo": "https://www.comeet.co/pub/nimbleway/09.00F/logo?size=medium\\u0026last-modified=1772121683",
+    "via": "json",
+    "site": "https://www.nimbleway.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "oligosecurity": {
+    "name": "Oligosecurity",
+    "logo": "https://www.comeet.co/pub/oligosecurity/5A.00B/logo?size=medium\\u0026last-modified=1774439511",
+    "via": "json",
+    "site": "https://www.oligo.security",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "optibus": {
+    "name": "Optibus",
+    "logo": "https://www.comeet.co/pub/optibus/D1.00C/logo?size=medium\\u0026last-modified=1560840973",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "pagaya": {
+    "name": "Pagaya",
+    "logo": null,
+    "via": null,
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "onezerobank": {
+    "name": "One Zero Bank",
+    "logo": "https://www.comeet.co/pub/onezerobank/36.00A/logo?size=medium\\u0026last-modified=1770302793",
+    "via": "json",
+    "site": "https://www.onezerobank.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "optimove": {
+    "name": "Optimove",
+    "logo": "https://s101-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/171/210/original/Blue_logo_.png?1762441876",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "orcasecurity": {
+    "name": "Orca Security",
+    "logo": "https://orca.security/wp-content/uploads/2025/01/orca-security-logo-2025.svg",
+    "via": "json",
+    "site": "https://orca.security",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "perion": {
+    "name": "Perion",
+    "logo": "https://s6-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/043/900/original/perion-64x64.png?1716392571",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "pisecurity": {
+    "name": "Pi Security",
+    "logo": null,
+    "via": null,
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "vastdata": {
+    "name": "VAST Data",
+    "logo": "https://www.comeet.co/pub/vastdata/43.001/logo?size=medium\\u0026last-modified=1618827895",
+    "via": "json",
+    "site": "https://www.vastdata.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "pango": {
+    "name": "Pango",
+    "logo": "https://www.comeet.co/pub/pango/59.002/logo?size=medium\\u0026last-modified=1704811098",
+    "via": "json",
+    "site": "https://www.pango.co.il",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "pentera": {
+    "name": "Pentera",
+    "logo": "https://www.comeet.co/pub/pentera/C5.00D/logo?size=medium\\u0026last-modified=1774293194",
+    "via": "json",
+    "site": "https://www.pentera.io",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "nova": {
+    "name": "Nova",
+    "logo": "https://www.comeet.co/pub/nova/A5.007/logo?size=medium\\u0026last-modified=1602659781",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "personetics": {
+    "name": "Personetics",
+    "logo": "https://www.comeet.co/pub/personetics/83.00A/logo?size=medium\\u0026last-modified=1551087104",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "papaya": {
+    "name": "Papaya Global",
+    "logo": "https://www.comeet.co/pub/papayaglobal/16.005/logo?size=medium\\u0026last-modified=1678154734",
+    "via": "json",
+    "site": "https://www.papayaglobal.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "port": {
+    "name": "Port",
+    "logo": "https://www.comeet.co/pub/port/59.004/logo?size=medium\\u0026last-modified=1710689479",
+    "via": "json",
+    "site": "https://www.port.io",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "plainid": {
+    "name": "PlainID",
+    "logo": "https://www.comeet.co/pub/plainid/C4.00C/logo?size=medium\\u0026last-modified=1794121681",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "riskified": {
+    "name": "Riskified",
+    "checkedAt": "2026-11-22T13:33:16.613Z",
+    "error": "HTTP 403"
+  },
+  "payoneer": {
+    "name": "Payoneer",
+    "logo": "https://jtbkamgtmaipwlxzlbsl.supabase.co/storage/v1/object/public/teamme-assets/0287133b-6912-4eaa-a24a-ba75fef68589/Group%20427318500%20(1).png",
+    "via": "json",
+    "site": "https://jtbkamgtmaipwlxzlbsl.supabase.co",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "reeco": {
+    "name": "Reeco",
+    "logo": "https://www.comeet.co/pub/reeco/0A.00D/logo?size=medium\\u0026last-modified=1780606139",
+    "via": "json",
+    "site": "https://www.reeco.io",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "saltsecurity": {
+    "name": "Salt Security",
+    "logo": "https://cdn.prod.website-files.com/6334717ca56db63e16270dc4/65010cc37d1d81c84f1fa0cd_CrowdStrike-rev.svg",
+    "via": "img",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "semperis": {
+    "name": "Semperis",
+    "logo": null,
+    "via": null,
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "risecodes": {
+    "name": "Rise Codes",
+    "logo": "https://www.comeet.co/pub/risecodes/A9.000/logo?size=medium\\u0026last-modified=1716464906",
+    "via": "json",
+    "site": "https://cloudfront.risecodes.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "rapyd": {
+    "name": "Rapyd",
+    "logo": "https://www.comeet.co/pub/rapyd/73.00E/logo?size=medium\\u0026last-modified=1790502211",
+    "via": "json",
+    "site": "https://www.rapyd.net",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "quantummachines": {
+    "name": "Quantum Machines",
+    "logo": "https://www.comeet.co/pub/quantummachines/D6.000/logo?size=medium\\u0026last-modified=1749558075",
+    "via": "json",
+    "site": "https://www.quantum-machines.co",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "samsung": {
+    "name": "Samsung",
+    "logo": "https://www.comeet.co/pub/samsung/D4.005/logo?size=medium\\u0026last-modified=1754549406",
+    "via": "json",
+    "site": "https://semiconductor.samsung.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "regulus": {
+    "name": "Regulus",
+    "logo": "https://www.comeet.co/pub/regulus/9A.00D/logo?size=medium\\u0026last-modified=1759238926",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "sisense": {
+    "name": "Sisense",
+    "logo": null,
+    "via": null,
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "snyk": {
+    "name": "Snyk",
+    "logo": null,
+    "via": null,
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "sweetsecurity": {
+    "name": "Sweet Security",
+    "logo": "https://s101-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/366/610/original/Sweet_-_logo_for_swag_2x-8.png?1765804490",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "sedric": {
+    "name": "Sedric",
+    "logo": "https://www.comeet.co/pub/sedric/0A.00F/logo?size=medium\\u0026last-modified=1736409913",
+    "via": "json",
+    "site": "https://www.sedric.ai",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "snowflake": {
+    "name": "Snowflake",
+    "logo": null,
+    "via": null,
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "servicenow": {
+    "name": "Servicenow",
+    "logo": "https://c.smartrecruiters.com/sr-careersite-image-prod-dc5/5f63a78fb26a470ded52d551/c809c033-0fc3-41e8-98fd-a94618b57368?r=s3-eu-central-1",
+    "via": "og",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "torq": {
+    "name": "Torq",
+    "logo": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/188/400/original/Torq_Logo-Black_(3)_(2).png?1747071330",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "taboola": {
+    "name": "Taboola",
+    "logo": "https://www.taboola.com//wp-content/uploads/2021/11/taboola_logo_dark_blue-2.png",
+    "via": "json",
+    "site": "https://taboola.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "unframe": {
+    "name": "Unframe",
+    "logo": null,
+    "via": null,
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "shortical": {
+    "name": "Shortical",
+    "logo": "https://www.comeet.co/pub/shortical/3B.00A/logo?size=medium\\u0026last-modified=1781157212",
+    "via": "json",
+    "site": "https://www.shortical.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "senai": {
+    "name": "Senai",
+    "logo": "https://www.comeet.co/pub/senai/CA.004/logo?size=medium\\u0026last-modified=1765647528",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "thetaray": {
+    "name": "Thetaray",
+    "logo": "https://www.comeet.co/pub/thetaray/72.00F/logo?size=medium\\u0026last-modified=1609928403",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "sysaid": {
+    "name": "SysAid",
+    "logo": "https://www.comeet.co/pub/sysaid/43.00A/logo?size=medium\\u0026last-modified=1747120202",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "transmitsecurity": {
+    "name": "Transmit Security",
+    "logo": "https://transmitsecurity.com/wp-content/uploads/transmit-main-logo-1-1.svg",
+    "via": "img",
+    "site": "https://transmitsecurity.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "via": {
+    "name": "Via",
+    "logo": null,
+    "via": null,
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "solaredge": {
+    "name": "Solaredge",
+    "logo": "https://www.comeet.co/pub/SolarEdge/71.00A/logo?size=medium\\u0026last-modified=1460039735",
+    "via": "json",
+    "site": "https://corporate.solaredge.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "vega": {
+    "name": "Vega",
+    "logo": "https://www.comeet.co/pub/vega/C9.009/logo?size=medium\\u0026last-modified=1756212713",
+    "via": "json",
+    "site": "https://vega.io",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "voyantis": {
+    "name": "Voyantis",
+    "logo": "https://www.comeet.co/pub/voyantis/86.00B/logo?size=medium\\u0026last-modified=1778230556",
+    "via": "json",
+    "site": "https://www.voyantis.ai",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "upstream": {
+    "name": "Upstream",
+    "logo": "https://www.comeet.co/pub/upstream/E4.003/logo?size=medium\\u0026last-modified=1628761879",
+    "via": "json",
+    "site": "https://www.upstream.auto",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "walmarttech": {
+    "name": "Walmart Global Tech Israel",
+    "logo": "https://www.comeet.co/pub/walmart/35.000/logo?size=medium\\u0026last-modified=1768210701",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "uveye": {
+    "name": "Uveye",
+    "logo": "https://www.comeet.co/pub/uveye/92.00F/logo?size=medium\\u0026last-modified=1793297984",
+    "via": "json",
+    "site": "https://www.uveye.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "wonderful": {
+    "name": "Wonderful",
+    "logo": "https://app.ashbyhq.com/api/images/org-theme-logo/b824716b-13f1-47bb-b00a-05ee4aa4646b/16167430-cbac-4146-8b65-74f4fdfa29ad/0239233b-e7b6-401d-ba7f-276bdabfaee0.png",
+    "via": "og",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "webbing": {
+    "name": "Webbing",
+    "logo": "https://www.comeet.co/pub/webbing/46.00E/logo?size=medium\\u0026last-modified=1641913048",
+    "via": "json",
+    "site": "https://www.iamwebbing.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "upwind": {
+    "name": "Upwind",
+    "logo": "https://www.comeet.co/pub/upwind/49.004/logo?size=medium\\u0026last-modified=1701028938",
+    "via": "json",
+    "site": "https://www.upwind.io",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "waterfallsecurity": {
+    "name": "Waterfall Security",
+    "logo": "https://www.comeet.co/pub/waterfall-security/C7.009/logo?size=medium\\u0026last-modified=1698724469",
+    "via": "json",
+    "site": "https://waterfall-security.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "wiliot": {
+    "name": "Wiliot",
+    "logo": "https://www.comeet.co/pub/wiliot/F6.003/logo?size=medium\\u0026last-modified=1629192685",
+    "via": "json",
+    "site": "https://www.wiliot.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "workiz": {
+    "name": "Workiz",
+    "logo": "https://www.comeet.co/pub/workiz/F6.006/logo?size=medium\\u0026last-modified=1662467968",
+    "via": "json",
+    "site": "https://www.workiz.com",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "zesty": {
+    "name": "Zesty",
+    "logo": "https://cdn.prod.website-files.com/6862e525b1748ae2b44662f9/68e671778abcf5d71413fcb2_zesty_logo.svg",
+    "via": "img",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "xsight": {
+    "name": "Xsight Labs",
+    "logo": "https://www.comeet.co/pub/xsightlabs/46.00C/logo?size=medium\\u0026last-modified=1614772033",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "zipher": {
+    "name": "Zipher",
+    "logo": "https://www.comeet.co/pub/zipher/4B.00C/logo?size=medium\\u0026last-modified=1786869943",
+    "via": "json",
+    "site": "https://zipher.ai",
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "zyg": {
+    "name": "Zyg",
+    "logo": "https://www.comeet.co/pub/zyg/DA.006/logo?size=medium\\u0026last-modified=1772100514",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
+  },
+  "zenity": {
+    "name": "Zenity",
+    "logo": "https://www.comeet.co/pub/zenity/19.000/logo?size=medium\\u0026last-modified=1692631820",
+    "via": "json",
+    "site": null,
+    "checkedAt": "2026-11-22T13:33:16.613Z"
   }
 }

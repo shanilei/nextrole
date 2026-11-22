@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-11-22T13:30:15.637Z",
+  "runAt": "2026-11-22T13:33:16.613Z",
   "companies": [
     {
       "company": "365Scores",
@@ -114,7 +114,7 @@
     {
       "company": "Ask-AI",
       "status": "error",
-      "error": "comeet askai/1A.00C: positions data not found on page"
+      "error": "HTTP 504 for https://www.comeet.com/jobs/askai/1A.00C"
     },
     {
       "company": "Atera",
@@ -425,7 +425,7 @@
     {
       "company": "Fireblocks",
       "status": "error",
-      "error": "comeet fireblocks/B4.00F: positions data not found on page"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "company": "Fiverr",
@@ -992,7 +992,7 @@
     {
       "company": "Playtika",
       "status": "error",
-      "error": "comeet playtika/01.001: positions data not found on page"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "company": "Plus500",
@@ -1621,17 +1621,17 @@
     ],
     "errors": [
       "Applied Materials: HTTP 429 for workday amat/wd1/External",
-      "Ask-AI: comeet askai/1A.00C: positions data not found on page",
+      "Ask-AI: HTTP 504 for https://www.comeet.com/jobs/askai/1A.00C",
       "CrowdStrike: HTTP 429 for workday crowdstrike/wd5/crowdstrikecareers",
       "eToro: comeet etoro/41.009: positions data not found on page",
-      "Fireblocks: comeet fireblocks/B4.00F: positions data not found on page",
+      "Fireblocks: The operation was aborted due to timeout",
       "HPE: HTTP 429 for workday hpe/wd5/Jobsathpe",
       "Intel: HTTP 429 for workday intel/wd1/External",
       "KLA: HTTP 429 for workday kla/wd1/Search",
       "Marvell: HTTP 429 for workday marvell/wd1/MarvellCareers",
       "Motorola Solutions: HTTP 429 for workday motorolasolutions/wd5/Careers",
       "NVIDIA: HTTP 429 for workday nvidia/wd5/NVIDIAExternalCareerSite",
-      "Playtika: comeet playtika/01.001: positions data not found on page",
+      "Playtika: The operation was aborted due to timeout",
       "Salesforce: HTTP 429 for workday salesforce/wd12/External_Career_Site",
       "Tabnine: comeet tabnine/39.006: positions data not found on page"
     ],
@@ -1658,9 +1658,9 @@
     "newToday": 0
   },
   "logos": {
-    "checked": 80,
-    "withLogo": 63,
+    "checked": 79,
+    "withLogo": 131,
     "withSiteOnly": 0,
-    "total": 80
+    "total": 159
   }
 }
