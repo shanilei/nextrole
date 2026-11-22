@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-11-22T13:33:16.613Z",
+  "runAt": "2026-11-22T13:35:18.236Z",
   "companies": [
     {
       "company": "365Scores",
@@ -114,7 +114,7 @@
     {
       "company": "Ask-AI",
       "status": "error",
-      "error": "HTTP 504 for https://www.comeet.com/jobs/askai/1A.00C"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "company": "Atera",
@@ -992,7 +992,7 @@
     {
       "company": "Playtika",
       "status": "error",
-      "error": "The operation was aborted due to timeout"
+      "error": "comeet playtika/01.001: positions data not found on page"
     },
     {
       "company": "Plus500",
@@ -1094,8 +1094,11 @@
     },
     {
       "company": "Salesforce",
-      "status": "error",
-      "error": "HTTP 429 for workday salesforce/wd12/External_Career_Site"
+      "status": "ok",
+      "ats": "workday",
+      "id": "salesforce/wd12/External_Career_Site",
+      "total": 66,
+      "matches": 0
     },
     {
       "company": "Salt Security",
@@ -1593,7 +1596,7 @@
   },
   "summary": {
     "companies": 196,
-    "boardsOk": 159,
+    "boardsOk": 160,
     "notFound": [
       "90min",
       "Anecdotes",
@@ -1621,7 +1624,7 @@
     ],
     "errors": [
       "Applied Materials: HTTP 429 for workday amat/wd1/External",
-      "Ask-AI: HTTP 504 for https://www.comeet.com/jobs/askai/1A.00C",
+      "Ask-AI: The operation was aborted due to timeout",
       "CrowdStrike: HTTP 429 for workday crowdstrike/wd5/crowdstrikecareers",
       "eToro: comeet etoro/41.009: positions data not found on page",
       "Fireblocks: The operation was aborted due to timeout",
@@ -1631,8 +1634,7 @@
       "Marvell: HTTP 429 for workday marvell/wd1/MarvellCareers",
       "Motorola Solutions: HTTP 429 for workday motorolasolutions/wd5/Careers",
       "NVIDIA: HTTP 429 for workday nvidia/wd5/NVIDIAExternalCareerSite",
-      "Playtika: The operation was aborted due to timeout",
-      "Salesforce: HTTP 429 for workday salesforce/wd12/External_Career_Site",
+      "Playtika: comeet playtika/01.001: positions data not found on page",
       "Tabnine: comeet tabnine/39.006: positions data not found on page"
     ],
     "feeds": [
@@ -1658,7 +1660,7 @@
     "newToday": 0
   },
   "logos": {
-    "checked": 79,
+    "checked": 159,
     "withLogo": 131,
     "withSiteOnly": 0,
     "total": 159

@@ -4,408 +4,465 @@
     "logo": "https://s3-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/340/300/original/transparent_logo.png?1601007310",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "appsflyer": {
     "name": "AppsFlyer",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "armis": {
     "name": "Armis",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "atera": {
     "name": "Atera",
     "logo": "https://c.smartrecruiters.com/sr-careersite-image-prod-dc5/5d01a9188d67b11df77af96a/394a2e70-fc44-42e2-93e8-fd59d33c4393?r=s3-eu-central-1",
     "via": "og",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "ai21": {
     "name": "AI21 Labs",
-    "logo": "https://www.comeet.co/pub/ai21/E6.001/logo?size=medium\\u0026last-modified=1773309991",
+    "logo": "https://www.comeet.co/pub/ai21/E6.001/logo?size=medium&last-modified=1773309991",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "abrard": {
     "name": "Abra R&D",
-    "logo": "https://www.comeet.co/pub/abra_rnd/15.007/logo?size=medium\\u0026last-modified=1685264748",
+    "logo": "https://www.comeet.co/pub/abra_rnd/15.007/logo?size=medium&last-modified=1685264748",
     "via": "json",
     "site": "https://www.abra-it.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "arpeely": {
     "name": "Arpeely",
-    "logo": "https://www.comeet.co/pub/arpeely/57.001/logo?size=medium\\u0026last-modified=1636546619",
+    "logo": "https://www.comeet.co/pub/arpeely/57.001/logo?size=medium&last-modified=1636546619",
     "via": "json",
     "site": "https://arpeely.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "axonius": {
     "name": "Axonius",
-    "checkedAt": "2026-11-22T13:30:15.637Z",
+    "checkedAt": "2026-11-22T13:35:18.236Z",
     "error": "HTTP 429"
   },
   "attil": {
     "name": "Attil",
-    "logo": "https://www.comeet.co/pub/joinattil/38.00A/logo?size=medium\\u0026last-modified=1657806128",
+    "logo": "https://www.comeet.co/pub/joinattil/38.00A/logo?size=medium&last-modified=1657806128",
     "via": "json",
     "site": "https://il.joinus.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "catonetworks": {
     "name": "Cato Networks",
     "logo": "https://www.catonetworks.com/wp-content/uploads/2026/05/cato_logo_rgb_color_art_101.svg",
     "via": "img",
     "site": "https://www.catonetworks.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "autobrains": {
     "name": "Autobrains",
-    "logo": "https://www.comeet.co/pub/autobrains/57.004/logo?size=medium\\u0026last-modified=1674556665",
+    "logo": "https://www.comeet.co/pub/autobrains/57.004/logo?size=medium&last-modified=1674556665",
     "via": "json",
     "site": "https://autobrains.ai",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "automatit": {
     "name": "Automatit",
-    "logo": "https://www.comeet.co/pub/automatit/26.003/logo?size=medium\\u0026last-modified=1712902845",
+    "logo": "https://www.comeet.co/pub/automatit/26.003/logo?size=medium&last-modified=1712902845",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "aitan": {
     "name": "Aitan",
-    "logo": "https://www.comeet.co/pub/aitan/FA.006/logo?size=medium\\u0026last-modified=1788254331",
+    "logo": "https://www.comeet.co/pub/aitan/FA.006/logo?size=medium&last-modified=1788254331",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "365scores": {
     "name": "365Scores",
-    "logo": "https://www.comeet.co/pub/365scores/B3.006/logo?size=medium\\u0026last-modified=1738096114",
+    "logo": "https://www.comeet.co/pub/365scores/B3.006/logo?size=medium&last-modified=1738096114",
     "via": "json",
     "site": "https://www.365scores.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "checkpoint": {
     "name": "Check Point",
     "logo": "https://www.checkpoint.com/wp-content/themes/checkpoint-theme-v2/images/checkpoint-logo.svg",
     "via": "img",
     "site": "https://www.checkpoint.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "alice": {
     "name": "Alice",
-    "logo": "https://www.comeet.co/pub/alice/D5.005/logo?size=medium\\u0026last-modified=1768380760",
+    "logo": "https://www.comeet.co/pub/alice/D5.005/logo?size=medium&last-modified=1768380760",
     "via": "json",
     "site": "https://alice.io",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "artlist": {
     "name": "Artlist",
-    "logo": "https://www.comeet.co/pub/artlist/85.003/logo?size=medium\\u0026last-modified=1612967858",
+    "logo": "https://www.comeet.co/pub/artlist/85.003/logo?size=medium&last-modified=1612967858",
     "via": "json",
     "site": "https://artlist.io",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "ceva": {
     "name": "Ceva",
-    "logo": "https://www.comeet.co/pub/ceva/76.005/logo?size=medium\\u0026last-modified=1701698643",
+    "logo": "https://www.comeet.co/pub/ceva/76.005/logo?size=medium&last-modified=1701698643",
     "via": "json",
     "site": "https://www.ceva-ip.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "ceragon": {
     "name": "Ceragon",
-    "logo": "https://www.comeet.co/pub/Ceragon/D3.003/logo?size=medium\\u0026last-modified=1554295595",
+    "logo": "https://www.comeet.co/pub/Ceragon/D3.003/logo?size=medium&last-modified=1554295595",
     "via": "json",
     "site": "http://www.ceragon.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "chargeafter": {
     "name": "Chargeafter",
-    "logo": "https://www.comeet.co/pub/chargeafter/C5.004/logo?size=medium\\u0026last-modified=1699453660",
+    "logo": "https://www.comeet.co/pub/chargeafter/C5.004/logo?size=medium&last-modified=1699453660",
     "via": "json",
     "site": "https://chargeafter.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "connecteam": {
     "name": "Connecteam",
     "logo": "https://connecteam.com/wp-content/uploads/2020/07/connecteamlogo.png",
     "via": "json",
     "site": "https://connecteam.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "checkmarx": {
     "name": "Checkmarx",
-    "logo": "https://www.comeet.co/pub/checkmarx/C0.008/logo?size=medium\\u0026last-modified=1721218520",
+    "logo": "https://www.comeet.co/pub/checkmarx/C0.008/logo?size=medium&last-modified=1721218520",
     "via": "json",
     "site": "http://www.checkmarx.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "claroty": {
     "name": "Claroty",
-    "logo": "https://www.comeet.co/pub/Claroty/F2.004/logo?size=medium\\u0026last-modified=1657567400",
+    "logo": "https://www.comeet.co/pub/Claroty/F2.004/logo?size=medium&last-modified=1657567400",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "classiq": {
     "name": "Classiq",
-    "logo": "https://www.comeet.co/pub/classiq/F7.008/logo?size=medium\\u0026last-modified=1650334829",
+    "logo": "https://www.comeet.co/pub/classiq/F7.008/logo?size=medium&last-modified=1650334829",
     "via": "json",
     "site": "https://www.classiq.io",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "cymulate": {
     "name": "Cymulate",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "datadog": {
     "name": "Datadog",
     "logo": "https://careers.dd-static.net/img/datadog_rbg_n_2x.png",
     "via": "img",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "datarails": {
     "name": "Datarails",
     "logo": "https://s9-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/337/500/original/datarails_dark_logo.png?1769803726",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "descope": {
     "name": "Descope",
     "logo": "https://s9-recruiting.cdn.greenhouse.io/job_board_renderer/job_board_configurations/banners/400/483/800/original/Company_Banner_-_Descope_Logo.png?1786377658",
     "via": "img",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "cognyte": {
     "name": "Cognyte",
-    "logo": "https://www.comeet.co/pub/cognyte/F2.009/logo?size=medium\\u0026last-modified=1647441440",
+    "logo": "https://www.comeet.co/pub/cognyte/F2.009/logo?size=medium&last-modified=1647441440",
     "via": "json",
     "site": "https://www.cognyte.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "coralogix": {
     "name": "Coralogix",
-    "logo": "https://www.comeet.co/pub/coralogix/06.004/logo?size=medium\\u0026last-modified=1752147486",
+    "logo": "https://www.comeet.co/pub/coralogix/06.004/logo?size=medium&last-modified=1752147486",
     "via": "json",
     "site": "https://coralogix.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "duda": {
     "name": "Duda",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "commit": {
     "name": "Comm-IT",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "eleoshealth": {
     "name": "Eleos Health",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "cyera": {
     "name": "Cyera",
-    "logo": "https://www.comeet.co/pub/cyera/17.008/logo?size=medium\\u0026last-modified=1772466300",
+    "logo": "https://www.comeet.co/pub/cyera/17.008/logo?size=medium&last-modified=1772466300",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "dream": {
     "name": "Dream",
-    "logo": "https://www.comeet.co/pub/dreamgroup/99.002/logo?size=medium\\u0026last-modified=1715501526",
+    "logo": "https://www.comeet.co/pub/dreamgroup/99.002/logo?size=medium&last-modified=1715501526",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "finout": {
     "name": "Finout",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "drivenets": {
     "name": "Drivenets",
-    "logo": "https://www.comeet.co/pub/drivenets/72.006/logo?size=medium\\u0026last-modified=1792568427",
+    "logo": "https://www.comeet.co/pub/drivenets/72.006/logo?size=medium&last-modified=1792568427",
     "via": "json",
     "site": "http://drivenets.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "cloversecurity": {
     "name": "Clover Security",
-    "logo": "https://www.comeet.co/pub/clover_security/7A.00A/logo?size=medium\\u0026last-modified=1770127011",
+    "logo": "https://www.comeet.co/pub/clover_security/7A.00A/logo?size=medium&last-modified=1770127011",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "forter": {
     "name": "Forter",
     "logo": "https://s2-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/695/300/original/Forter_Logo_Blue.png?1731596491",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "cloudinary": {
     "name": "Cloudinary",
     "logo": "https://lever-client-logos.s3.us-west-2.amazonaws.com/d3ca5a6a-4566-4de4-b942-cb29920a616d-1736932948488.png",
     "via": "img",
     "site": "https://cloudinary.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "gloat": {
     "name": "Gloat",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "crossriver": {
     "name": "Crossriver",
-    "logo": "https://www.comeet.co/pub/crossriver/C7.00F/logo?size=medium\\u0026last-modified=1646844010",
+    "logo": "https://www.comeet.co/pub/crossriver/C7.00F/logo?size=medium&last-modified=1646844010",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "gong": {
     "name": "Gong",
     "logo": "https://s6-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/072/600/original/Gong_Lockup_Primary_Violet_Midnight.png?1668013528",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "flexor": {
     "name": "Flexor",
-    "logo": "https://www.comeet.co/pub/flexor/F9.006/logo?size=medium\\u0026last-modified=1778014571",
+    "logo": "https://www.comeet.co/pub/flexor/F9.006/logo?size=medium&last-modified=1778014571",
     "via": "json",
     "site": "https://flexor.ai",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "fullpath": {
     "name": "Fullpath",
-    "logo": "https://www.comeet.co/pub/fullpath/54.002/logo?size=medium\\u0026last-modified=1678169337",
+    "logo": "https://www.comeet.co/pub/fullpath/54.002/logo?size=medium&last-modified=1678169337",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "gripsecurity": {
     "name": "Grip Security",
-    "logo": "https://www.comeet.co/pub/grip/A8.001/logo?size=medium\\u0026last-modified=1675775228",
+    "logo": "https://www.comeet.co/pub/grip/A8.001/logo?size=medium&last-modified=1675775228",
     "via": "json",
     "site": "https://www.grip.security",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "guardz": {
     "name": "Guardz",
     "logo": "https://s101-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/228/610/original/Guardz_logo_-_300x300-Dark.png?1771772783",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "earnix": {
     "name": "Earnix",
-    "logo": "https://www.comeet.co/pub/earnix/93.00B/logo?size=medium\\u0026last-modified=1646581646",
+    "logo": "https://www.comeet.co/pub/earnix/93.00B/logo?size=medium&last-modified=1646581646",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "honeybook": {
     "name": "HoneyBook",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "hibob": {
     "name": "Hibob",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "houzz": {
     "name": "Houzz",
     "logo": "https://lever-client-logos.s3.us-west-2.amazonaws.com/86001e90-479c-4cf2-a37c-dea440d3e13e-1712790373015.png",
     "via": "img",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "growthspace": {
     "name": "Growthspace",
-    "logo": "https://www.comeet.co/pub/growthspace/D7.00A/logo?size=medium\\u0026last-modified=1761218133",
+    "logo": "https://www.comeet.co/pub/growthspace/D7.00A/logo?size=medium&last-modified=1761218133",
     "via": "json",
     "site": "http://growthspacedev.wpengine.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "exodigo": {
     "name": "Exodigo",
-    "logo": "https://www.comeet.co/pub/exodigo/89.005/logo?size=medium\\u0026last-modified=1712061819",
+    "logo": "https://www.comeet.co/pub/exodigo/89.005/logo?size=medium&last-modified=1712061819",
     "via": "json",
     "site": "https://www.exodigo.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "factify": {
     "name": "Factify",
-    "logo": "https://www.comeet.co/pub/factify/A9.00F/logo?size=medium\\u0026last-modified=1765694836",
+    "logo": "https://www.comeet.co/pub/factify/A9.00F/logo?size=medium&last-modified=1765694836",
     "via": "json",
     "site": "https://www.factify.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "jfrog": {
     "name": "JFrog",
     "logo": "https://speedmedia2.jfrog.com/08612fe1-9391-4cf3-ac1a-6dd49c36b276/speedmedia.jfrog.com/08612fe1-9391-4cf3-ac1a-6dd49c36b276/media.jfrog.com/wp-content/uploads/sites/3/2017/10/20115234/green_logo.png",
     "via": "json",
     "site": "https://jfrog.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "imagene": {
     "name": "Imagene",
-    "logo": "https://www.comeet.co/pub/imagene-ai/D7.000/logo?size=medium\\u0026last-modified=1737548278",
+    "logo": "https://www.comeet.co/pub/imagene-ai/D7.000/logo?size=medium&last-modified=1737548278",
     "via": "json",
     "site": "https://imagene-ai.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "fiverr": {
     "name": "Fiverr",
-    "logo": "https://www.comeet.co/pub/fiverr/60.002/logo?size=medium\\u0026last-modified=1600077703",
+    "logo": "https://www.comeet.co/pub/fiverr/60.002/logo?size=medium&last-modified=1600077703",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "inmanage": {
     "name": "Inmanage",
-    "logo": "https://www.comeet.co/pub/inmanage/B7.006/logo?size=medium\\u0026last-modified=1664350649",
+    "logo": "https://www.comeet.co/pub/inmanage/B7.006/logo?size=medium&last-modified=1664350649",
     "via": "json",
     "site": "https://www.inmanage.co.il",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "lemonade": {
     "name": "Lemonade",
-    "checkedAt": "2026-11-22T13:30:15.637Z",
+    "checkedAt": "2026-11-22T13:35:18.236Z",
     "error": "HTTP 404"
   },
   "lightricks": {
@@ -413,157 +470,179 @@
     "logo": "https://careers.lightricks.com/images/62f26ffd_Lightricks_Logo_White.svg",
     "via": "img",
     "site": "https://lightricks.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "lightrun": {
     "name": "Lightrun",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "lumana": {
     "name": "Lumana",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "e": {
     "name": "Global-e",
-    "logo": "https://www.comeet.co/pub/global-e/62.002/logo?size=medium\\u0026last-modified=1528201625",
+    "logo": "https://www.comeet.co/pub/global-e/62.002/logo?size=medium&last-modified=1528201625",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "majestic": {
     "name": "Majestic Labs",
-    "logo": "https://www.comeet.co/pub/majesticlabs/AA.004/logo?size=medium\\u0026last-modified=1784634824",
+    "logo": "https://www.comeet.co/pub/majesticlabs/AA.004/logo?size=medium&last-modified=1784634824",
     "via": "json",
     "site": "https://majestic-labs.ai",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "melio": {
     "name": "Melio",
     "logo": "https://s3-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/440/400/original/Frame_51890.png?1681805958",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "mixtiles": {
     "name": "Mixtiles",
     "logo": "https://cdn.prod.website-files.com/604634954b1f3ddf66320982/65f07a00a405254eedf0de0e_Logo_mixtiles.svg",
     "via": "img",
     "site": "http://www.mixtiles.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "mobileye": {
     "name": "Mobileye",
     "logo": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "guardio": {
     "name": "Guardio",
-    "logo": "https://www.comeet.co/pub/guardio/57.000/logo?size=medium\\u0026last-modified=1636622423",
+    "logo": "https://www.comeet.co/pub/guardio/57.000/logo?size=medium&last-modified=1636622423",
     "via": "json",
     "site": "https://guard.io",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "moonactive": {
     "name": "Moon Active",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "nanit": {
     "name": "Nanit",
     "logo": "https://www.nanit.com/cdn/shop/files/Nanit-Logo_1.svg?v=1758052027&width=70",
     "via": "img",
     "site": "https://nanit.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "mongodb": {
     "name": "MongoDB",
     "logo": "https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress",
     "via": "img",
     "site": "https://www.mongodb.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "navan": {
     "name": "Navan",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "infinidat": {
     "name": "Infinidat",
-    "logo": "https://www.comeet.co/pub/infinidat/D6.003/logo?size=medium\\u0026last-modified=1775938064",
+    "logo": "https://www.comeet.co/pub/infinidat/D6.003/logo?size=medium&last-modified=1775938064",
     "via": "json",
     "site": "https://www.infinidat.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "integritylabs": {
     "name": "Integritylabs",
-    "logo": "https://www.comeet.co/pub/integritylabs/43.009/logo?size=medium\\u0026last-modified=1749554777",
+    "logo": "https://www.comeet.co/pub/integritylabs/43.009/logo?size=medium&last-modified=1749554777",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "navina": {
     "name": "Navina",
-    "logo": "https://www.comeet.co/pub/navina/E6.00C/logo?size=medium\\u0026last-modified=1630305529",
+    "logo": "https://www.comeet.co/pub/navina/E6.00C/logo?size=medium&last-modified=1630305529",
     "via": "json",
     "site": "https://www.navina.ai",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "jifiti": {
     "name": "Jifiti",
-    "logo": "https://www.comeet.co/pub/jifiti/47.005/logo?size=medium\\u0026last-modified=1722427210",
+    "logo": "https://www.comeet.co/pub/jifiti/47.005/logo?size=medium&last-modified=1722427210",
     "via": "json",
     "site": "https://www.jifiti.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "kaltura": {
     "name": "Kaltura",
-    "logo": "https://www.comeet.co/pub/kaltura/E2.00D/logo?size=medium\\u0026last-modified=1695019690",
+    "logo": "https://www.comeet.co/pub/kaltura/E2.00D/logo?size=medium&last-modified=1695019690",
     "via": "json",
     "site": "https://corp.kaltura.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "kela": {
     "name": "Kela",
-    "logo": "https://www.comeet.co/pub/kelatechnologies/2A.007/logo?size=medium\\u0026last-modified=1742137416",
+    "logo": "https://www.comeet.co/pub/kelatechnologies/2A.007/logo?size=medium&last-modified=1742137416",
     "via": "json",
     "site": "https://www.kelasys.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "medisonpharma": {
     "name": "Medison Pharma",
-    "logo": "https://www.comeet.co/pub/medison/67.00A/logo?size=medium\\u0026last-modified=1639053370",
+    "logo": "https://www.comeet.co/pub/medison/67.00A/logo?size=medium&last-modified=1639053370",
     "via": "json",
     "site": "https://www.medisonpharma.com",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "native": {
     "name": "Native",
-    "logo": "https://www.comeet.co/pub/native/5A.00A/logo?size=medium\\u0026last-modified=1774276099",
+    "logo": "https://www.comeet.co/pub/native/5A.00A/logo?size=medium&last-modified=1774276099",
     "via": "json",
     "site": "https://native.security",
-    "checkedAt": "2026-11-22T13:30:15.637Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "similarweb": {
     "name": "Similarweb",
     "logo": "https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/001/266/original/Similarweb-Free-Trial--2048x951.png.avif?1740307905",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "rubrik": {
     "name": "Rubrik",
-    "checkedAt": "2026-11-22T13:33:16.613Z",
+    "checkedAt": "2026-11-22T13:35:18.236Z",
     "error": "HTTP 403"
   },
   "scaleops": {
@@ -571,249 +650,284 @@
     "logo": "https://s101-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/423/610/original/Subject.png?1784047101",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "papayagaming": {
     "name": "Papaya Gaming",
-    "logo": "https://www.comeet.co/pub/papayagaming/46.00B/logo?size=medium\\u0026last-modified=1793044373",
+    "logo": "https://www.comeet.co/pub/papayagaming/46.00B/logo?size=medium&last-modified=1793044373",
     "via": "json",
     "site": "https://www.papaya.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "silverfort": {
     "name": "Silverfort",
-    "logo": "https://www.comeet.co/pub/silverfort/54.007/logo?size=medium\\u0026last-modified=1740664495",
+    "logo": "https://www.comeet.co/pub/silverfort/54.007/logo?size=medium&last-modified=1740664495",
     "via": "json",
     "site": "https://silverfort.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "trullion": {
     "name": "Trullion",
-    "logo": "https://www.comeet.co/pub/trullion/07.000/logo?size=medium\\u0026last-modified=1676188228",
+    "logo": "https://www.comeet.co/pub/trullion/07.000/logo?size=medium&last-modified=1676188228",
     "via": "json",
     "site": "https://trullion.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "supercom": {
     "name": "SuperCom",
-    "logo": "https://www.comeet.co/pub/supercom/46.00A/logo?size=medium\\u0026last-modified=1657017967",
+    "logo": "https://www.comeet.co/pub/supercom/46.00A/logo?size=medium&last-modified=1657017967",
     "via": "json",
     "site": "https://www.supercom.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "playperfect": {
     "name": "Play Perfect",
-    "logo": "https://www.comeet.co/pub/play_perfect/69.001/logo?size=medium\\u0026last-modified=1706794991",
+    "logo": "https://www.comeet.co/pub/play_perfect/69.001/logo?size=medium&last-modified=1706794991",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "walkme": {
     "name": "WalkMe",
     "logo": "https://lever-client-logos.s3.us-west-2.amazonaws.com/f2fd958b-3e42-4260-859f-351934da1df6-1738631565821.png",
     "via": "img",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "sensi": {
     "name": "Sensi.AI",
-    "logo": "https://www.comeet.co/pub/sensi/E7.00F/logo?size=medium\\u0026last-modified=1738365513",
+    "logo": "https://www.comeet.co/pub/sensi/E7.00F/logo?size=medium&last-modified=1738365513",
     "via": "json",
     "site": "https://sensi.ai",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "ashleydigital": {
     "name": "Ashley Digital",
     "logo": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/550/100/original/Ashley_Digital_LinkedIn_Avatar.jpg?1779977797",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "sunflower": {
     "name": "Sunflower",
-    "logo": "https://www.comeet.co/pub/sunflower/AA.009/logo?size=medium\\u0026last-modified=1763310790",
+    "logo": "https://www.comeet.co/pub/sunflower/AA.009/logo?size=medium&last-modified=1763310790",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "wiz": {
     "name": "Wiz",
     "logo": "https://www.datocms-assets.com/75231/1691406061-wiz_hiring_neon_sign_v3_compress.gif",
     "via": "og",
-    "site": "https://datocms-assets.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "site": null,
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "matia": {
     "name": "Matia",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "wix": {
     "name": "Wix",
     "logo": "https://static.wixstatic.com/media/827c6d_13feb86b7c27432a9e6254a7f16030d6%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/827c6d_13feb86b7c27432a9e6254a7f16030d6%7Emv2.jpg",
     "via": "og",
-    "site": "https://wixstatic.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "site": null,
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "yotpo": {
     "name": "Yotpo",
     "logo": "https://www.yotpo.com/wp-content/themes/yotpo/images/general/yotpo-logo-v3-schema.svg",
     "via": "json",
     "site": "https://www.yotpo.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "team8": {
     "name": "Team8",
-    "logo": "https://www.comeet.co/pub/team8/61.003/logo?size=medium\\u0026last-modified=1772619761",
+    "logo": "https://www.comeet.co/pub/team8/61.003/logo?size=medium&last-modified=1772619761",
     "via": "json",
     "site": "http://team8.vc",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "nice": {
     "name": "NICE",
     "logo": "https://resources.nice.com/wp-content/uploads/2025/05/nice-new-logo.svg",
     "via": "json",
     "site": "https://resources.nice.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "nextsilicon": {
     "name": "Nextsilicon",
-    "logo": "https://www.comeet.co/pub/nextsilicon/18.007/logo?size=medium\\u0026last-modified=1654501699",
+    "logo": "https://www.comeet.co/pub/nextsilicon/18.007/logo?size=medium&last-modified=1654501699",
     "via": "json",
     "site": "https://www.nextsilicon.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "nayax": {
     "name": "Nayax",
-    "logo": "https://www.comeet.co/pub/nayax/13.009/logo?size=medium\\u0026last-modified=1758038717",
+    "logo": "https://www.comeet.co/pub/nayax/13.009/logo?size=medium&last-modified=1758038717",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "nimbleway": {
     "name": "Nimbleway",
-    "logo": "https://www.comeet.co/pub/nimbleway/09.00F/logo?size=medium\\u0026last-modified=1772121683",
+    "logo": "https://www.comeet.co/pub/nimbleway/09.00F/logo?size=medium&last-modified=1772121683",
     "via": "json",
     "site": "https://www.nimbleway.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "oligosecurity": {
     "name": "Oligosecurity",
-    "logo": "https://www.comeet.co/pub/oligosecurity/5A.00B/logo?size=medium\\u0026last-modified=1774439511",
+    "logo": "https://www.comeet.co/pub/oligosecurity/5A.00B/logo?size=medium&last-modified=1774439511",
     "via": "json",
     "site": "https://www.oligo.security",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "optibus": {
     "name": "Optibus",
-    "logo": "https://www.comeet.co/pub/optibus/D1.00C/logo?size=medium\\u0026last-modified=1560840973",
+    "logo": "https://www.comeet.co/pub/optibus/D1.00C/logo?size=medium&last-modified=1560840973",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "pagaya": {
     "name": "Pagaya",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "onezerobank": {
     "name": "One Zero Bank",
-    "logo": "https://www.comeet.co/pub/onezerobank/36.00A/logo?size=medium\\u0026last-modified=1770302793",
+    "logo": "https://www.comeet.co/pub/onezerobank/36.00A/logo?size=medium&last-modified=1770302793",
     "via": "json",
     "site": "https://www.onezerobank.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "optimove": {
     "name": "Optimove",
     "logo": "https://s101-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/171/210/original/Blue_logo_.png?1762441876",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "orcasecurity": {
     "name": "Orca Security",
     "logo": "https://orca.security/wp-content/uploads/2025/01/orca-security-logo-2025.svg",
     "via": "json",
     "site": "https://orca.security",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "perion": {
     "name": "Perion",
     "logo": "https://s6-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/043/900/original/perion-64x64.png?1716392571",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "pisecurity": {
     "name": "Pi Security",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "vastdata": {
     "name": "VAST Data",
-    "logo": "https://www.comeet.co/pub/vastdata/43.001/logo?size=medium\\u0026last-modified=1618827895",
+    "logo": "https://www.comeet.co/pub/vastdata/43.001/logo?size=medium&last-modified=1618827895",
     "via": "json",
     "site": "https://www.vastdata.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "pango": {
     "name": "Pango",
-    "logo": "https://www.comeet.co/pub/pango/59.002/logo?size=medium\\u0026last-modified=1704811098",
+    "logo": "https://www.comeet.co/pub/pango/59.002/logo?size=medium&last-modified=1704811098",
     "via": "json",
     "site": "https://www.pango.co.il",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "pentera": {
     "name": "Pentera",
-    "logo": "https://www.comeet.co/pub/pentera/C5.00D/logo?size=medium\\u0026last-modified=1774293194",
+    "logo": "https://www.comeet.co/pub/pentera/C5.00D/logo?size=medium&last-modified=1774293194",
     "via": "json",
     "site": "https://www.pentera.io",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "nova": {
     "name": "Nova",
-    "logo": "https://www.comeet.co/pub/nova/A5.007/logo?size=medium\\u0026last-modified=1602659781",
+    "logo": "https://www.comeet.co/pub/nova/A5.007/logo?size=medium&last-modified=1602659781",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "personetics": {
     "name": "Personetics",
-    "logo": "https://www.comeet.co/pub/personetics/83.00A/logo?size=medium\\u0026last-modified=1551087104",
+    "logo": "https://www.comeet.co/pub/personetics/83.00A/logo?size=medium&last-modified=1551087104",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "papaya": {
     "name": "Papaya Global",
-    "logo": "https://www.comeet.co/pub/papayaglobal/16.005/logo?size=medium\\u0026last-modified=1678154734",
+    "logo": "https://www.comeet.co/pub/papayaglobal/16.005/logo?size=medium&last-modified=1678154734",
     "via": "json",
     "site": "https://www.papayaglobal.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "port": {
     "name": "Port",
-    "logo": "https://www.comeet.co/pub/port/59.004/logo?size=medium\\u0026last-modified=1710689479",
+    "logo": "https://www.comeet.co/pub/port/59.004/logo?size=medium&last-modified=1710689479",
     "via": "json",
     "site": "https://www.port.io",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "plainid": {
     "name": "PlainID",
-    "logo": "https://www.comeet.co/pub/plainid/C4.00C/logo?size=medium\\u0026last-modified=1794121681",
+    "logo": "https://www.comeet.co/pub/plainid/C4.00C/logo?size=medium&last-modified=1794121681",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "riskified": {
     "name": "Riskified",
-    "checkedAt": "2026-11-22T13:33:16.613Z",
+    "checkedAt": "2026-11-22T13:35:18.236Z",
     "error": "HTTP 403"
   },
   "payoneer": {
@@ -821,286 +935,327 @@
     "logo": "https://jtbkamgtmaipwlxzlbsl.supabase.co/storage/v1/object/public/teamme-assets/0287133b-6912-4eaa-a24a-ba75fef68589/Group%20427318500%20(1).png",
     "via": "json",
     "site": "https://jtbkamgtmaipwlxzlbsl.supabase.co",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "reeco": {
     "name": "Reeco",
-    "logo": "https://www.comeet.co/pub/reeco/0A.00D/logo?size=medium\\u0026last-modified=1780606139",
+    "logo": "https://www.comeet.co/pub/reeco/0A.00D/logo?size=medium&last-modified=1780606139",
     "via": "json",
     "site": "https://www.reeco.io",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "saltsecurity": {
     "name": "Salt Security",
     "logo": "https://cdn.prod.website-files.com/6334717ca56db63e16270dc4/65010cc37d1d81c84f1fa0cd_CrowdStrike-rev.svg",
     "via": "img",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "semperis": {
     "name": "Semperis",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "risecodes": {
     "name": "Rise Codes",
-    "logo": "https://www.comeet.co/pub/risecodes/A9.000/logo?size=medium\\u0026last-modified=1716464906",
+    "logo": "https://www.comeet.co/pub/risecodes/A9.000/logo?size=medium&last-modified=1716464906",
     "via": "json",
     "site": "https://cloudfront.risecodes.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "rapyd": {
     "name": "Rapyd",
-    "logo": "https://www.comeet.co/pub/rapyd/73.00E/logo?size=medium\\u0026last-modified=1790502211",
+    "logo": "https://www.comeet.co/pub/rapyd/73.00E/logo?size=medium&last-modified=1790502211",
     "via": "json",
     "site": "https://www.rapyd.net",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "quantummachines": {
     "name": "Quantum Machines",
-    "logo": "https://www.comeet.co/pub/quantummachines/D6.000/logo?size=medium\\u0026last-modified=1749558075",
+    "logo": "https://www.comeet.co/pub/quantummachines/D6.000/logo?size=medium&last-modified=1749558075",
     "via": "json",
     "site": "https://www.quantum-machines.co",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "samsung": {
     "name": "Samsung",
-    "logo": "https://www.comeet.co/pub/samsung/D4.005/logo?size=medium\\u0026last-modified=1754549406",
+    "logo": "https://www.comeet.co/pub/samsung/D4.005/logo?size=medium&last-modified=1754549406",
     "via": "json",
     "site": "https://semiconductor.samsung.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "regulus": {
     "name": "Regulus",
-    "logo": "https://www.comeet.co/pub/regulus/9A.00D/logo?size=medium\\u0026last-modified=1759238926",
+    "logo": "https://www.comeet.co/pub/regulus/9A.00D/logo?size=medium&last-modified=1759238926",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "sisense": {
     "name": "Sisense",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "snyk": {
     "name": "Snyk",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "sweetsecurity": {
     "name": "Sweet Security",
     "logo": "https://s101-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/366/610/original/Sweet_-_logo_for_swag_2x-8.png?1765804490",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "sedric": {
     "name": "Sedric",
-    "logo": "https://www.comeet.co/pub/sedric/0A.00F/logo?size=medium\\u0026last-modified=1736409913",
+    "logo": "https://www.comeet.co/pub/sedric/0A.00F/logo?size=medium&last-modified=1736409913",
     "via": "json",
     "site": "https://www.sedric.ai",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "snowflake": {
     "name": "Snowflake",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "servicenow": {
     "name": "Servicenow",
     "logo": "https://c.smartrecruiters.com/sr-careersite-image-prod-dc5/5f63a78fb26a470ded52d551/c809c033-0fc3-41e8-98fd-a94618b57368?r=s3-eu-central-1",
     "via": "og",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "torq": {
     "name": "Torq",
     "logo": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/188/400/original/Torq_Logo-Black_(3)_(2).png?1747071330",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "taboola": {
     "name": "Taboola",
     "logo": "https://www.taboola.com//wp-content/uploads/2021/11/taboola_logo_dark_blue-2.png",
     "via": "json",
     "site": "https://taboola.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "unframe": {
     "name": "Unframe",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "shortical": {
     "name": "Shortical",
-    "logo": "https://www.comeet.co/pub/shortical/3B.00A/logo?size=medium\\u0026last-modified=1781157212",
+    "logo": "https://www.comeet.co/pub/shortical/3B.00A/logo?size=medium&last-modified=1781157212",
     "via": "json",
     "site": "https://www.shortical.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "senai": {
     "name": "Senai",
-    "logo": "https://www.comeet.co/pub/senai/CA.004/logo?size=medium\\u0026last-modified=1765647528",
+    "logo": "https://www.comeet.co/pub/senai/CA.004/logo?size=medium&last-modified=1765647528",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "thetaray": {
     "name": "Thetaray",
-    "logo": "https://www.comeet.co/pub/thetaray/72.00F/logo?size=medium\\u0026last-modified=1609928403",
+    "logo": "https://www.comeet.co/pub/thetaray/72.00F/logo?size=medium&last-modified=1609928403",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "sysaid": {
     "name": "SysAid",
-    "logo": "https://www.comeet.co/pub/sysaid/43.00A/logo?size=medium\\u0026last-modified=1747120202",
+    "logo": "https://www.comeet.co/pub/sysaid/43.00A/logo?size=medium&last-modified=1747120202",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "transmitsecurity": {
     "name": "Transmit Security",
     "logo": "https://transmitsecurity.com/wp-content/uploads/transmit-main-logo-1-1.svg",
     "via": "img",
     "site": "https://transmitsecurity.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "via": {
     "name": "Via",
     "logo": null,
     "via": null,
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "solaredge": {
     "name": "Solaredge",
-    "logo": "https://www.comeet.co/pub/SolarEdge/71.00A/logo?size=medium\\u0026last-modified=1460039735",
+    "logo": "https://www.comeet.co/pub/SolarEdge/71.00A/logo?size=medium&last-modified=1460039735",
     "via": "json",
     "site": "https://corporate.solaredge.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "vega": {
     "name": "Vega",
-    "logo": "https://www.comeet.co/pub/vega/C9.009/logo?size=medium\\u0026last-modified=1756212713",
+    "logo": "https://www.comeet.co/pub/vega/C9.009/logo?size=medium&last-modified=1756212713",
     "via": "json",
     "site": "https://vega.io",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "voyantis": {
     "name": "Voyantis",
-    "logo": "https://www.comeet.co/pub/voyantis/86.00B/logo?size=medium\\u0026last-modified=1778230556",
+    "logo": "https://www.comeet.co/pub/voyantis/86.00B/logo?size=medium&last-modified=1778230556",
     "via": "json",
     "site": "https://www.voyantis.ai",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "upstream": {
     "name": "Upstream",
-    "logo": "https://www.comeet.co/pub/upstream/E4.003/logo?size=medium\\u0026last-modified=1628761879",
+    "logo": "https://www.comeet.co/pub/upstream/E4.003/logo?size=medium&last-modified=1628761879",
     "via": "json",
     "site": "https://www.upstream.auto",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "walmarttech": {
     "name": "Walmart Global Tech Israel",
-    "logo": "https://www.comeet.co/pub/walmart/35.000/logo?size=medium\\u0026last-modified=1768210701",
+    "logo": "https://www.comeet.co/pub/walmart/35.000/logo?size=medium&last-modified=1768210701",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "uveye": {
     "name": "Uveye",
-    "logo": "https://www.comeet.co/pub/uveye/92.00F/logo?size=medium\\u0026last-modified=1793297984",
+    "logo": "https://www.comeet.co/pub/uveye/92.00F/logo?size=medium&last-modified=1793297984",
     "via": "json",
     "site": "https://www.uveye.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "wonderful": {
     "name": "Wonderful",
     "logo": "https://app.ashbyhq.com/api/images/org-theme-logo/b824716b-13f1-47bb-b00a-05ee4aa4646b/16167430-cbac-4146-8b65-74f4fdfa29ad/0239233b-e7b6-401d-ba7f-276bdabfaee0.png",
     "via": "og",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "webbing": {
     "name": "Webbing",
-    "logo": "https://www.comeet.co/pub/webbing/46.00E/logo?size=medium\\u0026last-modified=1641913048",
+    "logo": "https://www.comeet.co/pub/webbing/46.00E/logo?size=medium&last-modified=1641913048",
     "via": "json",
     "site": "https://www.iamwebbing.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "upwind": {
     "name": "Upwind",
-    "logo": "https://www.comeet.co/pub/upwind/49.004/logo?size=medium\\u0026last-modified=1701028938",
+    "logo": "https://www.comeet.co/pub/upwind/49.004/logo?size=medium&last-modified=1701028938",
     "via": "json",
     "site": "https://www.upwind.io",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "waterfallsecurity": {
     "name": "Waterfall Security",
-    "logo": "https://www.comeet.co/pub/waterfall-security/C7.009/logo?size=medium\\u0026last-modified=1698724469",
+    "logo": "https://www.comeet.co/pub/waterfall-security/C7.009/logo?size=medium&last-modified=1698724469",
     "via": "json",
     "site": "https://waterfall-security.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "wiliot": {
     "name": "Wiliot",
-    "logo": "https://www.comeet.co/pub/wiliot/F6.003/logo?size=medium\\u0026last-modified=1629192685",
+    "logo": "https://www.comeet.co/pub/wiliot/F6.003/logo?size=medium&last-modified=1629192685",
     "via": "json",
     "site": "https://www.wiliot.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "workiz": {
     "name": "Workiz",
-    "logo": "https://www.comeet.co/pub/workiz/F6.006/logo?size=medium\\u0026last-modified=1662467968",
+    "logo": "https://www.comeet.co/pub/workiz/F6.006/logo?size=medium&last-modified=1662467968",
     "via": "json",
     "site": "https://www.workiz.com",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "zesty": {
     "name": "Zesty",
     "logo": "https://cdn.prod.website-files.com/6862e525b1748ae2b44662f9/68e671778abcf5d71413fcb2_zesty_logo.svg",
     "via": "img",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "xsight": {
     "name": "Xsight Labs",
-    "logo": "https://www.comeet.co/pub/xsightlabs/46.00C/logo?size=medium\\u0026last-modified=1614772033",
+    "logo": "https://www.comeet.co/pub/xsightlabs/46.00C/logo?size=medium&last-modified=1614772033",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "zipher": {
     "name": "Zipher",
-    "logo": "https://www.comeet.co/pub/zipher/4B.00C/logo?size=medium\\u0026last-modified=1786869943",
+    "logo": "https://www.comeet.co/pub/zipher/4B.00C/logo?size=medium&last-modified=1786869943",
     "via": "json",
     "site": "https://zipher.ai",
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "zyg": {
     "name": "Zyg",
-    "logo": "https://www.comeet.co/pub/zyg/DA.006/logo?size=medium\\u0026last-modified=1772100514",
+    "logo": "https://www.comeet.co/pub/zyg/DA.006/logo?size=medium&last-modified=1772100514",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   },
   "zenity": {
     "name": "Zenity",
-    "logo": "https://www.comeet.co/pub/zenity/19.000/logo?size=medium\\u0026last-modified=1692631820",
+    "logo": "https://www.comeet.co/pub/zenity/19.000/logo?size=medium&last-modified=1692631820",
     "via": "json",
     "site": null,
-    "checkedAt": "2026-11-22T13:33:16.613Z"
+    "checkedAt": "2026-11-22T13:35:18.236Z",
+    "v": 2
   }
 }
