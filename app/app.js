@@ -30,7 +30,7 @@ let jobs = [];
 let logos = {};
 let state = read(STORE, {});
 let mine = read(MINE, []);
-const prefs = { levels: ['Junior', 'Mid'], source: 'any', ...read(PREFS, {}) };
+const prefs = { levels: ['Junior', 'Mid'], source: 'any', name: '', ...read(PREFS, {}) };
 let chip = 'all';
 let appsTab = 'active';
 let query = '';
@@ -161,6 +161,7 @@ async function init() {
   }
   jobs = [...byName.values(), ...mine.map((m) => ({ ...m, source: 'mine' }))];
   const updated = collected?.updatedAt || manual?.updatedAt;
+  updatedAt = updated;
   document.getElementById('updated').textContent = updated
     ? `Last updated ${new Date(updated).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}`
     : 'Could not load the latest update.';
@@ -196,7 +197,7 @@ function homeItems() {
     if (chip === 'new') return isNew(j);
     if (chip === 'progress') return ACTIVE.includes(s);
     return true;
-  }).sort((a, b) => (isNew(b) - isNew(a)) || byDate(a, b));
+  }).sort(byDate);
 }
 
 const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
@@ -332,11 +333,55 @@ function renderStats() {
     .forEach(([v, l]) => { const s = el('div', 'stat'); s.append(el('b', null, v), el('span', 't-small', l)); box.append(s); });
 }
 
+let updatedAt = null;
+const greeting = () => { const h = new Date().getHours(); return h < 5 ? 'Good night' : h < 12 ? 'Good morning' : h < 17 ? 'Good afternoon' : 'Good evening'; };
+
+// Home header: what's new and where the search stands.
+function renderHero() {
+  const box = document.getElementById('hero'); box.replaceChildren();
+  const fits = jobs.filter((j) => j.status !== 'closed' && prefs.levels.includes(j.level || 'Mid') && !ENDED.includes(get(j.key).s));
+  const fresh = fits.filter(isNew).length;
+  const n = (f) => jobs.filter((j) => f(get(j.key).s)).length;
+  const hi = el('p', 'hero-hi', prefs.name ? `${greeting()}, ${prefs.name}` : greeting());
+  const big = el('p', 'hero-big');
+  if (!loaded) big.textContent = 'Checking for new roles…';
+  else if (fresh) { const b = el('button', 'hero-link', `${fresh} new ${fresh === 1 ? 'role' : 'roles'}`); b.type = 'button'; b.onclick = () => { chip = 'new'; render(); }; big.append(b, ` for you this week`); }
+  else big.textContent = `${fits.length} open roles, nothing new since yesterday`;
+  const sub = el('p', 'hero-sub');
+  if (updatedAt) sub.textContent = `${fits.length} open roles · checked ${new Date(updatedAt).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}`;
+  const stats = el('div', 'hero-stats');
+  [[n((s) => ACTIVE.includes(s)), 'Applied', '#applications'], [n((s) => s === 'ראיון' || s === 'מטלת בית'), 'Interviews', '#applications'], [n((s) => s === SAVED), 'Saved', '#saved']]
+    .forEach(([v, l, href]) => { const a = el('a', 'hero-stat'); a.href = href; a.append(el('b', null, v), el('span', null, l)); stats.append(a); });
+  box.append(hi, big, sub, stats);
+}
+
+// Home list, in sections by the date shown on each card.
+const thisWeek = (j) => { const d = j.postedAt || j.firstSeen; return d && daysAgo(d) <= 7; };
+function renderHome(items) {
+  const box = document.getElementById('home-list'); box.replaceChildren();
+  if (!items.length) { box.append(el('p', 'empty', loaded ? (chip === 'progress' ? 'Nothing in progress yet. Set a status on a job to track it here.' : 'No roles match these filters.') : 'Loading jobs…')); return; }
+  const groups = chip === 'all'
+    ? [['This week', items.filter(thisWeek)], ['Earlier', items.filter((j) => !thisWeek(j))]]
+    : [[null, items]];
+  for (const [title, list] of groups) {
+    if (!list.length) continue;
+    const sec = el('section', 'group');
+    if (title) {
+      const h = el('h2', 'group-title'); h.append(title, el('span', 'group-n', list.length));
+      if (title === 'This week') h.classList.add('is-new');
+      sec.append(h);
+    }
+    const l = el('div', 'list'); list.forEach((j) => l.append(jobCard(j))); sec.append(l);
+    box.append(sec);
+  }
+}
+
 function render() {
   renderChips();
   const home = homeItems();
   document.getElementById('home-count').textContent = loaded ? `${home.length} ${home.length === 1 ? 'role' : 'roles'}` : '';
-  fill('home-list', home, jobCard, chip === 'progress' ? 'Nothing in progress yet. Set a status on a job to track it here.' : 'No roles match these filters.');
+  renderHero();
+  renderHome(home);
 
   const appsAll = jobs.filter((j) => matches(j) && (appsTab === 'active' ? ACTIVE.includes(get(j.key).s) : ENDED.includes(get(j.key).s)))
     .sort((a, b) => String(get(b.key).t || '').localeCompare(String(get(a.key).t || '')));
@@ -402,6 +447,10 @@ form.addEventListener('submit', (e) => {
   form.reset(); document.getElementById('add-title').value = 'Product Designer';
   open.add(rec.key); location.hash = '#saved'; render();
 });
+
+const nameInput = document.getElementById('my-name');
+nameInput.value = prefs.name;
+nameInput.addEventListener('input', () => { prefs.name = nameInput.value.trim(); write(PREFS, prefs); renderHero(); });
 
 route();
 render();

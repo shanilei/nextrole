@@ -26,6 +26,7 @@
     <!-- Home -->
     <section class="view" id="view-home" aria-labelledby="h-home">
       <h1 class="visually-hidden" id="h-home">Jobs</h1>
+      <div class="hero" id="hero"></div>
       <label class="search">
         <span class="i i-search" aria-hidden="true"></span>
         <span class="visually-hidden">Search</span>
@@ -43,8 +44,8 @@
         <p class="lbl">Source</p>
         <div class="chips wrap" role="group" aria-label="Source" id="src-chips"></div>
       </div>
-      <p class="count" id="home-count" aria-live="polite"></p>
-      <div class="list" id="home-list"></div>
+      <p class="visually-hidden" id="home-count" aria-live="polite"></p>
+      <div id="home-list"></div>
     </section>
 
     <!-- Applications -->
@@ -82,6 +83,10 @@
         </div>
         <button type="submit" class="btn">Save job</button>
       </form>
+      <div class="panel">
+        <h2 class="panel-title">Your name</h2>
+        <label class="field"><span>Shown in the greeting on Home</span><input id="my-name" type="text" autocomplete="given-name" dir="auto"></label>
+      </div>
       <div class="panel">
         <h2 class="panel-title">About this list</h2>
         <p class="hint" id="updated">Loading…</p>
