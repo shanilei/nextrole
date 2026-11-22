@@ -23,7 +23,7 @@ const POST_MAX_DAYS = 14; // a LinkedIn hiring post is shown for two weeks
 const PROBE_PER_RUN = 25; // unknown companies to look up per run
 const PROBE_RETRY_DAYS = 21; // don't re-probe a company whose board wasn't found for this long
 const LOGO_REFRESH_DAYS = 30; // re-read a company's logo this often
-const LOGOS_PER_RUN = 80;
+const LOGOS_PER_RUN = 120;
 const now = new Date().toISOString();
 
 async function pool(items, worker) {
@@ -316,10 +316,12 @@ async function main() {
 
   // Company logos from each company's own careers page, cached in data/logos.json.
   const logos = await readJson('data/logos.json', {});
+  const hiringNow = new Set([...byKey.values()].filter((j) => j.status === 'open').map((j) => companyKey(j.company)));
+  const hiring = (name) => (hiringNow.has(companyKey(name)) ? 1 : 0); // companies with open roles first
   const due = report.companies.filter((r) => r.status === 'ok' && r.ats && r.ats !== 'workday').filter((r) => {
     const l = logos[companyKey(r.company)];
     return !l || Date.now() - new Date(l.checkedAt).getTime() > (l.logo || l.site ? LOGO_REFRESH_DAYS : 7) * 864e5;
-  }).slice(0, LOGOS_PER_RUN);
+  }).sort((a, b) => hiring(b.company) - hiring(a.company)).slice(0, LOGOS_PER_RUN);
   await pool(due, async (r) => {
     const ck = companyKey(r.company);
     try {
