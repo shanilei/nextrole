@@ -7,6 +7,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { adapters, NotFound, PROBE_ORDER } from './lib/ats.mjs';
 import { secretTelAviv, googleSearch } from './lib/feeds.mjs';
 import { nameFromBoard } from './lib/discover.mjs';
+import { findLogo } from './lib/logos.mjs';
 import { isDesignRole, isInIsrael, guessLevel, minYears } from './lib/filters.mjs';
 
 const ROOT = new URL('..', import.meta.url);
@@ -21,6 +22,8 @@ const MANUAL_MAX_DAYS = 45; // a hand-added job with no company board to check c
 const POST_MAX_DAYS = 14; // a LinkedIn hiring post is shown for two weeks
 const PROBE_PER_RUN = 25; // unknown companies to look up per run
 const PROBE_RETRY_DAYS = 21; // don't re-probe a company whose board wasn't found for this long
+const LOGO_REFRESH_DAYS = 30; // re-read a company's logo this often
+const LOGOS_PER_RUN = 80;
 const now = new Date().toISOString();
 
 async function pool(items, worker) {
@@ -306,14 +309,34 @@ async function main() {
     manual: report.manual,
     probe: report.probe,
     linkCheck: { checked: report.linkCheck?.checked, closed: report.linkCheck?.closed },
+    logos: report.logos,
     openJobs: open.length,
     newToday: open.filter((j) => j.firstSeen === now).length,
   };
+
+  // Company logos from each company's own careers page, cached in data/logos.json.
+  const logos = await readJson('data/logos.json', {});
+  const due = report.companies.filter((r) => r.status === 'ok' && r.ats && r.ats !== 'workday').filter((r) => {
+    const l = logos[companyKey(r.company)];
+    return !l || Date.now() - new Date(l.checkedAt).getTime() > (l.logo || l.site ? LOGO_REFRESH_DAYS : 7) * 864e5;
+  }).slice(0, LOGOS_PER_RUN);
+  await pool(due, async (r) => {
+    const ck = companyKey(r.company);
+    try {
+      const found = await findLogo(r.ats, r.id);
+      logos[ck] = { name: r.company, ...found, checkedAt: now };
+    } catch (e) {
+      logos[ck] = { ...(logos[ck] || { name: r.company }), checkedAt: now, error: String(e.message || e) };
+    }
+  });
+  report.logos = { checked: due.length, withLogo: Object.values(logos).filter((l) => l.logo).length, withSiteOnly: Object.values(logos).filter((l) => !l.logo && l.site).length, total: Object.keys(logos).length };
+  if (process.env.DEBUG_FEEDS) for (const r of due) { const l = logos[companyKey(r.company)]; console.log(`logo ${r.company} [${r.ats}] ${l.via || '-'} ${l.logo || ''} ${l.site || ''} ${l.error || ''}`); }
 
   await mkdir(path('data/'), { recursive: true });
   await writeFile(path('data/jobs.json'), JSON.stringify({ updatedAt: now, jobs }, null, 2) + '\n');
   await writeFile(path('data/boards.json'), JSON.stringify(boards, null, 2) + '\n');
   await writeFile(path('data/report.json'), JSON.stringify(report, null, 2) + '\n');
+  await writeFile(path('data/logos.json'), JSON.stringify(logos, null, 2) + '\n');
   await writeFile(path('data/discovered.json'), JSON.stringify(discovered, null, 2) + '\n');
 
   console.log(JSON.stringify(report.summary, null, 2));

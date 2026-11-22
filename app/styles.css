@@ -1,15 +1,17 @@
 /* NextRole — from the Figma file "nextrole-app" (Home 43:2522, Applications 43:2547). */
 :root {
-  --color-bg-canvas: #F4F4F7;
+  --color-bg-canvas: #EFEDF6;
   --color-bg-surface: #FFFFFF;
-  --color-bg-muted: #ECEAF7;
+  --color-bg-muted: #E4E0F8;
   --color-bg-inverse: #1B1B20;
   --color-bg-inverse-raised: #2E2E36;
   --color-bg-accent: #C7C2EC;
   --color-text-primary: #1B1B20;
-  --color-text-secondary: #6B6B75;
+  --color-text-secondary: #52525C;
   --color-text-on-inverse: #FFFFFF;
-  --color-border: #DEDEE4;
+  --color-border: #DDDAE8;
+  --color-brand: #5B4FD6;
+  --color-lime: #D8F36A;
   --color-danger: #B4231F;
   --color-ok: #2F7A4F;
 
@@ -37,7 +39,7 @@ button { font: inherit; color: inherit; }
 /* Type styles from the design */
 .t-label { font: 500 12px/16px var(--font); letter-spacing: .12px; }
 .t-subtitle { font: 500 14px/22px var(--font); letter-spacing: .28px; }
-.t-small { font: 300 12px/20px var(--font); letter-spacing: .24px; color: var(--color-text-secondary); }
+.t-small { font: 400 12px/20px var(--font); letter-spacing: .24px; color: var(--color-text-secondary); }
 
 /* Icons: the Figma SVGs used as masks so they take the text color of their place. */
 .i { flex: none; display: inline-block; width: 24px; height: 24px; background: currentColor;
@@ -71,6 +73,7 @@ button { font: inherit; color: inherit; }
   font: 500 12px/24px var(--font); letter-spacing: .12px; color: var(--color-text-primary); padding: 0;
 }
 .search input::placeholder { color: var(--color-text-secondary); opacity: 1; }
+.search { border: 1px solid #D3CDF3; }
 .search:focus-within { outline: 2px solid var(--color-bg-inverse); outline-offset: 2px; }
 .search input::-webkit-search-cancel-button { cursor: pointer; }
 
@@ -101,12 +104,13 @@ button { font: inherit; color: inherit; }
   border-radius: var(--radius-xl); box-shadow: var(--shadow-soft); display: grid; gap: var(--spacing-xs);
 }
 .lbl { margin: 4px 0 0; font: 500 12px/16px var(--font); letter-spacing: .12px; color: var(--color-text-secondary); }
-.count { margin: 0 10px; font: 300 12px/20px var(--font); letter-spacing: .24px; color: var(--color-text-secondary); }
+.count { margin: 0 10px; font: 400 12px/20px var(--font); letter-spacing: .24px; color: var(--color-text-secondary); }
 
 /* Job cards (component "Job card") */
 .list { display: grid; gap: 10px; padding: 10px; }
 .card {
   background: var(--color-bg-surface); border-radius: var(--radius-xl); box-shadow: var(--shadow-soft);
+  border: 1px solid var(--color-border);
   padding: var(--spacing-md); display: grid; gap: var(--spacing-sm); min-width: 0;
 }
 .card.dim { opacity: .6; }
@@ -126,17 +130,17 @@ button { font: inherit; color: inherit; }
   flex: none; width: 44px; height: 44px; border-radius: var(--radius-full); border: 0; cursor: pointer;
   background: var(--color-bg-surface); color: var(--color-text-primary); display: grid; place-items: center;
 }
-.save[aria-pressed="true"] { background: var(--color-bg-accent); }
+.save[aria-pressed="true"] { background: var(--color-brand); color: #fff; }
 .tags { display: flex; align-items: center; gap: var(--spacing-xs); min-width: 0; overflow: hidden; }
 .tags .t-small { white-space: nowrap; }
-.card.app .tags .t-small { flex: 1; text-align: right; }
+.card-app .tags .t-small { flex: 1; text-align: right; }
 .divider { height: 1px; background: var(--color-border); border-radius: 1px; }
 
 /* Expanded details */
 .details { display: grid; gap: var(--spacing-sm); border-top: 1px solid var(--color-border); padding-top: var(--spacing-sm); }
 .details p { margin: 0; }
-.details .text { font: 300 13px/20px var(--font); }
-.req { margin: 0; padding-left: 18px; font: 300 13px/20px var(--font); display: grid; gap: 2px; }
+.details .text { font: 400 13px/20px var(--font); }
+.req { margin: 0; padding-left: 18px; font: 400 13px/20px var(--font); display: grid; gap: 2px; }
 .trust { font: 400 12px/18px var(--font); color: var(--color-text-secondary); }
 .trust.ok { color: var(--color-ok); }
 .trust.warn { color: var(--color-danger); }
@@ -172,7 +176,7 @@ textarea { min-height: 64px; resize: vertical; }
 .stat b { font: 500 24px/32px var(--font); font-variant-numeric: tabular-nums; }
 .panel { margin: 10px; background: var(--color-bg-surface); border-radius: var(--radius-xl); box-shadow: var(--shadow-soft); padding: var(--spacing-md); display: grid; gap: var(--spacing-sm); }
 .panel-title { margin: 0; font: 500 14px/22px var(--font); letter-spacing: .28px; }
-.hint { margin: 0; font: 300 12px/20px var(--font); letter-spacing: .24px; color: var(--color-text-secondary); }
+.hint { margin: 0; font: 400 12px/20px var(--font); letter-spacing: .24px; color: var(--color-text-secondary); }
 .field { display: grid; gap: 4px; font: 500 12px/16px var(--font); color: var(--color-text-secondary); min-width: 0; }
 .field input[type="url"] { direction: ltr; }
 .row { display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-xs); }
@@ -192,3 +196,20 @@ textarea { min-height: 64px; resize: vertical; }
 @media (prefers-reduced-motion: no-preference) {
   .chip, .seg, .nav-item, .save { transition: background-color .15s, color .15s; }
 }
+
+/* Color pass: company tiles, levels and statuses get their own colors. */
+.mark.c1 { background: #1B1B20; } .mark.c2 { background: #5B4FD6; } .mark.c3 { background: #0F7A5A; }
+.mark.c4 { background: #C2410C; } .mark.c5 { background: #1D4ED8; } .mark.c6 { background: #BE185D; }
+.tag.new { background: var(--color-lime); color: #1B1B20; }
+.tag.lv-Junior { background: #D7F5E3; color: #14532D; }
+.tag.lv-Mid { background: #FDECC8; color: #7C3A06; }
+.tag.lv-Senior { background: #E9E4FF; color: #4C1D95; }
+.tag.st-saved { background: #E4E0F8; color: #3F33B8; }
+.tag.st-applied { background: #DBE7FE; color: #1E40AF; }
+.tag.st-interview { background: #E9E4FF; color: #4C1D95; }
+.tag.st-assignment { background: #FDECC8; color: #7C3A06; }
+.tag.st-offer { background: #D7F5E3; color: #14532D; }
+.tag.st-rejected { background: #FDE2E2; color: #991B1B; }
+.tag.st-none, .tag.st-irrelevant { background: #EAE8F0; color: #3F3F46; }
+.mark.has-img { background: #fff; border: 1px solid var(--color-border); padding: 6px; overflow: hidden; }
+.mark.has-img img { width: 100%; height: 100%; object-fit: contain; display: block; }

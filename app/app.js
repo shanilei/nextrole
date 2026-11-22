@@ -7,6 +7,10 @@ const STATUSES = [
   ['מטלת בית', 'Assignment'], ['הצעה', 'Offer'], ['נדחה', 'Rejected'], ['לא רלוונטי', 'Not relevant'],
 ];
 const LABEL = Object.fromEntries(STATUSES);
+const STATUS_CLASS = { 'טרם הוגש': 'none', 'שמרתי': 'saved', 'הוגש': 'applied', 'ראיון': 'interview', 'מטלת בית': 'assignment', 'הצעה': 'offer', 'נדחה': 'rejected', 'לא רלוונטי': 'irrelevant' };
+const stTag = (s) => `plain st-${STATUS_CLASS[s] || 'none'}`;
+// Same company, same tile color, every time.
+const tileColor = (name = '') => `c${[...String(name)].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7) % 6 + 1}`;
 const NONE = 'טרם הוגש', SAVED = 'שמרתי';
 const ACTIVE = ['הוגש', 'ראיון', 'מטלת בית', 'הצעה'];
 const ENDED = ['נדחה', 'לא רלוונטי'];
@@ -23,6 +27,7 @@ const read = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; 
 const write = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
 
 let jobs = [];
+let logos = {};
 let state = read(STORE, {});
 let mine = read(MINE, []);
 const prefs = { levels: ['Junior', 'Mid'], source: 'any', ...read(PREFS, {}) };
@@ -78,7 +83,37 @@ function shortLoc(loc = '') {
 }
 
 // LinkedIn in Hebrew: "Product Designer ב Acme, Inc. — Tel Aviv" -> "Product Designer"
-const cleanTitle = (t = '') => String(t).replace(/\s+ב\s+.*$/, '').trim() || t;
+const cleanTitle = (t = '') => String(t).replace(/\s+(ב|στο|bei|chez)\s+.*$/, '').trim() || t;
+
+// Same key the collector uses for data/logos.json ("Wix.com Ltd." = "Wix").
+const companyKey = (s = '') => s.toLowerCase()
+  .replace(/\b(ltd|inc|llc|gmbh|technologies|technology|labs|group|israel|io|ai|global)\b|\.com|[^a-z0-9א-ת]/g, '');
+
+// Company tile: the logo from the company's careers page when it is roughly square,
+// else the icon of the company's site, else colored initials. Wide wordmarks would be
+// unreadable at this size, and any image that fails falls back too.
+function companyMark(name = '') {
+  const mark = el('span', `mark ${tileColor(name)}`, initials(name));
+  mark.setAttribute('aria-hidden', 'true');
+  const l = logos[companyKey(name)];
+  const tries = [];
+  if (l?.logo) tries.push({ src: l.logo, ok: (w, h) => w >= 32 && w / h <= 1.6 });
+  if (l?.site) tries.push({ src: `https://www.google.com/s2/favicons?domain=${new URL(l.site).hostname}&sz=128`, ok: (w) => w >= 32 });
+  const next = () => {
+    const t = tries.shift();
+    if (!t) return;
+    const img = new Image();
+    img.alt = ''; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
+    img.onload = () => {
+      if (!t.ok(img.naturalWidth, img.naturalHeight)) return next();
+      mark.textContent = ''; mark.classList.add('has-img'); mark.append(img);
+    };
+    img.onerror = next;
+    img.src = t.src;
+  };
+  next();
+  return mark;
+}
 
 function initials(name = '') {
   const words = String(name).replace(/[^\p{L}\p{N} ]+/gu, ' ').trim().split(/\s+/).filter(Boolean);
@@ -110,7 +145,8 @@ async function fetchJson(path) {
 }
 
 async function init() {
-  const [collected, manual] = await Promise.all([fetchJson('data/jobs.json'), fetchJson('data/manual.json')]);
+  const [collected, manual, logoData] = await Promise.all([fetchJson('data/jobs.json'), fetchJson('data/manual.json'), fetchJson('data/logos.json')]);
+  logos = logoData || {};
   const byName = new Map();
   for (const j of collected?.jobs || []) {
     const rec = { ...j, about: (j.description || '').slice(0, 260), requirements: requirementsFrom(j.description), origin: j.source, source: 'auto' };
@@ -223,7 +259,7 @@ function jobCard(j) {
   const st = get(j.key);
   const c = el('article', 'card' + (j.status === 'closed' ? ' dim' : ''));
   const head = el('div', 'card-head');
-  const mark = el('span', 'mark', initials(j.company || j.author)); mark.setAttribute('aria-hidden', 'true');
+  const mark = companyMark(j.company || j.author);
   const save = el('button', 'save'); save.type = 'button';
   const saved = st.s === SAVED;
   save.setAttribute('aria-pressed', saved);
@@ -236,10 +272,12 @@ function jobCard(j) {
   const wp = workplace(j);
   if (wp) tags.append(tag(wp, 'pin'));
   if (j.kind === 'post') tags.append(tag('LinkedIn post', 'clock'));
-  else tags.append(tag(employment(j), 'clock'));
+  else if (employment(j) !== 'Full-time') tags.append(tag(employment(j), 'clock'));
+  const lv = j.level || 'Mid';
+  tags.append(tag(lv, null, `plain lv-${lv.replace('+', '')}`));
   if (j.status === 'closed') tags.append(tag('Closed', null, 'plain danger'));
-  else if (ACTIVE.includes(st.s)) tags.append(tag(LABEL[st.s], null, 'plain inverse'));
-  else if (isNew(j)) tags.append(tag('New', null, 'plain inverse'));
+  else if (ACTIVE.includes(st.s)) tags.append(tag(LABEL[st.s], null, stTag(st.s)));
+  else if (isNew(j)) tags.append(tag('New', null, 'plain new'));
   tags.append(el('span', 't-small', ago(j.postedAt || j.firstSeen)));
   c.append(head, tags);
   if (open.has(j.key)) c.append(details(j));
@@ -249,11 +287,11 @@ function jobCard(j) {
 // Applications: component "Job card", Variant2
 function appCard(j) {
   const st = get(j.key);
-  const c = el('article', 'card app');
+  const c = el('article', 'card card-app');
   const head = el('div', 'card-head');
   head.append(openButton(j, [titles(j)]));
   const row = el('div', 'tags');
-  row.append(tag(LABEL[st.s], null, 'plain'));
+  row.append(tag(LABEL[st.s], null, stTag(st.s)));
   if (j.status === 'closed' && !ENDED.includes(st.s)) row.append(tag('Role closed', null, 'plain danger'));
   row.append(el('span', 't-small', ago(st.t || j.firstSeen)));
   c.append(head, el('div', 'divider'), row);
