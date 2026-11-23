@@ -30,7 +30,7 @@ let jobs = [];
 let logos = {};
 let state = read(STORE, {});
 let mine = read(MINE, []);
-const prefs = { levels: ['Junior', 'Mid'], source: 'any', name: '', goal: 5, reviewed: [], ...read(PREFS, {}) };
+const prefs = { levels: ['Junior', 'Mid'], source: 'any', name: '', reviewed: [], ...read(PREFS, {}) };
 const FOLLOW_UP_DAYS = 7;
 let chip = 'all';
 let appsTab = 'active';
@@ -184,9 +184,6 @@ function trust(j) {
 const isNew = (j) => j.source === 'auto' && j.firstSeen && daysAgo(j.firstSeen) <= NEW_DAYS;
 const years = (j) => j.experience || j.minYears || null;
 const needsFollowUp = (j) => { const st = get(j.key); return st.s === 'הוגש' && st.t && daysAgo(st.t) >= FOLLOW_UP_DAYS; };
-// Week starts on Sunday, as in Israel.
-const weekStart = () => { const d = new Date(); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() - d.getDay()); return d; };
-const appliedThisWeek = () => jobs.filter((j) => { const st = get(j.key); return ACTIVE.includes(st.s) && st.t && new Date(st.t) >= weekStart(); }).length;
 const reviewQueue = () => jobs.filter((j) => j.status !== 'closed' && isNew(j) && get(j.key).s === NONE
   && prefs.levels.includes(j.level || 'Mid') && !prefs.reviewed.includes(j.key)).sort(byDate);
 const matches = (j) => !query || norm(`${j.company} ${j.title} ${j.location} ${j.author || ''}`).includes(norm(query));
@@ -377,15 +374,7 @@ function renderHero() {
   const stats = el('div', 'hero-stats');
   [[n((s) => ACTIVE.includes(s)), 'Applied', '#applications'], [n((s) => s === 'ראיון' || s === 'מטלת בית'), 'Interviews', '#applications'], [n((s) => s === SAVED), 'Saved', '#saved']]
     .forEach(([v, l, href]) => { const a = el('a', 'hero-stat'); a.href = href; a.append(el('b', null, v), el('span', null, l)); stats.append(a); });
-  // Weekly goal ring
-  const done = appliedThisWeek(), goal = Math.max(1, prefs.goal || 5);
-  const ring = el('a', 'goal'); ring.href = '#applications';
-  ring.setAttribute('aria-label', `${done} of ${goal} applications this week`);
-  const C = 2 * Math.PI * 30, frac = Math.min(1, done / goal);
-  ring.innerHTML = `<svg viewBox="0 0 72 72" width="72" height="72" aria-hidden="true"><circle cx="36" cy="36" r="30" class="goal-track"/><circle cx="36" cy="36" r="30" class="goal-fill" stroke-dasharray="${C}" stroke-dashoffset="${C * (1 - frac)}"/></svg>`;
-  const lbl = el('span', 'goal-lbl'); lbl.append(el('b', null, `${done}/${goal}`), el('span', null, 'this week'));
-  lbl.setAttribute('aria-hidden', 'true'); ring.append(lbl);
-  box.append(ring, hi, big, sub, stats);
+  box.append(hi, big, sub, stats);
   // Quick review of new roles
   const q = reviewQueue();
   if (loaded && q.length) {
@@ -571,10 +560,6 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowLeft') decide(false);
   if (e.key === 'ArrowRight') decide(true);
 });
-const goalInput = document.getElementById('my-goal');
-goalInput.value = prefs.goal;
-goalInput.addEventListener('input', () => { const v = parseInt(goalInput.value, 10); if (v > 0) { prefs.goal = v; write(PREFS, prefs); renderHero(); } });
-
 const nameInput = document.getElementById('my-name');
 nameInput.value = prefs.name;
 nameInput.addEventListener('input', () => { prefs.name = nameInput.value.trim(); write(PREFS, prefs); renderHero(); });

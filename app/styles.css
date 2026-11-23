@@ -235,25 +235,21 @@ textarea { min-height: 64px; resize: vertical; }
 .hero-stat span { font: 400 12px/16px var(--font); color: #C9C9D4; }
 .hero-stat:focus-visible { outline-color: var(--color-lime); }
 
+.hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; pointer-events: none; }
+.hero::before { width: 160px; height: 160px; right: -48px; top: -64px; background: var(--color-bg-accent); opacity: .9; }
+.hero::after { width: 56px; height: 56px; right: 28px; top: 76px; background: var(--color-lime); }
+
 /* Home sections */
 .group { margin-top: 6px; }
 .group-title { display: flex; align-items: center; gap: 8px; margin: 10px 10px 0; font: 500 14px/22px var(--font); letter-spacing: .28px; }
 .group-title.is-new::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #9BC20F; box-shadow: 0 0 0 4px var(--color-lime); margin: 0 4px 0 2px; }
 .group-n { font: 400 12px/16px var(--font); color: var(--color-text-secondary); background: var(--color-bg-muted); border-radius: var(--radius-full); padding: 2px 8px; }
 
-/* Proposal: years, follow-up, goal ring, review */
+/* Years tag, follow-up nudge, review of new roles */
 .tag.yrs { background: transparent; color: var(--color-text-primary); box-shadow: inset 0 0 0 1px #BDB8D6; }
 .tag.followup { background: var(--color-lime); color: #1B1B20; }
 .btn.lime { background: var(--color-lime); color: #1B1B20; }
 .note { margin: 10px 10px 0; padding: 12px 14px; border-radius: var(--radius-md); background: #F3FBD2; color: #3D4A0A; font: 400 12px/18px var(--font); }
-.goal { position: absolute; top: 16px; right: 16px; width: 72px; height: 72px; display: grid; place-items: center; color: inherit; text-decoration: none; }
-.goal svg { position: absolute; inset: 0; transform: rotate(-90deg); }
-.goal-track { fill: none; stroke: rgba(255,255,255,.14); stroke-width: 7; }
-.goal-fill { fill: none; stroke: var(--color-lime); stroke-width: 7; stroke-linecap: round; transition: stroke-dashoffset .4s; }
-.goal-lbl { display: grid; justify-items: center; line-height: 1; }
-.goal-lbl b { font: 500 16px/18px var(--font); }
-.goal-lbl span { font: 400 9px/12px var(--font); color: #C9C9D4; }
-.hero-big, .hero-hi, .hero-sub { max-width: calc(100% - 84px); }
 .review-btn { margin-top: 12px; justify-content: space-between; width: 100%; }
 .review-btn .arrow { font-size: 18px; }
 
