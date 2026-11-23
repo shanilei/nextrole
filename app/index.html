@@ -60,6 +60,7 @@
         <button type="button" role="tab" class="seg" id="tab-active" aria-selected="true">Active</button>
         <button type="button" role="tab" class="seg" id="tab-closed" aria-selected="false">Closed</button>
       </div>
+      <p class="note" id="apps-note" hidden></p>
       <div class="list" id="apps-list" role="tabpanel"></div>
     </section>
 
@@ -84,8 +85,9 @@
         <button type="submit" class="btn">Save job</button>
       </form>
       <div class="panel">
-        <h2 class="panel-title">Your name</h2>
+        <h2 class="panel-title">You</h2>
         <label class="field"><span>Shown in the greeting on Home</span><input id="my-name" type="text" autocomplete="given-name" dir="auto"></label>
+        <label class="field"><span>Weekly goal: applications per week</span><input id="my-goal" type="number" min="1" max="50" inputmode="numeric"></label>
       </div>
       <div class="panel">
         <h2 class="panel-title">About this list</h2>
@@ -93,6 +95,20 @@
         <p class="hint">Jobs are checked every morning on the companies' own career sites, plus LinkedIn and Secret Tel Aviv. Roles that close are removed. Your statuses and notes are saved on this device.</p>
       </div>
     </section>
+  </div>
+
+  <div class="review" id="review" role="dialog" aria-modal="true" aria-labelledby="rv-title" hidden>
+    <div class="rv-top">
+      <button type="button" class="rv-close" aria-label="Close">✕</button>
+      <h2 id="rv-title" class="rv-title">New roles</h2>
+      <span class="rv-count" id="rv-count"></span>
+    </div>
+    <div class="rv-stage" id="rv-stage"></div>
+    <div class="rv-actions" id="rv-actions">
+      <button type="button" class="rv-btn skip" id="rv-skip"><span aria-hidden="true">✕</span> Skip</button>
+      <button type="button" class="rv-btn keep" id="rv-keep"><span class="i i-bookmark" aria-hidden="true"></span> Save</button>
+    </div>
+    <p class="rv-hint">Swipe right to save, left to skip</p>
   </div>
 
   <nav class="nav" aria-label="Main">
