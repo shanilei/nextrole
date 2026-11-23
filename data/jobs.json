@@ -1,23 +1,53 @@
 {
-  "updatedAt": "2026-11-22T13:35:18.236Z",
+  "updatedAt": "2026-11-23T16:03:59.591Z",
   "jobs": [
     {
-      "key": "linkedin:https://uk.linkedin.com/jobs/view/product-designer-at-rakuten-viber-4491257166",
+      "key": "comeet:trullion/07.000:0D.375",
       "title": "Product Designer",
-      "company": "Rakuten Viber — London Area, United ...",
-      "location": "Israel",
-      "url": "https://uk.linkedin.com/jobs/view/product-designer-at-rakuten-viber-4491257166",
-      "postedAt": null,
-      "description": "We're looking for an experienced Product Designer with strong craft, a data-driven instinct, and a genuine curiosity for how things work. This is an end-to-end ...",
-      "via": "LinkedIn",
-      "source": "feed:google",
+      "location": "Tel Aviv, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/trullion/07.000/product-designer/0D.375",
+      "postedAt": "2026-11-23T15:33:32.000Z",
+      "remote": false,
+      "description": "Description\nTrullion is transforming the accounting world with an AI-powered platform built for accountants and auditors. Our technology automates complex financial workflows, boosts efficiency, reduces costly errors, and fosters real collaboration. Founded in 2019, Trullion is on a mission to make accounting and audit technology people truly love, driving a more efficient, transparent, and human-oriented industry. From rapid onboarding to a seamless managed service model, we deliver a customer-first experience at every step.\n Headquartered in New York, with offices in Tel Aviv and London, we are backed by top investors, including Aleph, Third Point Ventures, Greycroft, StepStone Group, as well as leading global CFOs and accounting firms.\n As Trullion continues to scale, we’re seeking a Product Designer to help define the next generation of AI-powered accounting experiences - someone who thrives on solving complex product challenges, owns end-to-end design and is excited to shape a category-leading product used by finance and audit teams worldwide.\n We're building a platform where AI agents do real accounting and audit work alongside people. We're looking for a Mid-Senior Product Designer who thrives on solving complex product challenges, brings strong visual craft, works fluently inside an established design system and helps it grow.\nResponsibilities\n• Design end-to-end experiences for the Office of the CFO, where finance leaders and teams work with AI and agents on high-stakes workflows. \n• Work on the platform and infrastructure layer: shared experience patterns, frameworks, and foundations that let new capabilities feel like one coherent product, not separate features. \n• Contribute to Trullion’s design system: extend components, tokens, and variables, and keep them consistent and scalable as the product grows. \n• Lead the full design cycle, from research and flows to pixel-perfect UX/UI across all states and scenarios. \n• Raise the visual bar of the product with a modern, refined UI. \n• Collaborate closely with Product and R&D on design consistency and execution quality. \n• Create high-fidelity mockups and prototypes for testing, iteration, and customer validation. \n• Present concepts to stakeholders and advocate for decisions rooted in data, research, and user needs.\nRequirements\n• 4+ years of experience in product design (mid-senior to senior), ideally in a product-led SaaS company. \n• Experience designing for complex B2B SaaS, ideally finance or other data-heavy products. \n• Experience in companies with an established design system. Proven experience contributing to one. \n• Solid knowledge of design tokens and variables: structure, naming, modes/theming, and how they map to code. \n• Strong visual skills and a good understanding of modern UI. \n• Genuine interest in designing for AI agents and in generative UI. \n• Strong portfolio showing flows, systems thinking, and UI execution. \n• Strong communication and stakeholder management skills, and the ability to work independently and collaboratively. \n• Experience prototyping with AI tools. \n• Hands-on experience designing AI, agent-based, or generative UI experiences.\nAbout us\nWe embrace our core values in everything we do: \n • Think BIG. We are ambitious, proactive, and we love challenging the status quo. \n• Live by Truth. We uphold the highest standards of accuracy and accountability. \n• On Your Side. We’re on this journey together, committed to empowering each other to succeed. \n• Committed. To execution, delivery, and excellence.",
+      "company": "Trullion",
+      "source": "comeet:trullion/07.000",
+      "level": "Mid",
+      "minYears": 4,
+      "firstSeen": "2026-11-03T12:42:26.263Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:team8/61.003:49.37A",
+      "title": "Charm Security-Product Designer",
+      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
+      "postedAt": "2026-11-22T22:09:30.000Z",
+      "remote": false,
+      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm. \n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels. \n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments. \n Your designs will directly impact: \n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts \n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time \n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support \n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production. \n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next. \n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control. \n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle. \n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows. \n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience. \n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products. \n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped. \n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail. \n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions. \n• Strong Figma skills, including components, auto layout, prototyping, and design systems. \n• Experience collaborating closely with product managers and engineers. \n• The ability to explain your decisions, give and receive feedback, and adapt as you learn. \n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows. \n• Strong English communication skills. \n Nice to Have \n • A degree in Visual Communication. \n• Experience designing AI-powered products or tools that help users make complex decisions. \n• Experience making complex data easy to understand and act on. \n• Familiarity with fintech, cybersecurity, or fraud prevention.",
+      "company": "Team8",
+      "source": "comeet:team8/61.003",
+      "level": "Mid",
+      "minYears": 3,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:sunflower/AA.009:61.F56",
+      "title": "UX/UI Designer",
+      "location": "TLV, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/sunflower/AA.009/uxui-designer/61.F56",
+      "postedAt": "2026-11-22T14:58:49.000Z",
+      "remote": false,
+      "description": "Description\nAs a UI/UX Designer, you will play a pivotal role in shaping the user experience of our social casino games. You will collaborate closely with cross-functional teams, including developers and product managers, to create visually appealing and intuitive interfaces that captivate and delight our players. \n If you are a passionate UI/UX Designer with a knack for infrastructure development and are excited to be a part of a forward-thinking gaming company, we would love to hear from you.\nResponsibilities\n• UI/UX Design: Create user-friendly and visually compelling interfaces for our social casino games, ensuring a seamless and enjoyable player experience. \n• Wireframing and Prototyping: Develop wireframes, mockups, and interactive prototypes to illustrate design concepts and iterate on user feedback. \n• Collaboration: Work collaboratively with cross-functional teams to translate design concepts into functional products, considering both technical feasibility and user needs. \n• User Research: Conduct user research and gather feedback to inform design decisions and make data-driven improvements. \n• Visual Design: Design high-quality graphics and assets for games, promotional materials, and marketing campaigns using Photoshop. \n• Maintain Design Systems: Contribute to and maintain design systems and guidelines to ensure consistency across our product portfolio.\nRequirements\n• Proven experience as a UI/UX Designer in the gaming industry, with a strong portfolio showcasing your design skills. \n• Proficiency in Figma for interface design and collaboration. \n• Proficiency in Photoshop for creating high-quality graphics and assets.",
+      "company": "Sunflower",
+      "source": "comeet:sunflower/AA.009",
       "level": "Mid",
       "minYears": null,
-      "firstSeen": "2026-11-22T13:24:35.817Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
-      "status": "closed",
-      "closedAt": "2026-11-22T14:00:00.000Z",
-      "closedReason": "not in Israel"
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "status": "open"
     },
     {
       "key": "comeet:medison/67.00A:4B.27C",
@@ -32,39 +62,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:team8/61.003:49.37A",
-      "title": "Charm Security-Product Designer",
-      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
-      "postedAt": "2026-11-22T09:59:19.000Z",
-      "remote": false,
-      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm. \n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels. \n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments. \n Your designs will directly impact: \n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts \n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time \n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support \n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production. \n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next. \n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control. \n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle. \n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows. \n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience. \n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products. \n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped. \n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail. \n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions. \n• Strong Figma skills, including components, auto layout, prototyping, and design systems. \n• Experience collaborating closely with product managers and engineers. \n• The ability to explain your decisions, give and receive feedback, and adapt as you learn. \n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows. \n• Strong English communication skills. \n Nice to Have \n • A degree in Visual Communication. \n• Experience designing AI-powered products or tools that help users make complex decisions. \n• Experience making complex data easy to understand and act on. \n• Familiarity with fintech, cybersecurity, or fraud prevention.",
-      "company": "Team8",
-      "source": "comeet:team8/61.003",
-      "level": "Mid",
-      "minYears": 3,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:trullion/07.000:0D.375",
-      "title": "Product Designer",
-      "location": "Tel Aviv, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/trullion/07.000/product-designer/0D.375",
-      "postedAt": "2026-11-22T04:42:04.000Z",
-      "remote": false,
-      "description": "Description\nTrullion is transforming the accounting world with an AI-powered platform built for accountants and auditors. Our technology automates complex financial workflows, boosts efficiency, reduces costly errors, and fosters real collaboration. Founded in 2019, Trullion is on a mission to make accounting and audit technology people truly love, driving a more efficient, transparent, and human-oriented industry. From rapid onboarding to a seamless managed service model, we deliver a customer-first experience at every step.\n Headquartered in New York, with offices in Tel Aviv and London, we are backed by top investors, including Aleph, Third Point Ventures, Greycroft, StepStone Group, as well as leading global CFOs and accounting firms.\n As Trullion continues to scale, we’re seeking a Product Designer to help define the next generation of AI-powered accounting experiences - someone who thrives on solving complex product challenges, owns end-to-end design and is excited to shape a category-leading product used by finance and audit teams worldwide.\n We're building a platform where AI agents do real accounting and audit work alongside people. We're looking for a Mid-Senior Product Designer who thrives on solving complex product challenges, brings strong visual craft, works fluently inside an established design system and helps it grow.\nResponsibilities\n• Design end-to-end experiences for the Office of the CFO, where finance leaders and teams work with AI and agents on high-stakes workflows. \n• Work on the platform and infrastructure layer: shared experience patterns, frameworks, and foundations that let new capabilities feel like one coherent product, not separate features. \n• Contribute to Trullion’s design system: extend components, tokens, and variables, and keep them consistent and scalable as the product grows. \n• Lead the full design cycle, from research and flows to pixel-perfect UX/UI across all states and scenarios. \n• Raise the visual bar of the product with a modern, refined UI. \n• Collaborate closely with Product and R&D on design consistency and execution quality. \n• Create high-fidelity mockups and prototypes for testing, iteration, and customer validation. \n• Present concepts to stakeholders and advocate for decisions rooted in data, research, and user needs.\nRequirements\n• 4+ years of experience in product design (mid-senior to senior), ideally in a product-led SaaS company. \n• Experience designing for complex B2B SaaS, ideally finance or other data-heavy products. \n• Experience in companies with an established design system. Proven experience contributing to one. \n• Solid knowledge of design tokens and variables: structure, naming, modes/theming, and how they map to code. \n• Strong visual skills and a good understanding of modern UI. \n• Genuine interest in designing for AI agents and in generative UI. \n• Strong portfolio showing flows, systems thinking, and UI execution. \n• Strong communication and stakeholder management skills, and the ability to work independently and collaboratively. \n• Experience prototyping with AI tools. \n• Hands-on experience designing AI, agent-based, or generative UI experiences.\nAbout us\nWe embrace our core values in everything we do: \n • Think BIG. We are ambitious, proactive, and we love challenging the status quo. \n• Live by Truth. We uphold the highest standards of accuracy and accountability. \n• On Your Side. We’re on this journey together, committed to empowering each other to succeed. \n• Committed. To execution, delivery, and excellence.",
-      "company": "Trullion",
-      "source": "comeet:trullion/07.000",
-      "level": "Mid",
-      "minYears": 4,
-      "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -80,7 +78,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-22T13:24:35.817Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -98,7 +96,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-20T14:05:08.772Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -148,7 +146,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-19T14:28:43.201Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -196,7 +194,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -212,7 +210,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -228,7 +226,7 @@
       "level": "Senior+",
       "minYears": 4,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -248,22 +246,6 @@
       "status": "open"
     },
     {
-      "key": "linkedin:https://se.linkedin.com/jobs/view/senior-design-system-specialist-at-etraveli-group-4488833680",
-      "title": "Senior Design System Specialist på Etraveli Group",
-      "company": "Etraveli Group",
-      "location": "Israel",
-      "url": "https://se.linkedin.com/jobs/view/senior-design-system-specialist-at-etraveli-group-4488833680",
-      "postedAt": null,
-      "description": "Major offices in Sweden (HQ), Greece, India, Canada, Israel, Poland, UK, and Uruguay. ... Product Designer - Gothenburg (f/m/x). Eversports. Greater Gothenburg ...",
-      "via": "LinkedIn",
-      "source": "feed:google",
-      "level": "Senior+",
-      "minYears": null,
-      "firstSeen": "2026-11-16T13:43:03.452Z",
-      "lastSeen": "2026-11-16T13:43:03.452Z",
-      "status": "open"
-    },
-    {
       "key": "comeet:supercom/46.00A:53.27A",
       "title": "Junior Product Designer",
       "location": "Tel Aviv, Tel Aviv-Yafo, IL",
@@ -276,7 +258,7 @@
       "level": "Junior",
       "minYears": 1,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -316,22 +298,6 @@
       "status": "open"
     },
     {
-      "key": "linkedin:https://in.linkedin.com/jobs/view/ux-researcher-3-openings-at-sagaux-4488610710",
-      "title": "UX Researcher - 3 Openings",
-      "company": "sagaUX",
-      "location": "Israel",
-      "url": "https://in.linkedin.com/jobs/view/ux-researcher-3-openings-at-sagaux-4488610710",
-      "postedAt": null,
-      "description": "Senior Product Designer (UX/UI). Senior Product Designer (UX/UI). Revun. Pune Division, Maharashtra, India 1 week ago. Similar Searches. User Researcher jobs.",
-      "via": "LinkedIn",
-      "source": "feed:google",
-      "level": "Mid",
-      "minYears": null,
-      "firstSeen": "2026-11-11T12:46:02.080Z",
-      "lastSeen": "2026-11-16T13:43:03.452Z",
-      "status": "open"
-    },
-    {
       "key": "comeet:sensi/E7.00F:C0.37E",
       "title": "Senior Product Designer",
       "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
@@ -344,7 +310,7 @@
       "level": "Senior+",
       "minYears": 8,
       "firstSeen": "2026-11-08T11:58:09.551Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -360,7 +326,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -396,7 +362,7 @@
       "firstSeen": "2026-11-11T12:46:02.080Z",
       "lastSeen": "2026-11-17T14:31:25.185Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-22T13:35:18.236Z"
+      "linkCheckedAt": "2026-11-23T16:03:59.591Z"
     },
     {
       "key": "ashby:matia:470bbfdf-d5e3-44cd-9b30-8b979855a300",
@@ -411,7 +377,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-21T13:30:47.581Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -427,7 +393,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -443,7 +409,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -459,7 +425,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -475,7 +441,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -491,9 +457,9 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-22T13:35:18.236Z"
+      "linkCheckedAt": "2026-11-23T16:03:59.591Z"
     },
     {
       "key": "greenhouse:similarweb:8260908",
@@ -508,7 +474,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -524,7 +490,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -540,7 +506,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -556,7 +522,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -574,7 +540,7 @@
       "firstSeen": "2026-11-03T13:53:11.288Z",
       "lastSeen": "2026-11-19T14:28:43.201Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-22T13:35:18.236Z"
+      "linkCheckedAt": "2026-11-23T16:03:59.591Z"
     },
     {
       "key": "ashby:lemonade:663819c6-426c-49d6-8c0c-1fe938ffb440",
@@ -589,7 +555,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -605,7 +571,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-04T13:02:17.859Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -615,13 +581,13 @@
       "url": "https://jobs.ashbyhq.com/moonactive/d7865ffe-edc4-4fcf-93ef-fd44ae093ad4",
       "postedAt": "2026-09-08T14:11:12.811Z",
       "remote": true,
-      "description": "Moon Active is one of the world's fastest-growing mobile game companies, providing entertainment to millions of active users across the universe. The company is headquartered in the heart of Tel Aviv.\n\nAs a UI/UX Designer at Moon Active, you will play a crucial role in creating exceptional user experiences for our mobile games. You will work closely with the Product Manager to understand the exact feature requirements and gather feedback to ensure the product meets user expectations. You will also collaborate with other teams to conduct user testing and improve/create user flow scenarios.\n\nJoin our team and be part of creating engaging and delightful user experiences for millions of players worldwide!\n\n\n\nResponsibilities\n\n - Collaborate closely with the PM to understand feature requirements, gather feedback, and contribute to product strategy.\n\n - Create wireframes, black and white mockups, and interactive prototypes with simple animations to visualize the user journey.\n\n - Ideate and sketch necessary assets to support the design process.\n\n - Execute the final designs of screens and graphic elements, ensuring a consistent and visually appealing user interface.\n\n - Complete the UX/UI part of the Product Requirements Document (PRD), ensuring that it reflects the desired user experience.סס\n\n - Support the feature's full life cycle, from concept to release, by collaborating with developers, artists, and other relevant stakeholders.\n\n - Work closely with user feedback to continuously improve the user experience.\n\n \n\nRequirements\n\n - 2+ years of proven experience as a UX/UI designer in the mobile gaming industry.\n\n - Proficient in design tools such as Figma and Adobe Creative Suite\n\n - Proven experience with generative AI tools (e.g. Layer AI, ComfyUI) to enhance the design process.\n\n - Strong understanding of user-centered design principles and methodologies.\n\n - Ability to create visually appealing designs while considering usability and accessibility.\n\n - Excellent communication and collaboration skills to effectively work with cross-functional teams and gather feedback from stakeholders.\n\n - Analytical mindset and attention to detail to identify and address usability issues.\n\n - Strong design, drawing, color, composition, and conceptual ideation abilities.\n\n - Knowledge of mobile design best practices and the latest trends in UX/UI design.\n\n** PLEASE ATTACH A PORTFOLIO\n\n\n\n#LI-Hybrid\n\n \n ",
+      "description": "Moon Active is one of the world's fastest-growing mobile game companies, providing entertainment to millions of active users across the universe. The company is headquartered in the heart of Tel Aviv.\n\nAs a UI/UX Designer at Moon Active, you will play a crucial role in creating exceptional user experiences for our mobile games. You will work closely with the Product Manager to understand the exact feature requirements and gather feedback to ensure the product meets user expectations. You will also collaborate with other teams to conduct user testing and improve/create user flow scenarios.\n\nJoin our team and be part of creating engaging and delightful user experiences for millions of players worldwide!\n\n\n\nResponsibilities\n\n - Collaborate closely with the PM to understand feature requirements, gather feedback, and contribute to product strategy.\n\n - Create wireframes, black and white mockups, and interactive prototypes with simple animations to visualize the user journey.\n\n - Ideate and sketch necessary assets to support the design process.\n\n - Execute the final designs of screens and graphic elements, ensuring a consistent and visually appealing user interface.\n\n - Complete the UX/UI part of the Product Requirements Document (PRD), ensuring that it reflects the desired user experience.\n\n - Support the feature's full life cycle, from concept to release, by collaborating with developers, artists, and other relevant stakeholders.\n\n - Work closely with user feedback to continuously improve the user experience.\n\n \n\nRequirements\n\n - 2+ years of proven experience as a UX/UI designer in the mobile gaming industry.\n\n - Proficient in design tools such as Figma and Adobe Creative Suite\n\n - Proven experience with generative AI tools (e.g. Layer AI, ComfyUI) to enhance the design process.\n\n - Strong understanding of user-centered design principles and methodologies.\n\n - Ability to create visually appealing designs while considering usability and accessibility.\n\n - Excellent communication and collaboration skills to effectively work with cross-functional teams and gather feedback from stakeholders.\n\n - Analytical mindset and attention to detail to identify and address usability issues.\n\n - Strong design, drawing, color, composition, and conceptual ideation abilities.\n\n - Knowledge of mobile design best practices and the latest trends in UX/UI design.\n\n** PLEASE ATTACH A PORTFOLIO\n\n\n\n#LI-Hybrid\n\n \n ",
       "company": "Moon Active",
       "source": "ashby:moonactive",
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -637,7 +603,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -653,23 +619,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:sunflower/AA.009:61.F56",
-      "title": "UX/UI Designer",
-      "location": "TLV, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/sunflower/AA.009/uxui-designer/61.F56",
-      "postedAt": "2026-08-09T12:35:38.000Z",
-      "remote": false,
-      "description": "Description\nAs a UI/UX Designer, you will play a pivotal role in shaping the user experience of our social casino games. You will collaborate closely with cross-functional teams, including developers and product managers, to create visually appealing and intuitive interfaces that captivate and delight our players. \n If you are a passionate UI/UX Designer with a knack for infrastructure development and are excited to be a part of a forward-thinking gaming company, we would love to hear from you.\nResponsibilities\n• UI/UX Design: Create user-friendly and visually compelling interfaces for our social casino games, ensuring a seamless and enjoyable player experience.\n• Wireframing and Prototyping: Develop wireframes, mockups, and interactive prototypes to illustrate design concepts and iterate on user feedback.\n• Collaboration: Work collaboratively with cross-functional teams to translate design concepts into functional products, considering both technical feasibility and user needs.\n• User Research: Conduct user research and gather feedback to inform design decisions and make data-driven improvements.\n• Visual Design: Design high-quality graphics and assets for games, promotional materials, and marketing campaigns using Photoshop.\n• Maintain Design Systems: Contribute to and maintain design systems and guidelines to ensure consistency across our product portfolio.\nRequirements\n• Proven experience as a UI/UX Designer in the gaming industry, with a strong portfolio showcasing your design skills.\n• Proficiency in Figma for interface design and collaboration.\n• Proficiency in Photoshop for creating high-quality graphics and assets.",
-      "company": "Sunflower",
-      "source": "comeet:sunflower/AA.009",
-      "level": "Mid",
-      "minYears": null,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -685,9 +635,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-22T13:35:18.236Z"
+      "linkCheckedAt": "2026-11-23T16:03:59.591Z"
     },
     {
       "key": "greenhouse:scaleops:4921333101",
@@ -702,7 +652,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -718,7 +668,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
     },
     {
@@ -734,9 +684,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-22T13:35:18.236Z"
+      "linkCheckedAt": "2026-11-23T16:03:59.591Z"
     },
     {
       "key": "greenhouse:wizinc:4599708006",
@@ -751,8 +701,26 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "lastSeen": "2026-11-23T16:03:59.591Z",
       "status": "open"
+    },
+    {
+      "key": "linkedin:https://uk.linkedin.com/jobs/view/product-designer-at-rakuten-viber-4491257166",
+      "title": "Product Designer",
+      "company": "Rakuten Viber — London Area, United ...",
+      "location": "Israel",
+      "url": "https://uk.linkedin.com/jobs/view/product-designer-at-rakuten-viber-4491257166",
+      "postedAt": null,
+      "description": "We're looking for an experienced Product Designer with strong craft, a data-driven instinct, and a genuine curiosity for how things work. This is an end-to-end ...",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Mid",
+      "minYears": null,
+      "firstSeen": "2026-11-22T13:24:35.817Z",
+      "lastSeen": "2026-11-22T13:35:18.236Z",
+      "status": "closed",
+      "closedReason": "not in Israel",
+      "closedAt": "2026-11-22T14:00:00.000Z"
     },
     {
       "key": "comeet:classiq/F7.008:17.072",
@@ -823,6 +791,24 @@
       "closedAt": "2026-11-18T14:06:52.338Z"
     },
     {
+      "key": "linkedin:https://se.linkedin.com/jobs/view/senior-design-system-specialist-at-etraveli-group-4488833680",
+      "title": "Senior Design System Specialist på Etraveli Group",
+      "company": "Etraveli Group",
+      "location": "Israel",
+      "url": "https://se.linkedin.com/jobs/view/senior-design-system-specialist-at-etraveli-group-4488833680",
+      "postedAt": null,
+      "description": "Major offices in Sweden (HQ), Greece, India, Canada, Israel, Poland, UK, and Uruguay. ... Product Designer - Gothenburg (f/m/x). Eversports. Greater Gothenburg ...",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Senior+",
+      "minYears": null,
+      "firstSeen": "2026-11-16T13:43:03.452Z",
+      "lastSeen": "2026-11-16T13:43:03.452Z",
+      "status": "closed",
+      "closedReason": "not seen for a week",
+      "closedAt": "2026-11-23T16:03:59.591Z"
+    },
+    {
       "key": "linkedin:https://se.linkedin.com/jobs/view/senior-design-system-specialist-at-etraveli-group-4488845076",
       "title": "Senior Design System Specialist på Etraveli Group",
       "company": "Etraveli Group",
@@ -857,6 +843,24 @@
       "status": "closed",
       "closedReason": "not seen for a week",
       "closedAt": "2026-11-20T14:05:08.772Z"
+    },
+    {
+      "key": "linkedin:https://in.linkedin.com/jobs/view/ux-researcher-3-openings-at-sagaux-4488610710",
+      "title": "UX Researcher - 3 Openings",
+      "company": "sagaUX",
+      "location": "Israel",
+      "url": "https://in.linkedin.com/jobs/view/ux-researcher-3-openings-at-sagaux-4488610710",
+      "postedAt": null,
+      "description": "Senior Product Designer (UX/UI). Senior Product Designer (UX/UI). Revun. Pune Division, Maharashtra, India 1 week ago. Similar Searches. User Researcher jobs.",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Mid",
+      "minYears": null,
+      "firstSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-16T13:43:03.452Z",
+      "status": "closed",
+      "closedReason": "not seen for a week",
+      "closedAt": "2026-11-23T16:03:59.591Z"
     },
     {
       "key": "linkedin:https://ca.linkedin.com/jobs/view/senior-user-experience-design-specialist-at-sap-4485841600",
