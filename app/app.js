@@ -30,7 +30,8 @@ let jobs = [];
 let logos = {};
 let state = read(STORE, {});
 let mine = read(MINE, []);
-const prefs = { levels: ['Junior', 'Mid'], source: 'any', ...read(PREFS, {}) };
+const prefs = { levels: ['Junior', 'Mid'], source: 'any', name: '', reviewed: [], ...read(PREFS, {}) };
+const FOLLOW_UP_DAYS = 7;
 let chip = 'all';
 let appsTab = 'active';
 let query = '';
@@ -161,6 +162,7 @@ async function init() {
   }
   jobs = [...byName.values(), ...mine.map((m) => ({ ...m, source: 'mine' }))];
   const updated = collected?.updatedAt || manual?.updatedAt;
+  updatedAt = updated;
   document.getElementById('updated').textContent = updated
     ? `Last updated ${new Date(updated).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}`
     : 'Could not load the latest update.';
@@ -180,6 +182,10 @@ function trust(j) {
 }
 
 const isNew = (j) => j.source === 'auto' && j.firstSeen && daysAgo(j.firstSeen) <= NEW_DAYS;
+const years = (j) => j.experience || j.minYears || null;
+const needsFollowUp = (j) => { const st = get(j.key); return st.s === 'הוגש' && st.t && daysAgo(st.t) >= FOLLOW_UP_DAYS; };
+const reviewQueue = () => jobs.filter((j) => j.status !== 'closed' && isNew(j) && get(j.key).s === NONE
+  && prefs.levels.includes(j.level || 'Mid') && !prefs.reviewed.includes(j.key)).sort(byDate);
 const matches = (j) => !query || norm(`${j.company} ${j.title} ${j.location} ${j.author || ''}`).includes(norm(query));
 const byDate = (a, b) => String(b.postedAt || b.firstSeen || '').localeCompare(String(a.postedAt || a.firstSeen || ''));
 
@@ -196,7 +202,7 @@ function homeItems() {
     if (chip === 'new') return isNew(j);
     if (chip === 'progress') return ACTIVE.includes(s);
     return true;
-  }).sort((a, b) => (isNew(b) - isNew(a)) || byDate(a, b));
+  }).sort(byDate);
 }
 
 const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
@@ -232,7 +238,22 @@ function details(j) {
   const nt = el('textarea'); nt.dir = 'auto'; nt.placeholder = 'Notes: contact, interview date, what you sent…'; nt.value = st.n || '';
   nt.setAttribute('aria-label', 'Notes');
   let timer; nt.oninput = () => { clearTimeout(timer); timer = setTimeout(() => { state[j.key] = { ...get(j.key), n: nt.value }; write(STORE, state); }, 500); };
-  b.append(act, nt);
+  const tools = el('div', 'actions');
+  if (needsFollowUp(j)) {
+    const fu = el('button', 'btn lime', 'I followed up'); fu.type = 'button';
+    fu.onclick = () => { setStatus(j.key, 'הוגש'); render(); };
+    tools.append(fu);
+  }
+  const who = j.company || j.author || '';
+  const prompt = `Help me write a short, specific cover letter for the ${cleanTitle(j.title)} role${who ? ` at ${who}` : ''}.\nJob link: ${j.url}\n${j.about ? `About the role: ${j.about.slice(0, 600)}` : ''}`;
+  const cl = el('a', 'btn ghost', 'Cover letter ↗'); cl.href = `https://claude.ai/new?q=${encodeURIComponent(prompt)}`; cl.target = '_blank'; cl.rel = 'noopener';
+  tools.append(cl);
+  if (who) {
+    const fp = el('a', 'btn ghost', 'Find people ↗'); fp.target = '_blank'; fp.rel = 'noopener';
+    fp.href = `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(`${who} design`)}`;
+    tools.append(fp);
+  }
+  b.append(act, tools, nt);
   return b;
 }
 
@@ -275,6 +296,7 @@ function jobCard(j) {
   else if (employment(j) !== 'Full-time') tags.append(tag(employment(j), 'clock'));
   const lv = j.level || 'Mid';
   tags.append(tag(lv, null, `plain lv-${lv.replace('+', '')}`));
+  if (years(j)) tags.append(tag(`${years(j)}+ yrs`, null, 'plain yrs'));
   if (j.status === 'closed') tags.append(tag('Closed', null, 'plain danger'));
   else if (ACTIVE.includes(st.s)) tags.append(tag(LABEL[st.s], null, stTag(st.s)));
   else if (isNew(j)) tags.append(tag('New', null, 'plain new'));
@@ -292,6 +314,7 @@ function appCard(j) {
   head.append(openButton(j, [titles(j)]));
   const row = el('div', 'tags');
   row.append(tag(LABEL[st.s], null, stTag(st.s)));
+  if (needsFollowUp(j)) row.append(tag('Follow up?', null, 'plain followup'));
   if (j.status === 'closed' && !ENDED.includes(st.s)) row.append(tag('Role closed', null, 'plain danger'));
   row.append(el('span', 't-small', ago(st.t || j.firstSeen)));
   c.append(head, el('div', 'divider'), row);
@@ -332,16 +355,141 @@ function renderStats() {
     .forEach(([v, l]) => { const s = el('div', 'stat'); s.append(el('b', null, v), el('span', 't-small', l)); box.append(s); });
 }
 
+let updatedAt = null;
+const greeting = () => { const h = new Date().getHours(); return h < 5 ? 'Good night' : h < 12 ? 'Good morning' : h < 17 ? 'Good afternoon' : 'Good evening'; };
+
+// Home header: what's new and where the search stands.
+function renderHero() {
+  const box = document.getElementById('hero'); box.replaceChildren();
+  const fits = jobs.filter((j) => j.status !== 'closed' && prefs.levels.includes(j.level || 'Mid') && !ENDED.includes(get(j.key).s));
+  const fresh = fits.filter(isNew).length;
+  const n = (f) => jobs.filter((j) => f(get(j.key).s)).length;
+  const hi = el('p', 'hero-hi', prefs.name ? `${greeting()}, ${prefs.name}` : greeting());
+  const big = el('p', 'hero-big');
+  if (!loaded) big.textContent = 'Checking for new roles…';
+  else if (fresh) { const b = el('button', 'hero-link', `${fresh} new ${fresh === 1 ? 'role' : 'roles'}`); b.type = 'button'; b.onclick = () => { chip = 'new'; render(); }; big.append(b, ` for you this week`); }
+  else big.textContent = `${fits.length} open roles, nothing new since yesterday`;
+  const sub = el('p', 'hero-sub');
+  if (updatedAt) sub.textContent = `${fits.length} open roles · checked ${new Date(updatedAt).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}`;
+  const stats = el('div', 'hero-stats');
+  [[n((s) => ACTIVE.includes(s)), 'Applied', '#applications'], [n((s) => s === 'ראיון' || s === 'מטלת בית'), 'Interviews', '#applications'], [n((s) => s === SAVED), 'Saved', '#saved']]
+    .forEach(([v, l, href]) => { const a = el('a', 'hero-stat'); a.href = href; a.append(el('b', null, v), el('span', null, l)); stats.append(a); });
+  box.append(hi, big, sub, stats);
+  // Quick review of new roles
+  const q = reviewQueue();
+  if (loaded && q.length) {
+    const rv = el('button', 'btn lime review-btn'); rv.type = 'button';
+    rv.append(`Review ${q.length} new ${q.length === 1 ? 'role' : 'roles'}`, el('span', 'arrow', '→'));
+    rv.onclick = openReview;
+    box.append(rv);
+  }
+}
+
+// Review: one new role at a time. Swipe right or Save to keep it, left or Skip to drop it.
+let reviewList = [], reviewAt = 0;
+function openReview() {
+  reviewList = reviewQueue(); reviewAt = 0;
+  const ov = document.getElementById('review'); ov.hidden = false; document.body.classList.add('lock');
+  drawReview();
+  ov.querySelector('.rv-close').focus();
+}
+function closeReview() {
+  document.getElementById('review').hidden = true; document.body.classList.remove('lock'); render();
+  document.getElementById('hero').querySelector('a, button')?.focus();
+}
+function decide(keep) {
+  const j = reviewList[reviewAt]; if (!j) return;
+  if (keep) setStatus(j.key, SAVED);
+  prefs.reviewed = [...prefs.reviewed, j.key].slice(-500); write(PREFS, prefs);
+  const card = document.querySelector('#review .rv-card');
+  const go = () => { reviewAt++; drawReview(); };
+  if (card && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    card.style.transition = 'transform .25s ease, opacity .25s ease';
+    card.style.transform = `translateX(${keep ? 120 : -120}%) rotate(${keep ? 12 : -12}deg)`; card.style.opacity = '0';
+    setTimeout(go, 220);
+  } else go();
+}
+function drawReview() {
+  const stage = document.getElementById('rv-stage'); stage.replaceChildren();
+  const count = document.getElementById('rv-count');
+  const j = reviewList[reviewAt];
+  document.getElementById('rv-actions').hidden = !j;
+  if (!j) {
+    count.textContent = '';
+    const done = el('div', 'rv-done');
+    const saved = reviewList.filter((x) => get(x.key).s === SAVED).length;
+    done.append(el('p', 'rv-done-big', 'All caught up'), el('p', 'hint', `You kept ${saved} of ${reviewList.length}. Kept roles are in Saved.`));
+    const b = el('a', 'btn', 'Go to Saved'); b.href = '#saved'; b.onclick = () => closeReview();
+    done.append(b); stage.append(done); return;
+  }
+  count.textContent = `${reviewAt + 1} of ${reviewList.length}`;
+  const c = el('article', 'rv-card');
+  const head = el('div', 'card-head'); head.append(companyMark(j.company || j.author), titles(j));
+  const tags = el('div', 'tags');
+  const wp = workplace(j); if (wp) tags.append(tag(wp, 'pin'));
+  const lv = j.level || 'Mid'; tags.append(tag(lv, null, `plain lv-${lv.replace('+', '')}`));
+  if (years(j)) tags.append(tag(`${years(j)}+ yrs`, null, 'plain yrs'));
+  tags.append(el('span', 't-small', ago(j.postedAt || j.firstSeen)));
+  c.append(head, tags);
+  if (j.about) { const p = el('p', 'rv-about', j.about); p.dir = 'auto'; c.append(p); }
+  if (j.requirements?.length) {
+    const ul = el('ul', 'req'); ul.dir = 'auto'; j.requirements.slice(0, 4).forEach((x) => ul.append(el('li', null, x))); c.append(ul);
+  }
+  const link = el('a', 'rv-link', 'Read the full job ↗'); link.href = j.url; link.target = '_blank'; link.rel = 'noopener';
+  c.append(link);
+  // Drag to decide
+  let x0 = null, dx = 0;
+  c.addEventListener('pointerdown', (e) => { if (e.target.closest('a')) return; x0 = e.clientX; dx = 0; c.setPointerCapture(e.pointerId); c.style.transition = 'none'; });
+  c.addEventListener('pointermove', (e) => {
+    if (x0 == null) return; dx = e.clientX - x0;
+    c.style.transform = `translateX(${dx}px) rotate(${dx / 20}deg)`;
+    c.dataset.lean = dx > 40 ? 'keep' : dx < -40 ? 'skip' : '';
+  });
+  const end = () => {
+    if (x0 == null) return; x0 = null;
+    if (Math.abs(dx) > 100) return decide(dx > 0);
+    c.style.transition = 'transform .2s ease'; c.style.transform = ''; c.dataset.lean = '';
+  };
+  c.addEventListener('pointerup', end); c.addEventListener('pointercancel', end);
+  stage.append(c);
+}
+
+// Home list, in sections by the date shown on each card.
+const thisWeek = (j) => { const d = j.postedAt || j.firstSeen; return d && daysAgo(d) <= 7; };
+function renderHome(items) {
+  const box = document.getElementById('home-list'); box.replaceChildren();
+  if (!items.length) { box.append(el('p', 'empty', loaded ? (chip === 'progress' ? 'Nothing in progress yet. Set a status on a job to track it here.' : 'No roles match these filters.') : 'Loading jobs…')); return; }
+  const groups = chip === 'all'
+    ? [['This week', items.filter(thisWeek)], ['Earlier', items.filter((j) => !thisWeek(j))]]
+    : [[null, items]];
+  for (const [title, list] of groups) {
+    if (!list.length) continue;
+    const sec = el('section', 'group');
+    if (title) {
+      const h = el('h2', 'group-title'); h.append(title, el('span', 'group-n', list.length));
+      if (title === 'This week') h.classList.add('is-new');
+      sec.append(h);
+    }
+    const l = el('div', 'list'); list.forEach((j) => l.append(jobCard(j))); sec.append(l);
+    box.append(sec);
+  }
+}
+
 function render() {
   renderChips();
   const home = homeItems();
   document.getElementById('home-count').textContent = loaded ? `${home.length} ${home.length === 1 ? 'role' : 'roles'}` : '';
-  fill('home-list', home, jobCard, chip === 'progress' ? 'Nothing in progress yet. Set a status on a job to track it here.' : 'No roles match these filters.');
+  renderHero();
+  renderHome(home);
 
   const appsAll = jobs.filter((j) => matches(j) && (appsTab === 'active' ? ACTIVE.includes(get(j.key).s) : ENDED.includes(get(j.key).s)))
-    .sort((a, b) => String(get(b.key).t || '').localeCompare(String(get(a.key).t || '')));
+    .sort((a, b) => (needsFollowUp(b) - needsFollowUp(a)) || String(get(b.key).t || '').localeCompare(String(get(a.key).t || '')));
   document.getElementById('tab-active').setAttribute('aria-selected', appsTab === 'active');
   document.getElementById('tab-closed').setAttribute('aria-selected', appsTab === 'closed');
+  const waiting = appsTab === 'active' ? appsAll.filter(needsFollowUp).length : 0;
+  const fuNote = document.getElementById('apps-note');
+  fuNote.hidden = !waiting;
+  fuNote.textContent = waiting ? `${waiting} ${waiting === 1 ? 'application has' : 'applications have'} had no answer for over a week. A short follow-up note often gets a reply.` : '';
   fill('apps-list', appsAll, appCard, appsTab === 'active'
     ? 'No active applications. Open a job and set its status to Applied.'
     : 'Nothing closed yet. Jobs marked Rejected or Not relevant show here.');
@@ -402,6 +550,19 @@ form.addEventListener('submit', (e) => {
   form.reset(); document.getElementById('add-title').value = 'Product Designer';
   open.add(rec.key); location.hash = '#saved'; render();
 });
+
+document.querySelector('#review .rv-close').onclick = closeReview;
+document.getElementById('rv-skip').onclick = () => decide(false);
+document.getElementById('rv-keep').onclick = () => decide(true);
+document.addEventListener('keydown', (e) => {
+  if (document.getElementById('review').hidden) return;
+  if (e.key === 'Escape') closeReview();
+  if (e.key === 'ArrowLeft') decide(false);
+  if (e.key === 'ArrowRight') decide(true);
+});
+const nameInput = document.getElementById('my-name');
+nameInput.value = prefs.name;
+nameInput.addEventListener('input', () => { prefs.name = nameInput.value.trim(); write(PREFS, prefs); renderHero(); });
 
 route();
 render();

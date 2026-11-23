@@ -34,7 +34,7 @@ export function parseLinkedInTitle(title = '') {
   if (m) return { company: m[1].trim(), title: m[2].trim(), location: (m[3] || '').trim() };
   m = t.match(/^(.+?)\s+at\s+([^|]+?)$/i);
   if (m) return { title: m[1].trim(), company: m[2].trim(), location: '' };
-  m = t.match(/^(.+?)\s+[-–]\s+(.+?)(?:\s+[-–]\s+(.+))?$/);
+  m = t.match(/^(.+?)\s+[-–—]\s+(.+?)(?:\s+[-–—]\s+(.+))?$/);
   if (m) return { title: m[1].trim(), company: m[2].trim(), location: (m[3] || '').trim() };
   return { title: t, company: '', location: '' };
 }

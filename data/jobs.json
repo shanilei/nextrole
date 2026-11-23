@@ -15,7 +15,9 @@
       "minYears": null,
       "firstSeen": "2026-11-22T13:24:35.817Z",
       "lastSeen": "2026-11-22T13:35:18.236Z",
-      "status": "open"
+      "status": "closed",
+      "closedAt": "2026-11-22T14:00:00.000Z",
+      "closedReason": "not in Israel"
     },
     {
       "key": "comeet:medison/67.00A:4B.27C",
