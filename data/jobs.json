@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-11-23T16:03:59.591Z",
+  "updatedAt": "2026-11-24T15:56:06.956Z",
   "jobs": [
+    {
+      "key": "comeet:zipher/4B.00C:C9.572",
+      "title": "Product Designer",
+      "location": "Tel Aviv Offices, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/zipher/4B.00C/product-designer/C9.572",
+      "postedAt": "2026-11-24T12:25:23.000Z",
+      "remote": false,
+      "description": "Description\nZipher is building the Autonomous Execution Layer for cloud data and AI, a new category we are defining: $50M raised and live in Fortune 500 environments . Our agents run production data and AI workloads on Databricks, Spark, Kubernetes, and AWS, and every customer measures us on the same thing: cost, performance, and reliability . \n We are looking for a Product Designer to own the design of Zipher’s product end to end. You will turn a complex, data-dense platform, where agents make decisions on live production workloads, into an experience that data and engineering leaders understand, trust, and act on . \n What You’ll Do \n • Own product design end to end : from discovery and flows to pixel-perfect UI, shipped to production \n• Make autonomous decisions readable : dashboards, explainability, and controls for data-dense, real-time interfaces \n• Prototype fast and validate with users : research, usability testing, and product analytics drive the decisions \n• Partner with product, R&D, and Solution Engineering: design with the engineers who build it and the customers who use it \n• Build and own Zipher’s design system , and the visual language across the product and the brand \n What You’ll Bring \n • 5+ years of product design for complex B2B SaaS products at leading startups – Must \n• Service in an elite IDF technology or intelligence unit (e.g., 8200, Mamram, Ofek, Matzpen, etc.. ) – Strong advantage \n• A portfolio of data-dense, technical products you designed and shipped \n• Expert Figma and prototyping skills \n• Hands-on user research and usability testing , and decisions made from data \n• Close work with R&D and frontend engineers , and a real understanding of how what you design gets built \n• A high-agency, maker mindset : craft, speed, and full ownership of what you ship \n Nice to Have \n • Design for developer, data, infrastructure, or security products \n• Building a design system from the ground up \n• Brand and marketing design : website, presentations, and data visualization \n• Fluency with AI design and prototyping tools \n What We Offer \n • A product that is already winning : in production inside Fortune 500 environments \n• A product to define : you set the design language of a new category \n• A seat next to the founders : design decisions are made with you, not handed to you \n• People worth learning from : a deliberately talent-dense team \n• Top-of-market compensation and a meaningful equity package \n Ready to design how an autonomous data platform looks and feels? Hit Apply.\nRequirements\n",
+      "company": "Zipher",
+      "source": "comeet:zipher/4B.00C",
+      "level": "Senior+",
+      "minYears": 5,
+      "firstSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:sensi/E7.00F:C0.37E",
+      "title": "Senior Product Designer",
+      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/sensi/E7.00F/senior-product-designer/C0.37E",
+      "postedAt": "2026-11-23T20:41:54.000Z",
+      "remote": true,
+      "description": "Description\nWhy Join Sensi.AI \n Sensi.AI is transforming the world of home care through agentic AI - and we’re just getting started. As a hyper-growth startup, every team member has the opportunity to make a real impact on people’s lives while working as part of a global, collaborative team in a flexible hybrid environment. \n About the Role \n As a Senior Product Designer at Sensi.AI , you will take full ownership of the product’s user experience in a fast-paced startup environment. This is a hands-on, high-impact role for someone who thrives in ambiguity, moves fast, and enjoys shaping complex, data-driven products from concept to production. \n You’ll work closely with Product and Engineering to design intuitive experiences across web and mobile, with direct impact on how businesses and end users interact with our platform. \n Key Responsibilities \n • Develop a deep understanding of the business, users, and product context in a fast-moving startup environment \n• Own the design process end-to-end: from discovery and concept through wireframes, flows, UI, micro-copy, and production \n• Translate complex product and data requirements into clear, intuitive experiences across web and mobile applications \n• Identify usability and UX challenges and solve them with smart, simple, and scalable design solutions \n• Lead design work in ambiguous problem spaces, taking strong ownership and making decisions independently \n• Collaborate closely with Product Managers, Engineers, and other stakeholders to align user needs, business goals, and technical feasibility\nRequirements\n• 8+ years of experience in product design (UX/UI), with senior-level ownership of complex products \n• Proven experience taking products from 0 to 1 and designing large-scale, complex platforms \n• Experience designing B2B or B2B2C SaaS products, across web and mobile \n• Expert-level proficiency in Figma, including building and maintaining design systems \n• Strong foundation in interaction design, usability, and user-centered design \n• Hands-on experience with modern AI-assisted design-to-code workflows (prototyping in code, working directly with engineering on implementation) \n• Experience with user research, testing, and iterative design \n• Strong ownership and independence: comfortable making decisions in ambiguity and balancing design quality with business and technical constraints \n• A portfolio that shows your end-to-end process, from problem definition to shipped product",
+      "company": "Sensi.AI",
+      "source": "comeet:sensi/E7.00F",
+      "level": "Senior+",
+      "minYears": 8,
+      "firstSeen": "2026-11-08T11:58:09.551Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:play_perfect/69.001:44.47C",
+      "title": "Senior UX/UI Designer",
+      "location": "Tel Aviv (Azrieli Sarona) office, Israel, Tel Aviv-Jaffa, IL",
+      "url": "https://www.comeet.com/jobs/play_perfect/69.001/senior-uxui-designer/44.47C",
+      "postedAt": "2026-11-23T18:26:50.000Z",
+      "remote": false,
+      "description": "Description\nPlay Perfect is a fast-growing mobile gaming company that provides entertainment to millions of users around the world. The company is headquartered in Tel Aviv. With a team of talented and passionate developers, designers, industry experts, and gamers, Play Perfect is at the forefront of creating immersive gaming experiences that engage players on a whole new level. \n As we continue to push the boundaries of what is possible in gaming, Play Perfect is poised to shape the future of the industry and redefine what it means to be a skill-based gaming company. \n As we expand, we're looking for a Senior UX/UI Designer to join our team. \n Responsibilities: \n • Create wireframes using Figma & Photoshop to conceptualize user experiences. \n• Design and produce beautiful and engaging game assets, including popups, buttons and icons. \n• Collaborate closely with cross-functional teams, including Art, Product, and R&D departments. \n• Perform exports and implement visual changes based on product requirements and updates. \n• Take ownership of design tasks from concept to implementation, working independently and proactively driving them forward.\nRequirements\n• Minimum of 5 years of experience in UX/UI design for mobile games and Apps. \n• Expertise in creating detailed and polished 2D UI assets, including icons, buttons, widgets, logos, and other interface elements. \n• Strong understanding of typography for UI design, color theory, color values, and building clear color hierarchies. \n• Comprehensive knowledge of UI/UX principles and best practices. \n• Using AI-powered tools to enhance and accelerate design workflows is must. \n• Skilled in layout design and establishing clean and effective visual hierarchies. \n• Strong ability to receive feedback, collaborate across teams, and continuously learn and grow within the 2D/UI field. \n Only applications that include a portfolio link will be reviewed.",
+      "company": "Play Perfect",
+      "source": "comeet:play_perfect/69.001",
+      "level": "Senior+",
+      "minYears": 5,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "status": "open"
+    },
     {
       "key": "comeet:trullion/07.000:0D.375",
       "title": "Product Designer",
@@ -14,7 +62,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -30,7 +78,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -46,7 +94,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -62,7 +110,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -78,7 +126,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-22T13:24:35.817Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -96,7 +144,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-20T14:05:08.772Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -146,7 +194,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-19T14:28:43.201Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -182,22 +230,6 @@
       "status": "open"
     },
     {
-      "key": "comeet:play_perfect/69.001:44.47C",
-      "title": "Senior UX/UI Designer",
-      "location": "Tel Aviv (Azrieli Sarona) office, Israel, Tel Aviv-Jaffa, IL",
-      "url": "https://www.comeet.com/jobs/play_perfect/69.001/senior-uxui-designer/44.47C",
-      "postedAt": "2026-11-18T10:14:24.000Z",
-      "remote": false,
-      "description": "Description\nPlay Perfect is a fast-growing mobile gaming company that provides entertainment to millions of users around the world. The company is headquartered in Tel Aviv. With a team of talented and passionate developers, designers, industry experts, and gamers, Play Perfect is at the forefront of creating immersive gaming experiences that engage players on a whole new level. \n As we continue to push the boundaries of what is possible in gaming, Play Perfect is poised to shape the future of the industry and redefine what it means to be a skill-based gaming company. \n As we expand, we're looking for a Senior UX/UI Designer to join our team. \n Responsibilities: \n • Create wireframes using Figma & Photoshop to conceptualize user experiences. \n• Design and produce beautiful and engaging game assets, including popups, buttons and icons. \n• Collaborate closely with cross-functional teams, including Art, Product, and R&D departments. \n• Perform exports and implement visual changes based on product requirements and updates. \n• Take ownership of design tasks from concept to implementation, working independently and proactively driving them forward.\nRequirements\n• Minimum of 5 years of experience in UX/UI design for mobile games and Apps. \n• Expertise in creating detailed and polished 2D UI assets, including icons, buttons, widgets, logos, and other interface elements. \n• Strong understanding of typography for UI design, color theory, color values, and building clear color hierarchies. \n• Comprehensive knowledge of UI/UX principles and best practices. \n• Using AI-powered tools to enhance and accelerate design workflows is must. \n• Skilled in layout design and establishing clean and effective visual hierarchies. \n• Strong ability to receive feedback, collaborate across teams, and continuously learn and grow within the 2D/UI field. \n Only applications that include a portfolio link will be reviewed.",
-      "company": "Play Perfect",
-      "source": "comeet:play_perfect/69.001",
-      "level": "Senior+",
-      "minYears": 5,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
-      "status": "open"
-    },
-    {
       "key": "comeet:papayagaming/46.00B:68.479",
       "title": "UI/UX Designer Lead",
       "location": "Tel-Aviv, Tel Aviv-Yafo, IL",
@@ -210,7 +242,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -226,7 +258,7 @@
       "level": "Senior+",
       "minYears": 4,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -258,7 +290,7 @@
       "level": "Junior",
       "minYears": 1,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -298,22 +330,6 @@
       "status": "open"
     },
     {
-      "key": "comeet:sensi/E7.00F:C0.37E",
-      "title": "Senior Product Designer",
-      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/sensi/E7.00F/senior-product-designer/C0.37E",
-      "postedAt": "2026-11-11T11:04:41.000Z",
-      "remote": true,
-      "description": "Description\nWhy Join Sensi.AI \n Sensi.AI is transforming the world of home care through agentic AI - and we’re just getting started. As a hyper-growth startup, every team member has the opportunity to make a real impact on people’s lives while working as part of a global, collaborative team in a flexible hybrid environment. \n About the Role \n As a Senior Product Designer at Sensi.AI , you will take full ownership of the product’s user experience in a fast-paced startup environment. This is a hands-on, high-impact role for someone who thrives in ambiguity, moves fast, and enjoys shaping complex, data-driven products from concept to production. \n You’ll work closely with Product and Engineering to design intuitive experiences across web and mobile, with direct impact on how businesses and end users interact with our platform. \n Key Responsibilities \n • Develop a deep understanding of the business, users, and product context in a fast-moving startup environment \n• Own the design process end-to-end: from discovery and concept through wireframes, flows, UI, micro-copy, and production \n• Translate complex product and data requirements into clear, intuitive experiences across web and mobile applications \n• Identify usability and UX challenges and solve them with smart, simple, and scalable design solutions \n• Lead design work in ambiguous problem spaces, taking strong ownership and making decisions independently \n• Collaborate closely with Product Managers, Engineers, and other stakeholders to align user needs, business goals, and technical feasibility\nRequirements\n• 8+ years of experience in product design (UX/UI), with senior-level ownership of complex products \n• Proven experience taking products from 0 to 1 and designing large-scale, complex platforms \n• Experience designing B2B or B2B2C SaaS products, across web and mobile \n• Expert-level proficiency in Figma, including building and maintaining design systems \n• Strong foundation in interaction design, usability, and user-centered design \n• Hands-on experience with modern AI-assisted design-to-code workflows (prototyping in code, working directly with engineering on implementation) \n• Experience with user research, testing, and iterative design \n• Strong ownership and independence: comfortable making decisions in ambiguity and balancing design quality with business and technical constraints \n• A portfolio that shows your end-to-end process, from problem definition to shipped product",
-      "company": "Sensi.AI",
-      "source": "comeet:sensi/E7.00F",
-      "level": "Senior+",
-      "minYears": 8,
-      "firstSeen": "2026-11-08T11:58:09.551Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
-      "status": "open"
-    },
-    {
       "key": "comeet:dreamgroup/99.002:F2.D59",
       "title": "Lead Product Designer",
       "location": "Tel Aviv, Tel Aviv-Jaffa, IL",
@@ -326,43 +342,8 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
-    },
-    {
-      "key": "post:https://www.linkedin.com/posts/hagar-dery-7a53099a_real-linkedin-activity-7525574290323234817-TRCq",
-      "kind": "post",
-      "title": "Product Designer",
-      "company": "",
-      "author": "Hagar Dery",
-      "location": "Israel",
-      "url": "https://www.linkedin.com/posts/hagar-dery-7a53099a_real-linkedin-activity-7525574290323234817-TRCq",
-      "postedAt": null,
-      "description": "... hiring for: BDR | Israel / NYC CRE Solutions Engineer | Israel / NYC Product Designer | Israel Product Manager | Israel B2B Marketing Manager | Israel AI ...",
-      "via": "פוסט ב-LinkedIn",
-      "source": "feed:google",
-      "level": "Mid",
-      "minYears": null,
-      "firstSeen": "2026-11-10T13:31:38.454Z",
-      "lastSeen": "2026-11-11T12:46:02.080Z",
-      "status": "open"
-    },
-    {
-      "key": "secrettlv:https://jobs.secrettelaviv.com/job/senior-product-designer-129/",
-      "title": "Senior Product Designer",
-      "company": "",
-      "location": "Tel Aviv, Israel",
-      "url": "https://jobs.secrettelaviv.com/job/senior-product-designer-129/",
-      "postedAt": "2026-11-10T00:00:00.000Z",
-      "description": "Working in Product means making bold decisions with the data you have. You're the type that always asks, “Is there a better way?” From product managers to designers to researchers, the people who thrive here are strategic by nature, curious by defaul",
-      "via": "Secret Tel Aviv",
-      "source": "feed:secrettlv",
-      "level": "Senior+",
-      "minYears": null,
-      "firstSeen": "2026-11-11T12:46:02.080Z",
-      "lastSeen": "2026-11-17T14:31:25.185Z",
-      "status": "open",
-      "linkCheckedAt": "2026-11-23T16:03:59.591Z"
     },
     {
       "key": "ashby:matia:470bbfdf-d5e3-44cd-9b30-8b979855a300",
@@ -377,7 +358,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-21T13:30:47.581Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -393,7 +374,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -409,7 +390,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -425,7 +406,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -441,7 +422,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -457,9 +438,9 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-23T16:03:59.591Z"
+      "linkCheckedAt": "2026-11-24T15:56:06.956Z"
     },
     {
       "key": "greenhouse:similarweb:8260908",
@@ -474,7 +455,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -490,7 +471,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -506,7 +487,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -522,7 +503,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -540,7 +521,7 @@
       "firstSeen": "2026-11-03T13:53:11.288Z",
       "lastSeen": "2026-11-19T14:28:43.201Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-23T16:03:59.591Z"
+      "linkCheckedAt": "2026-11-24T15:56:06.956Z"
     },
     {
       "key": "ashby:lemonade:663819c6-426c-49d6-8c0c-1fe938ffb440",
@@ -555,7 +536,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -571,7 +552,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-04T13:02:17.859Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -587,7 +568,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -603,7 +584,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -619,7 +600,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -635,9 +616,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-23T16:03:59.591Z"
+      "linkCheckedAt": "2026-11-24T15:56:06.956Z"
     },
     {
       "key": "greenhouse:scaleops:4921333101",
@@ -652,7 +633,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -668,7 +649,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -684,9 +665,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-23T16:03:59.591Z"
+      "linkCheckedAt": "2026-11-24T15:56:06.956Z"
     },
     {
       "key": "greenhouse:wizinc:4599708006",
@@ -701,7 +682,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-23T16:03:59.591Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
       "status": "open"
     },
     {
@@ -861,6 +842,45 @@
       "status": "closed",
       "closedReason": "not seen for a week",
       "closedAt": "2026-11-23T16:03:59.591Z"
+    },
+    {
+      "key": "post:https://www.linkedin.com/posts/hagar-dery-7a53099a_real-linkedin-activity-7525574290323234817-TRCq",
+      "kind": "post",
+      "title": "Product Designer",
+      "company": "",
+      "author": "Hagar Dery",
+      "location": "Israel",
+      "url": "https://www.linkedin.com/posts/hagar-dery-7a53099a_real-linkedin-activity-7525574290323234817-TRCq",
+      "postedAt": null,
+      "description": "... hiring for: BDR | Israel / NYC CRE Solutions Engineer | Israel / NYC Product Designer | Israel Product Manager | Israel B2B Marketing Manager | Israel AI ...",
+      "via": "פוסט ב-LinkedIn",
+      "source": "feed:google",
+      "level": "Mid",
+      "minYears": null,
+      "firstSeen": "2026-11-10T13:31:38.454Z",
+      "lastSeen": "2026-11-11T12:46:02.080Z",
+      "status": "closed",
+      "closedReason": "post older than two weeks",
+      "closedAt": "2026-11-24T15:56:06.956Z"
+    },
+    {
+      "key": "secrettlv:https://jobs.secrettelaviv.com/job/senior-product-designer-129/",
+      "title": "Senior Product Designer",
+      "company": "",
+      "location": "Tel Aviv, Israel",
+      "url": "https://jobs.secrettelaviv.com/job/senior-product-designer-129/",
+      "postedAt": "2026-11-10T00:00:00.000Z",
+      "description": "Working in Product means making bold decisions with the data you have. You're the type that always asks, “Is there a better way?” From product managers to designers to researchers, the people who thrive here are strategic by nature, curious by defaul",
+      "via": "Secret Tel Aviv",
+      "source": "feed:secrettlv",
+      "level": "Senior+",
+      "minYears": null,
+      "firstSeen": "2026-11-11T12:46:02.080Z",
+      "lastSeen": "2026-11-17T14:31:25.185Z",
+      "status": "closed",
+      "linkCheckedAt": "2026-11-23T16:03:59.591Z",
+      "closedReason": "not seen for a week",
+      "closedAt": "2026-11-24T15:56:06.956Z"
     },
     {
       "key": "linkedin:https://ca.linkedin.com/jobs/view/senior-user-experience-design-specialist-at-sap-4485841600",
