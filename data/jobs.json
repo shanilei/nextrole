@@ -1,12 +1,44 @@
 {
-  "updatedAt": "2026-11-24T15:56:06.956Z",
+  "updatedAt": "2026-11-25T15:41:44.764Z",
   "jobs": [
+    {
+      "key": "linkedin:https://il.linkedin.com/jobs/view/product-designer-at-zipher-4494042000",
+      "title": "Product Designer‏ ב ‏Zipher‏",
+      "company": "‏Tel Aviv-Yafo",
+      "location": "Israel",
+      "url": "https://il.linkedin.com/jobs/view/product-designer-at-zipher-4494042000",
+      "postedAt": null,
+      "description": "Product Designer - Figma Weave (Tel Aviv, Israel). Figma. Tel Aviv-Yafo לפני ... UI/UX Designer Lead. PAPAYA. Tel Aviv-Yafo לפני ‏3‏ ‏שבועות‏. Staff Product ...",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Mid",
+      "minYears": null,
+      "firstSeen": "2026-11-25T15:41:44.764Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:team8/61.003:49.37A",
+      "title": "Charm Security-Product Designer",
+      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
+      "postedAt": "2026-11-25T14:29:39.000Z",
+      "remote": false,
+      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm. \n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels. \n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments. \n Your designs will directly impact: \n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts \n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time \n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support \n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production. \n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next. \n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control. \n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle. \n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows. \n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience. \n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products. \n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped. \n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail. \n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions. \n• Strong Figma skills, including components, auto layout, prototyping, and design systems. \n• Experience collaborating closely with product managers and engineers. \n• The ability to explain your decisions, give and receive feedback, and adapt as you learn. \n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows. \n• Strong English communication skills. \n Nice to Have \n • A degree in Visual Communication. \n• Experience designing AI-powered products or tools that help users make complex decisions. \n• Experience making complex data easy to understand and act on. \n• Familiarity with fintech, cybersecurity, or fraud prevention.",
+      "company": "Team8",
+      "source": "comeet:team8/61.003",
+      "level": "Mid",
+      "minYears": 3,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
+      "status": "open"
+    },
     {
       "key": "comeet:zipher/4B.00C:C9.572",
       "title": "Product Designer",
       "location": "Tel Aviv Offices, Tel Aviv-Yafo, IL",
       "url": "https://www.comeet.com/jobs/zipher/4B.00C/product-designer/C9.572",
-      "postedAt": "2026-11-24T12:25:23.000Z",
+      "postedAt": "2026-11-25T12:30:12.000Z",
       "remote": false,
       "description": "Description\nZipher is building the Autonomous Execution Layer for cloud data and AI, a new category we are defining: $50M raised and live in Fortune 500 environments . Our agents run production data and AI workloads on Databricks, Spark, Kubernetes, and AWS, and every customer measures us on the same thing: cost, performance, and reliability . \n We are looking for a Product Designer to own the design of Zipher’s product end to end. You will turn a complex, data-dense platform, where agents make decisions on live production workloads, into an experience that data and engineering leaders understand, trust, and act on . \n What You’ll Do \n • Own product design end to end : from discovery and flows to pixel-perfect UI, shipped to production \n• Make autonomous decisions readable : dashboards, explainability, and controls for data-dense, real-time interfaces \n• Prototype fast and validate with users : research, usability testing, and product analytics drive the decisions \n• Partner with product, R&D, and Solution Engineering: design with the engineers who build it and the customers who use it \n• Build and own Zipher’s design system , and the visual language across the product and the brand \n What You’ll Bring \n • 5+ years of product design for complex B2B SaaS products at leading startups – Must \n• Service in an elite IDF technology or intelligence unit (e.g., 8200, Mamram, Ofek, Matzpen, etc.. ) – Strong advantage \n• A portfolio of data-dense, technical products you designed and shipped \n• Expert Figma and prototyping skills \n• Hands-on user research and usability testing , and decisions made from data \n• Close work with R&D and frontend engineers , and a real understanding of how what you design gets built \n• A high-agency, maker mindset : craft, speed, and full ownership of what you ship \n Nice to Have \n • Design for developer, data, infrastructure, or security products \n• Building a design system from the ground up \n• Brand and marketing design : website, presentations, and data visualization \n• Fluency with AI design and prototyping tools \n What We Offer \n • A product that is already winning : in production inside Fortune 500 environments \n• A product to define : you set the design language of a new category \n• A seat next to the founders : design decisions are made with you, not handed to you \n• People worth learning from : a deliberately talent-dense team \n• Top-of-market compensation and a meaningful equity package \n Ready to design how an autonomous data platform looks and feels? Hit Apply.\nRequirements\n",
       "company": "Zipher",
@@ -14,7 +46,23 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-24T15:56:06.956Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
+      "status": "open"
+    },
+    {
+      "key": "comeet:papayagaming/46.00B:68.479",
+      "title": "UI/UX Designer Lead",
+      "location": "Tel-Aviv, Tel Aviv-Yafo, IL",
+      "url": "https://www.comeet.com/jobs/papayagaming/46.00B/uiux-designer-lead/68.479",
+      "postedAt": "2026-11-25T00:48:41.000Z",
+      "remote": true,
+      "description": "Description\nAbout the company: \n We are a startup team within Papaya , a successful and established gaming company.\n Our unit runs with full startup energy and agility, while benefiting from the stability and resources of Papaya.\n We’re building a new competitive game platform – where games and challenges come together in one engaging experience.\n About the role: \n We are looking for an experienced UI/UX Designer Lead to join us and help shape innovative mobile gaming experiences.\n This is a senior, hands-on individual contributor role for a designer with a strong background in gaming, exceptional UI/UX skills, and the ability to independently own complex product features from concept to launch.\n You will combine creative problem-solving, strong product thinking, and outstanding visual execution to deliver intuitive, engaging, and polished player experiences.\n We're looking for a fast-moving, highly creative designer who is passionate about gaming, embraces AI-powered workflows, and knows how to turn ambitious ideas into exceptional mobile experiences.\nResponsibilities\n• End-to-End Design Ownership: Independently own product features from concept and UX planning through wireframes, high-fidelity UI, interactive prototypes, and development handoff. \n• Gaming UX: Design engaging player experiences around competitive gameplay, progression systems, rewards, monetization, and retention mechanics. \n• UI Design Excellence: Create polished, playful, and visually compelling mobile interfaces with exceptional attention to detail, consistency, and usability. \n• Advanced Figma Workflow: Build and maintain scalable components, interactive prototypes, and structured design files, leveraging Figma's advanced capabilities to improve quality, consistency, and efficiency. \n• AI-Powered Design: Actively integrate AI tools into the design process to accelerate ideation, visual exploration, prototyping, asset creation, and iteration. \n• Product Optimization: Identify UX challenges, propose creative solutions, and continuously improve player experiences based on product insights, feedback, and performance data. \n• Cross-Functional Collaboration: Work closely with Product Managers, Developers, and Designers to translate product requirements into high-quality experiences and ensure precise implementation.\nRequirements\n• 5+ Years of UI/UX Experience: Proven experience designing complex, mobile-first B2C digital products, with strong end-to-end ownership. \n• Gaming Industry Experience – Required: Hands-on experience designing mobile games or gaming platforms, with a solid understanding of player behavior, game mechanics, progression, engagement, and retention. \n• Expert-Level Figma – Required: Exceptional proficiency in Figma, including advanced Auto Layout, components, variants, variables, design systems, interactive prototyping, and developer handoff. Ability to work efficiently with complex design files and scalable component libraries. \n• AI Proficiency – Required: Demonstrated hands-on experience using AI-powered design tools to enhance creativity, accelerate workflows, generate assets, explore concepts, and improve design efficiency. A proactive approach to experimenting with emerging AI technologies. \n• Outstanding UI & UX Skills: A strong portfolio demonstrating excellent visual craftsmanship, intuitive user flows, and polished mobile experiences. \n• Creative Problem Solving: Ability to think outside the box, challenge conventional solutions, and transform complex product challenges into engaging, user-friendly experiences. \n• Speed & Execution: Ability to move quickly, iterate efficiently, and maintain exceptional design quality in a fast-paced product environment. \n• Independent Ownership: Strong ability to manage complex design tasks autonomously, make informed design decisions, and drive features from initial concept through production. \n• Motion Design – A Plus: Experience with After Effects, Rive, Lottie, or other motion and interaction design tools.",
+      "company": "Papaya Gaming",
+      "source": "comeet:papayagaming/46.00B",
+      "level": "Senior+",
+      "minYears": 5,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -30,23 +78,7 @@
       "level": "Senior+",
       "minYears": 8,
       "firstSeen": "2026-11-08T11:58:09.551Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:play_perfect/69.001:44.47C",
-      "title": "Senior UX/UI Designer",
-      "location": "Tel Aviv (Azrieli Sarona) office, Israel, Tel Aviv-Jaffa, IL",
-      "url": "https://www.comeet.com/jobs/play_perfect/69.001/senior-uxui-designer/44.47C",
-      "postedAt": "2026-11-23T18:26:50.000Z",
-      "remote": false,
-      "description": "Description\nPlay Perfect is a fast-growing mobile gaming company that provides entertainment to millions of users around the world. The company is headquartered in Tel Aviv. With a team of talented and passionate developers, designers, industry experts, and gamers, Play Perfect is at the forefront of creating immersive gaming experiences that engage players on a whole new level. \n As we continue to push the boundaries of what is possible in gaming, Play Perfect is poised to shape the future of the industry and redefine what it means to be a skill-based gaming company. \n As we expand, we're looking for a Senior UX/UI Designer to join our team. \n Responsibilities: \n • Create wireframes using Figma & Photoshop to conceptualize user experiences. \n• Design and produce beautiful and engaging game assets, including popups, buttons and icons. \n• Collaborate closely with cross-functional teams, including Art, Product, and R&D departments. \n• Perform exports and implement visual changes based on product requirements and updates. \n• Take ownership of design tasks from concept to implementation, working independently and proactively driving them forward.\nRequirements\n• Minimum of 5 years of experience in UX/UI design for mobile games and Apps. \n• Expertise in creating detailed and polished 2D UI assets, including icons, buttons, widgets, logos, and other interface elements. \n• Strong understanding of typography for UI design, color theory, color values, and building clear color hierarchies. \n• Comprehensive knowledge of UI/UX principles and best practices. \n• Using AI-powered tools to enhance and accelerate design workflows is must. \n• Skilled in layout design and establishing clean and effective visual hierarchies. \n• Strong ability to receive feedback, collaborate across teams, and continuously learn and grow within the 2D/UI field. \n Only applications that include a portfolio link will be reviewed.",
-      "company": "Play Perfect",
-      "source": "comeet:play_perfect/69.001",
-      "level": "Senior+",
-      "minYears": 5,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -62,23 +94,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:team8/61.003:49.37A",
-      "title": "Charm Security-Product Designer",
-      "location": "Tel Aviv, Israel, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/team8/61.003/charm-security-product-designer/49.37A",
-      "postedAt": "2026-11-22T22:09:30.000Z",
-      "remote": false,
-      "description": "Description\nAbout Charm \n Charm Security is building the agentic AI workforce for fraud, scams and cybercrime. Our AI agents work alongside fraud and frontline teams at Tier 1 banks in North America, helping them investigate cases, intervene in high-risk interactions, resolve incidents and prevent harm. \n Powered by our proprietary HVE™ (Human Vulnerabilities & Exploits) framework, our technology combines fraud expertise with behavioral science to understand manipulation, intent and human behavior. We help financial institutions move from detection to action - across fraud operations, contact centers, branches and digital channels. \n The Role \n As a Product Designer at Charm, you'll shape the user experience of our AI agents and copilots that help protect people from financial and emotional harm. You'll design interfaces that support users in high-stress situations, bringing trust, clarity, and calm to complex moments. \n Your designs will directly impact: \n • Prevention Agent: Real-time customer protection interfaces that intervene during active scam attempts \n• Copilot: Tools for fraud analysts and call center agents analyzing conversations in real-time \n• Customer-Facing Agent: Self-serve interfaces where vulnerable users seek help and emotional support \n What You'll Do \n • Own design work end to end. Understand the problem, explore approaches, prototype, and deliver polished designs that hold up in production. \n• Make complex workflows feel clear. Help users navigate information, connect evidence, prioritize tasks, and decide what to do next. \n• Shape how people work with AI. Design experiences that make AI insights, recommendations, and actions understandable, with meaningful user control. \n• Design for real working conditions. Account for time pressure, incomplete information, and the sensitive conversations our users handle. \n• Build a cohesive product. Contribute to our design system and create consistent patterns across products and workflows. \n• Learn and iterate. Use customer conversations, feedback, and product usage to challenge assumptions and improve the experience. \n• Stay involved through delivery. Work closely with engineers to resolve interaction details and maintain design quality through launch.\nRequirements\n• 3+ years of product design experience, including work on complex B2B products. \n• A portfolio that shows how you think, the decisions you made, and the quality of the experiences you shipped. \n• Strong interaction and visual design skills, with attention to hierarchy, typography, layout, and detail. \n• The ability to turn ambiguous requirements into clear user flows and thoughtful interface solutions. \n• Strong Figma skills, including components, auto layout, prototyping, and design systems. \n• Experience collaborating closely with product managers and engineers. \n• The ability to explain your decisions, give and receive feedback, and adapt as you learn. \n• A flexible mindset, curiosity to learn, and openness to adopting new tools and using AI to improve design workflows. \n• Strong English communication skills. \n Nice to Have \n • A degree in Visual Communication. \n• Experience designing AI-powered products or tools that help users make complex decisions. \n• Experience making complex data easy to understand and act on. \n• Familiarity with fintech, cybersecurity, or fraud prevention.",
-      "company": "Team8",
-      "source": "comeet:team8/61.003",
-      "level": "Mid",
-      "minYears": 3,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -94,7 +110,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -110,7 +126,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -126,7 +142,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-22T13:24:35.817Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -194,55 +210,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-19T14:28:43.201Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
-      "status": "open"
-    },
-    {
-      "key": "linkedin:https://il.linkedin.com/jobs/view/product-designer-at-robotic-imaging-inc-4488891823",
-      "title": "Product Designer‏ ב ‏Robotic Imaging, Inc.‏ — ‏Tel Aviv-Yafo",
-      "company": "Robotic Imaging Inc",
-      "location": "Israel",
-      "url": "https://il.linkedin.com/jobs/view/product-designer-at-robotic-imaging-inc-4488891823",
-      "postedAt": null,
-      "description": "להגיש מועמדות ב ‏Product Designer‏ ‏Robotic Imaging, Inc.‏ ‏Tel Aviv-Yafo‏. ‏משרה מלאה בכירות בינונית‏ תפקיד. ראה תחומי אחריות, כישורים ומשרות דומות ...",
-      "via": "LinkedIn",
-      "source": "feed:google",
-      "level": "Mid",
-      "minYears": null,
-      "firstSeen": "2026-11-18T14:06:52.338Z",
-      "lastSeen": "2026-11-18T14:06:52.338Z",
-      "status": "open"
-    },
-    {
-      "key": "linkedin:https://il.linkedin.com/jobs/view/senior-product-designer-at-appcharge-4491236219",
-      "title": "‏Senior Product Designer‏ ב ‏Appcharge‏ — ‏Tel Aviv-Yafo‏",
-      "company": "Appcharge",
-      "location": "Israel",
-      "url": "https://il.linkedin.com/jobs/view/senior-product-designer-at-appcharge-4491236219",
-      "postedAt": null,
-      "description": "להגיש מועמדות ב ‏Senior Product Designer‏ ‏Appcharge‏ ‏Tel Aviv-Yafo‏. ‏משרה מלאה לא ישים‏ תפקיד. ראה תחומי אחריות, כישורים ומשרות דומות ב-LinkedIn.",
-      "via": "LinkedIn",
-      "source": "feed:google",
-      "level": "Senior+",
-      "minYears": null,
-      "firstSeen": "2026-11-18T14:06:52.338Z",
-      "lastSeen": "2026-11-18T14:06:52.338Z",
-      "status": "open"
-    },
-    {
-      "key": "comeet:papayagaming/46.00B:68.479",
-      "title": "UI/UX Designer Lead",
-      "location": "Tel-Aviv, Tel Aviv-Yafo, IL",
-      "url": "https://www.comeet.com/jobs/papayagaming/46.00B/uiux-designer-lead/68.479",
-      "postedAt": "2026-11-17T09:33:23.000Z",
-      "remote": true,
-      "description": "Description\nAbout the company: \n We are a startup team within Papaya , a successful and established gaming company.\n Our unit runs with full startup energy and agility, while benefiting from the stability and resources of Papaya.\n We’re building a new competitive game platform – where games and challenges come together in one engaging experience.\n About the role: \n We are looking for an experienced UI/UX Designer Lead to join us and help shape innovative mobile gaming experiences.\n This is a senior, hands-on individual contributor role for a designer with a strong background in gaming, exceptional UI/UX skills, and the ability to independently own complex product features from concept to launch.\n You will combine creative problem-solving, strong product thinking, and outstanding visual execution to deliver intuitive, engaging, and polished player experiences.\n We're looking for a fast-moving, highly creative designer who is passionate about gaming, embraces AI-powered workflows, and knows how to turn ambitious ideas into exceptional mobile experiences.\nResponsibilities\n• End-to-End Design Ownership: Independently own product features from concept and UX planning through wireframes, high-fidelity UI, interactive prototypes, and development handoff. \n• Gaming UX: Design engaging player experiences around competitive gameplay, progression systems, rewards, monetization, and retention mechanics. \n• UI Design Excellence: Create polished, playful, and visually compelling mobile interfaces with exceptional attention to detail, consistency, and usability. \n• Advanced Figma Workflow: Build and maintain scalable components, interactive prototypes, and structured design files, leveraging Figma's advanced capabilities to improve quality, consistency, and efficiency. \n• AI-Powered Design: Actively integrate AI tools into the design process to accelerate ideation, visual exploration, prototyping, asset creation, and iteration. \n• Product Optimization: Identify UX challenges, propose creative solutions, and continuously improve player experiences based on product insights, feedback, and performance data. \n• Cross-Functional Collaboration: Work closely with Product Managers, Developers, and Designers to translate product requirements into high-quality experiences and ensure precise implementation.\nRequirements\n• 5+ Years of UI/UX Experience: Proven experience designing complex, mobile-first B2C digital products, with strong end-to-end ownership. \n• Gaming Industry Experience – Required: Hands-on experience designing mobile games or gaming platforms, with a solid understanding of player behavior, game mechanics, progression, engagement, and retention. \n• Expert-Level Figma – Required: Exceptional proficiency in Figma, including advanced Auto Layout, components, variants, variables, design systems, interactive prototyping, and developer handoff. Ability to work efficiently with complex design files and scalable component libraries. \n• AI Proficiency – Required: Demonstrated hands-on experience using AI-powered design tools to enhance creativity, accelerate workflows, generate assets, explore concepts, and improve design efficiency. A proactive approach to experimenting with emerging AI technologies. \n• Outstanding UI & UX Skills: A strong portfolio demonstrating excellent visual craftsmanship, intuitive user flows, and polished mobile experiences. \n• Creative Problem Solving: Ability to think outside the box, challenge conventional solutions, and transform complex product challenges into engaging, user-friendly experiences. \n• Speed & Execution: Ability to move quickly, iterate efficiently, and maintain exceptional design quality in a fast-paced product environment. \n• Independent Ownership: Strong ability to manage complex design tasks autonomously, make informed design decisions, and drive features from initial concept through production. \n• Motion Design – A Plus: Experience with After Effects, Rive, Lottie, or other motion and interaction design tools.",
-      "company": "Papaya Gaming",
-      "source": "comeet:papayagaming/46.00B",
-      "level": "Senior+",
-      "minYears": 5,
-      "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -258,23 +226,7 @@
       "level": "Senior+",
       "minYears": 4,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
-      "status": "open"
-    },
-    {
-      "key": "linkedin:https://il.linkedin.com/jobs/view/senior-product-designer-at-jux-3265285631",
-      "title": "‏Senior Product Designer‏ ב ‏Jux‏ — ‏Tel Aviv District, Israel‏",
-      "company": "Jux",
-      "location": "Israel",
-      "url": "https://il.linkedin.com/jobs/view/senior-product-designer-at-jux-3265285631",
-      "postedAt": null,
-      "description": "להגיש מועמדות ב ‏Senior Product Designer‏ ‏Jux‏ ‏Tel Aviv District, Israel‏. ‏משרה מלאה לא ישים‏ תפקיד. ראה תחומי אחריות, כישורים ומשרות דומות ב-LinkedIn.",
-      "via": "LinkedIn",
-      "source": "feed:google",
-      "level": "Senior+",
-      "minYears": null,
-      "firstSeen": "2026-11-16T13:43:03.452Z",
-      "lastSeen": "2026-11-18T14:06:52.338Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -290,7 +242,7 @@
       "level": "Junior",
       "minYears": 1,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -342,7 +294,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -358,7 +310,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-21T13:30:47.581Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -374,7 +326,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -390,7 +342,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -406,7 +358,7 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -416,13 +368,13 @@
       "url": "https://www.yotpo.com/careers/gid-8301582?gh_jid=8301582",
       "postedAt": "2026-10-19T19:05:26.000Z",
       "remote": false,
-      "description": "Yotpo is leading the next era of trust and loyalty in eCommerce. With AI-powered Reviews and Loyalty solutions, we help brands turn browsers into customers and customers into advocates. Through deep integrations across the eCommerce ecosystem and the trust of over 30,000 global brands, Yotpo delivers seamless omnichannel experiences that increase conversion, strengthen customer relationships, and drive profitable, long-term growth.\n We’re looking for an experienced Product Designer to join our Discover team . In this role, you’ll lead end-to-end design for complex B2B2C eCommerce products, embrace AI-native workflows, and shape user experiences that help drive product strategy.\n With teams spread across the globe - from the US and Canada to the UK, Israel, Bulgaria, and Australia - we're growing fast. Our main mission? Delivering cutting-edge technology that sets new standards in the industry.\n Sounds exciting? Then read on, because we’re looking for curious professional talents to be a part of building the future of the e-commerce industry.\n As part of our Discover Product team , you’ll play a pivotal role in shaping the future of our discovery experience by creating intuitive, thoughtful, data-informed, and customer-centric designs that integrate AI behaviors, leverage AI-native workflows, and deliver real value.\n What you'll do \n• Lead end-to-end product design for complex B2B2C experiences in the Discover domain, from problem definition through execution.\n• Work as part of a true product trio with a PM and Tech Lead, shaping product strategy, priorities, and solutions together.\n• Design AI behaviors and leverage AI-native processes to build scalable, intelligent user experiences.\n• Prototype rapidly in code with AI tools (Claude Code, Cursor or similar) to test ideas in days.\n• Apply strong user empathy, design thinking, and data-informed insights to solve complex problems.\n• Turn complex data into views marketers can act on and share with their leadership.\n• Make clear, reversible decisions fast, document the reasoning, and drive them through to execution.\n What you'll bring \n Design craft &amp; AI-native process: Strong portfolio showcasing end-to-end product design, UX/UI excellence, and experience designing AI behaviors or using AI-native workflows and Git-based developer integration to prototype and iterate quickly.\n Experience: 5+ years of experience designing digital products in fast-paced B2B2C or B2B SaaS environments. Experience in eCommerce is highly preferred.\n Collaboration: Proven track record partnering closely with Product Managers and Engineering leads to balance user needs, technical constraints, and business goals.\n Mindset: Proactive, curious, and comfortable with ambiguity. Able to step into a maternity leave coverage role and quickly gain momentum while taking full ownership of project streams.\n Communication: Astute communicator and storyteller who can clearly articulate design decisions and the strategic thinking behind AI-driven experiences.\n Tools: Expert in Figma, Git workflows, and comfortable working with modern AI-assisted design, research, and prototyping tools.\n If you don’t meet 100% of the qualifications outlined above, that’s okay! We hire people, not checklists. \n If you’re eager to learn, passionate, and like-minded, we’d love to hear from you. \n Help us be the best version of Yotpo by building something great together! \n #LI-Hybrid",
+      "description": "Yotpo is leading the next era of trust and loyalty in eCommerce. With AI-powered Reviews and Loyalty solutions, we help brands turn browsers into customers and customers into advocates. Through deep integrations across the eCommerce ecosystem and the trust of over 30,000 global brands, Yotpo delivers seamless omnichannel experiences that increase conversion, strengthen customer relationships, and drive profitable, long-term growth.\n We’re looking for an experienced Product Designer to join our Discover team . In this role, you’ll lead end-to-end design for complex B2B2C eCommerce products, embrace AI-native workflows, and shape user experiences that help drive product strategy.\n With teams spread across the globe - from the US and Canada to the UK, Israel, Bulgaria, and Australia - we're growing fast. Our main mission? Delivering cutting-edge technology that sets new standards in the industry.\n Sounds exciting? Then read on, because we’re looking for curious professional talents to be a part of building the future of the e-commerce industry.\n As part of our Discover Product team , you’ll play a pivotal role in shaping the future of our discovery experience by creating intuitive, thoughtful, data-informed, and customer-centric designs that integrate AI behaviors, leverage AI-native workflows, and deliver real value.\n What you'll do \n• Lead end-to-end product design for complex B2B2C experiences in the Discover domain, from problem definition through execution.\n• Work as part of a true product trio with a PM and Tech Lead, shaping product strategy, priorities, and solutions together.\n• Design AI behaviors and leverage AI-native processes to build scalable, intelligent user experiences.\n• Prototype rapidly in code with AI tools (Claude Code, Cursor or similar) to test ideas in days.\n• Apply strong user empathy, design thinking, and data-informed insights to solve complex problems.\n• Turn complex data into views marketers can act on and share with their leadership.\n• Make clear, reversible decisions fast, document the reasoning, and drive them through to execution.\n What you'll bring \n Design craft &amp; AI-native process: Strong portfolio showcasing end-to-end product design, UX/UI excellence, and experience designing AI behaviors or using AI-native workflows and Git-based developer integration to prototype and iterate quickly.\n Experience: 5+ years of experience designing digital products in fast-paced B2B2C or B2B SaaS environments. Experience in eCommerce is highly preferred.\n Collaboration: Proven track record partnering closely with Product Managers and Engineering leads to balance user needs, technical constraints, and business goals.\n Mindset: Proactive, curious, and comfortable with ambiguity.\n Communication: Astute communicator and storyteller who can clearly articulate design decisions and the strategic thinking behind AI-driven experiences.\n Tools: Expert in Figma, Git workflows, and comfortable working with modern AI-assisted design, research, and prototyping tools.\n If you don’t meet 100% of the qualifications outlined above, that’s okay! We hire people, not checklists. \n If you’re eager to learn, passionate, and like-minded, we’d love to hear from you. \n Help us be the best version of Yotpo by building something great together! \n #LI-Hybrid",
       "company": "Yotpo",
       "source": "greenhouse:yotpo",
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -438,9 +390,9 @@
       "level": "Mid",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-24T15:56:06.956Z"
+      "linkCheckedAt": "2026-11-25T15:41:44.764Z"
     },
     {
       "key": "greenhouse:similarweb:8260908",
@@ -455,7 +407,7 @@
       "level": "Mid",
       "minYears": 3,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -465,13 +417,13 @@
       "url": "https://jobs.ashbyhq.com/lumana/8777d0cf-4aa6-4c7c-9ec5-a873a549dced",
       "postedAt": "2026-10-02T00:30:56.652Z",
       "remote": true,
-      "description": "Lumana helps organizations turn video into action. Our AI video security platform helps customers improve safety, strengthen security, and respond faster when it matters most.\n\nFounded in 2021 and backed by leading Silicon Valley investors, we’re growing quickly. Here, you’ll think big, move fast, and own work that has a visible impact.\n\n\n\n\n\nDescription\n\nThis Product Designer enjoys solving complex problems and wants meaningful ownership. You’ll design experiences across our web and mobile products, working closely with product managers, engineers, and our CEO.\n\nYour access to leadership is part of the work. The CEO will look to you for design recommendations, ask questions, and challenge your thinking. You’ll need to explain your choices, raise concerns, and suggest a better approach when you see one.\n\nYou don’t need every answer or years of executive-facing experience. You do need curiosity, sound reasoning, and the willingness to contribute your own perspective—even when the person across the table is the CEO.\n\nPlease include your portfolio with your application. We’re interested in how you think as well as what you design.\n\n\n\nLocation\n\nHybrid: Based in Caesarea, Israel with 2 days a week working from home.\n\n\n\nWhy this role is exciting\n\n - Direct influence: Discuss problems and design decisions with the people shaping the product, including our CEO.\n\n - Meaningful ownership: Take individual projects from an initial problem through exploration, design, and implementation.\n\n - Interesting complexity: Make technical workflows easier to understand across cameras, locations, filters, onboarding, and other connected parts of the platform.\n\n - Visible impact: Work on improvements that change how customers use the product. For example, our bulk camera onboarding flow helped users add multiple cameras in one process.\n\n - Room to grow: Learn through close collaboration with Product and Engineering, with support from the CTO on technical questions and broader work processes.\n\n - Freedom to explore: Experiment with different approaches, workflows, and AI tools to improve your work.\n\nWhat you’ll do\n\n - Turn high-level product requests into clear problems, asking questions before jumping into solutions.\n\n - Create user flows, wireframes, prototypes, and polished interfaces for web and mobile.\n\n - Consider how a change affects the wider product, including related workflows, navigation, and existing patterns.\n\n - Gather insight from product managers, engineers, Solutions Engineers, and other colleagues close to customer needs.\n\n - Present your recommendations to teammates and leadership, explaining your reasoning and the trade-offs.\n\n - Constructively challenge assumptions—including leadership’s—when you see a usability issue or a stronger alternative. Bring examples, evidence, or a proposed solution.\n\n - Test and refine designs using feedback, usability testing, and product insights.\n\n - Collaborate with engineers through handoff and implementation to help ensure the experience works as intended.\n\n - Contribute to our design system and maintain consistency across the product.\n\n - Balance thoughtful design with timely delivery as priorities evolve.\n\nWhat you’ll bring\n\n - Approximately 5 years of product or UX/UI design experience, with a portfolio showing relevant work. We’re open to different experience levels when the work demonstrates strong potential.\n\n - A portfolio that explains the problem, your contribution, the options you considered, and why you chose your approach.\n\n - Strong foundations in interaction design, visual hierarchy, and usability.\n\n - Proficiency in Figma, including components and interactive prototypes.\n\n - Interest in technical products and the patience to understand how interconnected systems work.\n\n - Clear communication: you can explain a recommendation, ask for clarification, and respectfully disagree.\n\n - Openness to feedback and the ability to revise your thinking when new information changes the picture.\n\n - The ability to manage your tasks, surface blockers, and adapt when priorities shift.\n\nHelpful, but not required\n\n - Experience with B2B software, dashboards, or other complex applications.\n\n - Experience collaborating with engineers on a shipped product.\n\n - Familiarity with user research, usability testing, or design systems.\n\n - Understanding of front-end implementation constraints.\n\n - Experience using AI tools in your design workflow.\n\n - Exposure to security technology, video, analytics, or computer vision.\n\nWhat working here is like\n\n - We’re a small team building a complex product quickly. Some assignments are focused improvements; others require creating something new. You may manage several tasks at once and switch direction as priorities change.\n\n - Direct collaboration with leadership is required. This role will suit someone who wants to build confidence through preparation, thoughtful discussion, and hands-on work. We value designers who can support their recommendations, listen carefully, and help the team move forward once a decision is made.\n\n - If you enjoy learning, working through ambiguity, and seeing your ideas become part of a real product, there’s a lot to grow into here.\n\n\n\nOur interview process\n\n - 30-minute conversation with Talent\n\n - 45-minute conversation with peers (Design & Product Management) \n\n - Take-home assignment designed to take approximately three hours\n\n - 45-minute panel review with representatives from Design, Product, and Engineering leadership\n\n - 30-minute conversation with HR\n   \n   \n\nWhat we offer\n\n - Equity in a fast growing start-up\n\n - Monthly meal allowance provided through 10bis\n\n - Travel reimbursement in accordance with Israeli law\n\n - Generous paid vacation, including carryover flexibility\n\n - Paid sick leave from day one\n\n - Keren Hishtalmut (study fund) with employer contributions\n\n - Company-provided laptop and a home-office setup allowance for new employees\n\n \n\nEqual Opportunity: Lumana considers applicants ",
+      "description": "Life at Lumana\n\nWe’re reimagining video security through AI to help organizations protect their people, properties, and operations. We’re a fast-growing, founder-led startup with a global team split between the U.S. and Israel. We speak directly, challenge ideas openly, and make decisions quickly. We push each other to get better, take feedback seriously, and care about winning as a team.\n\nExpect priorities to shift, processes to evolve, and some meetings to fall outside your usual hours. We flex our schedules to work across time zones and make room for family commitments. Written updates and handoffs can be uneven, so people who thrive here ask for context, flag roadblocks early, and follow through across teams. You’ll help build better ways of working and step beyond your usual responsibilities when the team needs you. \n\nWe value progress over perfection and hold a high bar for the quality of our work and the commitments we make to customers. If you do your best work only with established processes, predictable priorities, or a clearly defined scope, we encourage you to ask what the day-to-day looks like during your interviews.\n\nDescription\n\nThis Product Designer enjoys solving complex problems and wants meaningful ownership. You’ll design experiences across our web and mobile products, working closely with product managers, engineers, and our CEO.\n\nYour access to leadership is part of the work. The CEO will look to you for design recommendations, ask questions, and challenge your thinking. You’ll need to explain your choices, raise concerns, and suggest a better approach when you see one.\n\nYou don’t need every answer or years of executive-facing experience. You do need curiosity, sound reasoning, and the willingness to contribute your own perspective—even when the person across the table is the CEO.\n\nPlease include your portfolio with your application. We’re interested in how you think as well as what you design.\n\n\n\nLocation\n\nHybrid: Based in Caesarea, Israel with 2 days a week working from home.\n\n\n\nWhy this role is exciting\n\n - Direct influence: Discuss problems and design decisions with the people shaping the product, including our CEO.\n\n - Meaningful ownership: Take individual projects from an initial problem through exploration, design, and implementation.\n\n - Interesting complexity: Make technical workflows easier to understand across cameras, locations, filters, onboarding, and other connected parts of the platform.\n\n - Visible impact: Work on improvements that change how customers use the product. For example, our bulk camera onboarding flow helped users add multiple cameras in one process.\n\n - Room to grow: Learn through close collaboration with Product and Engineering, with support from the CTO on technical questions and broader work processes.\n\n - Freedom to explore: Experiment with different approaches, workflows, and AI tools to improve your work.\n\nWhat you’ll do\n\n - Turn high-level product requests into clear problems, asking questions before jumping into solutions.\n\n - Create user flows, wireframes, prototypes, and polished interfaces for web and mobile.\n\n - Consider how a change affects the wider product, including related workflows, navigation, and existing patterns.\n\n - Gather insight from product managers, engineers, Solutions Engineers, and other colleagues close to customer needs.\n\n - Present your recommendations to teammates and leadership, explaining your reasoning and the trade-offs.\n\n - Constructively challenge assumptions—including leadership’s—when you see a usability issue or a stronger alternative. Bring examples, evidence, or a proposed solution.\n\n - Test and refine designs using feedback, usability testing, and product insights.\n\n - Collaborate with engineers through handoff and implementation to help ensure the experience works as intended.\n\n - Contribute to our design system and maintain consistency across the product.\n\n - Balance thoughtful design with timely delivery as priorities evolve.\n\nWhat you’ll bring\n\n - Approximately 5 years of product or UX/UI design experience, with a portfolio showing relevant work. We’re open to different experience levels when the work demonstrates strong potential.\n\n - A portfolio that explains the problem, your contribution, the options you considered, and why you chose your approach.\n\n - Strong foundations in interaction design, visual hierarchy, and usability.\n\n - Proficiency in Figma, including components and interactive prototypes.\n\n - Interest in technical products and the patience to understand how interconnected systems work.\n\n - Clear communication: you can explain a recommendation, ask for clarification, and respectfully disagree.\n\n - Openness to feedback and the ability to revise your thinking when new information changes the picture.\n\n - The ability to manage your tasks, surface blockers, and adapt when priorities shift.\n\nHelpful, but not required\n\n - Experience with B2B software, dashboards, or other complex applications.\n\n - Experience collaborating with engineers on a shipped product.\n\n - Familiarity with user research, usability testing, or design systems.\n\n - Understanding of front-end implementation constraints.\n\n - Experience using AI tools in your design workflow.\n\n - Exposure to security technology, video, analytics, or computer vision.\n\nWhat working here is like\n\n - We’re a small team building a complex product quickly. Some assignments are focused improvements; others require creating something new. You may manage several tasks at once and switch direction as priorities change.\n\n - Direct collaboration with leadership is required. This role will suit someone who wants to build confidence through preparation, thoughtful discussion, and hands-on work. We value designers who can support their recommendations, listen carefully, and help the team move forward once a decision is made.\n\n - If you enjoy learning, working through ambiguity, and seeing your ideas become part of a real product, there’s a lot ",
       "company": "Lumana",
       "source": "ashby:lumana",
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -487,7 +439,7 @@
       "level": "Senior+",
       "minYears": 7,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -503,7 +455,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -521,7 +473,7 @@
       "firstSeen": "2026-11-03T13:53:11.288Z",
       "lastSeen": "2026-11-19T14:28:43.201Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-24T15:56:06.956Z"
+      "linkCheckedAt": "2026-11-25T15:41:44.764Z"
     },
     {
       "key": "ashby:lemonade:663819c6-426c-49d6-8c0c-1fe938ffb440",
@@ -536,7 +488,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -552,7 +504,7 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-04T13:02:17.859Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -568,7 +520,7 @@
       "level": "Junior",
       "minYears": 2,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -584,7 +536,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -600,7 +552,7 @@
       "level": "Senior+",
       "minYears": 5,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -616,9 +568,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-24T15:56:06.956Z"
+      "linkCheckedAt": "2026-11-25T15:41:44.764Z"
     },
     {
       "key": "greenhouse:scaleops:4921333101",
@@ -633,23 +585,7 @@
       "level": "Senior+",
       "minYears": 6,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
-      "status": "open"
-    },
-    {
-      "key": "greenhouse:rubrik:7619215",
-      "title": "Product Designer",
-      "location": "Tel Aviv, Israel",
-      "url": "https://www.rubrik.com/company/careers/departments/job.7619215?gh_jid=7619215",
-      "postedAt": "2026-02-18T13:27:10.000Z",
-      "remote": false,
-      "description": "Product Designer \n Based in the Tel Aviv office, in a hybrid model. \n About Rubrik \n Join the public powerhouse that is securing the future of AI.\n Rubrik has officially entered a new era. Fresh off a headline-making successful IPO and boasting over $1.3 Billion in ARR , we have the market stability of a giant and the hunger of a startup. We’ve already conquered Data Security—now, we are pivoting to our most ambitious mission yet: Securing and Accelerating the World's AI Transformation. \n As a Rubrik designer, you will be pioneering the next generation User Experiences for the enterprise! From AI to air-gapped immutable backups to defending against ransomware, our tech stack is the definition of cyber resilience. We are a Gartner Magic Quadrant Leader and a winner of the Red Dot &amp; iF Design Awards because we believe security and protection should be powerful and usable. Come build the safety net for the AI generation.\n About Team &amp; About Role: \n Our design team is strong and mighty, with about 60 amazing individuals from all walks of the industry and life located worldwide. As our company and our products grow rapidly, it is crucial to scale the experience of our product and our design team in the right way and with the right people. Every hire counts!\n We are seeking a core hire for Rubrik’s design team. We are looking for a highly-skilled UX Designer for our Israel site that can help us drive towards making Rubrik a benchmark for enterprise design.\n Sneak peek at our product: https://www.youtube.com/watch?v=F9949Q-_onc&amp;t=9s \n• Red Dot design Award \n• iF Design Award \n• Rubrik Design Medium Page \n What you'll do: \n• Champion the design process, pushing yourself and the design team to take chances and explore big ideas before narrowing in on feasible, creative solutions with attention to detail\n• Produce deliverables at every stage of the design process, such as storyboards, wireframes, user flows, interactive prototypes, and pixel-perfect visual assets\n• Partner with the team of designers, product managers, and engineers throughout the design process - from creating user flows and wireframes to building user interface mockups and prototypes\n• Give and solicit feedback from other designers in order to continually raise our bar for quality\n• Cultivate relationships with our customers to ensure design truly reflects the needs of the users we are serving (UX)\n• Be part of evolving our design language and the design system that upholds it\n• Work side-by-side with our design system UI engineers to ensure precise implementations\n• Help set the bar for consumer-grade design in the enterprise space.\n What you’ll bring to the team: \n• 2+ years of relevant hands-on design experience. \n• Bachelor's degree in Design (Visual Communication, Interactive, etc.).\n• An outstanding portfolio, showcasing your work with a foundation in interaction and visual design, and idea generation.\n• Team Player: Be willing to roll up your sleeves and work cross-functionally\n• Solid presentation skills &amp; the ability to hold your audience's attention\n• Passion for getting things done the ‘right way’ and in a consistent manner across the product. \n• You are proactive and not afraid to drive towards finding a better solution\n• Someone who listens to others and values understanding above being right\n• Someone who enjoys solving complex design problems!\n Join Us in Securing and Accelerating the World's AI Transformation\n Rubrik (NYSE: RBRK) is the Security and AI Operations Company, delivering one platform built at the intersection of data, identity, and AI. The platform enables agentic cyber resilience and trusted AI operations for enterprises worldwide, built to recover before disruption strikes and stay a step ahead, so security is never the reason ambition stalls.\n Linkedin | X (formerly Twitter) | Instagram | Rubrik.com \n Inclusion @ Rubrik\n At Rubrik, we are dedicated to fostering a culture where people from all backgrounds are valued, feel they belong, and believe they can succeed. Our commitment to inclusion is at the heart of our mission to secure the world’s data.\n Our goal is to hire and promote the best talent, regardless of background. We continually review our hiring practices to ensure fairness and strive to create an environment where every employee has equal access to opportunities for growth and excellence. We believe in empowering everyone to bring their authentic selves to work and achieve their fullest potential.\n Our inclusion strategy focuses on three core areas of our business and culture:\n• \n Our Company: We are committed to building a merit-based organization that offers equal access to growth and success for all employees globally. Your potential is limitless here.\n• \n Our Culture: We strive to create an inclusive atmosphere where individuals from all backgrounds feel a strong sense of belonging, can thrive, and do their best work. Your contributions help us innovate and break boundaries.\n• \n Our Communities: We are dedicated to expanding our engagement with the communities we operate in, creating opportunities for underrepresented talent and driving greater innovation for our clients. Your impact extends beyond Rubrik, contributing to safer and stronger communities.\n Equal Opportunity Employer/Veterans/Disabled\n Rubrik is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, genetic information, protected veteran status, or any other status protected by applicable law. Rubrik provides equal employment opportunities to employees and applicants in all terms and conditions of employment, including recruiting, hiring, promotion, compensation, training, leave, and termination.\n Rubrik provides reasonable accommodations to qualified applicants and employees with disabilities in accordance with applicable law. If you need an accom",
-      "company": "Rubrik",
-      "source": "greenhouse:rubrik",
-      "level": "Junior",
-      "minYears": 2,
-      "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
     },
     {
@@ -665,9 +601,9 @@
       "level": "Senior+",
       "minYears": null,
       "firstSeen": "2026-11-03T13:53:11.288Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open",
-      "linkCheckedAt": "2026-11-24T15:56:06.956Z"
+      "linkCheckedAt": "2026-11-25T15:41:44.764Z"
     },
     {
       "key": "greenhouse:wizinc:4599708006",
@@ -682,8 +618,25 @@
       "level": "Mid",
       "minYears": 4,
       "firstSeen": "2026-11-03T12:42:26.263Z",
-      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "lastSeen": "2026-11-25T15:41:44.764Z",
       "status": "open"
+    },
+    {
+      "key": "comeet:play_perfect/69.001:44.47C",
+      "title": "Senior UX/UI Designer",
+      "location": "Tel Aviv (Azrieli Sarona) office, Israel, Tel Aviv-Jaffa, IL",
+      "url": "https://www.comeet.com/jobs/play_perfect/69.001/senior-uxui-designer/44.47C",
+      "postedAt": "2026-11-23T18:26:50.000Z",
+      "remote": false,
+      "description": "Description\nPlay Perfect is a fast-growing mobile gaming company that provides entertainment to millions of users around the world. The company is headquartered in Tel Aviv. With a team of talented and passionate developers, designers, industry experts, and gamers, Play Perfect is at the forefront of creating immersive gaming experiences that engage players on a whole new level. \n As we continue to push the boundaries of what is possible in gaming, Play Perfect is poised to shape the future of the industry and redefine what it means to be a skill-based gaming company. \n As we expand, we're looking for a Senior UX/UI Designer to join our team. \n Responsibilities: \n • Create wireframes using Figma & Photoshop to conceptualize user experiences. \n• Design and produce beautiful and engaging game assets, including popups, buttons and icons. \n• Collaborate closely with cross-functional teams, including Art, Product, and R&D departments. \n• Perform exports and implement visual changes based on product requirements and updates. \n• Take ownership of design tasks from concept to implementation, working independently and proactively driving them forward.\nRequirements\n• Minimum of 5 years of experience in UX/UI design for mobile games and Apps. \n• Expertise in creating detailed and polished 2D UI assets, including icons, buttons, widgets, logos, and other interface elements. \n• Strong understanding of typography for UI design, color theory, color values, and building clear color hierarchies. \n• Comprehensive knowledge of UI/UX principles and best practices. \n• Using AI-powered tools to enhance and accelerate design workflows is must. \n• Skilled in layout design and establishing clean and effective visual hierarchies. \n• Strong ability to receive feedback, collaborate across teams, and continuously learn and grow within the 2D/UI field. \n Only applications that include a portfolio link will be reviewed.",
+      "company": "Play Perfect",
+      "source": "comeet:play_perfect/69.001",
+      "level": "Senior+",
+      "minYears": 5,
+      "firstSeen": "2026-11-03T13:53:11.288Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "status": "closed",
+      "closedAt": "2026-11-25T15:41:44.764Z"
     },
     {
       "key": "linkedin:https://uk.linkedin.com/jobs/view/product-designer-at-rakuten-viber-4491257166",
@@ -719,6 +672,42 @@
       "lastSeen": "2026-11-19T14:28:43.201Z",
       "status": "closed",
       "closedAt": "2026-11-20T14:05:08.772Z"
+    },
+    {
+      "key": "linkedin:https://il.linkedin.com/jobs/view/product-designer-at-robotic-imaging-inc-4488891823",
+      "title": "Product Designer‏ ב ‏Robotic Imaging, Inc.‏ — ‏Tel Aviv-Yafo",
+      "company": "Robotic Imaging Inc",
+      "location": "Israel",
+      "url": "https://il.linkedin.com/jobs/view/product-designer-at-robotic-imaging-inc-4488891823",
+      "postedAt": null,
+      "description": "להגיש מועמדות ב ‏Product Designer‏ ‏Robotic Imaging, Inc.‏ ‏Tel Aviv-Yafo‏. ‏משרה מלאה בכירות בינונית‏ תפקיד. ראה תחומי אחריות, כישורים ומשרות דומות ...",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Mid",
+      "minYears": null,
+      "firstSeen": "2026-11-18T14:06:52.338Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
+      "status": "closed",
+      "closedReason": "not seen for a week",
+      "closedAt": "2026-11-25T15:41:44.764Z"
+    },
+    {
+      "key": "linkedin:https://il.linkedin.com/jobs/view/senior-product-designer-at-appcharge-4491236219",
+      "title": "‏Senior Product Designer‏ ב ‏Appcharge‏ — ‏Tel Aviv-Yafo‏",
+      "company": "Appcharge",
+      "location": "Israel",
+      "url": "https://il.linkedin.com/jobs/view/senior-product-designer-at-appcharge-4491236219",
+      "postedAt": null,
+      "description": "להגיש מועמדות ב ‏Senior Product Designer‏ ‏Appcharge‏ ‏Tel Aviv-Yafo‏. ‏משרה מלאה לא ישים‏ תפקיד. ראה תחומי אחריות, כישורים ומשרות דומות ב-LinkedIn.",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Senior+",
+      "minYears": null,
+      "firstSeen": "2026-11-18T14:06:52.338Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
+      "status": "closed",
+      "closedReason": "not seen for a week",
+      "closedAt": "2026-11-25T15:41:44.764Z"
     },
     {
       "key": "comeet:artlist/85.003:F5.274",
@@ -770,6 +759,24 @@
       "lastSeen": "2026-11-17T14:31:25.185Z",
       "status": "closed",
       "closedAt": "2026-11-18T14:06:52.338Z"
+    },
+    {
+      "key": "linkedin:https://il.linkedin.com/jobs/view/senior-product-designer-at-jux-3265285631",
+      "title": "‏Senior Product Designer‏ ב ‏Jux‏ — ‏Tel Aviv District, Israel‏",
+      "company": "Jux",
+      "location": "Israel",
+      "url": "https://il.linkedin.com/jobs/view/senior-product-designer-at-jux-3265285631",
+      "postedAt": null,
+      "description": "להגיש מועמדות ב ‏Senior Product Designer‏ ‏Jux‏ ‏Tel Aviv District, Israel‏. ‏משרה מלאה לא ישים‏ תפקיד. ראה תחומי אחריות, כישורים ומשרות דומות ב-LinkedIn.",
+      "via": "LinkedIn",
+      "source": "feed:google",
+      "level": "Senior+",
+      "minYears": null,
+      "firstSeen": "2026-11-16T13:43:03.452Z",
+      "lastSeen": "2026-11-18T14:06:52.338Z",
+      "status": "closed",
+      "closedReason": "not seen for a week",
+      "closedAt": "2026-11-25T15:41:44.764Z"
     },
     {
       "key": "linkedin:https://se.linkedin.com/jobs/view/senior-design-system-specialist-at-etraveli-group-4488833680",
@@ -1192,6 +1199,23 @@
       "lastSeen": "2026-11-12T13:48:59.925Z",
       "status": "closed",
       "closedAt": "2026-11-13T13:10:43.189Z"
+    },
+    {
+      "key": "greenhouse:rubrik:7619215",
+      "title": "Product Designer",
+      "location": "Tel Aviv, Israel",
+      "url": "https://www.rubrik.com/company/careers/departments/job.7619215?gh_jid=7619215",
+      "postedAt": "2026-02-18T13:27:10.000Z",
+      "remote": false,
+      "description": "Product Designer \n Based in the Tel Aviv office, in a hybrid model. \n About Rubrik \n Join the public powerhouse that is securing the future of AI.\n Rubrik has officially entered a new era. Fresh off a headline-making successful IPO and boasting over $1.3 Billion in ARR , we have the market stability of a giant and the hunger of a startup. We’ve already conquered Data Security—now, we are pivoting to our most ambitious mission yet: Securing and Accelerating the World's AI Transformation. \n As a Rubrik designer, you will be pioneering the next generation User Experiences for the enterprise! From AI to air-gapped immutable backups to defending against ransomware, our tech stack is the definition of cyber resilience. We are a Gartner Magic Quadrant Leader and a winner of the Red Dot &amp; iF Design Awards because we believe security and protection should be powerful and usable. Come build the safety net for the AI generation.\n About Team &amp; About Role: \n Our design team is strong and mighty, with about 60 amazing individuals from all walks of the industry and life located worldwide. As our company and our products grow rapidly, it is crucial to scale the experience of our product and our design team in the right way and with the right people. Every hire counts!\n We are seeking a core hire for Rubrik’s design team. We are looking for a highly-skilled UX Designer for our Israel site that can help us drive towards making Rubrik a benchmark for enterprise design.\n Sneak peek at our product: https://www.youtube.com/watch?v=F9949Q-_onc&amp;t=9s \n• Red Dot design Award \n• iF Design Award \n• Rubrik Design Medium Page \n What you'll do: \n• Champion the design process, pushing yourself and the design team to take chances and explore big ideas before narrowing in on feasible, creative solutions with attention to detail\n• Produce deliverables at every stage of the design process, such as storyboards, wireframes, user flows, interactive prototypes, and pixel-perfect visual assets\n• Partner with the team of designers, product managers, and engineers throughout the design process - from creating user flows and wireframes to building user interface mockups and prototypes\n• Give and solicit feedback from other designers in order to continually raise our bar for quality\n• Cultivate relationships with our customers to ensure design truly reflects the needs of the users we are serving (UX)\n• Be part of evolving our design language and the design system that upholds it\n• Work side-by-side with our design system UI engineers to ensure precise implementations\n• Help set the bar for consumer-grade design in the enterprise space.\n What you’ll bring to the team: \n• 2+ years of relevant hands-on design experience. \n• Bachelor's degree in Design (Visual Communication, Interactive, etc.).\n• An outstanding portfolio, showcasing your work with a foundation in interaction and visual design, and idea generation.\n• Team Player: Be willing to roll up your sleeves and work cross-functionally\n• Solid presentation skills &amp; the ability to hold your audience's attention\n• Passion for getting things done the ‘right way’ and in a consistent manner across the product. \n• You are proactive and not afraid to drive towards finding a better solution\n• Someone who listens to others and values understanding above being right\n• Someone who enjoys solving complex design problems!\n Join Us in Securing and Accelerating the World's AI Transformation\n Rubrik (NYSE: RBRK) is the Security and AI Operations Company, delivering one platform built at the intersection of data, identity, and AI. The platform enables agentic cyber resilience and trusted AI operations for enterprises worldwide, built to recover before disruption strikes and stay a step ahead, so security is never the reason ambition stalls.\n Linkedin | X (formerly Twitter) | Instagram | Rubrik.com \n Inclusion @ Rubrik\n At Rubrik, we are dedicated to fostering a culture where people from all backgrounds are valued, feel they belong, and believe they can succeed. Our commitment to inclusion is at the heart of our mission to secure the world’s data.\n Our goal is to hire and promote the best talent, regardless of background. We continually review our hiring practices to ensure fairness and strive to create an environment where every employee has equal access to opportunities for growth and excellence. We believe in empowering everyone to bring their authentic selves to work and achieve their fullest potential.\n Our inclusion strategy focuses on three core areas of our business and culture:\n• \n Our Company: We are committed to building a merit-based organization that offers equal access to growth and success for all employees globally. Your potential is limitless here.\n• \n Our Culture: We strive to create an inclusive atmosphere where individuals from all backgrounds feel a strong sense of belonging, can thrive, and do their best work. Your contributions help us innovate and break boundaries.\n• \n Our Communities: We are dedicated to expanding our engagement with the communities we operate in, creating opportunities for underrepresented talent and driving greater innovation for our clients. Your impact extends beyond Rubrik, contributing to safer and stronger communities.\n Equal Opportunity Employer/Veterans/Disabled\n Rubrik is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, genetic information, protected veteran status, or any other status protected by applicable law. Rubrik provides equal employment opportunities to employees and applicants in all terms and conditions of employment, including recruiting, hiring, promotion, compensation, training, leave, and termination.\n Rubrik provides reasonable accommodations to qualified applicants and employees with disabilities in accordance with applicable law. If you need an accom",
+      "company": "Rubrik",
+      "source": "greenhouse:rubrik",
+      "level": "Junior",
+      "minYears": 2,
+      "firstSeen": "2026-11-03T12:42:26.263Z",
+      "lastSeen": "2026-11-24T15:56:06.956Z",
+      "status": "closed",
+      "closedAt": "2026-11-25T15:41:44.764Z"
     },
     {
       "key": "greenhouse:nice:4767333101",
