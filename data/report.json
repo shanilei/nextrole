@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-11-25T15:41:44.764Z",
+  "runAt": "2026-11-26T15:23:40.694Z",
   "companies": [
     {
       "company": "365Scores",
@@ -23,7 +23,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "abra_rnd/15.007",
-      "total": 100,
+      "total": 101,
       "matches": 0
     },
     {
@@ -31,7 +31,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "ai21/E6.001",
-      "total": 4,
+      "total": 3,
       "matches": 0
     },
     {
@@ -84,7 +84,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "appsflyer",
-      "total": 54,
+      "total": 52,
       "matches": 0
     },
     {
@@ -100,7 +100,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "arpeely/57.001",
-      "total": 10,
+      "total": 11,
       "matches": 0
     },
     {
@@ -153,7 +153,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "axonius",
-      "total": 18,
+      "total": 19,
       "matches": 0
     },
     {
@@ -169,7 +169,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "catonetworks",
-      "total": 119,
+      "total": 117,
       "matches": 1
     },
     {
@@ -177,7 +177,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "ceragon/D3.003",
-      "total": 24,
+      "total": 25,
       "matches": 0
     },
     {
@@ -185,7 +185,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "ceva/76.005",
-      "total": 26,
+      "total": 28,
       "matches": 0
     },
     {
@@ -201,7 +201,7 @@
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "CheckPointSoftwareTechnologies2",
-      "total": 234,
+      "total": 229,
       "matches": 0
     },
     {
@@ -233,7 +233,7 @@
       "status": "ok",
       "ats": "lever",
       "id": "cloudinary",
-      "total": 8,
+      "total": 9,
       "matches": 0
     },
     {
@@ -241,7 +241,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "clover_security/7A.00A",
-      "total": 11,
+      "total": 10,
       "matches": 0
     },
     {
@@ -249,7 +249,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "cognyte/F2.009",
-      "total": 42,
+      "total": 43,
       "matches": 0
     },
     {
@@ -281,7 +281,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "coralogix/06.004",
-      "total": 60,
+      "total": 59,
       "matches": 0
     },
     {
@@ -302,7 +302,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "cyera/17.008",
-      "total": 236,
+      "total": 234,
       "matches": 0
     },
     {
@@ -310,7 +310,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "cymulate",
-      "total": 10,
+      "total": 9,
       "matches": 0
     },
     {
@@ -318,7 +318,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "datadog",
-      "total": 387,
+      "total": 391,
       "matches": 0
     },
     {
@@ -342,7 +342,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "descope",
-      "total": 5,
+      "total": 6,
       "matches": 0
     },
     {
@@ -358,7 +358,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "drivenets/72.006",
-      "total": 51,
+      "total": 54,
       "matches": 0
     },
     {
@@ -382,7 +382,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "earnix/93.00B",
-      "total": 27,
+      "total": 26,
       "matches": 0
     },
     {
@@ -456,7 +456,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "fullpath/54.002",
-      "total": 20,
+      "total": 19,
       "matches": 0
     },
     {
@@ -536,7 +536,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "honeybook",
-      "total": 3,
+      "total": 2,
       "matches": 0
     },
     {
@@ -566,7 +566,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "imagene-ai/D7.000",
-      "total": 7,
+      "total": 6,
       "matches": 0
     },
     {
@@ -574,7 +574,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "infinidat/D6.003",
-      "total": 38,
+      "total": 39,
       "matches": 0
     },
     {
@@ -611,7 +611,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "jfrog",
-      "total": 80,
+      "total": 81,
       "matches": 0
     },
     {
@@ -627,7 +627,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "kaltura/E2.00D",
-      "total": 35,
+      "total": 36,
       "matches": 0
     },
     {
@@ -648,7 +648,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "lemonade",
-      "total": 42,
+      "total": 41,
       "matches": 2
     },
     {
@@ -664,7 +664,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "lightrun",
-      "total": 0,
+      "total": 1,
       "matches": 0
     },
     {
@@ -733,7 +733,7 @@
       "status": "ok",
       "ats": "lever_eu",
       "id": "mobileye",
-      "total": 177,
+      "total": 180,
       "matches": 0
     },
     {
@@ -751,7 +751,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "mongodb",
-      "total": 420,
+      "total": 421,
       "matches": 0
     },
     {
@@ -759,7 +759,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "moonactive",
-      "total": 19,
+      "total": 18,
       "matches": 1
     },
     {
@@ -788,7 +788,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "tripactions",
-      "total": 235,
+      "total": 231,
       "matches": 0
     },
     {
@@ -796,7 +796,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "navina/E6.00C",
-      "total": 13,
+      "total": 14,
       "matches": 0
     },
     {
@@ -820,7 +820,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "nice",
-      "total": 131,
+      "total": 132,
       "matches": 0
     },
     {
@@ -890,7 +890,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "orcasecurity",
-      "total": 14,
+      "total": 13,
       "matches": 0
     },
     {
@@ -922,15 +922,15 @@
       "status": "ok",
       "ats": "comeet",
       "id": "papayagaming/46.00B",
-      "total": 16,
-      "matches": 1
+      "total": 17,
+      "matches": 2
     },
     {
       "company": "Papaya Global",
       "status": "ok",
       "ats": "comeet",
       "id": "papayaglobal/16.005",
-      "total": 42,
+      "total": 41,
       "matches": 0
     },
     {
@@ -954,7 +954,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "perionnetworkltd",
-      "total": 5,
+      "total": 3,
       "matches": 0
     },
     {
@@ -1024,7 +1024,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "quantummachines/D6.000",
-      "total": 71,
+      "total": 69,
       "matches": 0
     },
     {
@@ -1032,7 +1032,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "rapyd/73.00E",
-      "total": 18,
+      "total": 14,
       "matches": 0
     },
     {
@@ -1072,7 +1072,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "riskified",
-      "total": 47,
+      "total": 46,
       "matches": 0
     },
     {
@@ -1089,7 +1089,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "rubrik",
-      "total": 233,
+      "total": 223,
       "matches": 0
     },
     {
@@ -1102,7 +1102,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "saltsecurity",
-      "total": 15,
+      "total": 16,
       "matches": 0
     },
     {
@@ -1118,7 +1118,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "scaleops",
-      "total": 56,
+      "total": 55,
       "matches": 1
     },
     {
@@ -1134,7 +1134,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "semperis",
-      "total": 33,
+      "total": 32,
       "matches": 0
     },
     {
@@ -1182,8 +1182,8 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "similarweb",
-      "total": 58,
-      "matches": 1
+      "total": 57,
+      "matches": 0
     },
     {
       "company": "Sisense",
@@ -1198,7 +1198,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "snowflake",
-      "total": 369,
+      "total": 376,
       "matches": 0
     },
     {
@@ -1206,7 +1206,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "snyk",
-      "total": 36,
+      "total": 35,
       "matches": 0
     },
     {
@@ -1214,7 +1214,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "solaredge/71.00A",
-      "total": 93,
+      "total": 94,
       "matches": 0
     },
     {
@@ -1246,7 +1246,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "sysaid/43.00A",
-      "total": 7,
+      "total": 8,
       "matches": 0
     },
     {
@@ -1259,7 +1259,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "taboola",
-      "total": 45,
+      "total": 41,
       "matches": 0
     },
     {
@@ -1275,7 +1275,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "team8/61.003",
-      "total": 48,
+      "total": 50,
       "matches": 1
     },
     {
@@ -1299,7 +1299,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "transmitsecurity",
-      "total": 11,
+      "total": 10,
       "matches": 0
     },
     {
@@ -1323,7 +1323,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "unframe",
-      "total": 26,
+      "total": 24,
       "matches": 0
     },
     {
@@ -1339,7 +1339,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "upwind/49.004",
-      "total": 93,
+      "total": 94,
       "matches": 0
     },
     {
@@ -1347,7 +1347,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "uveye/92.00F",
-      "total": 22,
+      "total": 20,
       "matches": 0
     },
     {
@@ -1363,7 +1363,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "vega/C9.009",
-      "total": 29,
+      "total": 28,
       "matches": 0
     },
     {
@@ -1371,7 +1371,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "via",
-      "total": 176,
+      "total": 181,
       "matches": 0
     },
     {
@@ -1427,7 +1427,7 @@
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "Wix2",
-      "total": 91,
+      "total": 93,
       "matches": 2
     },
     {
@@ -1435,7 +1435,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "wizinc",
-      "total": 101,
+      "total": 98,
       "matches": 1
     },
     {
@@ -1443,7 +1443,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "wonderful",
-      "total": 132,
+      "total": 130,
       "matches": 0
     },
     {
@@ -1468,7 +1468,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "xsightlabs/46.00C",
-      "total": 33,
+      "total": 34,
       "matches": 0
     },
     {
@@ -1492,7 +1492,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "zenity/19.000",
-      "total": 32,
+      "total": 33,
       "matches": 0
     },
     {
@@ -1516,7 +1516,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "zyg/DA.006",
-      "total": 6,
+      "total": 8,
       "matches": 0
     },
     {
@@ -1540,7 +1540,7 @@
     {
       "feed": "secrettlv",
       "status": "ok",
-      "total": 11,
+      "total": 10,
       "matches": 9,
       "added": 3,
       "duplicates": 6,
@@ -1549,9 +1549,9 @@
     {
       "feed": "google",
       "status": "ok",
-      "total": 11,
-      "matches": 1,
-      "added": 1,
+      "total": 14,
+      "matches": 0,
+      "added": 0,
       "duplicates": 0,
       "notOnCompanyBoard": 0
     }
@@ -1563,41 +1563,50 @@
       "results": 10,
       "links": [
         "https://il.linkedin.com/jobs/view/industrial-product-designer-60%25-position-at-ur-tech-jobs-4492187203",
-        "https://www.linkedin.com/jobs/accenture-israel-jobs-worldwide?f_C=9328397",
-        "https://il.linkedin.com/jobs/view/airbnb-host-join-a-fast-growing-ai-startup-at-the-flex-4492250112"
+        "https://www.linkedin.com/jobs/experic-jobs-worldwide?f_C=2510128",
+        "https://www.linkedin.com/jobs/aion-jobs-worldwide?f_C=105293048"
+      ]
+    },
+    {
+      "q": "site:linkedin.com/posts hiring \"product designer\" Israel",
+      "results": 10,
+      "links": [
+        "https://www.linkedin.com/posts/holly-williams-46b835157_we-are-hiring-dept-has-landed-an-exciting-activity-7529501436162920448-Uh79",
+        "https://www.linkedin.com/posts/israel-vc_israelvc-israelitech-hiring-activity-7531605259152977921-MMUB",
+        "https://www.linkedin.com/posts/drorbr_hiring-otsecurity-productmanagement-activity-7530277576473272320-K0Zl"
       ]
     },
     {
       "q": "site:linkedin.com/jobs \"UX designer\" Israel",
       "results": 3,
       "links": [
-        "https://il.linkedin.com/jobs/view/product-designer-at-zipher-4494042000",
         "https://hr.linkedin.com/jobs/view/instructional-designer-elearning-developer-at-nersio-4492932046",
-        "https://lu.linkedin.com/jobs/view/english-to-belarusian-review-lead-for-ui-marketing-product-content-at-jobgether-4492158395"
+        "https://uk.linkedin.com/jobs/view/staff-product-manager-at-jiga-4494660666",
+        "https://www.linkedin.com/jobs/view/senior-interior-designer-at-procon-4494622856"
       ]
     },
     {
       "q": "site:linkedin.com/posts (מגייסים OR מחפשים OR דרוש OR דרושה) (UX OR \"מעצב מוצר\" OR \"מעצבת מוצר\" OR \"product designer\")",
-      "results": 2,
+      "results": 4,
       "links": [
+        "https://www.linkedin.com/posts/alon-gabai_%D7%94%D7%A7%D7%95%D7%9C%D7%92%D7%95%D7%AA-%D7%94%D7%91%D7%90%D7%99%D7%9D-%D7%A9%D7%9C%D7%99-%D7%90%D7%95%D7%9C%D7%99-%D7%A0%D7%9E%D7%A6%D7%90%D7%99%D7%9D-%D7%9B%D7%90%D7%9F-%D7%91%D7%A4%D7%99%D7%93-activity-7531646638319296513-tzVo",
         "https://www.linkedin.com/posts/yishai-b-eliyahu_%D7%A4%D7%95%D7%A1%D7%98-%D7%A9%D7%A8%D7%A9%D7%95%D7%A8-%D7%9E%D7%A9%D7%A8%D7%95%D7%AA-%D7%9E%D7%97%D7%A4%D7%A9%D7%99-%D7%A2%D7%91%D7%95%D7%93%D7%94-%D7%9E%D7%97%D7%A4%D7%A9%D7%99-%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D-activity-7530324073558700032-61z5",
         "https://www.linkedin.com/posts/%D7%9E%D7%A9%D7%A8%D7%95%D7%AA-%D7%91%D7%AA%D7%97%D7%95%D7%9E%D7%99-%D7%94%D7%A9%D7%99%D7%95%D7%95%D7%A7-%D7%94%D7%9E%D7%9B%D7%99%D7%A8%D7%95%D7%AA-%D7%95%D7%94%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C_%D7%9E%D7%A0%D7%94%D7%9C%D7%AA-%D7%90%D7%99%D7%A7%D7%95%D7%9E%D7%A8%D7%A1-svtjobs-activity-7530271280433065984-ITT2"
       ]
     },
     {
       "q": "site:linkedin.com/jobs \"UI/UX designer\" OR \"UX/UI designer\" Israel",
-      "results": 1,
+      "results": 2,
       "links": [
-        "https://ua.linkedin.com/jobs/view/front-end-developer-at-valley-medical-center-clinics-4493670339"
+        "https://ua.linkedin.com/jobs/view/front-end-developer-at-valley-medical-center-clinics-4493670339",
+        "https://uk.linkedin.com/jobs/view/staff-product-manager-at-jiga-4494660666"
       ]
     },
     {
       "q": "site:linkedin.com/jobs \"product designer\" \"Tel Aviv\"",
-      "results": 4,
+      "results": 1,
       "links": [
-        "https://il.linkedin.com/jobs/view/industrial-product-designer-60%25-position-at-ur-tech-jobs-4492187203",
-        "https://www.linkedin.com/jobs/accenture-israel-jobs-worldwide?f_C=9328397",
-        "https://il.linkedin.com/jobs/view/airbnb-host-join-a-fast-growing-ai-startup-at-the-flex-4492250112"
+        "https://il.linkedin.com/jobs/view/industrial-product-designer-60%25-position-at-ur-tech-jobs-4492187203"
       ]
     }
   ],
@@ -1609,11 +1618,11 @@
     "unverified": 8
   },
   "probe": {
-    "tried": 1,
+    "tried": 0,
     "found": []
   },
   "linkCheck": {
-    "checked": 10,
+    "checked": 9,
     "closed": []
   },
   "summary": {
@@ -1662,7 +1671,7 @@
     ],
     "feeds": [
       "secrettlv: ok +3 (dup 6)",
-      "google: ok +1 (dup 0)"
+      "google: ok +0 (dup 0)"
     ],
     "newBoards": [],
     "manual": {
@@ -1672,14 +1681,14 @@
       "unverified": 8
     },
     "probe": {
-      "tried": 1,
+      "tried": 0,
       "found": []
     },
     "linkCheck": {
-      "checked": 10,
+      "checked": 9,
       "closed": []
     },
-    "openJobs": 38,
+    "openJobs": 37,
     "newToday": 1
   },
   "logos": {

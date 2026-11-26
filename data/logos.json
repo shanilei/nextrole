@@ -57,7 +57,7 @@
   },
   "axonius": {
     "name": "Axonius",
-    "checkedAt": "2026-11-25T15:41:44.764Z",
+    "checkedAt": "2026-11-26T15:23:40.694Z",
     "error": "HTTP 429"
   },
   "attil": {
@@ -462,7 +462,7 @@
   },
   "lemonade": {
     "name": "Lemonade",
-    "checkedAt": "2026-11-25T15:41:44.764Z",
+    "checkedAt": "2026-11-26T15:23:40.694Z",
     "error": "HTTP 404"
   },
   "lightricks": {
@@ -642,7 +642,7 @@
   },
   "rubrik": {
     "name": "Rubrik",
-    "checkedAt": "2026-11-25T15:41:44.764Z",
+    "checkedAt": "2026-11-26T15:23:40.694Z",
     "error": "HTTP 403"
   },
   "scaleops": {
@@ -927,7 +927,7 @@
   },
   "riskified": {
     "name": "Riskified",
-    "checkedAt": "2026-11-25T15:41:44.764Z",
+    "checkedAt": "2026-11-26T15:23:40.694Z",
     "error": "HTTP 403"
   },
   "payoneer": {
