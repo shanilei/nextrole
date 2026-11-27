@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-11-26T15:23:40.694Z",
+  "runAt": "2026-11-27T15:10:25.748Z",
   "companies": [
     {
       "company": "365Scores",
@@ -108,7 +108,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "artlist/85.003",
-      "total": 27,
+      "total": 26,
       "matches": 0
     },
     {
@@ -177,7 +177,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "ceragon/D3.003",
-      "total": 25,
+      "total": 26,
       "matches": 0
     },
     {
@@ -318,7 +318,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "datadog",
-      "total": 391,
+      "total": 390,
       "matches": 0
     },
     {
@@ -350,7 +350,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "dreamgroup/99.002",
-      "total": 36,
+      "total": 37,
       "matches": 1
     },
     {
@@ -480,7 +480,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "global-e/62.002",
-      "total": 38,
+      "total": 39,
       "matches": 0
     },
     {
@@ -566,7 +566,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "imagene-ai/D7.000",
-      "total": 6,
+      "total": 5,
       "matches": 0
     },
     {
@@ -611,7 +611,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "jfrog",
-      "total": 81,
+      "total": 82,
       "matches": 0
     },
     {
@@ -751,7 +751,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "mongodb",
-      "total": 421,
+      "total": 424,
       "matches": 0
     },
     {
@@ -788,7 +788,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "tripactions",
-      "total": 231,
+      "total": 229,
       "matches": 0
     },
     {
@@ -820,7 +820,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "nice",
-      "total": 132,
+      "total": 133,
       "matches": 0
     },
     {
@@ -1134,7 +1134,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "semperis",
-      "total": 32,
+      "total": 31,
       "matches": 0
     },
     {
@@ -1158,7 +1158,7 @@
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "servicenow",
-      "total": 973,
+      "total": 969,
       "matches": 0
     },
     {
@@ -1198,7 +1198,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "snowflake",
-      "total": 376,
+      "total": 379,
       "matches": 0
     },
     {
@@ -1214,7 +1214,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "solaredge/71.00A",
-      "total": 94,
+      "total": 95,
       "matches": 0
     },
     {
@@ -1259,7 +1259,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "taboola",
-      "total": 41,
+      "total": 39,
       "matches": 0
     },
     {
@@ -1435,7 +1435,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "wizinc",
-      "total": 98,
+      "total": 100,
       "matches": 1
     },
     {
@@ -1443,7 +1443,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "wonderful",
-      "total": 130,
+      "total": 132,
       "matches": 0
     },
     {
@@ -1549,7 +1549,7 @@
     {
       "feed": "google",
       "status": "ok",
-      "total": 14,
+      "total": 12,
       "matches": 0,
       "added": 0,
       "duplicates": 0,
@@ -1560,28 +1560,18 @@
   "googleQueries": [
     {
       "q": "site:linkedin.com/jobs \"product designer\" Israel",
-      "results": 10,
+      "results": 8,
       "links": [
         "https://il.linkedin.com/jobs/view/industrial-product-designer-60%25-position-at-ur-tech-jobs-4492187203",
-        "https://www.linkedin.com/jobs/experic-jobs-worldwide?f_C=2510128",
-        "https://www.linkedin.com/jobs/aion-jobs-worldwide?f_C=105293048"
-      ]
-    },
-    {
-      "q": "site:linkedin.com/posts hiring \"product designer\" Israel",
-      "results": 10,
-      "links": [
-        "https://www.linkedin.com/posts/holly-williams-46b835157_we-are-hiring-dept-has-landed-an-exciting-activity-7529501436162920448-Uh79",
-        "https://www.linkedin.com/posts/israel-vc_israelvc-israelitech-hiring-activity-7531605259152977921-MMUB",
-        "https://www.linkedin.com/posts/drorbr_hiring-otsecurity-productmanagement-activity-7530277576473272320-K0Zl"
+        "https://www.linkedin.com/jobs/aion-jobs-worldwide?f_C=105293048",
+        "https://sg.linkedin.com/jobs/view/motion-designer-bangkok-based-relocation-provided-at-agoda-4484816000"
       ]
     },
     {
       "q": "site:linkedin.com/jobs \"UX designer\" Israel",
-      "results": 3,
+      "results": 2,
       "links": [
-        "https://hr.linkedin.com/jobs/view/instructional-designer-elearning-developer-at-nersio-4492932046",
-        "https://uk.linkedin.com/jobs/view/staff-product-manager-at-jiga-4494660666",
+        "https://es.linkedin.com/jobs/view/staff-product-manager-at-jiga-4494656744",
         "https://www.linkedin.com/jobs/view/senior-interior-designer-at-procon-4494622856"
       ]
     },
@@ -1598,15 +1588,16 @@
       "q": "site:linkedin.com/jobs \"UI/UX designer\" OR \"UX/UI designer\" Israel",
       "results": 2,
       "links": [
-        "https://ua.linkedin.com/jobs/view/front-end-developer-at-valley-medical-center-clinics-4493670339",
-        "https://uk.linkedin.com/jobs/view/staff-product-manager-at-jiga-4494660666"
+        "https://es.linkedin.com/jobs/view/staff-product-manager-at-jiga-4494656744",
+        "https://ua.linkedin.com/jobs/view/front-end-developer-at-valley-medical-center-clinics-4493670339?position=21&pageNum=0&refId=TzcVBUABApcARiKPA34A7A%3D%3D&trackingId=WU5Vs8g92RztAwX2okcwaQ%3D%3D"
       ]
     },
     {
       "q": "site:linkedin.com/jobs \"product designer\" \"Tel Aviv\"",
-      "results": 1,
+      "results": 2,
       "links": [
-        "https://il.linkedin.com/jobs/view/industrial-product-designer-60%25-position-at-ur-tech-jobs-4492187203"
+        "https://il.linkedin.com/jobs/view/industrial-product-designer-60%25-position-at-ur-tech-jobs-4492187203",
+        "https://www.linkedin.com/jobs/accenture-israel-jobs-worldwide?f_C=9328397"
       ]
     }
   ],
@@ -1688,8 +1679,8 @@
       "checked": 9,
       "closed": []
     },
-    "openJobs": 37,
-    "newToday": 1
+    "openJobs": 34,
+    "newToday": 0
   },
   "logos": {
     "checked": 4,
