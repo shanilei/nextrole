@@ -1,5 +1,5 @@
 {
-  "runAt": "2026-11-27T15:10:25.748Z",
+  "runAt": "2026-11-28T14:16:09.217Z",
   "companies": [
     {
       "company": "365Scores",
@@ -318,7 +318,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "datadog",
-      "total": 390,
+      "total": 392,
       "matches": 0
     },
     {
@@ -358,7 +358,7 @@
       "status": "ok",
       "ats": "comeet",
       "id": "drivenets/72.006",
-      "total": 54,
+      "total": 53,
       "matches": 0
     },
     {
@@ -672,7 +672,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "lumana",
-      "total": 2,
+      "total": 1,
       "matches": 1
     },
     {
@@ -938,7 +938,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "payoneer",
-      "total": 95,
+      "total": 94,
       "matches": 0
     },
     {
@@ -1089,7 +1089,7 @@
       "status": "ok",
       "ats": "greenhouse",
       "id": "rubrik",
-      "total": 223,
+      "total": 231,
       "matches": 0
     },
     {
@@ -1134,7 +1134,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "semperis",
-      "total": 31,
+      "total": 32,
       "matches": 0
     },
     {
@@ -1158,7 +1158,7 @@
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "servicenow",
-      "total": 969,
+      "total": 968,
       "matches": 0
     },
     {
@@ -1198,7 +1198,7 @@
       "status": "ok",
       "ats": "ashby",
       "id": "snowflake",
-      "total": 379,
+      "total": 380,
       "matches": 0
     },
     {
@@ -1427,7 +1427,7 @@
       "status": "ok",
       "ats": "smartrecruiters",
       "id": "Wix2",
-      "total": 93,
+      "total": 94,
       "matches": 2
     },
     {
@@ -1461,7 +1461,9 @@
         "wscsports",
         "wsc-sports"
       ],
-      "errors": []
+      "errors": [
+        "workable:wsc-sports HTTP 429 for https://apply.workable.com/api/v1/widget/accounts/wsc-sports?details=true"
+      ]
     },
     {
       "company": "Xsight Labs",
@@ -1560,11 +1562,11 @@
   "googleQueries": [
     {
       "q": "site:linkedin.com/jobs \"product designer\" Israel",
-      "results": 8,
+      "results": 7,
       "links": [
         "https://il.linkedin.com/jobs/view/industrial-product-designer-60%25-position-at-ur-tech-jobs-4492187203",
-        "https://www.linkedin.com/jobs/aion-jobs-worldwide?f_C=105293048",
-        "https://sg.linkedin.com/jobs/view/motion-designer-bangkok-based-relocation-provided-at-agoda-4484816000"
+        "https://uk.linkedin.com/jobs/view/brand-designer-at-bellboy-robotics-4495823528",
+        "https://www.linkedin.com/jobs/view/harness-design-co-op-at-climactic-4495551744"
       ]
     },
     {
@@ -1589,15 +1591,14 @@
       "results": 2,
       "links": [
         "https://es.linkedin.com/jobs/view/staff-product-manager-at-jiga-4494656744",
-        "https://ua.linkedin.com/jobs/view/front-end-developer-at-valley-medical-center-clinics-4493670339?position=21&pageNum=0&refId=TzcVBUABApcARiKPA34A7A%3D%3D&trackingId=WU5Vs8g92RztAwX2okcwaQ%3D%3D"
+        "https://ua.linkedin.com/jobs/view/front-end-developer-at-valley-medical-center-clinics-4493670339"
       ]
     },
     {
       "q": "site:linkedin.com/jobs \"product designer\" \"Tel Aviv\"",
-      "results": 2,
+      "results": 1,
       "links": [
-        "https://il.linkedin.com/jobs/view/industrial-product-designer-60%25-position-at-ur-tech-jobs-4492187203",
-        "https://www.linkedin.com/jobs/accenture-israel-jobs-worldwide?f_C=9328397"
+        "https://il.linkedin.com/jobs/view/industrial-product-designer-60%25-position-at-ur-tech-jobs-4492187203"
       ]
     }
   ],
@@ -1605,8 +1606,8 @@
   "manual": {
     "open": 0,
     "onBoard": 0,
-    "closed": 29,
-    "unverified": 8
+    "closed": 30,
+    "unverified": 7
   },
   "probe": {
     "tried": 0,
@@ -1668,8 +1669,8 @@
     "manual": {
       "open": 0,
       "onBoard": 0,
-      "closed": 29,
-      "unverified": 8
+      "closed": 30,
+      "unverified": 7
     },
     "probe": {
       "tried": 0,
